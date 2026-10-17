@@ -1,9 +1,9 @@
-# Psion Hypothesis — v8.4
+# Psion Hypothesis — v8.5
 
 **A Framework for the Origin of Matter, Antimatter, Dark Matter, and Gravity**
 
 Karlos Marden Maia · Independent Researcher, Marietta, Georgia
-`mardenkarlos@gmail.com`
+`karlosmardenmaia@gmail.com`
 
 ---
 
@@ -29,7 +29,7 @@ m_e = Λ_meta · exp(−N_e/b_e)          [Λ_meta fixed from G_N via Sakharov
 - **P26-C** ([T4], not promoted): candidate closed form for Δm²₂₁ → would
   close SC inputs 1→0. Registered but not adopted.
 
-### Key Results (v8.4, PH_Foundations §11–12)
+### Key Results (v8.5, unchanged from v8.4; PH_Foundations §11–12)
 
 | Observable | Predicted | Observed | Error | Status |
 |---|---|---|---|---|
@@ -69,8 +69,10 @@ Appendix L.4 of the paper).
 ```
 ph_v83_repo/
 ├── paper/
-│   ├── PH_Foundations_v84.tex        ← LaTeX source (canonical; see note below)
-│   └── PH_Foundations_v84.pdf        ← compiled PDF, 43 pages
+│   ├── PH_Foundations_v85.tex        ← LaTeX source (canonical; see note below)
+│   ├── PH_Foundations_v85.pdf        ← compiled PDF, 47 pages
+│   ├── PH_Foundations_v84.tex        ← previous version, as published
+│   └── PH_Foundations_v84.pdf
 ├── proofs/
 │   ├── scripts/
 │   │   ├── cascade_anchor.py         ← SC input declaration
@@ -78,12 +80,14 @@ ph_v83_repo/
 │   ├── tests/
 │   │   └── ...
 │   ├── proofs/
-│   │   ├── P_dark_matter.py          ← 39-state DM census (2 independent algorithms)
+│   │   ├── P_dark_matter.py          ← 39-state DM census (fragmentation criterion, 2 algorithms)
+│   │   ├── P_kinematic_stability.py  ← inequality (11) on level partitions; KS scope guard
+│   │   ├── P_pmns_structure.py       ← PH flavour basis (PMNS programme, Stage 0)
 │   │   ├── P_dark_energy.py
 │   │   ├── P_eps_psi.py              ← chirality asymmetry ε_ψ = 25/169
 │   │   ├── P_counting_theorems.py    ← N_ν=3, N_g=8, N_gen=3
 │   │   ├── P_charge_algebra.py
-│   │   ├── P_body_number_law.py
+│   │   ├── P_body_number_law.py      ← RETRACTED for the DM mass (kept for the record)
 │   │   ├── P_wall_tensions.py
 │   │   ├── P_yield_ratio.py
 │   │   ├── P_kappa_reduction.py
@@ -98,9 +102,12 @@ ph_v83_repo/
 │       │                                open e+/proton tuple-collision item
 │       ├── QFT_PIPELINE.md           ← baryogenesis yield-ratio pipeline
 │       ├── PROGRESS_AND_ROADMAP.md   ← version history, closure roadmap
-│       └── DARK_MATTER_PROOFS.md
+│       ├── DARK_MATTER_PROOFS.md
+│       └── PMNS_PROGRAMME.md         ← pre-registered PMNS model log; F3 status
 └── docs/
-    └── CHANGES_v83.md
+    ├── CHANGES_v83.md
+    ├── CHANGES_v84.md
+    └── CHANGES_v85.md
 ```
 
 **Note on versioning:** the canonical source is the `.tex` file. An earlier
@@ -111,7 +118,21 @@ independently — see `PROGRESS_AND_ROADMAP.md` for the record of this issue.
 
 ---
 
-## v8.4 Audit Trail (this revision)
+## v8.5 Audit Trail (this revision)
+
+An audit triggered by the LZ event (Sept. 2026) and the IceCube flavour
+results; no central numerical prediction changed. Full detail in
+`docs/CHANGES_v85.md` and the paper's Appendix L.5:
+
+- DM.1 census proof fixed (fragmentation criterion); canonical DM mass is the
+  Landau-pole value; the 14.3 GeV body-number result is retracted.
+- Theorem KS: physical application suspended (level ≠ body number); three
+  k = 3 entries of Table 3 corrected; `P_kinematic_stability.py` rewritten.
+- F5 split into F5a/F5b with an ex-ante kill criterion; F3 downgraded to
+  [T4], conditional on P-PMNS.
+- New PMNS programme with pre-registered models (`docs/PMNS_PROGRAMME.md`).
+
+## v8.4 Audit Trail
 
 v8.4 closed a self-directed audit covering charge conventions, the
 falsifiability registry, and the SC-input count. Full detail is in
@@ -195,7 +216,7 @@ falsify the PH without further calculation:
   title     = {The Psion Hypothesis: A Framework for the Origin of
                Matter, Antimatter, Dark Matter, and Gravity},
   year      = {2026},
-  note      = {PH\_Foundations v84, \url{https://github.com/karlosmardenmaia/psion-proofs}}
+  note      = {PH\_Foundations v85, \url{https://github.com/karlosmardenmaia/psion-proofs}}
 }
 ```
 
