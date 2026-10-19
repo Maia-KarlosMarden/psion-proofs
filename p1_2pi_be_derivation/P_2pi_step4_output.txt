@@ -1,0 +1,57 @@
+##### VERIFICAÇÃO: peso unitário reproduz o passo 2 #####
+  s=+1 N_D=2: W = 11.2500 = 45/4
+  s=+1 N_D=4: W = 13.6250 = 109/8
+  s=-1 N_D=2: W = 33.7500 = 135/4
+  s=-1 N_D=4: W = 33.8750 = 271/8
+
+##### TESTE PRINCIPAL: suporte = estados livres (k >= 1) #####
+
+=== j = 1/2  (n_livres = 1, 2^n = 2, (2j)^2 = 1) ===
+  s=+1 N_D=2: lam_max=0.5000  W_crit=0.5000 (~1/2)  Z_ren=4.0000  b_e=0.31250
+  s=+1 N_D=4: lam_max=0.7500  W_crit=0.7500 (~3/4)  Z_ren=2.6667  b_e=0.46875
+  s=-1 N_D=2: lam_max=0.5000  W_crit=0.5000 (~1/2)  Z_ren=4.0000  b_e=0.31250
+  s=-1 N_D=4: lam_max=0.7500  W_crit=0.7500 (~3/4)  Z_ren=2.6667  b_e=0.46875
+
+=== j = 3/2  (n_livres = 3, 2^n = 8, (2j)^2 = 9) ===
+  s=+1 N_D=2: lam_max=1.8688  W_crit=5.7163 (~423/74)  Z_ren=1.3995  b_e=0.40192
+  s=+1 N_D=4: lam_max=2.2655  W_crit=6.8488 (~589/86)  Z_ren=1.1681  b_e=0.48156
+  s=-1 N_D=2: lam_max=3.1827  W_crit=9.5858 (~1620/169)  Z_ren=0.8346  b_e=0.67400
+  s=-1 N_D=4: lam_max=3.2578  W_crit=9.7924 (~519/53)  Z_ren=0.8170  b_e=0.68853
+
+=== j = 5/2  (n_livres = 5, 2^n = 32, (2j)^2 = 25) ===
+  s=+1 N_D=2: traço nulo: normalização impossível (lam=2.9946)
+  s=+1 N_D=4: traço nulo: normalização impossível (lam=3.5510)
+  s=-1 N_D=2: lam_max=6.8099  W_crit=34.3279 (~6385/186)  Z_ren=0.9322  b_e=0.38738
+  s=-1 N_D=4: lam_max=6.8729  W_crit=34.8643 (~6938/199)  Z_ren=0.9178  b_e=0.39343
+
+=== j = 7/2  (n_livres = 7, 2^n = 128, (2j)^2 = 49) ===
+  s=+1 N_D=2: traço nulo: normalização impossível (lam=8.7637)
+  s=+1 N_D=4: traço nulo: normalização impossível (lam=9.4088)
+  s=-1 N_D=2: lam_max=12.6870  W_crit=92.5463 (~9995/108)  Z_ren=1.3831  b_e=0.19205
+  s=-1 N_D=4: lam_max=12.7827  W_crit=94.2888 (~17632/187)  Z_ren=1.3575  b_e=0.19567
+
+=== j = 9/2  (n_livres = 9, 2^n = 512, (2j)^2 = 81) ===
+  s=+1 N_D=2: traço nulo: normalização impossível (lam=18.5451)
+  s=+1 N_D=4: traço nulo: normalização impossível (lam=19.2783)
+  s=-1 N_D=2: lam_max=21.9800  W_crit=216.1635 (~22481/104)  Z_ren=2.3686  b_e=0.08866
+  s=-1 N_D=4: lam_max=22.1172  W_crit=219.7178 (~35814/163)  Z_ren=2.3303  b_e=0.09012
+
+##### TESTE 3: âncora k = 0 incluída (j = 5/2) #####
+  s=+1 N_D=2: traço nulo: normalização impossível
+  s=+1 N_D=4: traço nulo: normalização impossível
+  s=-1 N_D=2: lam_max=9.4801  W_crit=58.4159  Z_ren=1.0956  (2^6/W)
+  s=-1 N_D=4: lam_max=9.6146  W_crit=59.7130  Z_ren=1.0718  (2^6/W)
+
+##### TESTE 4: carga elétrica e Z6 (j = 5/2) #####
+  Z6 (soma de k conservada em todos os componentes): True
+  carga elétrica Q_k: componentes com Delta Q != 0: 8 de 22; peso violador / peso total = 0.598
+
+##### VARIANTE (tentativa adicional): condensado só entre estados de mesma carga #####
+  pares fora da diagonal permitidos (k,l), k,l >= 1: [(1, 2), (4, 5)]
+  s=+1 N_D=2: lam_max=2.5961  W_crit=18.4110  Z_ren=1.7381
+  s=+1 N_D=4: lam_max=3.0145  W_crit=18.1378  Z_ren=1.7643
+  s=-1 N_D=2: lam_max=6.8099  W_crit=34.3279  Z_ren=0.9322
+  s=-1 N_D=4: lam_max=6.8729  W_crit=34.8643  Z_ren=0.9178
+
+##### COMPARAÇÃO FINAL (só agora) em j = 5/2 #####
+  alvo: (2j)^2 = 25 ; Z_NP = 32/25 = 1.2800 ; b_e = 325/1152 = 0.28212
