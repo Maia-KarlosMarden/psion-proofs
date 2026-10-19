@@ -1,0 +1,30 @@
+##### M1: NJL campo medio, corte Lambda_meta, sigma_0 = 2.9961 MeV #####
+  verificacao do gap a T=0: sigma_min/sigma_0 = 0.9996 (deve ser 1)
+  T_c = 9.6072 MeV ; T_c/sigma_0 = 3.2066 ; formula (3/pi^2)(ln(2L/s0)-1/2): 3.2085
+  coeficiente quartico b(T_c) = +3.932e+00  -> POSITIVO: 2a ordem
+  T_0 (espinodal da fase simetrica) = T_c  ->  teto xi* = T_c/T_0 = 1.00
+    T = 0.999 T_c : sigma_min/sigma_0 = 0.0582
+    T = 0.99 T_c : sigma_min/sigma_0 = 0.1503
+    T = 0.9 T_c : sigma_min/sigma_0 = 0.4512
+  Escala: T_c = 9.61 MeV vs T_nuc(paper) = 2.91e+09 GeV : razao 3.0e+11
+  -> o condensado de 3 MeV nao e a transicao da bariogenese.
+
+##### M2: Potts q=3 em campo medio (fator Z3 de V.5) #####
+  T_c/zJ = 0.3607 ; T_0/zJ = 0.3333 ; teto xi* = T_c/T_0 = 1.0820
+    T/zJ=0.3679: m_min=0.000  f_min-f_0=+3.4639e-14  barreira=+0.00e+00
+    T/zJ=0.3607: m_min=0.000  f_min-f_0=+2.7423e-14  barreira=+0.00e+00
+    T/zJ=0.3535: m_min=0.587  f_min-f_0=-2.0056e-03  barreira=+1.34e-04
+    T/zJ=0.3367: m_min=0.700  f_min-f_0=-8.6079e-03  barreira=+4.63e-07
+    T/zJ=0.3300: m_min=0.732  f_min-f_0=-1.1825e-02  barreira=-3.33e-15
+
+##### M3 (EXPLORATORIO, nao esta no paper): CW conforme + massa termica #####
+  V = (lam/4) s^4 [ln(s^2/L^2) - 1/2] + (c/2) T^2 s^2 ; T_0 = 0, sem teto.
+  xi* pela acao de bounce S3/T = 4 ln(M_Pl/T) + ... (criterio Gamma = H^4), grade em lam:
+    lam= 0.50: T_c=4.91e+11 GeV  xi*~     4.4  (escala de ordem de grandeza)
+    lam= 0.20: T_c=3.11e+11 GeV  xi*~    26.2  (escala de ordem de grandeza)
+    lam= 0.10: T_c=2.20e+11 GeV  xi*~   303.4  (escala de ordem de grandeza)
+    lam= 0.05: T_c=1.55e+11 GeV  xi*~ 14779.0  (escala de ordem de grandeza)
+    lam= 0.02: T_c=9.82e+10 GeV  xi*~64206350.2  (escala de ordem de grandeza)
+    lam= 0.01: T_c=6.94e+10 GeV  xi*~1242280960027.8  (escala de ordem de grandeza)
+  A faixa-alvo de WP-C (44 a 302) corresponde a lam de ordem 0.02 a 0.1 neste modelo.
+  Nada no paper fixa lam; isto e um postulado novo (P14-c).

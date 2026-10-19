@@ -1,0 +1,7 @@
+Pré-execução WP-A passo 2 — 2026-10-19T21:50:51Z
+63db2ad670b1adbbce6a09b47a4e11503a3aa8ba711ba02509eb736149d263bb  P14_WPA2_DEFINITION.md
+7463aef555f590910cee13b276fb036ded2fc7dc4a1d111740df3cafa0e521a5  P14_wpa2.py
+Ajuste de tolerâncias numéricas (sem mudança de definição) — 2026-10-19T22:00:51Z
+98b64aecde6bb48ffdc7c8756733fcd8b80650130c9e3eccc89b221318b9d912  P14_wpa2.py
+Pós-execução WP-A passo 2 — 2026-10-19T22:53:32Z
+df6cf66574cf517198245c9503a897bd8cd87afad80628b85022e74ab592c74c  P14_wpa2_output.txt
