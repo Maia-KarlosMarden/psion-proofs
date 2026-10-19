@@ -1,0 +1,141 @@
+##### PASSO 4b — D3' (equação de gap não linear) #####
+W_crit' = n_livres * lambda_max ;  Z' = 2^n/W_crit' ;  b_e' = b0/(Z' Nc)
+
+=== j = 1/2  (n_livres = 1) ===
+  s=+1 N_D=2: lam_max=0.50000 (deg 1)  W'=0.5000  Z'=4.0000  b_e'=0.31250   | D3: Z=4.0000
+      [corte] delta=0.01: |M|=3.907e-02  R=0.500000  R/lam-1=+0.00e+00  overlap=1.000000  it=0  conv=True
+      [tempo-próprio] delta=0.01: |M|=3.766e-02  R=0.500000  R/lam-1=+0.00e+00  overlap=1.000000  it=0  conv=True
+  s=+1 N_D=4: lam_max=0.75000 (deg 1)  W'=0.7500  Z'=2.6667  b_e'=0.46875   | D3: Z=2.6667
+      [corte] delta=0.01: |M|=3.907e-02  R=0.750000  R/lam-1=+2.22e-16  overlap=1.000000  it=0  conv=True
+      [tempo-próprio] delta=0.01: |M|=3.766e-02  R=0.750000  R/lam-1=+0.00e+00  overlap=1.000000  it=0  conv=True
+  s=-1 N_D=2: lam_max=0.50000 (deg 1)  W'=0.5000  Z'=4.0000  b_e'=0.31250   | D3: Z=4.0000
+      [corte] delta=0.01: |M|=3.907e-02  R=0.500000  R/lam-1=+0.00e+00  overlap=1.000000  it=0  conv=True
+      [tempo-próprio] delta=0.01: |M|=3.766e-02  R=0.500000  R/lam-1=+0.00e+00  overlap=1.000000  it=0  conv=True
+  s=-1 N_D=4: lam_max=0.75000 (deg 1)  W'=0.7500  Z'=2.6667  b_e'=0.46875   | D3: Z=2.6667
+      [corte] delta=0.01: |M|=3.907e-02  R=0.750000  R/lam-1=+2.22e-16  overlap=1.000000  it=0  conv=True
+      [tempo-próprio] delta=0.01: |M|=3.766e-02  R=0.750000  R/lam-1=+0.00e+00  overlap=1.000000  it=0  conv=True
+
+=== j = 3/2  (n_livres = 3) ===
+  s=+1 N_D=2: lam_max=1.86883 (deg 1)  W'=5.6065  Z'=1.4269  b_e'=0.39421   | D3: Z=1.3995
+      [corte] delta=0.1: |M|=2.622e-01  R=1.868265  R/lam-1=-3.03e-04  overlap=0.999997  it=3  conv=True
+      [corte] delta=0.01: |M|=6.558e-02  R=1.868823  R/lam-1=-3.76e-06  overlap=1.000000  it=2  conv=True
+      [corte] delta=0.001: |M|=1.755e-02  R=1.868830  R/lam-1=-4.08e-08  overlap=1.000000  it=2  conv=True
+      [corte] delta=0.0001: |M|=4.908e-03  R=1.868830  R/lam-1=-4.26e-10  overlap=1.000000  it=1  conv=True
+      [tempo-próprio] delta=0.1: |M|=2.448e-01  R=1.868227  R/lam-1=-3.23e-04  overlap=0.999996  it=3  conv=True
+      [tempo-próprio] delta=0.01: |M|=6.320e-02  R=1.868823  R/lam-1=-3.84e-06  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.001: |M|=1.711e-02  R=1.868830  R/lam-1=-4.12e-08  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.0001: |M|=4.813e-03  R=1.868830  R/lam-1=-4.29e-10  overlap=1.000000  it=1  conv=True
+  s=+1 N_D=4: lam_max=2.26550 (deg 1)  W'=6.7965  Z'=1.1771  b_e'=0.47788   | D3: Z=1.1681
+      [corte] delta=0.1: |M|=2.669e-01  R=2.265174  R/lam-1=-1.46e-04  overlap=0.999999  it=3  conv=True
+      [corte] delta=0.01: |M|=6.680e-02  R=2.265501  R/lam-1=-1.90e-06  overlap=1.000000  it=2  conv=True
+      [corte] delta=0.001: |M|=1.789e-02  R=2.265505  R/lam-1=-2.08e-08  overlap=1.000000  it=2  conv=True
+      [corte] delta=0.0001: |M|=5.003e-03  R=2.265505  R/lam-1=-2.18e-10  overlap=1.000000  it=1  conv=True
+      [tempo-próprio] delta=0.1: |M|=2.492e-01  R=2.265150  R/lam-1=-1.57e-04  overlap=0.999999  it=3  conv=True
+      [tempo-próprio] delta=0.01: |M|=6.438e-02  R=2.265500  R/lam-1=-1.94e-06  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.001: |M|=1.744e-02  R=2.265505  R/lam-1=-2.10e-08  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.0001: |M|=4.907e-03  R=2.265505  R/lam-1=-2.19e-10  overlap=1.000000  it=1  conv=True
+  s=-1 N_D=2: lam_max=3.18272 (deg 1)  W'=9.5482  Z'=0.8379  b_e'=0.67136   | D3: Z=0.8346
+      [corte] delta=0.1: |M|=2.682e-01  R=3.182502  R/lam-1=-6.94e-05  overlap=0.999998  it=3  conv=True
+      [corte] delta=0.01: |M|=6.719e-02  R=3.182720  R/lam-1=-8.53e-07  overlap=1.000000  it=2  conv=True
+      [corte] delta=0.001: |M|=1.800e-02  R=3.182723  R/lam-1=-9.37e-09  overlap=1.000000  it=2  conv=True
+      [corte] delta=0.0001: |M|=5.033e-03  R=3.182723  R/lam-1=-9.86e-11  overlap=1.000000  it=1  conv=True
+      [tempo-próprio] delta=0.1: |M|=2.505e-01  R=3.182483  R/lam-1=-7.53e-05  overlap=0.999997  it=3  conv=True
+      [tempo-próprio] delta=0.01: |M|=6.476e-02  R=3.182720  R/lam-1=-8.75e-07  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.001: |M|=1.755e-02  R=3.182723  R/lam-1=-9.48e-09  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.0001: |M|=4.936e-03  R=3.182723  R/lam-1=-9.93e-11  overlap=1.000000  it=1  conv=True
+  s=-1 N_D=4: lam_max=3.25780 (deg 1)  W'=9.7734  Z'=0.8185  b_e'=0.68719   | D3: Z=0.8170
+      [corte] delta=0.1: |M|=2.691e-01  R=3.257672  R/lam-1=-3.85e-05  overlap=0.999999  it=3  conv=True
+      [corte] delta=0.01: |M|=6.743e-02  R=3.257796  R/lam-1=-4.82e-07  overlap=1.000000  it=2  conv=True
+      [corte] delta=0.001: |M|=1.806e-02  R=3.257797  R/lam-1=-5.32e-09  overlap=1.000000  it=2  conv=True
+      [corte] delta=0.0001: |M|=5.051e-03  R=3.257797  R/lam-1=-5.61e-11  overlap=1.000000  it=1  conv=True
+      [tempo-próprio] delta=0.1: |M|=2.513e-01  R=3.257661  R/lam-1=-4.19e-05  overlap=0.999999  it=3  conv=True
+      [tempo-próprio] delta=0.01: |M|=6.499e-02  R=3.257796  R/lam-1=-4.95e-07  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.001: |M|=1.761e-02  R=3.257797  R/lam-1=-5.39e-09  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.0001: |M|=4.954e-03  R=3.257797  R/lam-1=-5.65e-11  overlap=1.000000  it=1  conv=True
+
+=== j = 5/2  (n_livres = 5) ===
+  s=+1 N_D=2: lam_max=2.99464 (deg 2)  W'=14.9732  Z'=2.1372  b_e'=0.16897   | D3: Z=nan
+      [corte] delta=0.1: |M|=2.639e-01  R=2.992258  R/lam-1=-7.94e-04  overlap=0.999966  it=3  conv=True
+      [corte] delta=0.01: |M|=6.579e-02  R=2.994611  R/lam-1=-8.96e-06  overlap=1.000000  it=2  conv=True
+      [corte] delta=0.001: |M|=1.758e-02  R=2.994637  R/lam-1=-9.39e-08  overlap=1.000000  it=2  conv=True
+      [corte] delta=0.0001: |M|=4.912e-03  R=2.994637  R/lam-1=-9.62e-10  overlap=1.000000  it=1  conv=True
+      [tempo-próprio] delta=0.1: |M|=2.460e-01  R=2.992171  R/lam-1=-8.24e-04  overlap=0.999964  it=3  conv=True
+      [tempo-próprio] delta=0.01: |M|=6.337e-02  R=2.994610  R/lam-1=-9.07e-06  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.001: |M|=1.714e-02  R=2.994637  R/lam-1=-9.44e-08  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.0001: |M|=4.817e-03  R=2.994637  R/lam-1=-9.65e-10  overlap=1.000000  it=1  conv=True
+  s=+1 N_D=4: lam_max=3.55096 (deg 2)  W'=17.7548  Z'=1.8023  b_e'=0.20036   | D3: Z=nan
+      [corte] delta=0.1: |M|=2.606e-01  R=3.547931  R/lam-1=-8.52e-04  overlap=0.999985  it=3  conv=True
+      [corte] delta=0.01: |M|=6.491e-02  R=3.550922  R/lam-1=-9.54e-06  overlap=1.000000  it=2  conv=True
+      [corte] delta=0.001: |M|=1.735e-02  R=3.550956  R/lam-1=-9.96e-08  overlap=1.000000  it=2  conv=True
+      [corte] delta=0.0001: |M|=4.847e-03  R=3.550956  R/lam-1=-1.02e-09  overlap=1.000000  it=1  conv=True
+      [tempo-próprio] delta=0.1: |M|=2.430e-01  R=3.547829  R/lam-1=-8.81e-04  overlap=0.999984  it=3  conv=True
+      [tempo-próprio] delta=0.01: |M|=6.253e-02  R=3.550922  R/lam-1=-9.64e-06  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.001: |M|=1.691e-02  R=3.550956  R/lam-1=-1.00e-07  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.0001: |M|=4.753e-03  R=3.550956  R/lam-1=-1.02e-09  overlap=1.000000  it=1  conv=True
+  s=-1 N_D=2: lam_max=6.80995 (deg 1)  W'=34.0497  Z'=0.9398  b_e'=0.38424   | D3: Z=0.9322
+      [corte] delta=0.1: |M|=3.438e-01  R=6.808763  R/lam-1=-1.74e-04  overlap=0.999997  it=3  conv=True
+      [corte] delta=0.01: |M|=8.606e-02  R=6.809932  R/lam-1=-2.26e-06  overlap=1.000000  it=2  conv=True
+      [corte] delta=0.001: |M|=2.304e-02  R=6.809947  R/lam-1=-2.50e-08  overlap=1.000000  it=2  conv=True
+      [corte] delta=0.0001: |M|=6.444e-03  R=6.809947  R/lam-1=-2.64e-10  overlap=1.000000  it=1  conv=True
+      [tempo-próprio] delta=0.1: |M|=3.210e-01  R=6.808663  R/lam-1=-1.89e-04  overlap=0.999997  it=3  conv=True
+      [tempo-próprio] delta=0.01: |M|=8.294e-02  R=6.809932  R/lam-1=-2.32e-06  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.001: |M|=2.247e-02  R=6.809947  R/lam-1=-2.53e-08  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.0001: |M|=6.320e-03  R=6.809947  R/lam-1=-2.66e-10  overlap=1.000000  it=1  conv=True
+  s=-1 N_D=4: lam_max=6.87289 (deg 1)  W'=34.3644  Z'=0.9312  b_e'=0.38779   | D3: Z=0.9178
+      [corte] delta=0.1: |M|=3.403e-01  R=6.870748  R/lam-1=-3.11e-04  overlap=0.999997  it=3  conv=True
+      [corte] delta=0.01: |M|=8.510e-02  R=6.872859  R/lam-1=-4.05e-06  overlap=1.000000  it=2  conv=True
+      [corte] delta=0.001: |M|=2.278e-02  R=6.872887  R/lam-1=-4.47e-08  overlap=1.000000  it=2  conv=True
+      [corte] delta=0.0001: |M|=6.369e-03  R=6.872887  R/lam-1=-4.71e-10  overlap=1.000000  it=1  conv=True
+      [tempo-próprio] delta=0.1: |M|=3.177e-01  R=6.870575  R/lam-1=-3.36e-04  overlap=0.999997  it=3  conv=True
+      [tempo-próprio] delta=0.01: |M|=8.201e-02  R=6.872859  R/lam-1=-4.15e-06  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.001: |M|=2.221e-02  R=6.872887  R/lam-1=-4.53e-08  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.0001: |M|=6.246e-03  R=6.872887  R/lam-1=-4.74e-10  overlap=1.000000  it=1  conv=True
+
+=== j = 7/2  (n_livres = 7) ===
+  s=+1 N_D=2: lam_max=8.76373 (deg 2)  W'=61.3461  Z'=2.0865  b_e'=0.12731   | D3: Z=nan
+      [corte] delta=0.01: |M|=8.026e-02  R=8.763634  R/lam-1=-1.09e-05  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.01: |M|=7.730e-02  R=8.763633  R/lam-1=-1.11e-05  overlap=1.000000  it=2  conv=True
+  s=+1 N_D=4: lam_max=9.40875 (deg 2)  W'=65.8613  Z'=1.9435  b_e'=0.13668   | D3: Z=nan
+      [corte] delta=0.01: |M|=7.894e-02  R=9.408633  R/lam-1=-1.29e-05  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.01: |M|=7.603e-02  R=9.408631  R/lam-1=-1.31e-05  overlap=1.000000  it=2  conv=True
+  s=-1 N_D=2: lam_max=12.68703 (deg 1)  W'=88.8092  Z'=1.4413  b_e'=0.18430   | D3: Z=1.3831
+      [corte] delta=0.01: |M|=9.624e-02  R=12.686898  R/lam-1=-1.03e-05  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.01: |M|=9.271e-02  R=12.686895  R/lam-1=-1.06e-05  overlap=1.000000  it=2  conv=True
+  s=-1 N_D=4: lam_max=12.78267 (deg 1)  W'=89.4787  Z'=1.4305  b_e'=0.18569   | D3: Z=1.3575
+      [corte] delta=0.01: |M|=9.481e-02  R=12.782526  R/lam-1=-1.12e-05  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.01: |M|=9.133e-02  R=12.782523  R/lam-1=-1.14e-05  overlap=1.000000  it=2  conv=True
+
+=== j = 9/2  (n_livres = 9) ===
+  s=+1 N_D=2: lam_max=18.54514 (deg 2)  W'=166.9063  Z'=3.0676  b_e'=0.06846   | D3: Z=nan
+      [corte] delta=0.01: |M|=9.059e-02  R=18.544940  R/lam-1=-1.10e-05  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.01: |M|=8.726e-02  R=18.544936  R/lam-1=-1.12e-05  overlap=1.000000  it=2  conv=True
+  s=+1 N_D=4: lam_max=19.27825 (deg 2)  W'=173.5043  Z'=2.9509  b_e'=0.07116   | D3: Z=nan
+      [corte] delta=0.01: |M|=8.973e-02  R=19.278007  R/lam-1=-1.27e-05  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.01: |M|=8.642e-02  R=19.278002  R/lam-1=-1.30e-05  overlap=1.000000  it=2  conv=True
+  s=-1 N_D=2: lam_max=21.98004 (deg 1)  W'=197.8204  Z'=2.5882  b_e'=0.08114   | D3: Z=2.3686
+      [corte] delta=0.01: |M|=1.024e-01  R=21.979717  R/lam-1=-1.47e-05  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.01: |M|=9.861e-02  R=21.979711  R/lam-1=-1.50e-05  overlap=1.000000  it=2  conv=True
+  s=-1 N_D=4: lam_max=22.11721 (deg 1)  W'=199.0549  Z'=2.5722  b_e'=0.08164   | D3: Z=2.3303
+      [corte] delta=0.01: |M|=1.014e-01  R=22.116889  R/lam-1=-1.44e-05  overlap=1.000000  it=2  conv=True
+      [tempo-próprio] delta=0.01: |M|=9.769e-02  R=22.116883  R/lam-1=-1.47e-05  overlap=1.000000  it=2  conv=True
+
+##### d2 Phi2 / d(ln g)^2 em j=5/2 (deve -> 0) #####
+  s=+1 N_D=2 delta=0.1: Phi2=3.165e-02  d2Phi2=8.343e-01
+  s=+1 N_D=2 delta=0.01: Phi2=2.143e-03  d2Phi2=4.908e+00
+  s=+1 N_D=2 delta=0.001: Phi2=1.545e-04  d2Phi2=2.449e+01
+  s=+1 N_D=4 delta=0.1: Phi2=3.087e-02  d2Phi2=8.330e-01
+  s=+1 N_D=4 delta=0.01: Phi2=2.086e-03  d2Phi2=4.789e+00
+  s=+1 N_D=4 delta=0.001: Phi2=1.503e-04  d2Phi2=2.384e+01
+  s=-1 N_D=2 delta=0.1: Phi2=5.372e-02  d2Phi2=1.342e+00
+  s=-1 N_D=2 delta=0.01: Phi2=3.667e-03  d2Phi2=8.261e+00
+  s=-1 N_D=2 delta=0.001: Phi2=2.653e-04  d2Phi2=4.162e+01
+  s=-1 N_D=4 delta=0.1: Phi2=5.265e-02  d2Phi2=1.339e+00
+  s=-1 N_D=4 delta=0.01: Phi2=3.585e-03  d2Phi2=8.110e+00
+  s=-1 N_D=4 delta=0.001: Phi2=2.592e-04  d2Phi2=4.075e+01
+
+##### COMPARAÇÃO FINAL (só agora), j = 5/2 #####
+  alvo: Z_NP = 32/25 = 1.2800 ; b_e = 325/1152 = 0.28212
+  s=+1 N_D=2: Z'=2.1372 (+67.0%)  b_e'=0.16897 (-40.1%)
+  s=+1 N_D=4: Z'=1.8023 (+40.8%)  b_e'=0.20036 (-29.0%)
+  s=-1 N_D=2: Z'=0.9398 (-26.6%)  b_e'=0.38424 (+36.2%)
+  s=-1 N_D=4: Z'=0.9312 (-27.3%)  b_e'=0.38779 (+37.5%)

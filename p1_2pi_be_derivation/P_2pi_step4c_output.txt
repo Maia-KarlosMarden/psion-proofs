@@ -1,0 +1,31 @@
+##### PASSO 4c — D1' (vértice e condensado neutros em carga), j = 5/2 #####
+pares permitidos no condensado: [(1, 2), (4, 5)]
+peso do vértice D1 que sobrevive ao filtro de carga: 0.508 (o violador era 0.598)
+componentes (A^q, B^-q) retidos: 9
+  s=+1 N_D=2: lam_max=2.59606 (deg 1)  W'=12.9803  Z'=2.4653  b_e'=0.14648
+      [corte] delta=0.01: R/lam-1=-4.50e-06  overlap=0.999998  conv=True
+      [corte] delta=0.001: R/lam-1=-4.62e-08  overlap=1.000000  conv=True
+      [tempo-próprio] delta=0.01: R/lam-1=-4.54e-06  overlap=0.999998  conv=True
+      [tempo-próprio] delta=0.001: R/lam-1=-4.64e-08  overlap=1.000000  conv=True
+  s=+1 N_D=4: lam_max=3.01448 (deg 1)  W'=15.0724  Z'=2.1231  b_e'=0.17009
+      [corte] delta=0.01: R/lam-1=-7.82e-06  overlap=0.999997  conv=True
+      [corte] delta=0.001: R/lam-1=-8.20e-08  overlap=1.000000  conv=True
+      [tempo-próprio] delta=0.01: R/lam-1=-7.92e-06  overlap=0.999997  conv=True
+      [tempo-próprio] delta=0.001: R/lam-1=-8.26e-08  overlap=1.000000  conv=True
+  s=-1 N_D=2: lam_max=6.80995 (deg 1)  W'=34.0497  Z'=0.9398  b_e'=0.38424
+      [corte] delta=0.01: R/lam-1=-2.26e-06  overlap=1.000000  conv=True
+      [corte] delta=0.001: R/lam-1=-2.50e-08  overlap=1.000000  conv=True
+      [tempo-próprio] delta=0.01: R/lam-1=-2.32e-06  overlap=1.000000  conv=True
+      [tempo-próprio] delta=0.001: R/lam-1=-2.53e-08  overlap=1.000000  conv=True
+  s=-1 N_D=4: lam_max=6.87289 (deg 1)  W'=34.3644  Z'=0.9312  b_e'=0.38779
+      [corte] delta=0.01: R/lam-1=-4.05e-06  overlap=1.000000  conv=True
+      [corte] delta=0.001: R/lam-1=-4.47e-08  overlap=1.000000  conv=True
+      [tempo-próprio] delta=0.01: R/lam-1=-4.15e-06  overlap=1.000000  conv=True
+      [tempo-próprio] delta=0.001: R/lam-1=-4.53e-08  overlap=1.000000  conv=True
+
+##### COMPARAÇÃO FINAL (só agora) #####
+  alvo: Z_NP = 32/25 = 1.2800 ; b_e = 325/1152 = 0.28212
+  s=+1 N_D=2: Z'=2.4653 (+92.6%)  b_e'=0.14648 (-48.1%)
+  s=+1 N_D=4: Z'=2.1231 (+65.9%)  b_e'=0.17009 (-39.7%)
+  s=-1 N_D=2: Z'=0.9398 (-26.6%)  b_e'=0.38424 (+36.2%)
+  s=-1 N_D=4: Z'=0.9312 (-27.3%)  b_e'=0.38779 (+37.5%)
