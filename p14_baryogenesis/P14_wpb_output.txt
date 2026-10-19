@@ -1,0 +1,47 @@
+##### Censo: triplas observáveis (I in {0,3}) #####
+  (0, 1, 2)  I=3  Q=-1  sum mJ=-9/2
+  (0, 1, 5)  I=0  Q=0  sum mJ=-3/2
+  (0, 2, 4)  I=0  Q=0  sum mJ=-3/2
+  (0, 4, 5)  I=3  Q=1  sum mJ=3/2
+  (1, 2, 3)  I=0  Q=0  sum mJ=-3/2
+  (1, 3, 5)  I=3  Q=1  sum mJ=3/2
+  (2, 3, 4)  I=3  Q=1  sum mJ=3/2
+  (3, 4, 5)  I=0  Q=2  sum mJ=9/2
+
+##### Passo 2: recombinacoes 2->2 que conservam o multiconjunto de k #####
+  processos encontrados: 12
+  S1 (paper: 9 familias, geracoes separadas, exotico fora): violam B: 9, violam L: 6, violam B-L: 9 de 12
+  S2 (8 triplas, duais = neutrinos): violam B: 9, violam L: 6, violam B-L: 9 de 12
+  S3 (8 triplas, duais = barions): violam B: 9, violam L: 6, violam B-L: 9 de 12
+    (0, 1, 2)+(0, 4, 5) <-> (0, 1, 5)+(0, 2, 4)
+    (0, 1, 2)+(1, 3, 5) <-> (0, 1, 5)+(1, 2, 3)
+    (0, 1, 2)+(2, 3, 4) <-> (0, 2, 4)+(1, 2, 3)
+    (0, 1, 2)+(3, 4, 5) <-> (0, 1, 5)+(2, 3, 4)
+    (0, 1, 2)+(3, 4, 5) <-> (0, 2, 4)+(1, 3, 5)
+    (0, 1, 2)+(3, 4, 5) <-> (0, 4, 5)+(1, 2, 3)
+    (0, 1, 5)+(2, 3, 4) <-> (0, 2, 4)+(1, 3, 5)
+    (0, 1, 5)+(2, 3, 4) <-> (0, 4, 5)+(1, 2, 3)
+    (0, 1, 5)+(3, 4, 5) <-> (0, 4, 5)+(1, 3, 5)
+    (0, 2, 4)+(1, 3, 5) <-> (0, 4, 5)+(1, 2, 3)
+    (0, 2, 4)+(3, 4, 5) <-> (0, 4, 5)+(2, 3, 4)
+    (1, 2, 3)+(3, 4, 5) <-> (1, 3, 5)+(2, 3, 4)
+
+##### Passo 3: B, L, B-L em unidades de Delta n_psi/3 #####
+  S1 (paper: 9 familias, geracoes separadas, exotico fora):
+     democratico: B=5/9 L=4/9 B-L=1/9
+     peso 2J+1 : B=10/27 L=17/27 B-L=-7/27
+  S2 (8 triplas, duais = neutrinos):
+     democratico: B=3/7 L=4/7 B-L=-1/7
+     peso 2J+1 : B=6/17 L=11/17 B-L=-5/17
+  S3 (8 triplas, duais = barions):
+     democratico: B=5/7 L=2/7 B-L=3/7
+     peso 2J+1 : B=10/17 L=7/17 B-L=3/17
+
+##### Passo 4: conversao por sphaleron #####
+  c_s(SM, N_f=3, N_H=1) = 28/79 = 0.3544
+  8/23 de §13.3 corresponde a (N_f, N_H) = [(3, 2)]  -> 0.3478
+
+  fator que substitui eps_conf = 4/9 na eq. (33):  c_s * (B-L)  [por psion: /3 adicional]
+  S1 (paper: 9 familias, geracoes separadas, exotico fora): c_s(B-L) = 28/711 = +0.0394  ;  /(4/9) = +0.089  ;  por psion /3: +0.0131 (/(4/9) = +0.030)
+  S2 (8 triplas, duais = neutrinos): c_s(B-L) = -4/79 = -0.0506  ;  /(4/9) = -0.114  ;  por psion /3: -0.0169 (/(4/9) = -0.038)
+  S3 (8 triplas, duais = barions): c_s(B-L) = 12/79 = +0.1519  ;  /(4/9) = +0.342  ;  por psion /3: +0.0506 (/(4/9) = +0.114)

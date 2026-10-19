@@ -1,0 +1,21 @@
+Pré-execução WP-A passo 1 — 2026-10-19T21:40:47Z
+2e6e696628197a1a02ac4bbb6c96ab46456fb44c5e9f1f7507efe6b86ec22e32  P14_WPA1_DEFINITION.md
+edc461eb78c9b5673783911432c9facdfdbe91c5a147444fe8b9884351e5acab  P14_wpa1.py
+Pós-execução — 2026-10-19T21:40:47Z
+57ae137e2ad528e365ec4b01ac56da7df7af3f900f7222c67fe6bdc06bc7bc72  P14_wpa1_output.txt
+Correção de normalização em M1 (invG 4I -> 2I) — 2026-10-19T21:41:29Z
+76516fa7b9ebc35228c6d0d3b66be22612fd09354984651863a51feac486a581  P14_wpa1.py
+Pós-execução corrigida — 2026-10-19T21:41:30Z
+7ef6fc09e0c0fecf729661b2becee4851036633fb5ef1e36a779dcbde86cbbca  P14_wpa1_output.txt
+Correção 2: integrais de vácuo em série em s/Λ (perda catastrófica de precisão) — 2026-10-19T21:42:03Z
+fcefa53e3d6bba9f2863ac000886347ab55a0e0011d6b0beb8eb7b6c6dea1305  P14_wpa1.py
+Pós-execução corrigida 2 — 2026-10-19T21:42:03Z
+34a26a48cba5b9b5181774f5b3f6c6a97d8a377ca972719477cbb5841f56029e  P14_wpa1_output.txt
+Correção 3: cancelamento analítico de Λ²s² — 2026-10-19T21:42:25Z
+de6d73998090f5fee7c7db0b4b37014e0f156a3631c29edcfecd9bd92cd5d42d  P14_wpa1.py
+Pós-execução corrigida 3 — 2026-10-19T21:42:25Z
+229f54f74f2e198190260d3fcec72894e3a7b347598a2fffb567c1db7815dcd5  P14_wpa1_output.txt
+Correção 4: intervalo de busca de T_c e fórmula analítica (expectativa BCS era minha e estava errada) — 2026-10-19T21:43:43Z
+e611ee531c34ced56ccfd4f0f97e85621aef99a1ff291dc65177c257e2126ae5  P14_wpa1.py
+Pós-execução final — 2026-10-19T21:43:44Z
+43248ec7fc9069bd6a3395d0e26bd1d194d32bc5b362d5a00b595d6ce54960e3  P14_wpa1_output.txt
