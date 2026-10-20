@@ -91,6 +91,16 @@ Registrados: correção da variante V2 (unitariedade por par, apontada por C4; a
 versão errada está guardada), falhas de C3 (2,7e-6) e C4 (1,3e-12, piso de
 arredondamento) e uma antecipação errada (Δe ≠ 0 em V1).
 
+## Calibração (WP-CAL; reconstrução, não previsão)
+Com duas regras adicionadas (R1: CP explícita e global na montagem; R2: matéria
+escura como relíquia térmica do topo), há uma receita que reproduz η = 6,10e-10,
+Δe = Δp, zero relíquias exóticas, 2 ν̄ por hidrogênio (ξ ≈ 2,5e-9) e Ω_DM h² = 0,12:
+c_Γ = 1e-3, lei L2, ε = 5,7%, direção de 69 componentes, ℓ_DM ≈ 4,8 (56 TeV, κ = 4π).
+Verificações guardadas: sintonia de fio de navalha (c_Γ × 2 inverte o sinal de η;
+1% de ruído na direção devolve exóticos até 33 D), nível do topo do v85 (0,8)
+superfecha (Ω h² ~1e11–1e12), e conflito com μ_ν/T = 0,123 de §13.5. Erro
+registrado no bloco de matéria escura (cópia de globais do runpy), refeito no adendo.
+
 `simulador/` contém a página interativa (abre no navegador), o núcleo `core.js` e
 `test.js`, que compara o JavaScript com o script Python (`node simulador/test.js`).
 
