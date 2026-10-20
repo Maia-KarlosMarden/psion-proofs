@@ -1,0 +1,7 @@
+P14OPS_DEFINITION.md sha256=274bb186d032b6ec5aba33750b6d8d2bfb81ba365b2759d0c8dd9b84c962b34d registrado_utc=2026-10-20T05:13:11Z (antes de qualquer corrida)
+P14OPS_sweep.py sha256=6dcccf44405491be682be555241d07d897f1346f55cd3988ed610fb31b10b19a; P14OPS_output.txt sha256=816ea3348d50c49254021508b12d0f7b249e92b0f430d4fa673dbea229b98729 rodado_utc=2026-10-20T05:14:10Z
+RESULTADO: sucesso NAO (melhor rho 0,91 com 1 termo, 0,80 com 2), estrutura acima do acaso NAO (nos dois casos
+  os candidatos ficam acima do 1o percentil da linha de base). Antecipacao confirmada.
+LIMITACAO declarada pos-hoc: quase todo padrao de candidato e proibido pela unitariedade (fracao permitida ~0-7%);
+  os padroes sao heuristicos (comutadores), nao derivados de partes absortivas de laco. Um termo calculado de fato
+  satisfaria a unitariedade por construcao; esse calculo nao foi feito aqui.

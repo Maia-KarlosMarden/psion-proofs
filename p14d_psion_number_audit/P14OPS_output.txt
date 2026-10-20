@@ -1,0 +1,44 @@
+
+##### c_G = 1e-3, lei L2 #####
+  [Q,h]       : fracao permitida  0.00  rho = 0.9950  eps_ef = 3.63e-05
+  [Q,O]       : fracao permitida  0.06  rho = 0.9895  eps_ef = 3.81e-05
+  [M,h]       : fracao permitida  0.00  rho = 0.9992  eps_ef = 1.27e-05
+  [M,O]       : anulado pela projecao (fracao permitida 0)
+  [NR,h]      : fracao permitida  0.00  rho = 0.9992  eps_ef = 1.27e-05
+  [NR,O]      : fracao permitida  0.00  rho = 0.9833  eps_ef = 4.77e-05
+  [Z,h]       : fracao permitida  0.00  rho = 0.9992  eps_ef = 1.27e-05
+  [Z,O]       : anulado pela projecao (fracao permitida 0)
+  [E,h]       : fracao permitida  0.00  rho = 0.9993  eps_ef = 1.13e-05
+  [E,O]       : fracao permitida  0.04  rho = 0.9895  eps_ef = 3.81e-05
+  [h,O]       : fracao permitida  0.07  rho = 0.9895  eps_ef = 3.81e-05
+  rearr QQ    : fracao permitida  0.00  rho = 0.9667  eps_ef = 2.70e-05
+  rearr MM    : fracao permitida  0.00  rho = 0.9823  eps_ef = 1.36e-05
+  rearr NRNR  : fracao permitida  0.00  rho = 0.9936  eps_ef = 1.44e-05
+  rearr ZZ    : fracao permitida  0.00  rho = 0.9999  eps_ef = 1.19e-06
+  rearr EE    : fracao permitida  0.00  rho = 0.9829  eps_ef = 1.06e-05
+  melhor 1 termo: rho = 0.9667; melhor par: rearr MM + rearr ZZ, rho = 0.9572, eps_ef = 4.05e-05
+  linha de base 1 termo: 1% = 0.9257, mediana = 0.9928, minimo = 0.8955
+  linha de base 2 termos: 1% = 0.8976, mediana = 0.9768, minimo = 0.8342
+  CRITERIO: sucesso nao; estrutura acima do acaso nao
+
+##### c_G = 1e-3, lei L1 #####
+  [Q,h]       : fracao permitida  0.00  rho = 0.9879  eps_ef = 6.57e-05
+  [Q,O]       : fracao permitida  0.06  rho = 0.9740  eps_ef = 8.74e-05
+  [M,h]       : fracao permitida  0.00  rho = 0.9992  eps_ef = 1.28e-05
+  [M,O]       : anulado pela projecao (fracao permitida 0)
+  [NR,h]      : fracao permitida  0.00  rho = 0.9992  eps_ef = 1.28e-05
+  [NR,O]      : fracao permitida  0.00  rho = 0.9682  eps_ef = 1.12e-04
+  [Z,h]       : fracao permitida  0.00  rho = 0.9992  eps_ef = 1.28e-05
+  [Z,O]       : anulado pela projecao (fracao permitida 0)
+  [E,h]       : fracao permitida  0.00  rho = 0.9987  eps_ef = 1.59e-05
+  [E,O]       : fracao permitida  0.04  rho = 0.9740  eps_ef = 8.74e-05
+  [h,O]       : fracao permitida  0.07  rho = 0.9740  eps_ef = 8.74e-05
+  rearr QQ    : fracao permitida  0.00  rho = 0.9097  eps_ef = 4.07e-05
+  rearr MM    : fracao permitida  0.00  rho = 0.9888  eps_ef = 7.77e-06
+  rearr NRNR  : fracao permitida  0.00  rho = 0.9913  eps_ef = 1.02e-05
+  rearr ZZ    : fracao permitida  0.00  rho = 0.9972  eps_ef = 7.41e-06
+  rearr EE    : fracao permitida  0.00  rho = 0.9300  eps_ef = 1.99e-05
+  melhor 1 termo: rho = 0.9097; melhor par: rearr MM + rearr EE, rho = 0.7950, eps_ef = 6.17e-05
+  linha de base 1 termo: 1% = 0.7874, mediana = 0.9666, minimo = 0.7267
+  linha de base 2 termos: 1% = 0.7370, mediana = 0.9121, minimo = 0.6981
+  CRITERIO: sucesso nao; estrutura acima do acaso nao

@@ -101,6 +101,14 @@ Verificações guardadas: sintonia de fio de navalha (c_Γ × 2 inverte o sinal 
 superfecha (Ω h² ~1e11–1e12), e conflito com μ_ν/T = 0,123 de §13.5. Erro
 registrado no bloco de matéria escura (cópia de globais do runpy), refeito no adendo.
 
+## Termos de CP simples com operadores da PH (WP-OPS)
+16 padrões (comutadores [Q, M, N_R, Z, E com h e J·Σ], [h, J·Σ] e produtos de
+rearranjo), sozinhos ou em pares, contra as 24 restrições da calibração. Nenhum
+chega perto (melhor resíduo 0,91 com 1 termo, 0,80 com 2; critério de sucesso
+< 0,1) e nenhum supera direções sorteadas. Quase todo o padrão de cada candidato é
+proibido pela unitariedade (só 0–7% sobrevive). Limitação: padrões heurísticos,
+não partes absortivas calculadas.
+
 `simulador/` contém a página interativa (abre no navegador), o núcleo `core.js` e
 `test.js`, que compara o JavaScript com o script Python (`node simulador/test.js`).
 
