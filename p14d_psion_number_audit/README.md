@@ -128,6 +128,15 @@ mesma tupla, como n → ν_τ γ); todos têm ΔB = −ΔL. Supressão de amplit
 de troca de índice da eq. (1) proíbe. A regra de níveis tem de ser uma lei de
 conservação (número bariônico como rótulo de nível), não uma regra de massas.
 
+## B pode ser topológico ou de simetria na eq. (1)? (WP-TOP)
+A interação tem só U(1)_N × U(1)_M (M = Σ m_k), abeliana, sem extensão quiral; o
+condensado de enrolamento quebra U(1)_M. Variedade de vácuo sem π₂ nem π₃: não há
+carga topológica pontual (nada de skyrmion bariônico). B não está no espaço das
+cargas de Noether (M, Q, N_ψ). O nível não é grau de liberdade interno: n e ν_τ são a
+mesma tupla, então n → ν_τ γ não tem regra de seleção na eq. (1). Antecipação errada
+registrada (há 5 tuplas neutras, não 3) e uma carga discreta residual pós-hoc,
+D = (2M − 6Q + 3) mod 4, que não separa B de L.
+
 `simulador/` contém a página interativa (abre no navegador), o núcleo `core.js` e
 `test.js`, que compara o JavaScript com o script Python (`node simulador/test.js`).
 
