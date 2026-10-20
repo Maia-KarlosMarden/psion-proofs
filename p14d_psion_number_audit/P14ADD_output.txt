@@ -1,0 +1,53 @@
+##### Parte 1: catalogo com duas especies #####
+  observadas:
+    n -> p e- nubar_e                      dN_B = +0  dN_L = +0  dQ = +0  -> permitido
+    p -> n e+ nu_e (beta+)                 dN_B = +0  dN_L = +0  dQ = +0  -> permitido
+    e- p -> n nu_e                         dN_B = +0  dN_L = +0  dQ = +0  -> permitido
+    pi+ -> mu+ nu_mu                       dN_B = +0  dN_L = +0  dQ = +0  -> permitido
+    mu- -> e- nubar_e nu_mu                dN_B = +0  dN_L = +0  dQ = +0  -> permitido
+    nu_mu n -> mu- p                       dN_B = +0  dN_L = +0  dQ = +0  -> permitido
+    nubar_e p -> e+ n                      dN_B = +0  dN_L = +0  dQ = +0  -> permitido
+    Lambda -> p pi-                        dN_B = +0  dN_L = +0  dQ = +0  -> permitido
+    Lambda -> n pi0                        dN_B = +0  dN_L = +0  dQ = +0  -> permitido
+    Sigma0 -> Lambda gamma                 dN_B = +0  dN_L = +0  dQ = +0  -> permitido
+    oscilacao nu_mu -> nu_e                dN_B = +0  dN_L = +0  dQ = +0  -> permitido
+    oscilacao nu_e -> nu_tau               dN_B = +0  dN_L = +0  dQ = +0  -> permitido
+  nao observadas:
+    p -> nu pi+                            dN_B = +3  dN_L = -3  dQ = +0  -> PROIBIDO
+    n -> nu pi0                            dN_B = +3  dN_L = -3  dQ = +0  -> PROIBIDO
+    n -> nu nu nubar (invisivel)           dN_B = +3  dN_L = -3  dQ = +0  -> PROIBIDO
+    H(p e-) -> nu_mu nu_tau                dN_B = +3  dN_L = -3  dQ = +0  -> PROIBIDO
+    n -> nu_tau gamma (mesma tupla)        dN_B = +3  dN_L = -3  dQ = +0  -> PROIBIDO
+    Lambda -> nu_e gamma (mesma tupla)     dN_B = +3  dN_L = -3  dQ = +0  -> PROIBIDO
+    Sigma0 -> nu_mu gamma (mesma tupla)    dN_B = +3  dN_L = -3  dQ = +0  -> PROIBIDO
+  todas as observadas permitidas: True
+
+##### Parte 2: espectro de tres corpos por especie #####
+  por especie: 12 tuplas de carga inteira, 8 de carga fracionaria
+    (0, 1, 2): Q = -1
+    (0, 1, 4): Q = 0
+    (0, 1, 5): Q = 0
+    (0, 2, 4): Q = 0
+    (0, 2, 5): Q = 0
+    (0, 4, 5): Q = 1
+    (1, 2, 3): Q = 0
+    (1, 3, 4): Q = 1
+    (1, 3, 5): Q = 1
+    (2, 3, 4): Q = 1
+    (2, 3, 5): Q = 1
+    (3, 4, 5): Q = 2
+  setor L, carga inteira alem de e e dos tres nu: [((0, 1, 4), '0'), ((0, 2, 5), '0'), ((0, 4, 5), '1'), ((1, 3, 4), '1'), ((1, 3, 5), '1'), ((2, 3, 4), '1'), ((2, 3, 5), '1'), ((3, 4, 5), '2')]
+  -> leptons de MATERIA com Q > 0 previstos: [((0, 4, 5), '1'), ((1, 3, 4), '1'), ((1, 3, 5), '1'), ((2, 3, 4), '1'), ((2, 3, 5), '1'), ((3, 4, 5), '2')] (nunca vistos: precisam ser pesados)
+  setor B, carga inteira alem de p, n, Lambda, Sigma0: [((0, 1, 2), '-1'), ((0, 1, 4), '0'), ((0, 2, 5), '0'), ((1, 3, 4), '1'), ((1, 3, 5), '1'), ((2, 3, 4), '1'), ((2, 3, 5), '1'), ((3, 4, 5), '2')]
+  em cada setor, 8 tuplas de carga fracionaria (ja presentes na PH original; dobram)
+
+##### Parte 3: custo nas previsoes numericas #####
+  base (N_Dirac = 4, N_f = 6): b_e = 325/1152 = 0.2821, Lambda = 1.2609e+12 GeV, m_e = 0.5089 MeV, rho_Lambda = 2.492e-47 GeV^4
+  R0 indice fora da corrida : b_e = 0.2821  m_e = 5.0887e-01 MeV (x1.000e+00)  rho_Lambda = 2.492e-47 (x1.00e+00)
+  R1 N_f 6 -> 12            : b_e = 0.2713  m_e = 6.4579e-02 MeV (x1.269e-01)  rho_Lambda = 3.792e-52 (x1.52e-05)
+  R2 N_Dirac 4 -> 8         : b_e = 0.5425  m_e = 2.9162e+10 MeV (x5.731e+10)  rho_Lambda = 1.613e+11 (x6.47e+57)
+
+##### Parte 4: bariogenese com mistura de especies (A1') #####
+  c = 1: tau(p -> nu pi+) = 6.7e+16 anos; limite 3.9e32 -> c <= 1.3e-08
+  T* (mistura ativa acima de T*): c = 1 -> 1.49e+10 GeV; c = c_max -> 2.68e+15 GeV; Lambda_meta = 1.24e+12 GeV
+  janela de violacao de B abaixo de Lambda_meta com c permitido: NAO

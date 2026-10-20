@@ -137,6 +137,17 @@ mesma tupla, então n → ν_τ γ não tem regra de seleção na eq. (1). Antec
 registrada (há 5 tuplas neutras, não 3) e uma carga discreta residual pós-hoc,
 D = (2M − 6Q + 3) mod 4, que não separa B de L.
 
+## O menor ingrediente que conserva B (WP-ADD1)
+Duas espécies de psion (ψ_B, ψ_L, mesmos rótulos Z6), correntes somadas e quebra de
+SU(2)_espécie preservando U(1)_B × U(1)_L. As 12 reações observadas passam; os 7
+processos não observados ficam proibidos exatamente. Custos: o setor L traz 6 léptons
+de matéria com Q > 0 (precisam ser pesados); as previsões numéricas só sobrevivem se
+a espécie não entrar na contagem do β₀ (dobrar N_f leva m_e a ×0,13; dobrar N_Dirac a
+×6e10), isto é, se for um rótulo não dinâmico. Com mistura de espécies para
+bariogênese, a estabilidade do próton exige c ≤ 1,3e-8 e a mistura só ficaria ativa
+acima de 2,7e15 GeV, acima de Λ_meta: sem janela; B teria de ser fixado em Λ_meta ou
+acima, ou ser condição inicial.
+
 `simulador/` contém a página interativa (abre no navegador), o núcleo `core.js` e
 `test.js`, que compara o JavaScript com o script Python (`node simulador/test.js`).
 
