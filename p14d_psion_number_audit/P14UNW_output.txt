@@ -1,0 +1,12 @@
+b_e = 0.282118, S = 212.677
+##### Parte 1 #####
+  A (1/b_e por degrau)        :  [n -> nu_tau gamma (mesma tupla): A = 1.7e-11 FALHA]  [p -> nu pi+ (contato): A = 1.7e-11 passa]  [n -> 3 nu (contato): A = 1.7e-11 passa]  [V1: p -> (0,4,5)_L gamma: A = 8.3e-04 FALHA]
+  B (6/b_e por degrau)        :  [n -> nu_tau gamma (mesma tupla): A = 2.2e-65 passa]  [p -> nu pi+ (contato): A = 2.2e-65 passa]  [n -> 3 nu (contato): A = 2.2e-65 passa]  [V1: p -> (0,4,5)_L gamma: A = 3.4e-19 FALHA]
+  C (barreira S por evento)   :  [n -> nu_tau gamma (mesma tupla): A = 4.3e-93 passa]  [p -> nu pi+ (contato): A = 4.3e-93 passa]  [n -> 3 nu (contato): A = 4.3e-93 passa]  [V1: p -> (0,4,5)_L gamma: A = 4.3e-93 passa]
+  V1 independentemente excluida: preve leptons de materia Q = +1, +2 a m(10) = 0,51 MeV, nunca vistos
+##### Parte 2 #####
+  WP-SIM/NOW T_RH             : T/Lambda_meta = 1.1e-01  -> abaixo do confinamento
+  WP-TRH pico                 : T/Lambda_meta = 1.1e-02  -> abaixo do confinamento
+  WP-TRH borda alta           : T/Lambda_meta = 1.6e-02  -> abaixo do confinamento
+  WP-RUNG lado frio (max)     : T/Lambda_meta = 5.2e-04  -> abaixo do confinamento
+  WP-RUNG lado quente (max)   : T/Lambda_meta = 3.8e-02  -> abaixo do confinamento
