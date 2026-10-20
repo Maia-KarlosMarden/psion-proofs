@@ -1,0 +1,10 @@
+P14TPROG_DEFINITION.md sha256=d0c43dfd978283ffd51f05607180505f18ab99be02678e6f9b72f4df5db42f7f registrado_utc=2026-10-20T04:12:43Z (antes de qualquer corrida)
+P14TPROG_sim.py sha256=fad251fb73e50b4ebc61a867472aee74bcccb6d0b065ca00a27523757f93ee1a
+P14TPROG_output.txt sha256=7001ad62dbb2e64dd8c1a1c04128d23f9611d48d558c0c03662eb546dda7023d rodado_utc=2026-10-20T04:13:52Z
+RESULTADO DOS CONTROLES: C1 OK (assimetria exatamente 0), C2 OK (2e-16).
+C3 FALHA (registrada): Euler implicito de 1a ordem; reliquias simetricas mudam 1-2% entre passo 0.004 e 0.001
+  (convergem linearmente: 0.004/0.001/0.00025 -> e10 4.976/4.872/4.846e-16), e a cauda exponencial de
+  antiparticulas com assimetria (n_Xbar ~1e-31 em H2) muda 54%. Diagnostico pos-hoc, sem alterar o registrado:
+  valores de reliquia tem erro de ~2% no passo 0.004; caudas < 1e-25 sao so ordem de grandeza.
+  Nenhuma conclusao sobre assimetria depende disso (C1 e C2 sao exatos).
+C4 JS vs Python: maior desvio relativo 2.6e-7 OK (simT/coreT.js sha256=87136446c495a6bfb5b0cbc75bbc6c4e355714de0b9053a906b66ea3b56d5a43)

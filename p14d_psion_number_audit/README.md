@@ -51,6 +51,33 @@ WP-D0 (só tuplas de psions) continua válido.
   A regra de formação dependente do nível que faltaria é a mesma lacuna declarada
   em §8.2 (regra de níveis dos fragmentos, Teorema KS suspenso).
 
+## Ontologia decidida por simulação (WP-ONT, 20/10/2026)
+
+A retificação acima foi testada contra reações observadas (β±, captura, positrônio
+para- e orto-, conversão de fóton, p p̄ → 3π, decaimentos de π e μ, X17 → e⁺e⁻).
+- O+ (antipartícula = tupla de psions com índices invertidos, N_ψ = +3): falha em
+  conservar N_ψ (já R1 + R2), falha em carga (R1, R10) e dá Σ̄⁺ com Q = +1.
+- O− (antipartícula = antipsions, N_ψ = −3, carga −Q): passa em tudo, com N_ψ = 0
+  para todos os bósons. A inversão de A.5 passa a ser o índice Z6 do antipsion.
+Com O−, WP-D0′, WP-CP e "B+L = N_ψ/3 conservado" voltam a valer.
+
+## A PH como está, simulada (WP-NOW)
+Rede O− de 52 espécies (psions, antipsions, tuplas, antituplas) com só a eq. (1),
+seguida do congelamento p p̄. Sem assimetria inicial: n_p/n_γ = n_p̄/n_γ = 4,5×10⁻¹⁹
+(6,8×10⁻¹⁹ com m = 0,61 GeV), contra 6,1×10⁻¹⁰ observado só de prótons. A fase CP φ
+tem efeito exatamente nulo. Controles C1/C2 falharam o limiar registrado de 1e-15
+(resíduo 2×10⁻¹³, que não cai com a tolerância: arredondamento de ponto flutuante).
+Conclusão: na PH a assimetria só pode ser condição inicial.
+
+## Programa de temperatura livre (WP-TPROG)
+Setores partícula/antipartícula por nível da cascata (topo ℓ ≈ 0,8, núcleon ℓ = 8,
+elétron ℓ = 10), histórias com resfriamentos e reaquecimentos. Sem assimetria de
+entrada ela termina exatamente em 0 em toda história; com assimetria posta à mão
+ela só é diluída. A composição muda com a história: o Ω h² do topo vai de 10¹² (H1)
+a 0,017 (H4). Controle C3 (convergência no passo) falhou e está registrado: relíquias
+simétricas variam 1–2%. `simulador/programa_temperatura/` tem a página, o núcleo e
+`testC4.js` (JS contra Python, 2,6×10⁻⁷).
+
 `simulador/` contém a página interativa (abre no navegador), o núcleo `core.js` e
 `test.js`, que compara o JavaScript com o script Python (`node simulador/test.js`).
 
