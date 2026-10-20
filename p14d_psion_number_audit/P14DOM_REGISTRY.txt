@@ -1,0 +1,16 @@
+P14DOM_DEFINITION.md sha256=a929e25ace407407cea1be75eaad1605cf77460c1542f378e49e844cfac31176 registrado_utc=2026-10-20T04:45:48Z (antes de qualquer corrida)
+P14DOM_sim_v1_errado.py sha256=643ee4e07a0ff768557e13e64cdeef19d950ecb53d04aae3655e885e70f78c1e; saida P14DOM_output_v1_errado.txt sha256=09c4403c0f14686ae8f7d5b38893991cbc61a0036ba8f2a6bf1365fa2a397af4
+CORRECAO REGISTRADA (2026-10-20T04:47:29Z), apontada pelo controle C4 (falhou: 1.3e-5):
+  a variante V2 usava o nucleo CONJUNTO de [B_E | B_R], deixando transicoes (lineares em T) compensarem
+  rearranjos (quadraticos em T). Isso so equilibra numa densidade e nao e unitariedade. A unitariedade
+  correta (com CPT) e por estado inicial: transicoes com soma de linha de X nula (o que V1 ja fazia) e
+  rearranjos com, para cada par inicial ab, soma de c sobre canais que saem de ab menos soma sobre
+  canais que chegam em ab igual a zero (nucleo da incidencia por PARES). V2' = nucleo de B_E (x) mais
+  nucleo da incidencia por pares (c), independentes. V1 nao muda. Resultados V2 da v1 sao invalidos.
+  Tambem corrigido um erro de analise (chave da linearidade), sem efeito nas corridas.
+P14DOM_sim.py (corrigido) sha256=15c4800a57ee5ad64660eb189edf2914e2896f19aa4674205c1ea9f1e21ad76f
+P14DOM_output.txt sha256=9093c302f0b8081408dde84cf7a37f2b397f501e4780ee15deb4a4b3cefd783c rodado_utc=2026-10-20T04:48:02Z
+CONTROLES: C1 OK (8.7e-14); C2 OK (8.8e-13); C4 FALHA registrada (1.3e-12 contra 1e-12, no piso de arredondamento;
+  era 1.3e-5 antes da correcao); C3 FALHA registrada (2.7e-6 contra 1e-6).
+ANTECIPACAO ERRADA registrada: esperei De = 0 exato em V1; De nao e zero (ate 7e-7 eps), porque a assimetria
+  do proton e do reservatorio de psions livres realimenta a ligacao do eletron.

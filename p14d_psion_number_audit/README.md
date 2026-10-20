@@ -78,6 +78,19 @@ a 0,017 (H4). Controle C3 (convergência no passo) falhou e está registrado: re
 simétricas variam 1–2%. `simulador/programa_temperatura/` tem a página, o núcleo e
 `testC4.js` (JS contra Python, 2,6×10⁻⁷).
 
+## Montagem num domínio Z6 que viola CP (WP-DOM)
+Mesma rede de WP-NOW com violação de CP de tamanho ε nas transições e nos
+rearranjos, respeitando CPT e unitariedade por estado inicial (o equilíbrio fica
+simétrico). Dentro do domínio a montagem fora do equilíbrio gera Δp ∝ ε, no
+máximo 3,5×10⁻⁵ ε (η observado exigiria ε ≈ 1e-4), com reservatório de antipsions
+livres do mesmo tamanho (N_ψ conservado). Sinal fixado pela direção da violação,
+que a PH não dá. Mas os domínios de K.10 surgem em 3 MeV, quando a montagem está
+congelada (Γ/H = 3×10⁻³⁷), e teriam no máximo ~30 pc hoje, contra ≳ 1 Gpc exigido
+para regiões de antimatéria; vácuos conjugados degenerados dão média global zero.
+Registrados: correção da variante V2 (unitariedade por par, apontada por C4; a
+versão errada está guardada), falhas de C3 (2,7e-6) e C4 (1,3e-12, piso de
+arredondamento) e uma antecipação errada (Δe ≠ 0 em V1).
+
 `simulador/` contém a página interativa (abre no navegador), o núcleo `core.js` e
 `test.js`, que compara o JavaScript com o script Python (`node simulador/test.js`).
 
