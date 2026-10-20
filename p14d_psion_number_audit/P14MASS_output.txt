@@ -1,0 +1,21 @@
+##### T1/T2: massas no mesmo nivel #####
+  leitura M1:
+    eletron/positron   l=10: m(0, 1, 2) = 5.0888e-04 GeV ; m(0, 4, 5) = 5.0888e-04 GeV ; razao = 1.0000e+00 ; observado 0.000511 GeV -> m(t)/obs = 0.996
+    proton/antiproton  l=8: m(0, 4, 5) = 6.1013e-01 GeV ; m(0, 1, 2) = 6.1013e-01 GeV ; razao = 1.0000e+00 ; observado 0.938272 GeV -> m(t)/obs = 0.65
+  leitura M2:
+    eletron/positron   l=10: m(0, 1, 2) = 5.0888e-04 GeV ; m(0, 4, 5) = 1.0028e+02 GeV ; razao = 5.0747e-06 ; observado 0.000511 GeV -> m(t)/obs = 0.996
+    proton/antiproton  l=8: m(0, 4, 5) = 1.2023e+05 GeV ; m(0, 1, 2) = 6.1013e-01 GeV ; razao = 1.9706e+05 ; observado 0.938272 GeV -> m(t)/obs = 1.28e+05
+  leitura M3:
+    eletron/positron   l=10: m(0, 1, 2) = 5.0888e-04 GeV ; m(0, 4, 5) = 5.0888e-04 GeV ; razao = 1.0000e+00 ; observado 0.000511 GeV -> m(t)/obs = 0.996
+    proton/antiproton  l=8: m(0, 4, 5) = 6.1013e-01 GeV ; m(0, 1, 2) = 6.1013e-01 GeV ; razao = 1.0000e+00 ; observado 0.938272 GeV -> m(t)/obs = 0.65
+
+  |m_J,R| por conteudo: (0,1,2) -> 0, (0,4,5) -> 4.0
+  fator M2 para |m_J,R| = 4: exp(A 4^p / b_e) = 1.9706e+05
+
+##### T3: Hamiltoniano interno de J.6.3 #####
+  <(0, 1, 2)| diag|m| |(0, 1, 2)> = 4.5  (o salto 2<->3 nao contribui na diagonal)
+  <(0, 4, 5)| diag|m| |(0, 4, 5)> = 6.5  (o salto 2<->3 nao contribui na diagonal)
+  diferenca (0,1,2) - (0,4,5) = -2.0 unidades de h
+  espacamento entre niveis: m(l)/m(l+1) = exp(1/b_e) = 34.63
+
+  VEREDITO (degenerescencia exata no mesmo nivel): {'M1': True, 'M2': False, 'M3': True}

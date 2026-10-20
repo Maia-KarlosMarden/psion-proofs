@@ -1,0 +1,11 @@
+Pré-execução P14-D — 2026-10-19T23:53:01Z
+b08eced582b27e11980a8e3167095efcd3f4cca88e47586a388eb775af6a7496  P14D_DEFINITION.md
+c307a5ef8bb2e98c5977dab9f96e75b8f18a0fcfc4358fbe024050f020991bd8  P14D_scales.py
+Pós-execução — 2026-10-19T23:53:01Z
+cf87364afd4a96be2e1eab80d33623582b14601046eac8b34d7406273eda2024  P14D_scales_output.txt
+Adendo pós-hoc (lavagem) — 2026-10-19T23:54:36Z
+4d9ad36871f35c198f68bc6208c7e3c462974e8e074b9c4c36cfadbb50e5c385  P14D_washout_addendum.py
+0ab311e9b659e35cabdbc64e2c7fdac50382e9d3abde257af18a0b0d69954987  P14D_washout_addendum_output.txt
+Adendo pós-hoc refeito (sem reimpressão da pré-checagem) — 2026-10-19T23:54:47Z
+53a93f2dba47d67ebe64fb5acb76646f9d19bc1acf26b4f7a2e2a1221a417e5d  P14D_washout_addendum.py
+b50e3aa5abce2cd040785ea7ebc7b0f9b8e3365fdd263d311fdff6dd53d5af31  P14D_washout_addendum_output.txt

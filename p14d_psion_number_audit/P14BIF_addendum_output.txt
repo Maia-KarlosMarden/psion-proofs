@@ -1,0 +1,18 @@
+Adendo pos-hoc (declarado): xi* necessario se eps = eps_psi = 25/169 e D = xi*^-3
+  S1_L1_1e-05      eta/eps = +1.95e-04  xi* necessario =   36.1
+  S1_L1_0.0001     eta/eps = +1.39e-03  xi* necessario =   69.6
+  S1_L1_0.001      eta/eps = +3.56e-03  xi* necessario =   95.2
+  S1_L1_0.01       eta/eps = +3.59e-04  xi* necessario =   44.3
+  S1_L2_1e-05      eta/eps = +1.89e-04  xi* necessario =   35.8
+  S1_L2_0.0001     eta/eps = +1.30e-03  xi* necessario =   68.1
+  S1_L2_0.001      eta/eps = +2.58e-03  xi* necessario =   85.5
+  S1_L2_0.01       eta/eps = +4.87e-04  xi* necessario =   49.1
+  S2_L1_1e-05      eta/eps = -4.75e-05  xi* necessario =   22.6
+  S2_L1_0.0001     eta/eps = -2.45e-04  xi* necessario =   39.0
+  S2_L1_0.001      eta/eps = -4.07e-04  xi* necessario =   46.2
+  S2_L1_0.01       eta/eps = -2.72e-05  xi* necessario =   18.8
+  S2_L2_1e-05      eta/eps = +8.52e-06  xi* necessario =   12.7
+  S2_L2_0.0001     eta/eps = +6.97e-05  xi* necessario =   25.7
+  S2_L2_0.001      eta/eps = +2.24e-04  xi* necessario =   37.9
+  S2_L2_0.01       eta/eps = +3.69e-05  xi* necessario =   20.8
+Contabilidade final corrigida: N_nubar - N_nu = N_e - L = N_p + B -> por barion = 2 (com L = -B)

@@ -1,0 +1,32 @@
+invariante de CP max|Im H_ab H_bc H_ca| (phi = 0,3) = 3.793; entradas de O_A nas tuplas = 8
+
+##### Controles #####
+  C1 phi = 0: maior |assimetria| = 0.0e+00  OK
+  C4 equilibrio com phi = 0,3: maior |assimetria| = 0.0e+00  OK
+  (79 s)
+
+##### Grade: c_G = 1e-3, phi = 1e-3 #####
+  L2 omega=  0.1 gamma=  0.1: rho = 0.9998  Dp/phi = +1.34e-05  De/Dp = -2.36  Dnu/Dp = +0.79  max|exo|/|Dp| = 3.16e+01  phi p/ eta = 2.77e-04  ok=True
+  L2 omega=  0.1 gamma=  1.0: rho = 1.0000  Dp/phi = +1.32e-05  De/Dp = -1.71  Dnu/Dp = -0.41  max|exo|/|Dp| = 4.79e+01  phi p/ eta = 2.80e-04  ok=True
+  L2 omega=  0.1 gamma= 10.0: rho = 1.0000  Dp/phi = +6.91e-07  De/Dp = -1.33  Dnu/Dp = -0.25  max|exo|/|Dp| = 4.29e+01  phi p/ eta = 5.36e-03  ok=True
+  L2 omega=  1.0 gamma=  0.1: rho = 0.9988  Dp/phi = -5.55e-07  De/Dp = -2.93  Dnu/Dp = -11.79  max|exo|/|Dp| = 1.34e+02  phi p/ eta = 6.68e-03  ok=True
+  L2 omega=  1.0 gamma=  1.0: rho = 0.9941  Dp/phi = -6.94e-07  De/Dp = -1.95  Dnu/Dp = -31.34  max|exo|/|Dp| = 1.67e+02  phi p/ eta = 5.34e-03  ok=True
+  L2 omega=  1.0 gamma= 10.0: rho = 0.9983  Dp/phi = +1.44e-06  De/Dp = -1.51  Dnu/Dp = +6.30  max|exo|/|Dp| = 6.02e+01  phi p/ eta = 2.57e-03  ok=True
+  L2 omega= 10.0 gamma=  0.1: rho = 0.9991  Dp/phi = -6.78e-08  De/Dp = -2.39  Dnu/Dp = -10.66  max|exo|/|Dp| = 1.37e+02  phi p/ eta = 5.46e-02  ok=True
+  L2 omega= 10.0 gamma=  1.0: rho = 0.9821  Dp/phi = -1.83e-06  De/Dp = -0.39  Dnu/Dp = -3.41  max|exo|/|Dp| = 8.24e+00  phi p/ eta = 2.03e-03  ok=True
+  L2 omega= 10.0 gamma= 10.0: rho = 0.9883  Dp/phi = -2.15e-06  De/Dp = -0.46  Dnu/Dp = -4.27  max|exo|/|Dp| = 5.34e+00  phi p/ eta = 1.72e-03  ok=True
+  (86 s)
+  L1 omega=  0.1 gamma=  0.1: rho = 0.9998  Dp/phi = +1.20e-05  De/Dp = -3.56  Dnu/Dp = -3.95  max|exo|/|Dp| = 7.32e+01  phi p/ eta = 3.10e-04  ok=True
+  L1 omega=  0.1 gamma=  1.0: rho = 1.0000  Dp/phi = -2.15e-07  De/Dp = +106.72  Dnu/Dp = +102.07  max|exo|/|Dp| = 2.46e+03  phi p/ eta = 1.72e-02  ok=True
+  L1 omega=  0.1 gamma= 10.0: rho = 1.0000  Dp/phi = -1.27e-07  De/Dp = +6.78  Dnu/Dp = +6.27  max|exo|/|Dp| = 1.75e+02  phi p/ eta = 2.92e-02  ok=True
+  L1 omega=  1.0 gamma=  0.1: rho = 1.0000  Dp/phi = +1.40e-06  De/Dp = -1.72  Dnu/Dp = -1.44  max|exo|/|Dp| = 6.21e+01  phi p/ eta = 2.64e-03  ok=True
+  L1 omega=  1.0 gamma=  1.0: rho = 0.9998  Dp/phi = -7.90e-06  De/Dp = +0.48  Dnu/Dp = -0.13  max|exo|/|Dp| = 2.04e+01  phi p/ eta = 4.69e-04  ok=True
+  L1 omega=  1.0 gamma= 10.0: rho = 0.9999  Dp/phi = -4.61e-06  De/Dp = +0.90  Dnu/Dp = +0.13  max|exo|/|Dp| = 2.09e+01  phi p/ eta = 8.04e-04  ok=True
+  L1 omega= 10.0 gamma=  0.1: rho = 0.9999  Dp/phi = +8.30e-08  De/Dp = -2.74  Dnu/Dp = -2.76  max|exo|/|Dp| = 3.93e+01  phi p/ eta = 4.46e-02  ok=True
+  L1 omega= 10.0 gamma=  1.0: rho = 0.9980  Dp/phi = -2.09e-06  De/Dp = -0.04  Dnu/Dp = -0.64  max|exo|/|Dp| = 7.03e+00  phi p/ eta = 1.78e-03  ok=True
+  L1 omega= 10.0 gamma= 10.0: rho = 0.9616  Dp/phi = -7.38e-06  De/Dp = -0.14  Dnu/Dp = -1.11  max|exo|/|Dp| = 2.21e+00  phi p/ eta = 5.02e-04  ok=True
+  (93 s)
+
+  C2 N_psi: maior |N_psi| = 1.5e-15  OK
+
+##### Melhor de cada lei: C3, linearidade, sensibilidade a c_G #####

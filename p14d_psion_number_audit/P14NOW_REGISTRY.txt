@@ -1,0 +1,10 @@
+Pré-execução WP-NOW — 2026-10-20T03:54:17Z
+4175db3e5f5ef637ef8007a05915b416f6d95937b7e73d7dc619ed292d22fcb2  P14NOW_DEFINITION.md
+15321755c2353c79c74d18e1f102c22c470d02857e4100c5cf63d49310c1dadd  P14NOW_sim.py
+Pós-execução — 2026-10-20T03:54:20Z
+14f841112ec479d9306e751812c1e24a372a0149750023dcaa6896e12d078179  P14NOW_output.txt
+Correção registrada (etapa B: Radau em variável linear; RTOL parametrizado, valor inalterado) — 2026-10-20T03:54:44Z
+d8f6d567fd6926563b4a51290bce56e7cfa28b0abe589fd129bb6a7922c7c9d5  P14NOW_sim.py
+Pós-execução (corrigida) — 2026-10-20T03:54:49Z
+83d60cba112e11acb86d1b969017b1cff72528dad38b52527357868b7705fef3  P14NOW_output.txt
+ff889daa33328e4d5c6169146f1cdc4b8e1aaff1ea767a3ff25851230751e876  P14NOW_tolerance_check.txt
