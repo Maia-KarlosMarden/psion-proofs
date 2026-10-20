@@ -109,6 +109,15 @@ chega perto (melhor resíduo 0,91 com 1 termo, 0,80 com 2; critério de sucesso
 proibido pela unitariedade (só 0–7% sobrevive). Limitação: padrões heurísticos,
 não partes absortivas calculadas.
 
+## Fase em J·Σ com dinâmica quântica (WP-LOOP)
+J·Σ → Re(e^{−iφ}O), montagem com matriz densidade (coerências, decoerência,
+ligação, aniquilação, rearranjos; antimatéria com H*). Equilíbrio simétrico por
+construção. A fase gera assimetria com φ ≈ 3e-4–5e-2 para o η observado, mas não
+seleciona: exóticas de 2 a 2500 vezes Δp, Δe com sinal oposto a Δp na maioria;
+melhor resíduo 0,96–0,98, pior que direções sorteadas. C3 falhou (1,8e-6);
+sensibilidade em c_Γ = 1 não feita (integrador explícito; registrado). A lacuna é
+a regra de níveis de §8.2, não a CP.
+
 `simulador/` contém a página interativa (abre no navegador), o núcleo `core.js` e
 `test.js`, que compara o JavaScript com o script Python (`node simulador/test.js`).
 
