@@ -1,0 +1,8 @@
+CHECAGEM DO REFEREE (exploratoria, nao pre-registrada): Delta-l consistente com WP-UNW V2
+e-tupla (0,1,2): +2; neutras: +7; carregadas positivas (copias L pesadas, l_L <= 7): -1 ou -2
+  Dl(+carregadas)=-1 L1: pesos [1.0, 1.0, 1.0, -1.0, 1.0, -1.0, -1.0, -1.0]  eta: 7e+08:-7.5e-05, 4e+09:-2.0e-03, 7e+09:+7.7e-03, 1e+10:+2.2e-07
+  Dl(+carregadas)=-1 L2: pesos [1.0, 1.0, 1.0, -1.0, 1.0, -1.0, -1.0, -1.0]  eta: 7e+08:+2.0e-06, 4e+09:+2.3e-04, 7e+09:+9.8e-05, 1e+10:-2.8e-06
+  Dl(+carregadas)=-2 L1: pesos [1.0, 1.0, 1.0, -1.0, 1.0, -1.0, -1.0, -1.0]  eta: 7e+08:-7.5e-05, 4e+09:-2.0e-03, 7e+09:+7.7e-03, 1e+10:+2.2e-07
+  Dl(+carregadas)=-2 L2: pesos [1.0, 1.0, 1.0, -1.0, 1.0, -1.0, -1.0, -1.0]  eta: 7e+08:+2.0e-06, 4e+09:+2.3e-04, 7e+09:+9.8e-05, 1e+10:-2.8e-06
+  Dl(+carregadas)=+2 L1: pesos [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]  eta: 7e+08:+1.4e-04, 4e+09:+1.4e-02, 7e+09:+1.8e-02, 1e+10:+4.1e-07
+  Dl(+carregadas)=+2 L2: pesos [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]  eta: 7e+08:+1.4e-04, 4e+09:+1.3e-02, 7e+09:+1.2e-02, 1e+10:+2.1e-07
