@@ -148,6 +148,18 @@ bariogênese, a estabilidade do próton exige c ≤ 1,3e-8 e a mistura só ficar
 acima de 2,7e15 GeV, acima de Λ_meta: sem janela; B teria de ser fixado em Λ_meta ou
 acima, ou ser condição inicial.
 
+## Bifurcação de nível na formação (WP-BIF; hipótese de engenharia reversa)
+Cada trio formado escolhe o degrau B ou L (setor dual de §6) com viés ε de sinal
+oposto para matéria e antimatéria (fonte ∝ ε × taxa líquida de formação, nula em
+equilíbrio); depois o degrau é conservado (rótulo de P14-B, postulado). Sai da
+estrutura, sem imposição: B = −L, Q = 0, N_ψ conservado e, com B, L, Q conservados,
+hidrogênio + 2 ν̄ líquidos por bárion. η/ε chega a 3,6e-3 (c_Γ = 1e-3), varia só ×20
+entre c_Γ = 1e-5 e 1e-2 com sinal estável (pesos S1) e é lavado acima de c_Γ = 0,1.
+Adendo pós-hoc: com ε = ε_ψ = 25/169 e diluição ξ*⁻³, o η observado pede ξ* ≈ 36–95,
+contra 3,6–39 de P14-c. Registrados: C3 falha no piso numérico (c_Γ ≥ 0,1), erro de
+sinal na contabilidade final da definição (corrigido: 2 ν̄ por bárion), antecipação
+errada de magnitude e sinal instável dos pesos S2.
+
 `simulador/` contém a página interativa (abre no navegador), o núcleo `core.js` e
 `test.js`, que compara o JavaScript com o script Python (`node simulador/test.js`).
 

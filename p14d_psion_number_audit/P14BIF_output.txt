@@ -1,0 +1,42 @@
+##### Controles #####
+  C1 eps = 0: maior |B|, |L|, |Q| = 8.4e-18  OK
+  C5 equilibrio com eps = 0,1: maior |B|, |L| = 2.0e-16  OK
+
+##### Grade, eps = 1e-3 #####
+  S1 L1 cG= 1e-05: B/eps = +1.182e-03  L/eps = -1.182e-03  (B+L)/|B| = +0.0e+00  Q = +0.0e+00  eta/eps = +1.946e-04  ok=True
+  S1 L1 cG= 1e-04: B/eps = +8.430e-03  L/eps = -8.430e-03  (B+L)/|B| = +0.0e+00  Q = +0.0e+00  eta/eps = +1.388e-03  ok=True
+  S1 L1 cG= 1e-03: B/eps = +2.161e-02  L/eps = -2.161e-02  (B+L)/|B| = -1.5e-14  Q = +1.2e-18  eta/eps = +3.556e-03  ok=True
+  S1 L1 cG= 1e-02: B/eps = +2.182e-03  L/eps = -2.182e-03  (B+L)/|B| = +3.0e-11  Q = +3.7e-17  eta/eps = +3.592e-04  ok=True
+  S1 L1 cG= 1e-01: B/eps = -9.983e-13  L/eps = -1.160e-12  (B+L)/|B| = -2.2e+00  Q = -1.1e-15  eta/eps = -1.643e-13  ok=True
+  S1 L1 cG= 1e+00: B/eps = -1.903e-11  L/eps = -1.929e-11  (B+L)/|B| = -2.0e+00  Q = -1.9e-14  eta/eps = -3.132e-12  ok=True
+  S1 L2 cG= 1e-05: B/eps = +1.149e-03  L/eps = -1.149e-03  (B+L)/|B| = +0.0e+00  Q = +0.0e+00  eta/eps = +1.892e-04  ok=True
+  S1 L2 cG= 1e-04: B/eps = +7.923e-03  L/eps = -7.923e-03  (B+L)/|B| = +0.0e+00  Q = +0.0e+00  eta/eps = +1.304e-03  ok=True
+  S1 L2 cG= 1e-03: B/eps = +1.565e-02  L/eps = -1.565e-02  (B+L)/|B| = +1.2e-12  Q = +8.0e-18  eta/eps = +2.576e-03  ok=True
+  S1 L2 cG= 1e-02: B/eps = +2.960e-03  L/eps = -2.960e-03  (B+L)/|B| = +5.9e-11  Q = +8.3e-17  eta/eps = +4.872e-04  ok=True
+  S1 L2 cG= 1e-01: B/eps = +1.327e-13  L/eps = -1.882e-13  (B+L)/|B| = -4.2e-01  Q = -3.0e-15  eta/eps = +2.184e-14  ok=True
+  S1 L2 cG= 1e+00: B/eps = +1.090e-11  L/eps = +1.094e-11  (B+L)/|B| = +2.0e+00  Q = +1.1e-14  eta/eps = +1.794e-12  ok=True
+  S2 L1 cG= 1e-05: B/eps = -2.886e-04  L/eps = +2.886e-04  (B+L)/|B| = +0.0e+00  Q = +0.0e+00  eta/eps = -4.750e-05  ok=True
+  S2 L1 cG= 1e-04: B/eps = -1.487e-03  L/eps = +1.487e-03  (B+L)/|B| = +0.0e+00  Q = +0.0e+00  eta/eps = -2.448e-04  ok=True
+  S2 L1 cG= 1e-03: B/eps = -2.472e-03  L/eps = +2.472e-03  (B+L)/|B| = +5.3e-13  Q = +3.1e-18  eta/eps = -4.069e-04  ok=True
+  S2 L1 cG= 1e-02: B/eps = -1.652e-04  L/eps = +1.652e-04  (B+L)/|B| = +6.0e-10  Q = +5.9e-17  eta/eps = -2.720e-05  ok=True
+  S2 L1 cG= 1e-01: B/eps = -9.112e-13  L/eps = -9.185e-13  (B+L)/|B| = -2.0e+00  Q = -8.5e-16  eta/eps = -1.500e-13  ok=True
+  S2 L1 cG= 1e+00: B/eps = +1.632e-11  L/eps = +1.630e-11  (B+L)/|B| = +2.0e+00  Q = +1.6e-14  eta/eps = +2.686e-12  ok=True
+  S2 L2 cG= 1e-05: B/eps = +5.175e-05  L/eps = -5.175e-05  (B+L)/|B| = +0.0e+00  Q = +0.0e+00  eta/eps = +8.518e-06  ok=True
+  S2 L2 cG= 1e-04: B/eps = +4.232e-04  L/eps = -4.232e-04  (B+L)/|B| = +0.0e+00  Q = +0.0e+00  eta/eps = +6.966e-05  ok=True
+  S2 L2 cG= 1e-03: B/eps = +1.359e-03  L/eps = -1.359e-03  (B+L)/|B| = +5.6e-12  Q = +2.0e-18  eta/eps = +2.236e-04  ok=True
+  S2 L2 cG= 1e-02: B/eps = +2.242e-04  L/eps = -2.242e-04  (B+L)/|B| = +2.5e-11  Q = +8.5e-18  eta/eps = +3.690e-05  ok=True
+  S2 L2 cG= 1e-01: B/eps = -5.603e-12  L/eps = +3.605e-12  (B+L)/|B| = -3.6e-01  Q = +1.6e-14  eta/eps = -9.223e-13  ok=True
+  S2 L2 cG= 1e+00: B/eps = +3.817e-12  L/eps = +4.254e-12  (B+L)/|B| = +2.1e+00  Q = +3.8e-15  eta/eps = +6.283e-13  ok=True
+
+  C2 |N_psi| maior = 1.7e-13  OK
+  C3 (B+L)/|B| maior = 2.2e+00  FALHA
+  C4 |Q| maior = 1.9e-14  OK
+  C6 eps -> -eps: desvio 8.2e-13  OK; linearidade (1e-2 vs 1e-3) 3.4e-08
+
+##### Engenharia reversa (melhor ponto: S1 L1 cG=1e-03, eta/eps = +3.556e-03) #####
+  D = 1                   : eps necessario = 1.72e-07  (< 1, possivel)   com eps = eps_psi = 0,148: eta = 5.26e-04
+  xi* = 3,6 (D = 2,1e-2)  : eps necessario = 8.00e-06  (< 1, possivel)   com eps = eps_psi = 0,148: eta = 1.13e-05
+  xi* = 39 (D = 1,7e-5)   : eps necessario = 1.02e-02  (< 1, possivel)   com eps = eps_psi = 0,148: eta = 8.87e-09
+
+##### Contabilidade final (B, L, Q conservados; estados mais leves p, e, nu) #####
+  por barion: N_e/N_p = 1.000000, (N_nubar - N_nu)/N_p = 0.000000  (estrutura prevista: 1 e 2)
