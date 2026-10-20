@@ -10,15 +10,14 @@
 \newtheorem{proposition}[theorem]{Proposition}
 \newtheorem{corollary}[theorem]{Corollary}
 \newtheorem{postulate}{Postulate}
-\theoremstyle{remark}
-\newtheorem{remark}{Remark}
 
 \newcommand{\Lm}{\Lambda_{\rm meta}}
 \newcommand{\Np}{N_\psi}
+\newcommand{\TRH}{T_{\rm RH}}
 
 \title{Baryogenesis in the Psion Hypothesis:\\
-Psion-Number Conservation, No-Go Results below the Condensation Scale,\\
-and Level Bifurcation as a Candidate Mechanism}
+Psion-Number Conservation, No-Go Results,\\
+and Level Bifurcation at Reheating as a Candidate Mechanism}
 \author{Karlos Marden Maia\\ \small Independent researcher, Marietta, Georgia, USA}
 \date{October 2026}
 
@@ -26,7 +25,7 @@ and Level Bifurcation as a Candidate Mechanism}
 \maketitle
 
 \begin{abstract}
-The Psion Hypothesis (PH) builds all matter from a single six-label fermion, the psion, interacting through one four-fermion Lagrangian. We examine what this structure implies for the baryon asymmetry of the Universe. Four results are exact. (i) Psion number is conserved by every term of the Lagrangian, and the continuous internal symmetry is only $U(1)_N\times U(1)_M$. (ii) Field-theory CP is exact. (iii) Observed reactions select a unique ontology for antimatter, composites of antipsions, and require exactly two additive charges, $B$ and $L$, with $\Np/3=B+L$; the PH therefore conserves $B+L$ and allows only $B-L$ to change, the reverse of the Standard Model. (iv) The Lagrangian supplies $B$ neither as a Noether charge nor as a topological charge, and the cascade level is not an internal degree of freedom. On this basis we show, with pre-registered numerical tests, that every mechanism operating below the condensation scale $\Lm\simeq1.2\times10^{12}$~GeV fails. We then formulate a candidate mechanism at the condensation scale, \emph{level bifurcation}: each psion triple binds into a baryonic or a leptonic rung with a CP-odd bias, and the rung is conserved afterwards. If the mechanism holds, $B=-L$, charge neutrality and a final state of hydrogen plus two net antineutrinos per baryon follow from its symmetry alone, and the efficiency reaches $\eta_B/\varepsilon\simeq3.6\times10^{-3}$ without fine tuning. The mechanism rests on three conditions that are stated, not derived: a conserved rung label, a CP bias of global sign, and the departure from equilibrium and dilution of the condensation transition. The PH thus makes structural predictions independent of the mechanism: no nucleon decay with $\Delta B=\Delta L$, no $0\nu\beta\beta$, no $n$--$\bar n$ oscillation, and, if the asymmetry formed with zero net psion number, a cosmic antineutrino excess of two per baryon.
+The Psion Hypothesis (PH) builds all matter from a single six-label fermion, the psion, interacting through one four-fermion Lagrangian. We examine what this structure implies for the baryon asymmetry of the Universe. Four results are exact. (i) Psion number is conserved by every term of the Lagrangian, and the continuous internal symmetry is only $U(1)_N\times U(1)_M$. (ii) Field-theory CP is exact. (iii) Observed reactions select a unique ontology for antimatter, composites of antipsions, and require exactly two additive charges, $B$ and $L$, with $\Np/3=B+L$; the PH therefore conserves $B+L$ and allows only $B-L$ to change, the reverse of the Standard Model. (iv) The Lagrangian supplies $B$ neither as a Noether charge nor as a topological charge, and the cascade level is not an internal degree of freedom. On this basis we show, with pre-registered numerical tests, that neither the Lagrangian nor its minimal extension produces the asymmetry. We then formulate a candidate mechanism, \emph{level bifurcation}: each psion triple formed after inflationary reheating binds into a baryonic or a leptonic rung with a CP-odd bias $\varepsilon$, and the rung is conserved afterwards. If the mechanism holds, $B=-L$, charge neutrality and a final state of hydrogen plus two net antineutrinos per baryon follow from its symmetry alone. With the natural coupling of the Lagrangian, the departure from equilibrium is set by the reheating temperature. The efficiency peaks at $\eta_B/\varepsilon\simeq3.6\times10^{-3}$ for $\TRH\simeq1.4\times10^{10}$~GeV, and $\varepsilon\le10^{-5}$ suffices for $\TRH\approx2\times10^9$--$2\times10^{10}$~GeV. This window lies below the condensation scale $\Lm\simeq1.3\times10^{12}$~GeV, so a single orientation of the condensate can fix the sign of the bias over the observable Universe. The mechanism rests on two conditions still to be derived: a conserved rung label and the magnitude of the bias. The PH also makes structural predictions independent of the mechanism: no nucleon decay with $\Delta B=\Delta L$, no $0\nu\beta\beta$ and no $n$--$\bar n$ oscillation.
 \end{abstract}
 
 \section{Introduction}
@@ -35,7 +34,7 @@ A dynamical origin of the baryon asymmetry, $\eta_B=n_B/n_\gamma=6.1\times10^{-1
 
 The Psion Hypothesis \cite{phf} is a single-Lagrangian framework in which the observed fermions are three-psion composites on a mass cascade $m(\ell)=\Lm e^{-\ell/b_e}$. Earlier versions assigned the asymmetry to a chirality parameter $\varepsilon_\psi=25/169$ combined with a Standard-Model sphaleron conversion. Here we take the Lagrangian at face value and ask what it permits. The answer is restrictive. The constraints turn out to be strong enough to fix the \emph{form} a viable mechanism must take, and we formulate and test one such mechanism.
 
-The paper proceeds from exact statements to conditional ones. Section~\ref{sec:fw} recalls the framework. Section~\ref{sec:exact} proves the conservation structure. Section~\ref{sec:nogo} closes the mechanisms available below $\Lm$. Section~\ref{sec:bif} formulates level bifurcation and states the conditions under which it accounts for $\eta_B$. Section~\ref{sec:pred} collects the predictions. Every numerical test was pre-registered: the definition, with a SHA-256 hash and timestamp, was fixed before execution, and all outputs, including failed controls, are public \cite{repo}.
+The paper proceeds from exact statements to conditional ones. Section~\ref{sec:fw} recalls the framework. Section~\ref{sec:exact} proves the conservation structure. Section~\ref{sec:nogo} closes the mechanisms available within the Lagrangian and its minimal extension. Section~\ref{sec:bif} formulates level bifurcation and states the conditions under which it accounts for $\eta_B$. Section~\ref{sec:pred} collects the predictions. Every numerical test was pre-registered: the definition, with a SHA-256 hash and timestamp, was fixed before execution, and all outputs, including failed controls, are public \cite{repo}.
 
 \section{Framework}\label{sec:fw}
 
@@ -43,7 +42,7 @@ The Lagrangian is
 \begin{equation}\label{eq:L}
 \mathcal L=\bar\psi\, i\gamma^\mu\partial_\mu\psi-G_{\rm UV}(\bar\psi\psi)^2-(\bar\psi J^a\psi)(\bar\psi\Sigma^a\psi),
 \end{equation}
-where $\psi$ carries a six-valued label $k=0,\dots,5$ (internal spin $j=5/2$, $m_k=k-5/2$). $J^a$ and $\Sigma^a$ are the SU(2)$_{\rm meta}$ generators restricted to the left ($k\le2$) and right ($k\ge3$) sectors. The labels carry charges $Q_k=(1,-5,-5,10,4,4)/9$. Composites of three distinct labels (``triples'') number 20. Among them are the electron $(0,1,2)$, the proton $(0,4,5)$ and the neutron $(0,1,5)$. The cascade level $\ell$ is an independent quantum number: the nucleon scale is $\ell=8$ (610~MeV) and the electron $\ell=10$ \cite{phf}. Three neutral triples are listed in \cite{phf} as dual-sector, each being either a baryon or a neutrino: $(0,1,5)=n/\nu_\tau$, $(0,2,4)=\Sigma^0/\nu_\mu$, $(1,2,3)=\Lambda^0/\nu_e$.
+where $\psi$ carries a six-valued label $k=0,\dots,5$ (internal spin $j=5/2$, $m_k=k-5/2$). $J^a$ and $\Sigma^a$ are the SU(2)$_{\rm meta}$ generators restricted to the left ($k\le2$) and right ($k\ge3$) sectors. The labels carry charges $Q_k=(1,-5,-5,10,4,4)/9$. Composites of three distinct labels (``triples'') number 20. Among them are the electron $(0,1,2)$, the proton $(0,4,5)$ and the neutron $(0,1,5)$. The cascade level $\ell$ is an independent quantum number: the nucleon scale is $\ell=8$ (610~MeV) and the electron $\ell=10$ \cite{phf}. Three neutral triples are listed in \cite{phf} as dual-sector, each being either a baryon or a neutrino: $(0,1,5)=n/\nu_\tau$, $(0,2,4)=\Sigma^0/\nu_\mu$, $(1,2,3)=\Lambda^0/\nu_e$. The condensation scale is $\Lm=1.26\times10^{12}$~GeV.
 
 \section{Exact conservation structure}\label{sec:exact}
 
@@ -83,7 +82,7 @@ With only $\Np$ and $Q$ conserved, the processes $p\to\nu\pi^+$, $n\to\nu\pi^0$,
 
 \noindent The count of neutral triples is five, not three: $(0,1,4)$ and $(0,2,5)$ are also neutral. They carry the residual discrete charge $D=(2M-6Q+3)\bmod4=2$, which is exact in the condensed phase.
 
-\section{No-go results below the condensation scale}\label{sec:nogo}
+\section{No-go results}\label{sec:nogo}
 
 \paragraph{Emergent sphalerons.} Any sphaleron-like configuration of the PH is built from psions and conserves $\Np$, hence $B+L$. It cannot convert a lepton asymmetry into baryons in the Standard-Model manner.
 
@@ -93,40 +92,40 @@ With only $\Np$ and $Q$ conserved, the processes $p\to\nu\pi^+$, $n\to\nu\pi^0$,
 
 \paragraph{CP terms built from PH operators.} We tested 16 CP-odd patterns built from the PH's own operators (commutators of $Q$, $M$, $n_R$, the Z6 index and the energy with $h$ and $J\!\cdot\!\Sigma$, and products in rearrangements), singly and in pairs. Fitted to the observed composition, none performs better than random directions. Inserting a phase directly, $J\!\cdot\!\Sigma\to{\rm Re}(e^{-i\varphi}O)$, with full density-matrix assembly kinetics, generates an asymmetry with $\varphi\sim10^{-4}$--$10^{-2}$. But exotic triples receive 2--2500 times the proton asymmetry, and the electron asymmetry has the wrong sign in most runs. Without a conserved label, no CP source selects the observed composites.
 
-\paragraph{Minimal extension.} A two-valued species index $\psi\to\psi_s$, $s\in\{B,L\}$, with currents summed over species and $SU(2)_{\rm species}$ broken, makes $B$ and $L$ Noether charges. It allows all observed reactions and forbids the processes of Corollary~\ref{co:dual} exactly. It preserves the PH's numerical outputs only if the index does not enter the one-loop coefficient $|\beta_0|=N_{\rm Dirac}+2/N_f$: doubling $N_f$ gives $m_e=0.065$~MeV instead of 0.509~MeV. If $B-L$ is to be violated by species mixing, the proton lifetime bounds the mixing coefficient to $c\le1.3\times10^{-8}$. Mixing is then active only above $2.7\times10^{15}$~GeV, outside the range of the contact description.
+\paragraph{Minimal extension.} A two-valued species index $\psi\to\psi_s$, $s\in\{B,L\}$, with currents summed over species and $SU(2)_{\rm species}$ broken, makes $B$ and $L$ Noether charges. It allows all observed reactions and forbids the processes of Corollary~\ref{co:dual} exactly. It preserves the PH's numerical outputs only if the index does not enter the one-loop coefficient $|\beta_0|=N_{\rm Dirac}+2/N_f$: doubling $N_f$ gives $m_e=0.065$~MeV instead of 0.509~MeV. Because the label is carried by the constituents, triples cannot choose their sector. $B-L$ can then change only through species mixing, and the proton lifetime bounds the mixing coefficient to $c\le1.3\times10^{-8}$. Mixing is then active only above $2.7\times10^{15}$~GeV, outside the range of the contact description.
 
 \begin{proposition}\label{pr:window}
-Within \eqref{eq:L} and its minimal extension, no mechanism operating below $\Lm$ produces the baryon asymmetry. The asymmetry must be fixed at the condensation scale or above, or be an initial condition.
+Neither \eqref{eq:L} nor its minimal species extension produces the baryon asymmetry. A viable mechanism needs a CP-odd ingredient acting on a conserved label that the constituents do not carry.
 \end{proposition}
 
-\section{Level bifurcation at formation}\label{sec:bif}
+\section{Level bifurcation at reheating}\label{sec:bif}
 
 \subsection{Postulates}
 
 The dual sector, which causes the instability of Corollary~\ref{co:dual}, also supplies the structure that the failed mechanisms lacked: two final channels from a common initial state. That is the minimal setting in which CP violation is compatible with CPT and unitarity \cite{kw}. We formulate the mechanism as three postulates.
 
 \begin{postulate}[Rung label]\label{P1}
-A psion triple formed at the condensation scale binds into the baryonic rung ($t_B$) or the leptonic rung ($t_L$). After formation, the rung is conserved by all processes.
+A psion triple binds into the baryonic rung ($t_B$) or the leptonic rung ($t_L$). The rung is acquired at binding, not carried by the constituents. It is conserved by every process except dissociation of the triple into free psions.
 \end{postulate}
 
 \begin{postulate}[Biased bifurcation]\label{P2}
-The two channels are populated with a CP-odd bias $\varepsilon$, of opposite sign for antipsion triples and of the same sign throughout the observable Universe. The CP source is $\varepsilon$ times the net formation rate, so it vanishes in equilibrium; dissociation followed by re-formation washes out the channel imbalance.
+The two channels are populated with a CP-odd bias $\varepsilon$, of opposite sign for antipsion triples. The sign is fixed by the winding orientation of the condensate. The CP source is $\varepsilon$ times the net formation rate, so it vanishes in equilibrium; dissociation followed by re-formation washes out the channel imbalance.
 \end{postulate}
 
-\begin{postulate}[Departure from equilibrium]\label{P3}
-Formation occurs during the condensation transition with a finite departure from equilibrium, parametrised by the contact-rate normalisation $c_\Gamma$. It is followed by an entropy dilution $D\le1$.
+\begin{postulate}[Formation after reheating]\label{P3}
+Triples form in the thermal bath after inflationary reheating at $\TRH<\Lm$, with the natural contact coupling of \eqref{eq:L}.
 \end{postulate}
 
-\noindent Postulate~\ref{P1} is the conserved label required independently by Corollary~\ref{co:dual}. The mechanism therefore introduces no ingredient beyond what nucleon stability already demands, apart from the bias.
+\noindent Postulate~\ref{P1} is the conserved label that nucleon stability requires independently (Corollary~\ref{co:dual}). Postulate~\ref{P3} has a second consequence. Because $\TRH<\Lm$, the condensate is not restored after inflation, and the orientation selected before or during inflation is common to the entire observable Universe. The global sign required by Postulate~\ref{P2} is then a property of the vacuum rather than of local domains, which avoids the failure of Z6 domains in Section~\ref{sec:nogo}.
 
 \subsection{Kinetics}
 
 For each triple $t$ and formation rate $k_t$, the matter equations read
 \begin{align}
-\frac{dt_B}{dx}&\ni \tfrac12 k_tP_t-\frac{k_t}{K}t_B+\tfrac12\varepsilon s_tJ_t, &
-\frac{dt_L}{dx}&\ni \tfrac12 k_tP_t-\frac{k_t}{K}t_L-\tfrac12\varepsilon s_tJ_t,
+\frac{dt_B}{dx}&\ni \tfrac12 k_tP_t-\frac{k_t}{K}t_B+\tfrac12\varepsilon J_t, &
+\frac{dt_L}{dx}&\ni \tfrac12 k_tP_t-\frac{k_t}{K}t_L-\tfrac12\varepsilon J_t,
 \end{align}
-with $P_t$ the product of the three psion abundances and $J_t=k_t[P_t-(t_B+t_L)/K]$ the net formation rate. The antimatter equations are the same with $\varepsilon\to-\varepsilon$. The network also contains transitions within each rung, rearrangements $ab\to cd$ within each rung, annihilation $t_r\bar t_r\to$ radiation, and $\psi\bar\psi$ annihilation; the rates and binding weights are those of the assembly network of the PH audit \cite{repo}. We take $s_t=1$, a bias of uniform orientation.
+with $x=\ln(\TRH/T)$, $P_t$ the product of the three psion abundances and $J_t=k_t[P_t-(t_B+t_L)/K]$ the net formation rate. The antimatter equations are the same with $\varepsilon\to-\varepsilon$. The network also contains transitions within each rung, rearrangements $ab\to cd$ within each rung, annihilation $t_r\bar t_r\to$ radiation, and $\psi\bar\psi$ annihilation; the rates and binding weights are those of the assembly network of the PH audit \cite{repo}. All rates scale as $\Gamma/H=c_\Gamma\,G_4T^3M_{\rm Pl}/(1.66\sqrt{g_*}\,\Lm^4)$, with $c_\Gamma=1$ for the natural coupling.
 
 \begin{proposition}[Structural consequences]\label{pr:struct}
 For a symmetric initial state, Postulates~\ref{P1}--\ref{P2} imply, at all times,
@@ -139,64 +138,67 @@ If $p$, $e^-$ and the neutrinos are the lightest states of their sectors, the la
 The map $(\psi,t_B,t_L,\bar t_B,\bar t_L)\to(\bar\psi,\bar t_L,\bar t_B,t_L,t_B)$ leaves the equations invariant: it exchanges $+\varepsilon$ with $-\varepsilon$ and pairs $t_B\bar t_B$ with $\bar t_Lt_L$ in the annihilation terms. It also leaves the symmetric initial state invariant. Hence $t_B=\bar t_L$, $t_L=\bar t_B$ and $\psi=\bar\psi$ at all times, which gives $B=\sum(t_B-\bar t_B)=-\sum(t_L-\bar t_L)=-L$ and $\Delta\Np=0$. The charge of each triple enters $B$ and $L$ with opposite signs, so $Q_{\rm tot}=0$. With $B$, $L$ and $Q$ conserved, baryonic excesses decay to protons and leptonic ones to $e^-$ and neutrinos. Neutrality gives $N_e=N_p=B$, and $L=N_e-(N_{\bar\nu}-N_\nu)=-B$ gives $N_{\bar\nu}-N_\nu=2B$.
 \end{proof}
 
-\noindent Proposition~\ref{pr:struct} removes the composition problem of Section~\ref{sec:nogo}. Exotic triples need not be absent at formation; they decay into the observed states because the labels are conserved. We verified the proposition numerically in a 92-species network. In all runs with $|B|$ above numerical noise, $|B+L|/|B|\le6\times10^{-10}$, $|Q_{\rm tot}|\lesssim10^{-14}$ and $|\Delta\Np|\lesssim10^{-13}$. A bias of $\varepsilon=0.1$ produces no asymmetry from an equilibrium initial state ($\lesssim10^{-16}$), and the response is linear in $\varepsilon$ to $3\times10^{-8}$.
+\noindent Proposition~\ref{pr:struct} removes the composition problem of Section~\ref{sec:nogo}. Exotic triples need not be absent at formation; they decay into the observed states because the labels are conserved. We verified the proposition numerically in a 92-species network. In all runs with $|B|$ above numerical noise, $|B+L|/|B|\lesssim10^{-8}$, $|Q_{\rm tot}|\lesssim10^{-14}$ and $|\Delta\Np|\lesssim10^{-13}$. A bias of $\varepsilon=0.1$ produces no asymmetry from an equilibrium initial state ($\lesssim10^{-16}$), and the response is linear in $\varepsilon$ to $3\times10^{-8}$.
 
-\subsection{Efficiency}
+\subsection{Efficiency and the reheating temperature}
 
-Table~\ref{tab:eff} gives the efficiency $\eta_B/\varepsilon$ for $D=1$ as a function of $c_\Gamma$, for the two binding laws of the network.
+With $c_\Gamma=1$, formation reaches equilibrium ($\Gamma/H=1$) at $T_{\rm eq}=4.3\times10^9$~GeV. The departure from equilibrium is therefore set by $\TRH$ alone, with no free rate parameter: a rate normalisation $c_\Gamma$ at a given $\TRH$ is equivalent to $c_\Gamma=1$ at $c_\Gamma^{1/3}\TRH$ (verified to $7\times10^{-8}$). Table~\ref{tab:eff} gives the efficiency.
 
 \begin{table}[h]
 \centering
 \begin{tabular}{lcccccc}
 \toprule
-$c_\Gamma$ & $10^{-5}$ & $10^{-4}$ & $10^{-3}$ & $10^{-2}$ & $10^{-1}$ & 1 \\
+$\TRH$ [GeV] & $7\times10^{10}$ & $4\times10^{10}$ & $2\times10^{10}$ & $1.4\times10^{10}$ & $4\times10^{9}$ & $1.4\times10^{9}$ \\
+$\Gamma/H$ at $\TRH$ & $4.2\times10^3$ & $7.8\times10^2$ & 98 & 32 & 0.78 & 0.033 \\
 \midrule
-law L1 & $1.9\times10^{-4}$ & $1.4\times10^{-3}$ & $3.6\times10^{-3}$ & $3.6\times10^{-4}$ & $<10^{-12}$ & $<10^{-11}$ \\
-law L2 & $1.9\times10^{-4}$ & $1.3\times10^{-3}$ & $2.6\times10^{-3}$ & $4.9\times10^{-4}$ & $<10^{-13}$ & $<10^{-11}$ \\
+$\eta_B/\varepsilon$ (L1) & $<10^{-12}$ & $1.4\times10^{-6}$ & $3.3\times10^{-3}$ & $3.6\times10^{-3}$ & $4.5\times10^{-4}$ & $2.1\times10^{-5}$ \\
+$\eta_B/\varepsilon$ (L2) & $<10^{-13}$ & $4.4\times10^{-6}$ & $2.6\times10^{-3}$ & $2.6\times10^{-3}$ & $4.3\times10^{-4}$ & $2.1\times10^{-5}$ \\
 \bottomrule
 \end{tabular}
-\caption{Efficiency $\eta_B/\varepsilon$ of level bifurcation (uniform bias, $D=1$). For $c_\Gamma\ge0.1$ formation is in equilibrium and the asymmetry is washed out.}\label{tab:eff}
+\caption{Efficiency of level bifurcation with the natural coupling, as a function of the reheating temperature, for the two binding laws of the network. Above $\sim4\times10^{10}$~GeV formation is in equilibrium and the asymmetry is washed out; below $\sim10^{9}$~GeV too few triples form out of equilibrium.}\label{tab:eff}
 \end{table}
 
-\noindent Between $c_\Gamma=10^{-5}$ and $10^{-2}$ the efficiency changes by a factor $\sim20$ and keeps its sign. The mechanism therefore does not depend on a finely tuned rate. A bias weighted by triple chirality, $s_t=(n_L-n_R)/3$, changes sign between the two binding laws; such a weighting cannot fix the sign of $\eta_B$.
+\noindent The efficiency peaks at $\TRH\simeq1.4\times10^{10}$~GeV and keeps its sign throughout. The full window is two orders of magnitude below $\Lm$, consistent with Postulate~\ref{P3}. A bias weighted by triple chirality, $(n_L-n_R)/3$, changes sign between the two binding laws and cannot fix the sign of $\eta_B$; the bias must be universal across triples.
 
 \paragraph{Consistency condition.} The mechanism reproduces the observed value if
 \begin{equation}\label{eq:cond}
-\varepsilon\,D\simeq\frac{6.1\times10^{-10}}{\eta_B/\varepsilon}\in\left[1.7\times10^{-7},\,3.2\times10^{-6}\right]
+\varepsilon\,D\simeq\frac{6.1\times10^{-10}}{\eta_B/\varepsilon(\TRH)},
 \end{equation}
-over the non-equilibrium range of Table~\ref{tab:eff}. This is a requirement on the physics of the transition, not a prediction. A natural scale for $|\varepsilon|$ is the chirality parameter $\varepsilon_\psi=25/169$; with that value, \eqref{eq:cond} requires a dilution $D\sim10^{-6}$--$10^{-5}$. Existing estimates of the condensation transition (Coleman--Weinberg with thermal inflation) give $D^{-1/3}=\xi^*\approx3.6$--$39$ \cite{repo}. Deriving $D$ is part of Condition~C3 below.
+where $D\le1$ is any later entropy dilution. For $D=1$ this requires $\varepsilon\le10^{-5}$ for $\TRH\approx2\times10^{9}$--$2\times10^{10}$~GeV, with a minimum of $\varepsilon\simeq1.7\times10^{-7}$ at the peak. Equation~\eqref{eq:cond} is a requirement on the bias, not a prediction. The chirality parameter $\varepsilon_\psi=25/169$ is CP-even and four to six orders of magnitude larger than required, so it cannot serve as the bias without a suppression that remains to be derived.
 
 \subsection{Conditions}
 
-The mechanism is identified and its structure verified, but its magnitude rests on modelled contact kinetics and three underived inputs.
+The mechanism is identified and its structure verified; its magnitude rests on modelled contact kinetics and on two underived inputs.
 \begin{itemize}
-\item[(C1)] \emph{Rung label.} Derive a conserved baryon label (Postulate~\ref{P1}). The same principle must secure nucleon stability (Corollary~\ref{co:dual}).
-\item[(C2)] \emph{Sign and size of the bias.} $\varepsilon_\psi$ is CP-even (Proposition~\ref{pr:cp}) and can at most set the size. The sign must come from a vacuum orientation common to the observable Universe; the natural candidate is the winding direction of the condensate, which carries a definite chirality through its Jackiw--Rebbi zero mode \cite{jr}.
-\item[(C3)] \emph{Transition dynamics.} Derive the departure from equilibrium ($c_\Gamma$) and the dilution $D$ from the condensation transition.
+\item[(C1)] \emph{Rung label.} Derive Postulate~\ref{P1}: a rung acquired at binding that changes only through dissociation. Below $\Lm$ the psions are confined, so a rung change would require passing through the deconfined continuum. A suppression controlled by the condensate action $S=212.7$ of the PH \cite{phf} would satisfy the bound of Corollary~\ref{co:dual}. Establishing it requires computing the amplitude between rungs of one triple, including the overlap of rungs whose sizes differ by $e^{1/b_e}\simeq34.6$ per level.
+\item[(C2)] \emph{The bias.} Show that the bifurcation bias is odd under inversion of the winding orientation, which fixes its sign, and derive its magnitude. The natural carrier is the chiral Jackiw--Rebbi zero mode of the winding condensate \cite{jr}.
 \end{itemize}
-If C1--C3 hold and satisfy \eqref{eq:cond}, the PH accounts for the baryon asymmetry and nucleon stability through a single principle.
+The reheating temperature is an input from inflation, not from the PH. If C2 yields $\varepsilon$, Equation~\eqref{eq:cond} turns the mechanism into a prediction of $\TRH$, which is independently constrained by inflationary physics.
 
 \section{Predictions}\label{sec:pred}
 
-The following predictions do not depend on the mechanism of Section~\ref{sec:bif}, unless stated otherwise.
+Predictions 1--3 are structural and hold irrespective of the mechanism; 4 and 5 hold if level bifurcation is the origin of the asymmetry.
 \begin{enumerate}
 \item No nucleon decay with $\Delta B=\Delta L$ ($p\to e^+\pi^0$, $p\to e^+\gamma$, \dots): these change $\Np$ and are forbidden exactly by Theorem~\ref{th:N}.
 \item If any nucleon decay is observed, it has $\Delta B=-\Delta L$ ($p\to\nu\pi^+$, $n\to\nu\pi^0$, $n\to3\nu$).
 \item No neutrinoless double-beta decay and no $n$--$\bar n$ oscillation: both change $\Np$.
-\item If the asymmetry formed with zero net psion number (Section~\ref{sec:bif}): a cosmic antineutrino excess of two per baryon, i.e.\ a neutrino degeneracy parameter $|\xi_\nu|\approx2.5\times10^{-9}$ per flavour (shared over two flavours). This is far below current bounds, and it is the characteristic, if difficult, signature of the mechanism.
+\item A cosmic antineutrino excess of two per baryon, i.e.\ a neutrino degeneracy parameter $|\xi_\nu|\approx2.5\times10^{-9}$ per flavour (shared over two flavours). This is far below current bounds, and it is the characteristic, if difficult, signature of the mechanism.
+\item An inflationary reheating temperature in the range $\TRH\approx10^{9}$--$4\times10^{10}$~GeV, below the condensation scale; outside it the mechanism fails.
 \end{enumerate}
 
 \section{Discussion}
 
-The PH inverts the Standard-Model structure of baryon and lepton number. This places it outside the families of mechanisms that rely on sphaleron reprocessing, and it rules out several routes that would otherwise be natural. The constraint that remains is sharp: the theory needs a conserved baryon label. Without it, the dual-sector identification makes nucleons unstable. With it, a CP-biased bifurcation at formation yields the observed composition with no tuning of the composition itself.
+The PH inverts the Standard-Model structure of baryon and lepton number. This places it outside the families of mechanisms that rely on sphaleron reprocessing, and it rules out several routes that would otherwise be natural. The constraint that remains is sharp: the theory needs a conserved baryon label. Without it, the dual-sector identification makes nucleons unstable. With a label acquired at binding, a CP-biased bifurcation yields the observed composition with no tuning of the composition itself. The one parameter beyond the PH, the reheating temperature, has a natural range consistent with the condensation scale.
 
-Two limitations bound the present results. First, the kinetic networks use contact rates and binding weights that are models, not derived amplitudes. The structural statements (Proposition~\ref{pr:struct}) are independent of these choices; the efficiencies of Table~\ref{tab:eff} are not. Second, Postulate~\ref{P1} is an addition to \eqref{eq:L}. Section~\ref{sec:nogo} shows that the simplest realisation, a non-running species label, is equivalent to postulating baryon-number conservation. Deriving the label is the central open problem.
+The conditions fit together. A reheating temperature below $\Lm$ is what keeps the condensate orientation uniform, and it is also where formation is out of equilibrium with the natural coupling. Confinement below $\Lm$ is the candidate reason why the rung, once acquired, survives.
+
+Two limitations bound the present results. First, the kinetic networks use contact rates and binding weights that are models, not derived amplitudes. The structural statements (Proposition~\ref{pr:struct}) are independent of these choices; the efficiencies of Table~\ref{tab:eff} are not. Second, Postulates~\ref{P1} and \ref{P2} are additions to \eqref{eq:L} until C1 and C2 are derived.
 
 A related tension concerns dark matter. If the top of the cascade were a thermal relic, $\Omega_{\rm DM}h^2=0.12$ would require a mass of $\sim56$~TeV (cascade level $\approx4.8$). The canonical PH value of $7.2\times10^{10}$~GeV would overclose the Universe; a non-thermal production route is therefore required.
 
 \section{Conclusions}
 
-Equation~\eqref{eq:L} conserves psion number and CP exactly. Observation then requires separate baryon and lepton numbers with $B+L$ fixed, and the PH must change $B-L$ to produce an asymmetry. Below the condensation scale this is impossible within the theory and its minimal extension. At the condensation scale, level bifurcation is a candidate mechanism. If its three postulates hold, it gives $B=-L$, charge neutrality and the observed composition by symmetry, with an efficiency of up to $3.6\times10^{-3}$ per unit bias. Whether it accounts for $\eta_B$ depends on three derivations: a conserved rung label, a globally signed bias, and the transition dynamics.
+Equation~\eqref{eq:L} conserves psion number and CP exactly. Observation then requires separate baryon and lepton numbers with $B+L$ fixed, and the PH must change $B-L$ to produce an asymmetry. Neither the Lagrangian nor its minimal extension does so. Level bifurcation during formation after reheating is a candidate mechanism. If its postulates hold, it gives $B=-L$, charge neutrality and the observed composition by symmetry. With the natural coupling, its efficiency reaches $3.6\times10^{-3}$ per unit bias at a reheating temperature of $\sim10^{10}$~GeV. Whether it accounts for $\eta_B$ depends on two derivations: a rung label conserved after binding, and the sign and size of the bias.
 
 \section*{Methods and data availability}
 All tests were defined in advance in documents whose SHA-256 hashes and UTC timestamps were recorded before execution. Controls that failed their registered thresholds are reported as failures in the repository, together with corrections and their reasons. Networks were integrated with LSODA, DOP853 or Radau at relative tolerances of $10^{-10}$--$10^{-11}$. Exact results were obtained by linear algebra over the rationals or by singular-value decomposition. Code, definitions, registries and outputs are available in the companion repository \cite{repo}, folder \texttt{p14d\_psion\_number\_audit}.
