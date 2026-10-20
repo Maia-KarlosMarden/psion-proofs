@@ -118,6 +118,16 @@ melhor resíduo 0,96–0,98, pior que direções sorteadas. C3 falhou (1,8e-6);
 sensibilidade em c_Γ = 1 não feita (integrador explícito; registrado). A lacuna é
 a regra de níveis de §8.2, não a CP.
 
+## O que a regra de níveis precisa conservar (WP-LEV1)
+Com o nível como número quântico (setor dual de §6: (0,1,5) = n ou ν_τ etc.), as 12
+reações observadas do catálogo exigem exatamente duas cargas aditivas: B (classe de
+nível 8) e L (classes 10 e ν), com N_ψ/3 = B + L. Sete processos permitidos por N_ψ
+e Q não são observados (p → νπ⁺, n → νπ⁰, n → 3ν, H → νν e três saltos de nível na
+mesma tupla, como n → ν_τ γ); todos têm ΔB = −ΔL. Supressão de amplitude exigida:
+≲ 1e-8 na escala de Λ_meta e ≲ 5e-30 para saltos na mesma tupla, que nenhuma regra
+de troca de índice da eq. (1) proíbe. A regra de níveis tem de ser uma lei de
+conservação (número bariônico como rótulo de nível), não uma regra de massas.
+
 `simulador/` contém a página interativa (abre no navegador), o núcleo `core.js` e
 `test.js`, que compara o JavaScript com o script Python (`node simulador/test.js`).
 
