@@ -1,0 +1,10 @@
+P14SGN_DEFINITION.md sha256=80f3f214484148ab1eff99ab6c43cb8494e8654683db4e885294df8df1408a1d registrado_utc=2026-10-20T14:01:35Z (antes de qualquer corrida)
+P14SGN_test.py sha256=3c0833f2fa686bf7af1460f291f3c083fa84740a877c117aec6bb5c112aa97ec; P14SGN_output.txt sha256=4e7de69424e78f9f9bca5140816c17c81132c037edbfdda44fa2862684938a94; adendo P14SGN_addendum.txt sha256=0e9cffbb0e7c392058af938c50775c5d5ef360b5b215ab013ed3254e235c67d6 2026-10-20T14:53:33Z
+RESULTADO: C1, C2, C3 OK. PA: fase removivel (||Im|| min 4e-13), assimetria nula. PB e PC: fase fisica
+  (||Im|| min = 0,84 com rephasing dos 6 modos), assimetria de montagem impar em k -> 6-k, nula em k = 0, 3.
+ANTECIPACAO ERRADA registrada: esperei PA e PC fisicas e PB removivel; saiu PA removivel e PB, PC fisicas.
+  Tambem esperei J3 (triangulo) != 0: J3 = 0 em todos os casos; a fase vive em ciclos mais longos (pos-hoc).
+  Magnitude: Dp ~ 9e-7 em unidades da rede (esperei 1e-3-1e-2).
+OBSERVACAO POS-HOC: sem rotulo de degrau a fase do vacuo nao seleciona (De/Dp ~ -4, exoticas ~ 6-9 x Dp), como em WP-LOOP.
+  Em PB, k e k+3 dao o mesmo resultado (so 2 theta entra). Ponto a checar: se Delta C(s) de K.10 e energia de vacuo,
+  o vacuo de menor energia e k = 0, CP-invariante.

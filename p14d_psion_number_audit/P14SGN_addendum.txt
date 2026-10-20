@@ -1,0 +1,4 @@
+PB 1 eta_direto ~ 1.6e-07 De/Dp = -4.23 max|exo|/|Dp| = 9.3 Dnu/Dp = -7.37
+PB 2 eta_direto ~ 1.6e-07 De/Dp = -4.23 max|exo|/|Dp| = 9.3 Dnu/Dp = -7.37
+PC 1 eta_direto ~ 1.4e-07 De/Dp = -4.42 max|exo|/|Dp| = 6.8 Dnu/Dp = -8.02
+PC 2 eta_direto ~ 1.6e-07 De/Dp = -4.23 max|exo|/|Dp| = 9.3 Dnu/Dp = -7.37
