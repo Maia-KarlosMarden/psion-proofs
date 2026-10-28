@@ -1,0 +1,8 @@
+Versao principal (g = 0, H/s = sqrt 3):
+  AN: R_n = +0.368 (med -0,164) | R_S = +0.474 (med 0,86) | s = 0.501 fm -> nao acerta
+  AX: R_n = +0.684 (med -0,164) | R_S = +0.474 (med 0,86) | s = 0.501 fm -> nao acerta
+Varredura informativa:
+  AN g/s=0.0: R_n em [-0.68, +0.89]; H/s que acertam ambos: [] (0 de 241)
+  AN g/s=0.5: R_n em [-0.68, +0.89]; H/s que acertam ambos: [] (0 de 241)
+  AX g/s=0.0: R_n em [+0.16, +0.94]; H/s que acertam ambos: [] (0 de 241)
+  AX g/s=0.5: R_n em [+0.16, +0.94]; H/s que acertam ambos: [] (0 de 241)
