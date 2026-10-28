@@ -1,0 +1,6 @@
+hexagono   : R_n=-0.1538 R_S=+0.8462 raio-psion/a_hex=1.000 escala a(fm)=1.212
+estrela    : R_n=-0.1538 R_S=+0.8462 raio-psion/a_hex=1.732 escala a(fm)=0.700
+petala  45: R_n=-0.1538 R_S=+0.8462 raio-psion/a_hex=0.254 escala a(fm)=4.778
+petala  90: R_n=-0.1538 R_S=+0.8462 raio-psion/a_hex=0.866 escala a(fm)=1.399
+petala 135: R_n=-0.1538 R_S=+0.8462 raio-psion/a_hex=1.478 escala a(fm)=0.820
+petala 180: R_n=-0.1538 R_S=+0.8462 raio-psion/a_hex=1.732 escala a(fm)=0.700
