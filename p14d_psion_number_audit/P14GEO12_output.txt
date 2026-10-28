@@ -1,0 +1,7 @@
+T1 D1 (theta=30k): nu_tau (0,1,5): +1.1222, nu_mu (0,2,4): +0.7692, nu_e (1,2,3): +0.2816
+T2 zeram nu_tau (0,1,5): 12096/665280
+T2 zeram nu_mu (0,2,4): 12096/665280
+T2 zeram nu_e (1,2,3): 12096/665280
+T2 zeram os tres: 0
+T3 nenhuma; melhor max|R| = 0.0563 em (np.int64(11), np.int64(6), np.int64(10), np.int64(2), np.int64(0), np.int64(7))
+T4 regras afins: nenhuma (nenhuma colocacao zera os tres)
