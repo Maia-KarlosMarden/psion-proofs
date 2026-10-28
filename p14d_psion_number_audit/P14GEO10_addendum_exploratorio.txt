@@ -1,0 +1,9 @@
+EXPLORATORIO (nao pre-registrado): n = estado fundamental do setor 6, p = fundamental do setor 9
+ g=0.25: R_n(fund)=+1.733  pesos n=[0.03, 0.26, 0.71] p=[0.02, 0.11, 0.87]  excitados setor6/p: +0.420,-0.187  setor9/p: +3.710,+5.363  Sm/p=+2.703
+ g=0.50: R_n(fund)=+0.107  pesos n=[0.35, 0.44, 0.21] p=[0.53, 0.23, 0.24]  excitados setor6/p: +0.319,+0.175  setor9/p: +0.427,+1.656  Sm/p=+0.827
+ g=1.00: R_n(fund)=-0.044  pesos n=[0.62, 0.32, 0.06] p=[0.83, 0.14, 0.04]  excitados setor6/p: +0.271,+0.324  setor9/p: +0.420,+1.403  Sm/p=+0.757
+ g=1.50: R_n(fund)=-0.067  pesos n=[0.68, 0.28, 0.04] p=[0.86, 0.12, 0.02]  excitados setor6/p: +0.245,+0.378  setor9/p: +0.491,+1.354  Sm/p=+0.763
+ g=2.00: R_n(fund)=-0.077  pesos n=[0.71, 0.26, 0.03] p=[0.87, 0.11, 0.02]  excitados setor6/p: +0.231,+0.403  setor9/p: +0.532,+1.326  Sm/p=+0.767
+ g=2.56: R_n(fund)=-0.082  pesos n=[0.73, 0.24, 0.03] p=[0.88, 0.11, 0.01]  excitados setor6/p: +0.222,+0.419  setor9/p: +0.561,+1.306  Sm/p=+0.769
+ g=3.00: R_n(fund)=-0.085  pesos n=[0.74, 0.24, 0.03] p=[0.88, 0.1, 0.01]  excitados setor6/p: +0.217,+0.428  setor9/p: +0.576,+1.295  Sm/p=+0.770
+ g=4.00: R_n(fund)=-0.088  pesos n=[0.75, 0.23, 0.02] p=[0.89, 0.1, 0.01]  excitados setor6/p: +0.210,+0.439  setor9/p: +0.599,+1.279  Sm/p=+0.772
