@@ -1,0 +1,8 @@
+G1: <r2>_p = +0.4815 a^2, <r2>_n = -0.0741 a^2, <r2>_(0,1,2) = +0.4074 a^2 | R_n = -0.154 (med -0,164) ACERTA | R_S = +0.846 (med 0,86+-0,21) ACERTA | a_p = 1.212 fm
+     eletron: para raio < 2e-20 m exige a_e < 3.1e-05 fm -> a_e/a_p < 2.6e-05; Compton daria a_e/a_p = 1199
+G2: <r2>_p = +3.2222 a^2, <r2>_n = +3.8889 a^2, <r2>_(0,1,2) = +0.4444 a^2 | R_n = +1.207 (med -0,164) erra | R_S = +0.138 (med 0,86+-0,21) erra | a_p = 0.468 fm
+     eletron: para raio < 2e-20 m exige a_e < 3.0e-05 fm -> a_e/a_p < 6.4e-05; Compton daria a_e/a_p = 1199
+G3: <r2>_p = +1.0000 a^2, <r2>_n = -0.0000 a^2, <r2>_(0,1,2) = +1.0000 a^2 | R_n = -0.000 (med -0,164) erra | R_S = +1.000 (med 0,86+-0,21) ACERTA | a_p = 0.841 fm
+     eletron: para raio < 2e-20 m exige a_e < 2.0e-05 fm -> a_e/a_p < 2.4e-05; Compton daria a_e/a_p = 1199
+G4: <r2>_p = +0.3333 a^2, <r2>_n = +0.0000 a^2, <r2>_(0,1,2) = +0.3333 a^2 | R_n = +0.000 (med -0,164) erra | R_S = +1.000 (med 0,86+-0,21) ACERTA | a_p = 1.456 fm
+     eletron: para raio < 2e-20 m exige a_e < 3.5e-05 fm -> a_e/a_p < 2.4e-05; Compton daria a_e/a_p = 1199

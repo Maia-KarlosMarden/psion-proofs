@@ -1,0 +1,3 @@
+P14GEO_DEFINITION.md sha256=5af9f5578fac9e8ea71fe0979b27ca8b6a45a6eb0c0d7754ccccdecbe5886ffb registrado_utc=2026-10-28T00:49:27Z (calculo mental previo de G1 para p, n declarado)
+P14GEO_calc.py sha256=e8bf230124116d22632f898c5266ab30ea6662850b2fbb09fa800aae9b5bd975; saida sha256=fe9649abf78cefd6f5675c14698828dfce8898211c52901dc379fa489696e0c3
+RESULTADO: G1 acerta R_n (-0,154 contra -0,164, 6%) e R_S (0,846 contra 0,86+-0,21); G2 erra ambos; G3, G4 erram R_n e acertam R_S (teste fraco, erro grande). Em todos, eletron exige a_e/a_p < ~3e-5 (Compton daria 1199). Adendo pos-hoc com linha de base aleatoria: P14GEO_addendum.txt sha256=9b73fc3a2d84c48ee0b83cca83ef46e2e784e2f6a2962eb7379db71972fff867
