@@ -1,0 +1,7 @@
+ln(Lambda_UV/Lambda_meta) = S/2g^2 = 16.162; exigido 1/alpha ~ 48,8-55,2
+  D1 alpha_meta = pi/6                  : alpha = 0.5236 (1/alpha =   1.91) ln(prev/alvo) nf1/1l:+28.5 nf1/2l:+29.1 nf0/1l:+28.6 nf0/2l:+29.2 -> falha
+  D2 alpha_psi = 1-9/pi^2               : alpha = 0.0881 (1/alpha =  11.35) ln(prev/alvo) nf1/1l:+22.8 nf1/2l:+24.0 nf0/1l:+23.2 nf0/2l:+24.4 -> falha
+  D3 epsilon = 1/6                      : alpha = 0.1667 (1/alpha =   6.00) ln(prev/alvo) nf1/1l:+26.0 nf1/2l:+27.0 nf0/1l:+26.2 nf0/2l:+27.2 -> falha
+  D4 gauge induzido (n_f=1)             : alpha = 0.5832 (1/alpha =   1.71) ln(prev/alvo) nf1/1l:+28.6 nf1/2l:+29.2 nf0/1l:+28.7 nf0/2l:+29.2 -> falha
+  D5 alpha_meta em Lambda_UV, corrido   : 1/alpha(Lambda_meta) = -24.7 < 0 -> polo ACIMA de Lambda_meta -> falha
+  D6 limiar NJL com gauge pi/(3 C_F)    : alpha = 0.7854 (1/alpha =   1.27) ln(prev/alvo) nf1/1l:+28.9 nf1/2l:+29.4 nf0/1l:+28.9 nf0/2l:+29.4 -> falha
