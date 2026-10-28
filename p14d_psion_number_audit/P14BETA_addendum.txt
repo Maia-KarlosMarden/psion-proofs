@@ -1,0 +1,2 @@
+referencia: alpha do MP em Lambda_meta com b0 de n_f=1: Lambda_pc = 919.942 GeV
+referencia: alpha do MP em Lambda_meta com b0 de n_f=0: Lambda_pc = 3292.403 GeV
