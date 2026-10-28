@@ -1,0 +1,3 @@
+P14GEO3_DEFINITION.md sha256=0231dd1777f54d7d4228c805fec1133b0e829308955d8c97e3eeb8bd6f051280 registrado_utc=2026-10-28T02:31:00Z (G5 e G6 nao calculados antes)
+P14GEO3_calc.py sha256=0714538f30ef7ccdcc7102736bc2159f83dae5f81d07c91b7bd10fd790644ce8; saida sha256=c9b310803911cf2b45be87adcf5af919b8bc8a569244e64e61f2fddac5919547 2026-10-28T02:31:01Z
+RESULTADO: G6 (cone de spin) nao acerta (R_n = +0,59). G5 (prisma Z3 x Z2) nunca da R_n negativo para nenhum h/a em [0,5] (R_n entre 0 e +0,94): nao acerta. So o hexagono G1 da R_n negativo e proximo do medido.
