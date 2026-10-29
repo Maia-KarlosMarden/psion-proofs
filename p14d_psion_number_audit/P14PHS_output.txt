@@ -1,0 +1,27 @@
+I1 corda/centroide (controle = hexagono)
+   n               : R = -0.154 passa
+   Sigma-          : R = +0.846 passa
+   Sigma0          : R = +0.000 passa
+   Lambda          : R = +0.769 falha
+   Sigma+ (1,3,5)  : R = +2.077 falha
+   Sigma+ (2,3,4)  : R = +0.077 falha
+   (3,4,5)         : R = +1.308
+   passam: 3
+I2 arco/Frechet
+   n               : R = -0.200 falha
+   Sigma-          : R = +0.800 passa
+   Sigma0          : indefinida (sem previsao)
+   Lambda          : R = +1.000 falha
+   Sigma+ (1,3,5)  : indefinida (sem previsao)
+   Sigma+ (2,3,4)  : R = -0.200 falha
+   (3,4,5)         : R = +1.400
+   passam: 1
+I3 corda/media circular
+   n               : R = -0.200 falha
+   Sigma-          : R = +0.800 passa
+   Sigma0          : indefinida (sem previsao)
+   Lambda          : R = +1.000 falha
+   Sigma+ (1,3,5)  : indefinida (sem previsao)
+   Sigma+ (2,3,4)  : R = -0.200 falha
+   (3,4,5)         : R = +1.400
+   passam: 1
