@@ -1,0 +1,7 @@
+tabela: melhor L_c nominal (V2) = 3.276; nominal L_c<1: 0
+min L_rob = 0.840 (VIAVEL ROBUSTO); viaveis robustos 1/11
+   L_rob=0.840 L_c nominal=0.811 (t,s,k,l)=(0.001,0.065,0.287,0.095); validacao +-10% (100 novas): 100% com L_c<1
+   L_rob=1.111 L_c nominal=1.094 (t,s,k,l)=(0.486,0.130,0.000,0.529); validacao +-10% (100 novas): 0% com L_c<1
+   L_rob=1.111 L_c nominal=1.090 (t,s,k,l)=(0.456,0.146,0.000,0.511); validacao +-10% (100 novas): 0% com L_c<1
+   L_rob=1.117 L_c nominal=1.092 (t,s,k,l)=(0.549,0.094,0.000,0.568); validacao +-10% (100 novas): 0% com L_c<1
+   L_rob=1.118 L_c nominal=1.115 (t,s,k,l)=(0.695,0.000,0.000,0.687); validacao +-10% (100 novas): 0% com L_c<1

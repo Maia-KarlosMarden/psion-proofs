@@ -1,0 +1,7 @@
+ponto [0.001 0.065 0.287 0.095]: L_r=0.812 R_n=-0.151 R_S0=-0.000 R_L=+0.073 R_Sp1=+2.066 R_Sp2=+0.833
+direcoes que passam em V2 com q>=0,336: 782/4000 (positivas 0, negativas 782)
+  melhor direcao (-0.01,-0.58,-0.41) q=1.913; (S0-L)/D=-1.16 => Sigma0-Lambda prevista -204 MeV (obs +77); (Sp-p)/D: Sp1 0.10, Sp2 1.00 (alvo 1,425)
+  (S0-L)/D entre as direcoes aprovadas: min -1.21, mediana -1.08, max -1.00
+  fracao das aprovadas com Sigma0>Lambda (ordem correta): 0.00
+vacuidade: alvos (Sp-p)/D aleatorios U[0,5;3,0]: 132/300 (44%) tem alguma direcao natural com q>=0,336 neste ponto (alvo real: sim)
+faixa de (Sp-p)/D alcancavel com D>0 e q>=0,336: [-0.47, 1.11]
