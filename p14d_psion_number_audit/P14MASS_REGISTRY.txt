@@ -1,5 +1,5 @@
-Pré-execução WP-M — 2026-10-20T01:41:51Z
-ce22cb774d51957af14ea97189bcc6bcf3a55db83b5fdbbedf7e62f1e5484bf4  P14MASS_DEFINITION.md
-a084c2e435f7b6337a51269298a8df4944f1352afa49d1221e0fe22eb9fa0602  P14MASS_test.py
-Pós-execução — 2026-10-20T01:41:51Z
-ad5239144fc1a25f859033380dd2c828c4024121a80f7b300c3fbe2188587333  P14MASS_output.txt
+P14MASS_DEFINITION.md sha256=54de1da3eb675374222ae0ffdbe97926070d416d7e28c17d89b6cca8aa67f1cc registrado_utc=2026-10-31T03:34:03Z (adaptativo, apos MFIRST)
+calc sha256=4754785ee8736199e3aaa6a44a9186a78ab37a36d1e344b47004c84fe8fff932 saida sha256=bb0ed454771c72fe8a47a611c2cc4ec172b44a0edc2c7eac354ccac80a66ce2f 2026-10-31T03:41:51Z
+RESULTADO (pos-execucao): D=E_L-E_n>0 em 0/12000 (e portanto R1, R2 e todos os combinados: 0). Offsets livres (mu, nu) sao inuteis para D: constantes por hadron nao alteram E_L-E_n quando n e L tem o mesmo (M,Q). Antecipacao acertou em parte (previ <2% e 0 com L<1; o real foi exatamente 0).
+DIAGNOSTICO POS-HOC NAO REGISTRADO (P14MASS_diag.py, saida sha256=5c7fb3ebece8d473c77cbaa41fb7227f10972bae90c0e0c1d6c7763202c1e0f0): E_L-E_n<0 em 12000/12000 (mediana -14,2); E_n-E_p<0 em 12000/12000; E_Sp2-E_p<0 em 12000/12000; E_Sp1-E_p>0 em 377; E_S0-E_L>0 em 11984. Ordem observada completa: 0.
+ corr(E_h, lambda) ~ -0,84 a -0,90 para p, n, S0, L: a energia e dominada pelo acoplamento J.Sigma (atrativo, lambda>0), que liga mais quanto mais pares L-R proximos; Lambda tem a maior ligacao (E medio -65,6 contra -50,8 de n e -43,3 de p).

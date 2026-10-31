@@ -1,33 +1,16 @@
-# P14 / WP-M: massas de tupla e conjugada no mesmo nível de cascata (pré-registro)
-
-Leitura adotada pelo autor (19/10/2026): conjugação C_A (k → 6−k) com o nível de
-cascata ℓ como número quântico separado (§8.1 do v85):
-  próton = (0,4,5) em ℓ_p, antipróton = (0,1,2) em ℓ_p;
-  elétron = (0,1,2) em ℓ_e = 10, pósitron = (0,4,5) em ℓ_e.
-Exigência experimental: m(p) = m(p̄) a ~1e-11 (e m(e⁻) = m(e⁺)).
-
-## Três leituras da regra de massa, todas calculadas
-- M1: eq. (10) pura, m(ℓ) = Λ exp(−ℓ/b_e). Massa só do nível.
-- M2: eq. (10) × eq. (12) com |m_J,R| = |Σ m_J dos constituintes R da tupla|
-  (leitura do código `P_yield_ratio.py::_mass`).
-- M3: eq. (10) × eq. (12) com |m_J,R| como rótulo de excitação (§6, Tabela 5):
-  0 no estado fundamental de cada tupla.
-Constantes: Λ = 1,2609e12 GeV, b_e = 325/1152, A = 13/12, p = 5/6.
-
-## Testes
-T1. Para ℓ_e = 10 e ℓ_p = 8 (o paper: m(8) ≈ 610 MeV, escala do núcleon),
-    massas de (0,1,2) e (0,4,5) em cada leitura; razão m(t)/m(C_A(t)).
-T2. Sanidade: em cada leitura, a massa do próton (0,4,5) em ℓ = 8 contra 938 MeV
-    (ordem de grandeza; o paper só afirma "escala do núcleon" em ordem dominante)
-    e do elétron em ℓ = 10 contra 0,511 MeV.
-T3. Contribuição do Hamiltoniano interno de J.6.3 (diag|m_k| + salto t = 1/2):
-    ⟨t|h|t⟩ − ⟨C_A(t)|h|C_A(t)⟩ para o par (0,1,2)/(0,4,5), em unidades de h,
-    e a fração ímpar de h sob C_A (já medida em WP-J1: 0,26). Registrar que, se h
-    contribui para a massa de repouso, a degenerescência exige que essa
-    contribuição seja suprimida ou simétrica.
-
-## Critério (pré-registrado)
-A leitura passa se m(t) = m(C_A(t)) exatamente no mesmo nível para o par
-(0,1,2)/(0,4,5). Reportar quais passam. Se M1 ou M3 passarem, a leitura
-"C_A + nível" é compatível com a igualdade de massas, e a assimetria tem de
-vir de taxas de formação fora do equilíbrio (próximo passo), não de massas.
+# P14 / WP-MASS: termos de massa com coeficientes livres + massa antes dos raios (DYN12) (pre-registro)
+DECLARACAO DE ADAPTATIVIDADE: motivado por WP-MFIRST (kappa>=0 da m_n<m_p e m_L<m_p em todos os pontos). Registrado depois dele. Nao cego.
+## Termos acrescentados (coeficientes livres)
+E_h = E_gs(t,s,kappa,lambda) + mu * M_h + nu * Q_h, com M_h = sum (k - 5/2) sobre os rotulos (p: +1,5; n, S0, L: -1,5; Sp1, Sp2: +1,5) e
+Q_h = carga total (p: 1; n, S0, L: 0; Sp: 1). Sao constantes por hadron: NAO alteram funcao de onda nem raios.
+Consequencia exata: so a combinacao c = -(3 mu + nu) importa: desloca {n,S0,L} em c relativo a {p,Sp}. Portanto:
+ E_n-E_p = dgs_np + c ; E_L-E_p = dgs_Lp + c ; E_Sp-E_p = dgs_Spp ; E_S0-E_L = dgs_S0L ; E_L-E_n = dgs_Ln (todas inalteradas por c exceto as duas primeiras).
+## Criterios (massa PRIMEIRO)
+D = E_gs_L - E_gs_n > 0 (so o estado fundamental; c nao ajuda). Escala u = 176,1 MeV / D (Lambda - n = 1115,68 - 939,57 = 176,1).
+R1: (E_S0-E_L)/D = 77/176,1 = 0,437 +-30%. R2: (E_Sp-E_p)/D = 251/176,1 = 1,425 +-30% (Sp1 ou Sp2).
+c e entao FIXADO por n-p = +1,29 MeV: c = 1,29/u - (E_gs_n - E_gs_p); reporta-se |c| u em MeV e |c|/D (naturalidade: |c|/D <= 3 considerado nao ajustado fino).
+Depois: entre os pontos que passam D>0, R1, R2, o menor L de raios (perda de WP-EXH; viavel <=> L<1) e a contagem de L<1 e L<2.
+Dominio fisico: kappa em [0,20], lambda em [0,20], t,s em [0,6] (5% em zero, resto log-uniforme [0,01;6]), 12000 pontos LHS.
+Controle de rigidez: fracao de pontos que passam R1&R2&D>0 (e fracao de alvos aleatorios de massa nao testada).
+## Antecipacao
+R1&R2 e D>0 passam em poucos pontos (<2%); entre eles L de raios > 1 (0 pontos com L<1). Se houver, c sera grande (|c|/D > 3).
