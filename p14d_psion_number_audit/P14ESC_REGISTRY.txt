@@ -1,0 +1,6 @@
+P14ESC_DEFINITION.md sha256=e6fc5cd57ef591af86b4c30980fd47b27207ea5761f59b36c7ec8cddc2b87933 registrado_utc=2026-10-31T04:15:38Z (adaptativo, apos RIG)
+calc sha256=7aba522cdcf8ebe93b63c826d6a5bcedc55b292f76ba6a33ac73a2135be968d8 saida sha256=87fc14dbc69456ad5714b5cfab54d5c62ac5300e77e13bfa7141573cad25091c 2026-10-31T04:18:29Z
+RESULTADO (pos-execucao): [1] 401/8000 pontos com alguma direcao natural passando nas razoes; q_max mediana 0,279, p90 0,456, maximo 0,604; q>=0,336 (eps<=349 MeV, |w|<=1,5): 129 pontos; q>=0,168 (|w|<=3): 292.
+[3] Nelder-Mead 21 partidas: min perda 1,554 (L_r=1,554, q=0,3414) em (t,s,k,l)=(0,899; 0,014; 0,00; 0,79): R_n=-0,139 (alvo -0,164 +-0,0164), R_S0=-0,060, R_L=-0,005 (janela [0,05;0,25]), R_Sp2=+0,867. 0/21 viaveis conjuntos. [4] Os 3 maiores q_max na tabela tem L_r de 11,4 a 14,1.
+Antecipacao ERRADA: previ <1% (0 pontos) com q>=0,336; houve 129/8000 (1,6%); acertei que o refino nao acha viavel conjunto (0/21), mas nao por falta de alcance de massa: ha pontos com escala natural, so que com raios fora (n e Lambda).
+Leitura: com a escala exigida (eps 163-349 MeV, |w|<=1,5), o ponto RIG (q~0,016) cai fora; existe uma regiao de escala natural (t~0,9, s~0, k~0, l~0,8) com raio quase viavel (L_r=1,55: n e Lambda ligeiramente fora). A busca e local (21 partidas, 250 iteracoes), nao exaustiva; nao se conclui inviabilidade.

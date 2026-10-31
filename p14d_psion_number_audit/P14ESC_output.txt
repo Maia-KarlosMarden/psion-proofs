@@ -1,0 +1,9 @@
+[1] pontos com alguma direcao passando nas razoes: 401/8000
+    q_max: mediana 0.2794; p90 0.4560; maximo 0.6041; q>=0,336: 129; q>=0,168: 292
+[2] com max|w|<=3: pontos com q>=0,168: 292
+[3] Nelder-Mead de 21 partidas: min perda = 1.554 (inviavel); viaveis conjuntos: 0/21
+   perda=1.554 L_r=1.554 q=0.3414 (t,s,k,l)=(0.899,0.014,0.00,0.79) R=-0.139,-0.060,-0.005,+1.179,+0.867
+   perda=1.917 L_r=1.917 q=0.3360 (t,s,k,l)=(0.900,0.041,0.00,0.89) R=-0.149,-0.068,-0.042,+1.192,+0.892
+   perda=1.918 L_r=1.918 q=0.3360 (t,s,k,l)=(0.868,0.083,0.04,0.81) R=-0.134,-0.063,-0.042,+1.189,+0.902
+   perda=2.162 L_r=2.162 q=0.3383 (t,s,k,l)=(0.919,0.130,0.00,0.92) R=-0.129,-0.067,-0.065,+1.182,+0.936
+[4] 3 maiores q_max na tabela e seus L_r: [(np.float64(0.604), 11.43), (np.float64(0.575), 14.09), (np.float64(0.563), 11.4)]
