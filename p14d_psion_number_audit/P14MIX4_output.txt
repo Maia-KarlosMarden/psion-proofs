@@ -1,1 +1,19 @@
 HYB seed 72: loss 0.872 x=[0.137 0.4   0.009 0.051] viavel=True OOS(P-A&P-B)=False
+HYB seed 73: loss 0.876 x=[0.21  0.012 0.573 0.039] viavel=True OOS(P-A&P-B)=False
+HYB seed 74: loss 0.888 x=[0.219 0.365 0.023 0.111] viavel=True OOS(P-A&P-B)=False
+Exception in thread Thread-12 (_handle_results):
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/threading.py", line 1044, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib/python3.13/threading.py", line 995, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/multiprocessing/pool.py", line 579, in _handle_results
+    task = get()
+  File "/usr/lib/python3.13/multiprocessing/connection.py", line 256, in recv
+    return _ForkingPickler.loads(buf.getbuffer())
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: ArpackNoConvergence.__init__() missing 2 required positional arguments: 'eigenvalues' and 'eigenvectors'
+/usr/lib/python3.13/multiprocessing/resource_tracker.py:479: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown: {'/mp-lnumbqum', '/mp-kclu9rwv', '/mp-nu7hc6vr', '/mp-rw62g69t', '/mp-8c8fiueu', '/mp-z085h0cq'}
+  warnings.warn(
