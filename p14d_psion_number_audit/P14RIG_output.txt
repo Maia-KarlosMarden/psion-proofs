@@ -1,0 +1,8 @@
+[1] pontos massa-naturais (alvo real): 392/8000 (4.9%)
+[2] controle: alvos aleatorios 3.8% [min 0.0, max 6.0]; alvo real nessa amostra 5.3%
+[1] entre massa-naturais: min L_r = 3.28; L_r<2: 0; L_r<1: 0
+[3] Nelder-Mead de 21 partidas: min perda = 0.794 (VIAVEL); viaveis: 4/21; com filtro nao satisfeito (perda 20): 0
+   perda=0.794 L_r=0.794 (t,s,k,l)=(0.001,0.071,0.22,0.10) dir=(+1.00,+0.02,+0.09) cos(1,1,1)=+0.64; R=-0.151,-0.000,+0.071,+2.064,+0.836
+   perda=0.992 L_r=0.992 (t,s,k,l)=(0.528,0.127,0.00,0.51) dir=(-0.96,-0.26,-0.13) cos(1,1,1)=-0.78; R=-0.148,-0.058,+0.051,+1.259,+0.801
+   perda=0.992 L_r=0.992 (t,s,k,l)=(0.392,0.203,0.00,0.43) dir=(-0.98,-0.16,-0.06) cos(1,1,1)=-0.70; R=-0.148,-0.060,+0.051,+1.325,+0.801
+   perda=0.992 L_r=0.992 (t,s,k,l)=(0.666,0.045,0.00,0.59) dir=(-0.82,-0.26,-0.52) cos(1,1,1)=-0.92; R=-0.148,-0.057,+0.051,+1.218,+0.801

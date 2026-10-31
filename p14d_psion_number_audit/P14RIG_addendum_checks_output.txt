@@ -1,0 +1,5 @@
+direcoes amostradas que passam em massa: 2/4000; no octante +: 2; no octante -: 0
+faixa das direcoes aprovadas (min..max por componente): [0.9  0.01 0.07] [0.9  0.03 0.09]
+melhor direcao (+0.90,+0.03,+0.07): D=0.016, (S0-L)/D=0.484 (alvo 0,437), (Sp-p)/D=1.186 (alvo 1,425), desvio max 17%; |c|/D=0.71
+   massas previstas (u=10674.7 MeV/un): L-n=176, S0-L=85 (77), Sp-p=209 (251)
+estabilidade +-10% nos 4 parametros dinamicos: raio viavel 60/60; raio viavel E massa-natural 52/60
