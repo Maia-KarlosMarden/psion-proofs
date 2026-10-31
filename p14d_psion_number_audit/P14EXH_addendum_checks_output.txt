@@ -1,0 +1,8 @@
+ponto (0.001, 0.069, 0.26, 0.11): L=0.798
+  gaps (E1-E0) por hadron: p:2.50e-02, n:1.51e-02, S0:1.12e-01, L:1.45e-02, Sp1:9.12e-02, Sp2:1.24e-02
+  E_n-E_p=-0.1121  E_L-E_p=-0.4039  E_S0-E_L=+0.3464  E_Sp1-E_p=-0.0743  E_Sp2-E_p=-0.2993
+  estabilidade: 40/40 perturbacoes de +-10% em cada parametro seguem viaveis (L<1)
+ponto (0.0, 0.065, 0.19, 0.0): L=6.018
+  gaps (E1-E0) por hadron: p:1.23e-01, n:1.12e-01, S0:1.27e-01, L:4.53e-03, Sp1:1.13e-01, Sp2:5.61e-03
+  E_n-E_p=-0.0819  E_L-E_p=-0.1790  E_S0-E_L=+0.1039  E_Sp1-E_p=-0.0873  E_Sp2-E_p=-0.1086
+  estabilidade: 5/40 perturbacoes de +-10% em cada parametro seguem viaveis (L<1)

@@ -1,0 +1,6 @@
+P14EXH_DEFINITION.md sha256=1eed7a6bf486c32f2b22a90cb1cdfec7da1d4d8d1ff4b66b5df4c434c53fa480 registrado_utc=2026-10-31T02:21:09Z (adaptativo, apos SWP)
+calc sha256=7ffbba15002e5e0113257316b8664a285adef00e271e5daa7f81fac088fd4922 saida sha256=1a9b5c53e5ad8014e0f6004f9625bc0dceb402fd58b44742cc2df1aa194f4162 2026-10-31T02:35:11Z
+RESULTADO (pos-execucao): min L = 0,796 -> VIAVEL EM RAIO ENCONTRADO em (t,s,kappa,lambda)=(0,001; 0,069; 0,26; 0,11): R_n=-0,151 R_S0=0,000 R_L=+0,070 R_Sp2=+0,836 (Sp1=2,06). Antecipacao (min L>1) ERRADA.
+ADENDO (checagens pos-hoc, nao cegas; P14EXH_addendum_checks.py, sha256=8dce532f8d2007c9f64d9e16d5d1935ff4e88875d1531141712a506d440df547, saida sha256=4ccec0290811fe68efd646a6b350affd78adc1cfb6d39e5b46af8423c59f22fb 2026-10-31T02:35:47Z):
+ estabilidade 40/40 sob +-10%; MASSAS FALHAM: E_n-E_p=-0,112 (sinal errado: m_n<m_p) e E_L-E_p=-0,404 (m_L<m_p); gaps pequenos (1e-2). Segundo otimo NM (t=0 exato) nao reproduziu (L=6,0): fragil perto de t=0.
+ Nao foi calculado P_acaso para o dominio continuo; 4 parametros contra 4 raios-alvo (n, S0, L, Sp): ajuste quase determinado, e S0=0 e trivial.
