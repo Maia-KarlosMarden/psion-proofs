@@ -29,3 +29,5 @@ MIXb seed 77: loss 1.117 x=[0.024 0.837 0.009 0.03 ] viavel=False OOS(P-A&P-B)=N
 MIXb seed 78: loss 0.925 x=[0.046 0.523 0.012 0.082] viavel=True OOS(P-A&P-B)=False
 MIXb seed 79: loss 0.862 x=[0.254 0.291 0.105 0.072] viavel=True OOS(P-A&P-B)=False
 MIXb seed 80: loss 0.909 x=[0.079 0.477 0.141 0.019] viavel=True OOS(P-A&P-B)=False
+MIXb seed 81: loss 0.951 x=[0.033 0.574 0.055 0.014] viavel=True OOS(P-A&P-B)=False
+=> MIXb: otimos viaveis 8/10; passam OOS 0 (fracao 0.00)
