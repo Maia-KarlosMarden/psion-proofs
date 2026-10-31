@@ -1,0 +1,1 @@
+HYB seed 72: loss 0.872 x=[0.137 0.4   0.009 0.051] viavel=True OOS(P-A&P-B)=False
