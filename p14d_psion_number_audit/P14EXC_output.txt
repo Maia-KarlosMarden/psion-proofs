@@ -1,0 +1,15 @@
+valores de R2 acessiveis por hadron (todas as 6 permutacoes):
+  p: [np.float64(0.4815), np.float64(0.7037)]
+  n: [np.float64(-0.2963), np.float64(-0.0741), np.float64(0.3704)]
+  S0: [0.0]
+  L: [np.float64(-0.7407), np.float64(0.3704)]
+  Sp1: [np.float64(1.0)]
+  Sp2: [np.float64(0.037), np.float64(0.4815), np.float64(1.1481)]
+raios completos (n, Sigma0, Lambda, Sigma+): 0 de 3721
+   so n: 61 pontos
+   so Sigma0: 3721 pontos
+   so Lambda: 0 pontos
+   so Sigma+: 0 pontos
+   valores de R_L alcancados: [np.float64(-1.538), np.float64(-1.053), np.float64(0.769)]
+   valores de R_n alcancados: [np.float64(-0.615), np.float64(-0.421), np.float64(-0.154), np.float64(0.526), np.float64(0.769)]
+teste de acaso: P_acaso = 0.000 (0/2000)

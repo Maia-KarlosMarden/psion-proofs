@@ -1,0 +1,4 @@
+P14EXC_DEFINITION.md sha256=9aaf5503af0c40086074c5c5a2a1114c49fe9c29b0e8a6e9beabe2ab0de6f515 registrado_utc=2026-10-31T01:44:28Z (apos RX3)
+calc sha256=9981ef81117e7aeb5a721a7d9af752a806cc7de56dd37938d9c4e475874cd315 saida sha256=e09d9f51262a3f75d58a848460f9811fd23cb1d56979a6a62aa787aef813172d 2026-10-31T01:44:28Z
+ERRATA (pos-execucao): a expectativa (iii) estava ERRADA em parte: Sigma+ (2,3,4) tambem falha (0 pontos), porque R e a razao a <r^2>_p, e p
+so assume 0,4815 ou 0,7037; Sigma+ alcanca 1,148/0,4815 = 2,38 ou 1,148/0,7037 = 1,63, nunca ~1. Lambda e Sigma+ falham ambos; n isolado passa em 61 pontos.
