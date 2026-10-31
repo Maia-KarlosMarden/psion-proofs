@@ -1,0 +1,8 @@
+tabela 8000 pontos; alvo real: raios L_r<1 em 1 pontos; com massa V0: 1 pontos
+P_acaso(a) (todos aleatorios): 0/300 = 0.000; P_acaso(b) (n fixo no real): 3/300 = 0.010
+tabela: min L_c = 0.848; L_c<1: 1
+refino: min L_rob = 0.619 (VIAVEL ROBUSTO); viaveis 3/10
+   L_rob=0.619 (t,s,k,l)=(0.258,0.224,0.047,0.229) R=[-0.154 -0.053  0.173  1.923  1.001]; validacao +-10%: 100%
+   L_rob=0.619 (t,s,k,l)=(0.080,0.439,0.000,0.083) R=[-0.154 -0.015  0.134  1.695  0.924]; validacao +-10%: 100%
+   L_rob=0.860 (t,s,k,l)=(0.035,0.456,0.095,0.000) R=[-0.154  0.003  0.081  1.708  0.875]; validacao +-10%: 100%
+   L_rob=1.200 (t,s,k,l)=(0.058,0.412,0.000,0.173) R=[-0.154 -0.036  0.036  1.747  0.81 ]; validacao +-10%: 6%
