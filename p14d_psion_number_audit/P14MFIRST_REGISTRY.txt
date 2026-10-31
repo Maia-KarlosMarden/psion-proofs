@@ -1,0 +1,6 @@
+P14MFIRST_DEFINITION.md sha256=c34292a055f1ad5ab3f5ee2fcf86a4caa948b67bb4eeba7e1805f52788915581 registrado_utc=2026-10-31T03:14:07Z (apos EXH/RND)
+calc sha256=f5963a1f63feb0f3225b164ad8fef1d21162952ed790d1452b5c2ed2c74f9f42 saida sha256=4d454c47540f8ebb67b89facdc3a2fdb7b0de13564d776f309afd85846364100 2026-10-31T03:28:54Z
+RESULTADO (pos-execucao): dominio fisico (kappa>=0): M1 e M2 passam em 0/12000 (E_n<E_p e E_L<E_p em TODOS os pontos); controle: min L de raios na tabela = 2,81 (sem busca local; EXH achou 0,796 com busca). Antecipacao acertou (M1 quase nunca; aqui exatamente nunca).
+Bloco nao fisico (kappa<=0): M1 e M2 passam em 12000/12000 => o sinal das duas diferencas de massa e controlado pelo sinal de kappa. M1-M4 em 43; entre eles o melhor L de raios = 3,90 (0 com L<2). M5 (n-p ~1,29 MeV): 0. Entre M1&M2 (so sinais) ha 15 com raios L<1 (melhor 0,81 em kappa=-2,84).
+Antecipacao ERRADA em parte: previ M1&M2 com poucos pontos no bloco kappa<0; passaram todos (o sinal depende so de kappa).
+Leitura: nao e um principio de exclusao/incerteza; e o sinal de kappa (Coulomb repulsivo) contra a atribuicao de cargas de p (todas positivas). Raios e massas juntos so com kappa<0 (nao fisico) e ainda assim M3-M4 e M5 falham.
