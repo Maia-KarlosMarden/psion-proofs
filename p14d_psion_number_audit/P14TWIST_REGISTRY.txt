@@ -1,0 +1,8 @@
+P14TWIST_DEFINITION.md sha256=7c8853b7a68ce061a123d242bf09033b642cda04c831899428affa359752fa71 registrado_utc=2026-10-31T05:06:57Z (adaptativo, apos PRISM)
+calc sha256=ed18477d260f59819f4d54311f2940f2c4df1d360cf3dac319c15c6c58147c98 saida sha256=5141d8bd6767f2e0067b594b6c3a01bb0def587e3093a4ec4e0dc0f7a6b42c7d 2026-10-31T05:09:16Z
+RESULTADO (pos-execucao): 30000 pontos (6 parametros). q definido em 5867; raios isolados: tabela min L_r=1,307 (0 com L_r<1; 25 com L_r<2); refino raio puro min 1,153 (0/10 viaveis).
+Massa isolada: q_max mediana 0,048, p90 0,387, max 0,841; q>=0,336: 744 pontos; q>=0,168: 1469. Fronteira (tabela): q>=0,336 => min L_r=2,218; q>=0,168 => 1,596; q>=0,05 => 1,576; q>0 => 1,307.
+Conjunto com escala natural (refino, 20 partidas): min perda = 1,500, 0/20 viaveis; os 3 melhores tem q=0,42-0,56, delta ~ 2,4-2,7 rad (138-155 graus), L_r=1,500 limitado por R_L = 0 exato (alvo 0,15 +-0,10 => 1,5); n e Sigma0 passam; Sigma+ passa.
+Delta dos 20 melhores com q>=0,168: mediana 128 graus (58-176). Para delta<5 graus (prisma) q definido em 34 de 834 pontos (nao 0 como no prisma exato).
+Antecipacao: acertou em parte: fronteira em q>=0,336 = 1,50 (dentro de 1,5-5, limite inferior); 0 viaveis conjuntos (acertado). Errei: previ q indefinido em todos para delta=0 (houve 34/834 com delta<5 graus, nao exatamente 0); raio puro nao chega a <1 (min 1,153), pior que o dodecagono (0,796).
+Leitura: o parafuso Z3xZ2 quebra a degenerescencia da neutralidade Z3 e abre alcance de massa maior que o dodecagono (q ate 0,84), mas o raio do Lambda fica preso em 0 (L_r=1,5): o limite e o mesmo bloqueio de Lambda dos poligonos, agora com escala de massa natural.
