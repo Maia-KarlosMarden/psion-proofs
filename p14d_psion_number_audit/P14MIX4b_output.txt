@@ -1,0 +1,6 @@
+HYB seed 72: loss 0.872 x=[0.137 0.4   0.009 0.051] viavel=True OOS(P-A&P-B)=False
+HYB seed 73: loss 0.876 x=[0.21  0.012 0.573 0.039] viavel=True OOS(P-A&P-B)=False
+HYB seed 74: loss 0.888 x=[0.219 0.365 0.023 0.111] viavel=True OOS(P-A&P-B)=False
+HYB seed 75: loss 1.358 x=[0.005 1.135 0.069 0.016] viavel=False OOS(P-A&P-B)=None
+HYB seed 76: loss 0.877 x=[0.126 0.484 0.037 0.002] viavel=True OOS(P-A&P-B)=False
+HYB seed 77: loss 1.159 x=[0.01  0.563 0.077 0.002] viavel=False OOS(P-A&P-B)=None
