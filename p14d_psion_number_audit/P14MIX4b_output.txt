@@ -20,3 +20,4 @@ MIXa seed 79: loss 0.882 x=[0.542 0.436 0.078 0.115] viavel=True OOS(P-A&P-B)=Fa
 MIXa seed 80: loss 0.882 x=[1.667 0.163 0.063 0.07 ] viavel=True OOS(P-A&P-B)=False
 MIXa seed 81: loss 0.882 x=[0.96  0.386 0.015 0.02 ] viavel=True OOS(P-A&P-B)=False
 => MIXa: otimos viaveis 10/10; passam OOS 0 (fracao 0.00)
+MIXb seed 72: loss 0.863 x=[0.144 0.412 0.131 0.001] viavel=True OOS(P-A&P-B)=False
