@@ -1,0 +1,24 @@
+##### Parte 1 #####
+  |[M,O_JS]| = 0.0e+00; |[M,diag|m|]| = 0.0e+00; |[M,X] - 2X| = 0.0e+00; |[M,bond]| = 0.50 (quebra explicita)
+  k=0: ||U H_k U+ - H_0|| Fock = 0.0e+00, triplas = 0.0e+00, herm = 0e+00
+  k=1: ||U H_k U+ - H_0|| Fock = 1.8e-15, triplas = 5.0e-16, herm = 0e+00
+  k=2: ||U H_k U+ - H_0|| Fock = 6.7e-16, triplas = 6.7e-16, herm = 0e+00
+  k=3: ||U H_k U+ - H_0|| Fock = 8.9e-16, triplas = 8.9e-16, herm = 0e+00
+  k=4: ||U H_k U+ - H_0|| Fock = 1.3e-15, triplas = 1.3e-15, herm = 0e+00
+  k=5: ||U H_k U+ - H_0|| Fock = 1.8e-15, triplas = 8.9e-16, herm = 0e+00
+##### Parte 2 (rede de WP-LOOP como detector) #####
+  k=1 delta= 0.00: Dp = +2.168e-18  ok=True
+  k=1 delta= 0.01: Dp = +4.603e-09  ok=True
+  k=1 delta= 0.03: Dp = +4.078e-08  ok=True
+  k=1 delta= 0.10: Dp = +3.827e-07  ok=True
+  k=1 delta= 0.30: Dp = +1.337e-06  ok=True
+  k=1 delta= 0.50: Dp = +1.523e-06  ok=True
+  k=0 delta= 0.00: Dp = +0.000e+00  ok=True
+  k=0 delta= 0.01: Dp = +0.000e+00  ok=True
+  k=0 delta= 0.03: Dp = +0.000e+00  ok=True
+  k=0 delta= 0.10: Dp = +0.000e+00  ok=True
+  k=0 delta= 0.30: Dp = +0.000e+00  ok=True
+  k=0 delta= 0.50: Dp = +0.000e+00  ok=True
+  expoente local d ln|Dp|/d ln delta: [1.99, 1.86, 1.14, 0.25]
+##### Parte 3 #####
+  kappa_CP = 1.64e-31; com expoente p = 1.99: eps ~ kappa_CP^p ~ 7.5e-62; eta ~ 0,16 eps ~ 1.2e-62

@@ -1,0 +1,8 @@
+1d1e770022a901e3623bbf8a862c81bee842adf6efe4b550244c84781755453a  P14MIX4_DEFINITION.md
+02e9b052eb61d84647f0ae70180bb60eb77b06436e5d606c8e4aa0c95c01ec16  P14MIX4_calc.py
+2026-10-31T18:56:30Z
+INTERRUPTION (declared): run 1 crashed in DE (ARPACK non-convergence, scipy ArpackNoConvergence) after HYB seeds 72-74 (all viable, loss 0.872/0.876/0.888, none passed OOS). Output kept as P14MIX4_output_run1_crashed.txt. These 3 results are not discarded.
+EMENDA: P14MIX4b_calc.py = same as P14MIX4_calc.py except that gse failures (exceptions) return NaN (point treated as invalid, loss 50). No change to criteria, seeds, bounds. Rerun all 30 starts from scratch (HYB seeds 72-74 will be recomputed).
+Anticipation unchanged. Additional anticipation: ARPACK failures are rare and do not alter conclusions.
+289038e5e60ece6a8cec7c5e5fbec479e69293e661a5836dd6f5c72519af3226  P14MIX4b_calc.py
+2026-10-31T19:06:18Z

@@ -1,0 +1,6 @@
+controle HYB O1 loss=1.402
+controle HYB O2 loss=0.911
+controle HYB O3 loss=0.886
+HYB: loss minima = 0.746 em (t,s,k,l)=[0.462 0.497 0.021 0.018] -> VIAVEL
+MIXa: loss minima = 0.882 em (t,s,k,l)=[1.064 0.198 0.    0.139] -> VIAVEL
+MIXb: loss minima = 0.836 em (t,s,k,l)=[0.442 0.389 0.025 0.04 ] -> VIAVEL

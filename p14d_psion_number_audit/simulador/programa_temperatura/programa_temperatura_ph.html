@@ -1,0 +1,248 @@
+<title>Programa de Temperatura PH</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#f3f5f8; --panel:#ffffff; --fg:#14202c; --muted:#5b6876; --rule:#d9dfe6;
+  --accent:#1d55b8; --matter:#0d7a57; --anti:#b2481d; --warn:#9a6a00; --grid:#e6eaef; --top:#7a3fb0; --temp:#b2481d;
+  --f-display:"Instrument Serif", Georgia, serif;
+  --f-body:"Instrument Sans", system-ui, -apple-system, Segoe UI, sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0e131a; --panel:#151c25; --fg:#e4e9ef; --muted:#93a0ae; --rule:#273241;
+  --accent:#7aa8ff; --matter:#45c493; --anti:#ff8c5c; --warn:#e2b14a; --grid:#1f2833; --top:#c39bff; --temp:#ff8c5c; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e131a; --panel:#151c25; --fg:#e4e9ef; --muted:#93a0ae; --rule:#273241;
+  --accent:#7aa8ff; --matter:#45c493; --anti:#ff8c5c; --warn:#e2b14a; --grid:#1f2833; --top:#c39bff; --temp:#ff8c5c; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.5;margin:0;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px}
+.wrap{max-width:1180px;margin:0 auto;display:grid;gap:20px}
+header h1{font-family:var(--f-display);font-weight:400;font-size:clamp(28px,4vw,40px);line-height:1.1;margin:0;text-wrap:balance}
+header p{margin:6px 0 0;color:var(--muted);max-width:76ch}
+.tag{display:inline-block;font-family:var(--f-mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--matter);border:1px solid currentColor;border-radius:3px;padding:1px 6px;margin-right:8px;vertical-align:2px}
+.main{display:grid;grid-template-columns:340px minmax(0,1fr);gap:20px;align-items:start}
+@media (max-width:900px){.main{grid-template-columns:1fr}}
+.panel{background:var(--panel);border:1px solid var(--rule);border-radius:8px;padding:16px;display:grid;gap:14px;min-width:0}
+.panel h2{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0;font-weight:600}
+label{display:grid;gap:4px;font-size:13.5px}
+.row{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.val{font-family:var(--f-mono);font-size:13px;font-variant-numeric:tabular-nums;color:var(--accent)}
+input[type=range]{width:100%;accent-color:var(--accent)}
+select,input[type=number]{font:inherit;font-size:13.5px;padding:5px 7px;border:1px solid var(--rule);border-radius:6px;background:var(--bg);color:var(--fg);min-width:0}
+input[type=number]{font-family:var(--f-mono);width:100%}
+.prog{display:grid;gap:6px}
+.step{display:grid;grid-template-columns:22px 1fr 92px 28px;gap:6px;align-items:center}
+.step .n{font-family:var(--f-mono);font-size:12px;color:var(--muted);text-align:right}
+.step.bad select,.step.bad input{border-color:var(--anti)}
+.x{font:inherit;border:1px solid var(--rule);background:var(--bg);color:var(--muted);border-radius:6px;cursor:pointer;height:30px}
+.btn{font:inherit;font-size:13px;padding:6px 10px;border:1px solid var(--rule);border-radius:6px;background:var(--bg);color:var(--fg);cursor:pointer}
+.btnrow{display:flex;gap:6px;flex-wrap:wrap}
+.check{display:flex;gap:8px;align-items:center;font-size:13.5px}
+.hint{font-size:12.5px;color:var(--muted);margin:0}
+.hyp{border-top:1px dashed var(--rule);padding-top:12px;display:grid;gap:10px}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.readout{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
+.cell{border:1px solid var(--rule);border-radius:6px;padding:10px 12px;display:grid;gap:2px;background:var(--bg)}
+.cell .k{font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.cell .v{font-family:var(--f-mono);font-size:17px;font-variant-numeric:tabular-nums}
+.cell .s{font-size:12px;color:var(--muted);font-family:var(--f-mono)}
+.zero{color:var(--matter);font-weight:600}
+.chart{display:grid;gap:6px;min-width:0}
+.chart canvas{width:100%;display:block}
+#c1{height:170px} #c2{height:300px}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:12.5px;color:var(--muted)}
+.legend i{display:inline-block;width:18px;height:0;border-top:2px solid;vertical-align:4px;margin-right:5px}
+.legend i.d{border-top-style:dashed}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:6px 8px;border-bottom:1px solid var(--rule);text-align:right;font-variant-numeric:tabular-nums}
+th{font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+td{font-family:var(--f-mono)} td:first-child,th:first-child{text-align:left;font-family:var(--f-body)}
+.tbl{overflow-x:auto}
+footer{font-size:12.5px;color:var(--muted);max-width:90ch}
+</style>
+
+<div class="wrap">
+<header>
+  <h1>Programa de Temperatura PH</h1>
+  <p><span class="tag">O− · N<sub>ψ</sub> e CP exatos</span>Monte qualquer história térmica (esfriar, reaquecer, repetir) e veja o que ela faz com cada nível da cascata. A temperatura decide <em>quanto</em> sobra de cada compósito; ela não decide <em>de que lado</em> sobra.</p>
+</header>
+
+<div class="main">
+<section class="panel" aria-label="História térmica">
+  <h2>História térmica</h2>
+  <label for="preset">Histórias pré-registradas<select id="preset"></select></label>
+  <label for="t0"><span class="row"><span>Começa em T (log₁₀ GeV)</span><span class="val" id="t0v"></span></span>
+    <input id="t0" type="number" min="-4" max="12.5" step="0.5" value="12"></label>
+  <div class="prog" id="prog" aria-label="Passos do programa"></div>
+  <div class="btnrow"><button class="btn" id="addc">+ esfriar</button><button class="btn" id="addh">+ reaquecer</button></div>
+  <p class="hint">Reaquecer = injeção de entropia (um decaimento tardio, por exemplo): tudo que já existia é diluído por s(T₁)/s(T₂). Passos impossíveis (esfriar para cima, reaquecer para baixo) ficam em vermelho e são ignorados.</p>
+  <div class="hyp">
+    <h2>Assimetria inicial</h2>
+    <label class="check" for="asym"><input id="asym" type="checkbox"> Pôr assimetria à mão (fora da PH)</label>
+    <label for="eta"><span class="row"><span>η de entrada em núcleons e elétrons</span><span class="val" id="etav"></span></span>
+      <input id="eta" type="range" min="-14" max="-6" step="0.25" value="-9"></label>
+    <p class="hint">Desligado = a PH como está: a eq. (1) conserva N<sub>ψ</sub> e CP, então não há fonte. Ligado = condição inicial imposta, só para comparar.</p>
+  </div>
+  <div class="hyp">
+    <h2>Topo da cascata (incerto)</h2>
+    <label for="ltop"><span class="row"><span>Nível do topo ℓ</span><span class="val" id="ltopv"></span></span>
+      <input id="ltop" type="range" min="0" max="3" step="0.05" value="0.8"></label>
+    <label for="ktop"><span class="row"><span>⟨σv⟩·m² do topo</span><span class="val" id="ktopv"></span></span>
+      <input id="ktop" type="range" min="-3" max="2" step="0.25" value="0"></label>
+  </div>
+</section>
+
+<section class="panel" aria-label="Resultado">
+  <div class="readout">
+    <div class="cell"><span class="k">Assimetria final</span><span class="v" id="ra">—</span><span class="s">núcleons, η = n<sub>p</sub>−n<sub>p̄</sub> sobre n<sub>γ</sub></span></div>
+    <div class="cell"><span class="k">Observado</span><span class="v">6,1×10⁻¹⁰</span><span class="s">sem antiprótons primordiais</span></div>
+    <div class="cell"><span class="k">Diluição total</span><span class="v" id="rd">—</span><span class="s">produto dos reaquecimentos</span></div>
+    <div class="cell"><span class="k">Ω h² do topo</span><span class="v" id="ro">—</span><span class="s">observado (matéria escura) 0,12</span></div>
+  </div>
+  <div class="chart">
+    <h2>Temperatura ao longo da história</h2>
+    <canvas id="c1" aria-label="Temperatura contra a expansão, com os reaquecimentos como saltos"></canvas>
+  </div>
+  <div class="chart">
+    <h2>Composição: n/n<sub>γ</sub> por nível (7,04·n/s, valor de hoje)</h2>
+    <canvas id="c2" aria-label="Abundância de partícula e antipartícula de cada nível contra a expansão"></canvas>
+    <div class="legend"><span><i style="border-color:var(--top)"></i>topo (ℓ≈0,8)</span><span><i style="border-color:var(--matter)"></i>núcleon (ℓ=8)</span><span><i style="border-color:var(--accent)"></i>elétron (ℓ=10)</span><span><i class="d" style="border-color:var(--muted)"></i>tracejado: antipartícula</span></div>
+  </div>
+  <div class="tbl"><table>
+    <thead><tr><th>Nível</th><th>massa</th><th>partícula</th><th>antipartícula</th><th>assimetria</th></tr></thead>
+    <tbody id="tb"></tbody></table></div>
+  <p class="hint" id="note"></p>
+</section>
+</div>
+
+<footer>
+<p>Modelo pré-registrado WP-TPROG (sha256 d0c43dfd…). Por nível: partícula e antipartícula com as massas da eq. (10), m(ℓ) = Λ e<sup>−ℓ/b<sub>e</sub></sup> ancorada em 610 MeV (ℓ=8) e 0,511 MeV (ℓ=10). Processo único X X̄ ↔ radiação com ⟨σv⟩ declarado: 1/m<sub>π</sub>² para núcleons (taxa hadrônica medida, entrada externa), πα²/m² para elétrons, 1/m² para o topo. Equilíbrio Maxwell–Boltzmann exato, g* do Modelo Padrão. O nível 9 (X17) é bóson autoconjugado e não tem assimetria. Implementação idêntica ao script Python (desvio 2,6×10⁻⁷); o passo de integração dá ~2% nas relíquias simétricas (falha registrada do controle C3), sem efeito na assimetria, que só muda por diluição.</p>
+</footer>
+</div>
+
+<script>
+/*CORE-START*/
+const MPL=1.2209e19, INV_B=Math.log(610/0.511)/2, LAM=0.511e-3*Math.exp(10*INV_B), ALPHA=1/137.036;
+const mLev=l=>LAM*Math.exp(-l*INV_B);
+function gstar(T){const c=[[80,106.75],[4,86.25],[1,75.75],[0.15,61.75],[0.1,17.25],[5e-4,10.75]];
+  for(const [cut,g] of c) if(T>cut) return g; return 3.91;}
+function i0f(x){const t=(x/3.75)**2; return 1+t*(3.5156229+t*(3.0899424+t*(1.2067492+t*(0.2659732+t*(0.0360768+t*0.0045813)))));}
+function i1f(x){const t=(x/3.75)**2; return x*(0.5+t*(0.87890594+t*(0.51498869+t*(0.15084934+t*(0.02658733+t*(0.00301532+t*0.00032411))))));}
+function k0e(x){ if(x<=2){const t=x*x/4;
+  return Math.exp(x)*(-Math.log(x/2)*i0f(x)-0.57721566+t*(0.42278420+t*(0.23069756+t*(0.03488590+t*(0.00262698+t*(0.00010750+t*0.0000074))))));}
+  const t=2/x; return (1.25331414+t*(-0.07832358+t*(0.02189568+t*(-0.01062446+t*(0.00587872+t*(-0.00251540+t*0.00053208))))))/Math.sqrt(x);}
+function k1e(x){ if(x<=2){const t=x*x/4;
+  return Math.exp(x)*(x*Math.log(x/2)*i1f(x)+1+t*(0.15443144+t*(-0.67278579+t*(-0.18156897+t*(-0.01919402+t*(-0.00110404-t*0.00004686))))))/x;}
+  const t=2/x; return (1.25331414+t*(0.23498619+t*(-0.03655620+t*(0.01504268+t*(-0.00780353+t*(0.00325614-t*0.00068245))))))/Math.sqrt(x);}
+function feq(x){ if(x<1e-6) return 1; if(x>700) return 0; return 0.5*x*x*(k0e(x)+2*k1e(x)/x)*Math.exp(-x); }
+function makeSectors(o){ o=o||{}; const mt=mLev(o.lTop==null?0.8:o.lTop), m8=o.m8||0.938;
+  return [{name:'topo',m:mt,g:2,sv:(o.kTop==null?1:o.kTop)/(mt*mt)},
+          {name:'N8',m:m8,g:2,sv:1/0.135**2},
+          {name:'e10',m:0.511e-3,g:2,sv:Math.PI*ALPHA*ALPHA/(0.511e-3)**2}]; }
+function Yeq(sec,T){const s=2*Math.PI**2/45*gstar(T)*T**3; return sec.g*T**3/Math.PI**2*feq(sec.m/T)/s;}
+// prog: [['cool',Tend],['reheat',T2],...]; eta: {N8:..., e10:...} (n/n_gamma); retorna final e trajetoria
+function simulate(T0,prog,eta,opt){ opt=opt||{}; const dl=opt.dl||0.004, secs=makeSectors(opt), every=opt.every||25;
+  let T=T0, lna=0, dil=1, k=0; const st=secs.map(s=>{const A=((eta&&eta[s.name])||0)/7.04, e=Yeq(s,T); return [A,(-A+Math.sqrt(A*A+4*e*e))/2];});
+  const traj=[]; const rec=()=>traj.push({lna,T,v:st.map(o=>[7.04*(o[1]+o[0]),7.04*o[1]]),eq:secs.map(s=>7.04*Yeq(s,T))});
+  rec();
+  for(const [kind,Tt] of prog){
+    if(kind==='reheat'){ if(Tt>T){const f=gstar(T)*T**3/(gstar(Tt)*Tt**3); dil*=f; st.forEach(o=>{o[0]*=f;o[1]*=f;}); T=Tt; rec();} continue; }
+    while(T>Tt){ const Tn=Math.max(Tt,T*Math.exp(-dl)); lna+=Math.log(T/Tn); T=Tn;
+      const H=1.66*Math.sqrt(gstar(T))*T*T/MPL, s=2*Math.PI**2/45*gstar(T)*T**3, h=dl;
+      secs.forEach((sec,i)=>{const o=st[i], kk=s*sec.sv/H*h, e=Yeq(sec,T), b=1+kk*o[0], c=o[1]+kk*e*e;
+        o[1]=2*c/(b+Math.sqrt(b*b+4*kk*c));});
+      if((++k)%every===0) rec(); }
+    rec(); }
+  const fin={}; secs.forEach((sec,i)=>{const [A,yb]=st[i]; fin[sec.name]={X:7.04*(yb+A),Xbar:7.04*yb,A:7.04*A,Oh2:2.74e8*sec.m*(2*yb+A),m:sec.m};});
+  return {final:fin,dil,traj,secs:secs.map(s=>({name:s.name,m:s.m}))};
+}
+/*CORE-END*/
+
+const $=id=>document.getElementById(id);
+const PRESETS={
+  H1:{t0:12,prog:[['cool',-5]],label:'H1 · resfriamento simples'},
+  H2:{t0:12,prog:[['cool',-2],['reheat',Math.log10(2)],['cool',-5]],label:'H2 · reaquece a 2 GeV em 10 MeV'},
+  H3:{t0:12,prog:[['cool',6],['reheat',11],['cool',-5]],label:'H3 · reaquece a 10¹¹ GeV (acima do topo)'},
+  H4:{t0:12,prog:[['cool',Math.log10(0.05)],['reheat',Math.log10(5)],['cool',Math.log10(0.05)],['reheat',Math.log10(5)],['cool',-5]],label:'H4 · serrote 50 MeV ↔ 5 GeV'},
+  H5:{t0:12,prog:[['cool',-4],['reheat',Math.log10(0.05)],['cool',-5]],label:'H5 · reaquece a 50 MeV em 0,1 MeV'}};
+const st={t0:12,prog:PRESETS.H1.prog.map(s=>[...s]),asym:false,eta:-9,ltop:0.8,ktop:0};
+$('preset').innerHTML='<option value="">personalizado</option>'+Object.entries(PRESETS).map(([k,p])=>`<option value="${k}">${p.label}</option>`).join('');
+$('preset').value='H1';
+const sup=e=>String(e).replace('+','').split('').map(ch=>({'-':'⁻','0':'⁰','1':'¹','2':'²','3':'³','4':'⁴','5':'⁵','6':'⁶','7':'⁷','8':'⁸','9':'⁹'})[ch]||ch).join('');
+const fmt=(x,d=2)=>{if(!isFinite(x))return'—';if(x===0)return'0';const [m,e]=x.toExponential(d).split('e');return `${m.replace('.',',')}×10${sup(e)}`;};
+const fmtT=lg=>{const T=10**lg; if(T>=1)return fmt(T,1)+' GeV'; return fmt(T*1e3,1)+' MeV';};
+function validity(){let T=st.t0;return st.prog.map(([k,lg])=>{const ok=k==='cool'?lg<T:lg>T; if(ok)T=lg; return ok;});}
+function renderProg(){
+  const ok=validity();
+  $('prog').innerHTML=st.prog.map(([k,lg],i)=>`<div class="step${ok[i]?'':' bad'}"><span class="n">${i+1}</span>
+    <select data-i="${i}" class="pk" aria-label="Tipo do passo ${i+1}"><option value="cool"${k==='cool'?' selected':''}>esfriar até</option><option value="reheat"${k==='reheat'?' selected':''}>reaquecer até</option></select>
+    <input data-i="${i}" class="pt" type="number" step="0.5" min="-5" max="12.5" value="${+lg.toFixed(2)}" aria-label="log10 T do passo ${i+1}">
+    <button class="x" data-i="${i}" aria-label="Remover passo ${i+1}">×</button></div>`).join('')+
+    `<p class="hint">Alvos em log₁₀(T/GeV). Fim do programa: ${fmtT(lastT())}.</p>`;
+}
+function lastT(){let T=st.t0;const ok=validity();st.prog.forEach(([k,lg],i)=>{if(ok[i])T=lg;});return T;}
+$('prog').addEventListener('change',e=>{const i=+e.target.dataset.i;if(e.target.classList.contains('pk'))st.prog[i][0]=e.target.value;
+  if(e.target.classList.contains('pt')){const v=+e.target.value;if(isFinite(v))st.prog[i][1]=Math.max(-5,Math.min(12.5,v));}
+  $('preset').value='';renderProg();run();});
+$('prog').addEventListener('click',e=>{if(!e.target.classList.contains('x'))return;st.prog.splice(+e.target.dataset.i,1);$('preset').value='';renderProg();run();});
+$('addc').onclick=()=>{if(st.prog.length>=10)return;st.prog.push(['cool',Math.max(-5,lastT()-3)]);$('preset').value='';renderProg();run();};
+$('addh').onclick=()=>{if(st.prog.length>=10)return;st.prog.push(['reheat',Math.min(12.5,lastT()+2)]);$('preset').value='';renderProg();run();};
+$('preset').addEventListener('change',e=>{const p=PRESETS[e.target.value];if(!p)return;st.t0=p.t0;st.prog=p.prog.map(s=>[...s]);syncUI();renderProg();run();});
+$('t0').addEventListener('change',e=>{const v=+e.target.value;if(isFinite(v))st.t0=Math.max(-4,Math.min(12.5,v));$('preset').value='';syncUI();renderProg();run();});
+$('asym').addEventListener('change',e=>{st.asym=e.target.checked;syncUI();run();});
+$('eta').addEventListener('input',e=>{st.eta=+e.target.value;syncUI();run();});
+$('ltop').addEventListener('input',e=>{st.ltop=+e.target.value;syncUI();run();});
+$('ktop').addEventListener('input',e=>{st.ktop=+e.target.value;syncUI();run();});
+function syncUI(){$('t0').value=st.t0;$('t0v').textContent=fmtT(st.t0);$('eta').disabled=!st.asym;
+  $('etav').textContent=st.asym?fmt(10**st.eta,1):'0 (PH)';$('ltop').value=st.ltop;$('ltopv').textContent=st.ltop.toFixed(2).replace('.',',')+' · '+fmt(mLev(st.ltop),1)+' GeV';
+  $('ktop').value=st.ktop;$('ktopv').textContent=fmt(10**st.ktop,1);}
+let last=null,timer=null;
+function run(){clearTimeout(timer);timer=setTimeout(()=>{
+  const ok=validity(), prog=st.prog.filter((_,i)=>ok[i]).map(([k,lg])=>[k,10**lg]);
+  if(!prog.length||prog[prog.length-1][0]!=='cool')prog.push(['cool',10**Math.max(-5,lastT()-1)]);
+  const eta=st.asym?{N8:10**st.eta,e10:10**st.eta}:{};
+  last=simulate(10**st.t0,prog,eta,{lTop:st.ltop,kTop:10**st.ktop,every:20});last.eta=eta;render();},60);}
+function render(){const f=last.final;
+  $('ra').innerHTML=f.N8.A===0?'<span class="zero">0 exato</span>':fmt(f.N8.A);
+  $('rd').textContent=last.dil===1?'1 (nenhum reaquecimento)':fmt(last.dil);
+  $('ro').textContent=fmt(f.topo.Oh2,1);
+  const names={topo:'topo (ℓ≈'+st.ltop.toFixed(2).replace('.',',')+')',N8:'núcleon (ℓ=8)',e10:'elétron (ℓ=10)'};
+  $('tb').innerHTML=['topo','N8','e10'].map(k=>`<tr><td>${names[k]}</td><td>${fmt(f[k].m,2)} GeV</td><td>${fmt(f[k].X)}</td><td>${fmt(f[k].Xbar)}</td><td>${f[k].A===0?'<span class="zero">0</span>':fmt(f[k].A)}</td></tr>`).join('');
+  const sym=['topo','N8','e10'].every(k=>f[k].A===0);
+  $('note').textContent=sym?'Sem assimetria de entrada, cada nível termina com partícula = antipartícula, em qualquer história: cada aniquilação ou criação de par mexe nos dois lados juntos. O que a história muda é quanto de cada nível sobra (compare a linha do topo entre H1, H2 e H4).':
+    `Com assimetria posta à mão, ela só cai: final = entrada × diluição = ${fmt(10**st.eta,1)} × ${fmt(last.dil,1)}. Nenhuma história a faz crescer.`;
+  draw();}
+function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim();}
+function setup(cv){const dpr=window.devicePixelRatio||1,w=cv.clientWidth,h=cv.clientHeight;cv.width=w*dpr;cv.height=h*dpr;const c=cv.getContext('2d');c.setTransform(dpr,0,0,dpr,0,0);c.clearRect(0,0,w,h);return [c,w,h];}
+function frame(c,w,h,xmax,ylo,yhi,ylab,ytick){
+  const L=58,R=12,T=10,B=30,pw=w-L-R,ph=h-T-B;
+  const X=x=>L+x/xmax*pw, Y=lv=>T+(yhi-lv)/(yhi-ylo)*ph;
+  c.font=`11px ${css('--f-mono')}`;c.fillStyle=css('--muted');c.strokeStyle=css('--grid');c.lineWidth=1;
+  const stepY=Math.max(1,Math.ceil((yhi-ylo)/ytick));
+  for(let e=Math.ceil(ylo);e<=Math.floor(yhi);e++){if((e-Math.ceil(ylo))%stepY)continue;const y=Y(e);c.beginPath();c.moveTo(L,y);c.lineTo(L+pw,y);c.stroke();
+    c.textAlign='right';c.textBaseline='middle';c.fillText(`10${sup(e)}`,L-6,y);}
+  const sx=xmax>40?10:5;for(let x=0;x<=xmax;x+=sx){const px=X(x);c.beginPath();c.moveTo(px,T);c.lineTo(px,T+ph);c.stroke();c.textAlign='center';c.textBaseline='top';c.fillText(String(x),px,T+ph+5);}
+  c.textAlign='right';c.textBaseline='bottom';c.fillText('expansão, ln a →',L+pw,h-1);
+  c.save();c.translate(11,T+ph/2);c.rotate(-Math.PI/2);c.textAlign='center';c.textBaseline='top';c.fillText(ylab,0,0);c.restore();
+  c.strokeStyle=css('--rule');c.strokeRect(L,T,pw,ph);
+  return {X,Y,L,T,pw,ph};}
+function line(c,A,pts,col,dash,lw){c.save();c.beginPath();c.rect(A.L,A.T,A.pw,A.ph);c.clip();c.strokeStyle=col;c.lineWidth=lw||2;c.setLineDash(dash?[6,4]:[]);c.beginPath();
+  let on=false;for(const [x,y] of pts){if(!(y>0)||!isFinite(y)){on=false;continue;}const px=A.X(x),py=A.Y(Math.log10(y));if(!on){c.moveTo(px,py);on=true;}else c.lineTo(px,py);}c.stroke();c.restore();}
+function draw(){if(!last)return;const tr=last.traj, xmax=Math.max(1,Math.ceil(tr[tr.length-1].lna/5)*5);
+  let [c,w,h]=setup($('c1'));const lt=tr.map(p=>Math.log10(p.T));
+  let A=frame(c,w,h,xmax,Math.floor(Math.min(...lt))-0.5,Math.ceil(Math.max(...lt))+0.5,'T [GeV]',4);
+  line(c,A,tr.map(p=>[p.lna,p.T]),css('--temp'),false);
+  [c,w,h]=setup($('c2'));
+  A=frame(c,w,h,xmax,-36,1,'n/n_γ hoje',7);
+  const cols=[css('--top'),css('--matter'),css('--accent')];
+  for(let i=0;i<3;i++){line(c,A,tr.map(p=>[p.lna,p.v[i][0]]),cols[i],false);line(c,A,tr.map(p=>[p.lna,p.v[i][1]]),cols[i],true,1.5);}
+}
+window.addEventListener('resize',()=>draw());
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>draw());
+new MutationObserver(()=>draw()).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+syncUI();renderProg();run();
+</script>

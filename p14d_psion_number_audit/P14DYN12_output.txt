@@ -1,0 +1,7 @@
+raios completos (n, Sigma0, Lambda, Sigma+): 0 de 225
+   so n: 9 pontos
+   so Sigma0: 126 pontos
+   so Lambda: 4 pontos
+   so Sigma+: 116 pontos
+   R_L: min -1.206 max +0.769; R_n: min -0.482 max +0.200
+teste de acaso: P_acaso = 0.001 (2/2000)

@@ -1,0 +1,8 @@
+Adendo pos-hoc: controles nos pontos com assimetria acima do ruido
+  L1 T_RH=7e+08: |B+L|/|B|=0.0e+00 |Q|/|B|=0.0e+00 eps->-eps desvio=0.0e+00 |eta(eps=0)|/|eta|=0.0e+00
+  L2 T_RH=7e+08: |B+L|/|B|=0.0e+00 |Q|/|B|=0.0e+00 eps->-eps desvio=0.0e+00 |eta(eps=0)|/|eta|=0.0e+00
+  L1 T_RH=4e+09: |B+L|/|B|=1.2e-13 |Q|/|B|=5.1e-14 eps->-eps desvio=4.7e-13 |eta(eps=0)|/|eta|=2.1e-13
+  L2 T_RH=4e+09: |B+L|/|B|=0.0e+00 |Q|/|B|=0.0e+00 eps->-eps desvio=0.0e+00 |eta(eps=0)|/|eta|=0.0e+00
+  L1 T_RH=7e+09: |B+L|/|B|=5.5e-13 |Q|/|B|=5.3e-13 eps->-eps desvio=5.5e-13 |eta(eps=0)|/|eta|=5.5e-13
+  L2 T_RH=7e+09: |B+L|/|B|=0.0e+00 |Q|/|B|=0.0e+00 eps->-eps desvio=0.0e+00 |eta(eps=0)|/|eta|=0.0e+00
+Raiz fria extrapolada (H-W, L1, E_b=inf): eta ~ T_RH^3 abaixo de 1,5e8 -> 1.1e+07 GeV

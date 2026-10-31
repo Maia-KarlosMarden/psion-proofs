@@ -1,0 +1,3 @@
+P14GEO2_DEFINITION.md sha256=4dba67a15b9df98a4f022432a1bce7eb2f8786efbe488c6b9d2385204cd59131 registrado_utc=2026-10-28T02:12:29Z (calculo mental previo declarado na antecipacao)
+P14GEO2_calc.py sha256=c0d045b1146f7e22f05d88bb7328e8590974200041666f64ebff031924a093a4; saida sha256=b13f7a1248ac88eb8c2e6f9e8076e0b8315cb80d143f3acb285ef7c87a25a6f2
+RESULTADO: antecipacao confirmada. Momentos magneticos: VA e VB nao acertam (n/p -0,5 e +0,25; Lambda/p +2,5 e -1,25 contra -0,22). Raios previstos: Sigma+ 1,47 ou 0,054 fm^2 conforme a tupla; Lambda +0,544 fm^2 (neutro); Sigma0 0; (3,4,5) 0,925 fm^2.

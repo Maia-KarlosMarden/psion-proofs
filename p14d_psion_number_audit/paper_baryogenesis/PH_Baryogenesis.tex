@@ -1,0 +1,230 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage[hidelinks,pdftitle={Baryogenesis in the Psion Hypothesis},pdfauthor={Karlos Marden Maia}]{hyperref}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{postulate}{Postulate}
+
+\newcommand{\Lm}{\Lambda_{\rm meta}}
+\newcommand{\Np}{N_\psi}
+\newcommand{\TRH}{T_{\rm RH}}
+
+\title{Baryogenesis in the Psion Hypothesis:\\
+Psion-Number Conservation, No-Go Results,\\
+and Level Bifurcation as a Candidate Mechanism}
+\author{Karlos Marden Maia\\ \small Independent researcher, Marietta, Georgia, USA}
+\date{October 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The Psion Hypothesis (PH) builds all matter from a single six-label fermion, the psion, interacting through one four-fermion Lagrangian. We examine what this structure implies for the baryon asymmetry of the Universe. Five results are exact. (i) Psion number is conserved by every term of the Lagrangian, and the continuous internal symmetry is only $U(1)_N\times U(1)_M$. (ii) Field-theory CP is exact. (iii) Observed reactions select a unique ontology for antimatter, composites of antipsions, and require exactly two additive charges, $B$ and $L$, with $\Np/3=B+L$; the PH therefore conserves $B+L$ and allows only $B-L$ to change, the reverse of the Standard Model. (iv) The Lagrangian supplies $B$ neither as a Noether charge nor as a topological charge, and the cascade level is not an internal degree of freedom. (v) The phase of the condensate vacuum is removable by the exact $U(1)_M$ symmetry, so the PH has no spontaneous CP source. In addition, the PH's own confinement rule leaves exactly eight unconfined three-psion states, the observed ones. On this basis we show, with pre-registered numerical tests, that neither the Lagrangian nor its minimal extension produces the asymmetry. We then formulate a candidate mechanism, \emph{level bifurcation}: after inflationary reheating, composites are pair-produced from radiation into a baryonic or a leptonic rung, the two CP-conjugate channels being biased by a CP-odd source, and the rung is conserved afterwards. If the mechanism holds, $B=-L$, charge neutrality and a final state of hydrogen plus two net antineutrinos per baryon follow from its symmetry alone. The mechanism is consistent with confinement and insensitive to the details of reheating, and its efficiency reaches $\eta_B/\varepsilon\sim0.1$. Its open problem is the CP source: by (v) and the smallness of the only explicit $U(1)_M$ breaking in the PH, the available bias is of order $10^{-62}$, whereas a bias of order $10^{-7}$--$10^{-6}$ is required. The PH also makes structural predictions independent of the mechanism: no nucleon decay with $\Delta B=\Delta L$, no $0\nu\beta\beta$ and no $n$--$\bar n$ oscillation.
+\end{abstract}
+
+\section{Introduction}
+
+A dynamical origin of the baryon asymmetry, $\eta_B=n_B/n_\gamma=6.1\times10^{-10}$ \cite{planck}, requires baryon-number violation, C and CP violation, and departure from thermal equilibrium \cite{sakharov}. Successful frameworks, such as electroweak baryogenesis \cite{krs}, leptogenesis \cite{fy,bdp} and the Affleck--Dine mechanism \cite{ad}, derive all three ingredients within a specified model.
+
+The Psion Hypothesis \cite{phf} is a single-Lagrangian framework in which the observed fermions are three-psion composites on a mass cascade $m(\ell)=\Lm e^{-\ell/b_e}$. Earlier versions assigned the asymmetry to a chirality parameter $\varepsilon_\psi=25/169$ combined with a Standard-Model sphaleron conversion. Here we take the Lagrangian at face value and ask what it permits. The answer is restrictive. The constraints turn out to be strong enough to fix the \emph{form} a viable mechanism must take, and we formulate and test one such mechanism.
+
+The paper proceeds from exact statements to conditional ones. Section~\ref{sec:fw} recalls the framework. Section~\ref{sec:exact} proves the conservation structure and the absence of a spontaneous CP source. Section~\ref{sec:nogo} closes the mechanisms available within the Lagrangian and its minimal extension. Section~\ref{sec:bif} formulates level bifurcation and states the conditions under which it accounts for $\eta_B$. Section~\ref{sec:pred} collects the predictions. Every numerical test was pre-registered: the definition, with a SHA-256 hash and timestamp, was fixed before execution, and all outputs, including failed controls, are public \cite{repo}.
+
+\section{Framework}\label{sec:fw}
+
+The Lagrangian is
+\begin{equation}\label{eq:L}
+\mathcal L=\bar\psi\, i\gamma^\mu\partial_\mu\psi-G_{\rm UV}(\bar\psi\psi)^2-(\bar\psi J^a\psi)(\bar\psi\Sigma^a\psi),
+\end{equation}
+where $\psi$ carries a six-valued label $k=0,\dots,5$ (internal spin $j=5/2$, $m_k=k-5/2$). $J^a$ and $\Sigma^a$ are the SU(2)$_{\rm meta}$ generators restricted to the left ($k\le2$) and right ($k\ge3$) sectors. The labels carry charges $Q_k=(1,-5,-5,10,4,4)/9$. Composites of three distinct labels (``triples'') number 20. Among them are the electron $(0,1,2)$, the proton $(0,4,5)$ and the neutron $(0,1,5)$. The cascade level $\ell$ is an independent quantum number: the nucleon scale is $\ell=8$ (610~MeV) and the electron $\ell=10$ \cite{phf}. Three neutral triples are listed in \cite{phf} as dual-sector, each being either a baryon or a neutrino: $(0,1,5)=n/\nu_\tau$, $(0,2,4)=\Sigma^0/\nu_\mu$, $(1,2,3)=\Lambda^0/\nu_e$. The condensation scale is $\Lm=1.26\times10^{12}$~GeV.
+
+\section{Exact conservation structure}\label{sec:exact}
+
+\begin{theorem}[Psion number]\label{th:N}
+$\Np$, the charge of $\psi\to e^{i\alpha}\psi$, is conserved by every term of \eqref{eq:L}. In the condensed phase it is the only exact additive charge.
+\end{theorem}
+\noindent The first statement is immediate. The second follows from an exact charge audit over the 20 triples and four condensate variants, which leaves no further candidate \cite{repo}.
+
+\begin{theorem}[Continuous internal symmetry]\label{th:sym}
+The Lie algebra of transformations $\psi\to e^{tX}\psi$ that leave the interaction in \eqref{eq:L} invariant is two-dimensional and abelian. It is generated by the identity and by ${\rm diag}(m_k)$, i.e.\ the group is $U(1)_N\times U(1)_M$ with $M=\sum m_k$. No continuous chiral extension ($X\otimes\gamma_5$) survives the $G_{\rm UV}$ term. The winding condensate $J^+\Sigma^++J^-\Sigma^-$ breaks $U(1)_M$ and preserves $U(1)_N$.
+\end{theorem}
+\noindent The invariance condition is linear in $X$. Its solution space was computed exactly in the 36-dimensional space of anti-Hermitian $6\times6$ matrices.
+
+\begin{proposition}[CP]\label{pr:cp}
+The coupling tensors of \eqref{eq:L} are real and Hermitian, so field-theory CP is exact. The chirality parameter $\varepsilon_\psi$ is even in any hopping phase, hence CP-even. \end{proposition}
+
+\begin{theorem}[No spontaneous CP source]\label{th:nocp}
+The winding condensate $J^+\Sigma^++J^-\Sigma^-$ of App.~J.6.2 of \cite{phf}, with vacuum phase $e^{i\theta_k}$, $\theta_k=2\pi k/6$, changes $M$ by two units. Since $U(1)_M$ is exact in \eqref{eq:L} (Theorem~\ref{th:sym}) and the condensate itself generates the bond of J.6.3, the rotation $e^{-i\theta_kM/2}$ removes the vacuum phase from the full Hamiltonian in every vacuum. CP-odd effects arise only relative to an explicit breaking of $U(1)_M$ of strength $\delta$, and they are of order $\delta^2$.
+\end{theorem}
+\noindent The commutators $[M,O_{JS}]=0$ and $[M,X]=2X$ hold exactly, and the removal holds to $2\times10^{-15}$ in the Fock space and in the triple basis. A diagnostic network gives CP-odd assembly asymmetries scaling as $\delta^{1.99}$, vanishing at $\delta=0$ and in the vacua $k=0,3$. The only explicit breaking recorded in the PH, the vacuum splitting $\kappa_{\rm CP}=(m_e/\Lm)^2\approx1.6\times10^{-31}$ \cite{phf}, would give CP-odd effects of order $10^{-62}$. A corollary is that an exact, spontaneously broken $U(1)_M$ implies a light Goldstone mode and makes the six Z6 vacua points of a degenerate circle.
+
+\begin{theorem}[Antimatter and the observed charges]\label{th:ont}
+Consider the two readings of antimatter: (O$^+$) a triple of psions with inverted labels $k\to(6-k)\bmod6$; (O$^-$) the same triple of antipsions, with $\Np=-3$ and charge $-Q$. Test both against the observed reactions $n\to pe^-\bar\nu_e$, $p\to ne^+\nu_e$, $e^-p\to n\nu_e$, $e^+e^-\to2\gamma,3\gamma$, $\gamma\to e^+e^-$, $p\bar p\to\pi^+\pi^-\pi^0$, $\pi^0\to2\gamma$, $\pi^+\to\mu^+\nu_\mu$ and $\mu^-\to e^-\bar\nu_e\nu_\mu$. Reading O$^+$ conserves neither $\Np$ nor charge and assigns $\bar\Sigma^+$ the charge $+1$. Reading O$^-$ passes all tests, with $\Np=0$ for every boson.
+\end{theorem}
+
+\begin{theorem}[Charges required by observation]\label{th:BL}
+Treat the cascade class as a label: $H$ (level 8: $p,n,\Lambda,\Sigma^0$), $E$ (level 10 and its excitations: $e,\mu$), $\nu$ (three neutrinos). The additive charges conserved by the observed reactions $\beta^\pm$ decay, $e^-$ capture, $\pi^+\to\mu^+\nu_\mu$, $\mu$ decay, $\nu_\mu n\to\mu^-p$, $\bar\nu_ep\to e^+n$, $\Lambda\to p\pi^-,n\pi^0$, $\Sigma^0\to\Lambda\gamma$ and neutrino oscillations span exactly a two-dimensional space. Its basis is $B$ (number of $H$ states) and $L$ (number of $E$ and $\nu$ states), and $\Np/3=B+L$.
+\end{theorem}
+
+\begin{corollary}
+Since $\Np$ is exact, $B+L$ is conserved. Baryogenesis in the PH requires a change in $B-L$, the reverse of the Standard Model, where $B-L$ is conserved and sphalerons change $B+L$. The Standard-Model sphaleron conversion therefore does not apply.
+\end{corollary}
+
+\begin{theorem}[Baryon number is not available in \eqref{eq:L}]\label{th:noB}
+(a) $B$ is not in the span of the Noether charges $(M,Q,\Np)$ evaluated on the observed states. (b) The vacuum manifold of the condensed phase has $\pi_2=\pi_3=0$, so no point-like topological charge exists and there is no analogue of the Skyrme baryon number \cite{witten}. (c) Composite states are labelled by their triple alone; the cascade level carries no internal quantum number.
+\end{theorem}
+
+\begin{corollary}[Dual-sector instability]\label{co:dual}
+With only $\Np$ and $Q$ conserved, the processes $p\to\nu\pi^+$, $n\to\nu\pi^0$, $n\to3\nu$, $pe^-\to\nu_\mu\nu_\tau$ and the same-triple level jumps $n\to\nu_\tau\gamma$, $\Lambda^0\to\nu_e\gamma$, $\Sigma^0\to\nu_\mu\gamma$ are all allowed, and all have $\Delta B=-\Delta L$. The measured limits are $p\to\bar\nu\pi^+>3.9\times10^{32}$~yr and $n\to\bar\nu\pi^0>1.1\times10^{33}$~yr \cite{sk}, and $n\to{\rm invisible}>5.8\times10^{29}$~yr \cite{kamland}. They require an amplitude suppression $\lesssim10^{-8}$ relative to a contact operator at $\Lm$. Same-triple jumps, which no label-changing selection rule of \eqref{eq:L} can forbid, require $\lesssim5\times10^{-30}$ relative to an electromagnetic transition (reference lifetime $10^{29}$~yr). A conserved baryon label must therefore be added to the PH.
+\end{corollary}
+
+\noindent The count of neutral triples is five, not three: $(0,1,4)$ and $(0,2,5)$ are also neutral. They carry the residual discrete charge $D=(2M-6Q+3)\bmod4=2$, which is exact in the condensed phase.
+
+\begin{proposition}[Unconfined spectrum]\label{pr:conf}
+The PH confines every composite whose summed Z6 index $I=\sum k \bmod 6$ is not in $\{0,3\}$ \cite{phf}. Among the 20 triples, exactly eight are unconfined: $(0,1,2)$, $(0,1,5)$, $(0,2,4)$, $(0,4,5)$, $(1,2,3)$, $(1,3,5)$, $(2,3,4)$, $(3,4,5)$. These are precisely the triples with one constituent of each proto-colour $c(k)=k\bmod3$, and they are the states identified with observed particles in \cite{phf}. The twelve confined triples include all eight with fractional charge and both neutral triples with $D=2$.
+\end{proposition}
+\noindent Exotic triples are therefore not a constraint on any mechanism operating below $\Lm$: they are confined.
+
+\section{No-go results}\label{sec:nogo}
+
+\paragraph{Emergent sphalerons.} Any sphaleron-like configuration of the PH is built from psions and conserves $\Np$, hence $B+L$. It cannot convert a lepton asymmetry into baryons in the Standard-Model manner.
+
+\paragraph{Temperature histories.} CPT gives particle and antiparticle equal masses and equal equilibrium abundances. With exact CP and a symmetric initial state, a Boltzmann network of the cascade levels returns zero asymmetry for any programme of cooling and reheating; reheating only dilutes an existing asymmetry. Temperature controls the composition across levels, not the matter--antimatter ratio.
+
+\paragraph{Z6 domains.} By Theorem~\ref{th:nocp}, a Z6 domain carries no CP violation beyond order $\kappa_{\rm CP}^2$. Even if one postulates a CP bias $\varepsilon$ inside a domain, so that assembly out of equilibrium generates $\Delta p\propto\varepsilon$ together with an equal antipsion reservoir, the Z6 walls form at $T\approx3$~MeV, when the assembly rate is $\Gamma/H\sim10^{-37}$. A domain's maximal comoving size today is $\sim30$~pc, against the $\gtrsim1$~Gpc required of antimatter regions \cite{cdg}. And degenerate conjugate vacua give a zero global average.
+
+\paragraph{CP terms built from PH operators.} We tested 16 CP-odd patterns built from the PH's own operators (commutators of $Q$, $M$, $n_R$, the Z6 index and the energy with $h$ and $J\!\cdot\!\Sigma$, and products in rearrangements), singly and in pairs. Fitted to the observed composition, none performs better than random directions. Inserting a phase directly, $J\!\cdot\!\Sigma\to{\rm Re}(e^{-i\varphi}O)$, with full density-matrix assembly kinetics, generates an asymmetry with $\varphi\sim10^{-4}$--$10^{-2}$. But exotic triples receive 2--2500 times the proton asymmetry, and the electron asymmetry has the wrong sign in most runs. Without a conserved label, no CP source selects the observed composites.
+
+\paragraph{Minimal extension.} A two-valued species index $\psi\to\psi_s$, $s\in\{B,L\}$, with currents summed over species and $SU(2)_{\rm species}$ broken, makes $B$ and $L$ Noether charges. It allows all observed reactions and forbids the processes of Corollary~\ref{co:dual} exactly. It preserves the PH's numerical outputs only if the index does not enter the one-loop coefficient $|\beta_0|=N_{\rm Dirac}+2/N_f$: doubling $N_f$ gives $m_e=0.065$~MeV instead of 0.509~MeV. Because the label is carried by the constituents, triples cannot choose their sector. $B-L$ can then change only through species mixing, and the proton lifetime bounds the mixing coefficient to $c\le1.3\times10^{-8}$. Mixing is then active only above $2.7\times10^{15}$~GeV, outside the range of the contact description.
+
+\begin{proposition}\label{pr:window}
+Neither \eqref{eq:L} nor its minimal species extension produces the baryon asymmetry. A viable mechanism needs a CP-odd ingredient acting on a conserved label that the constituents do not carry.
+\end{proposition}
+
+\section{Level bifurcation at reheating}\label{sec:bif}
+
+\subsection{Postulates}
+
+The dual sector, which causes the instability of Corollary~\ref{co:dual}, also supplies the structure that the failed mechanisms lacked: two final channels from a common initial state. That is the minimal setting in which CP violation is compatible with CPT and unitarity \cite{kw}. Below $\Lm$ only the eight unconfined triples of Proposition~\ref{pr:conf} and radiation (psion--antipsion bilinears) exist, so composites must be produced in pairs from radiation. For each triple $t$ there are four channels, $t_B\bar t_B$, $t_L\bar t_L$, $t_B\bar t_L$ and $t_L\bar t_B$, and the last two are CP conjugates of each other from a CP-self-conjugate initial state. We formulate the mechanism as three postulates.
+
+\begin{postulate}[Rung label]\label{P1}
+A composite is produced in the baryonic rung ($t_B$) or the leptonic rung ($t_L$). The rung is conserved by every process except pair annihilation back into radiation.
+\end{postulate}
+
+\begin{postulate}[Biased bifurcation]\label{P2}
+The channels $t_B\bar t_L$ and $t_L\bar t_B$ are populated with a CP-odd bias $\varepsilon_t$. The source is $\varepsilon_t$ times the net production rate, so it vanishes in equilibrium.
+\end{postulate}
+
+\begin{postulate}[Production after reheating]\label{P3}
+Composites are produced in the thermal bath after inflationary reheating at $\TRH<\Lm$, with the natural contact coupling of \eqref{eq:L}.
+\end{postulate}
+
+\noindent Postulate~\ref{P1} is the conserved label that nucleon stability requires independently (Corollary~\ref{co:dual}). Because $\TRH<\Lm$, the condensate is not restored after inflation, so whatever CP-odd background is present at production is uniform over the observable Universe and the sign of $\eta_B$ is global.
+
+\subsection{Kinetics and structural consequences}
+
+With $Y=n/s$, $Y_{\rm eq}$ the relativistic equilibrium abundance and $r=\Gamma/H$, the net rate in channel $rr'$ is $J_{rr'}=r\,k_t(Y_{\rm eq}^2-t_r\bar t_{r'})/Y_{\rm eq}$ and the bias is $\delta_t=\tfrac12\varepsilon_t\sum_{rr'}J_{rr'}$:
+\begin{align}
+\dot t_B&=J_{BB}+J_{BL}+\delta_t, & \dot{\bar t}_L&=J_{LL}+J_{BL}+\delta_t,\\
+\dot t_L&=J_{LL}+J_{LB}-\delta_t, & \dot{\bar t}_B&=J_{BB}+J_{LB}-\delta_t,
+\end{align}
+plus transitions and rearrangements among the unconfined triples within each rung. All rates scale as $\Gamma/H=c_\Gamma\,G_4T^3M_{\rm Pl}/(1.66\sqrt{g_*}\,\Lm^4)$, with $c_\Gamma=1$ for the natural coupling; formation reaches equilibrium at $T_{\rm eq}=4.3\times10^9$~GeV.
+
+\begin{proposition}[Structural consequences]\label{pr:struct}
+For a CP-symmetric initial state, Postulates~\ref{P1}--\ref{P2} imply, at all times,
+\begin{equation}
+B=-L,\qquad Q_{\rm tot}=0,\qquad \Delta\Np=0 .
+\end{equation}
+If $p$, $e^-$ and the neutrinos are the lightest states of their sectors, the late-time state is hydrogen plus two net antineutrinos per baryon.
+\end{proposition}
+\begin{proof}
+Each production event $t_B\bar t_L$ or $t_L\bar t_B$ changes $B$ and $L$ by opposite amounts and creates a triple with its own antitriple, so $\Delta(B+L)=0$, $\Delta Q=0$ and $\Delta\Np=0$ event by event; the same holds for annihilation, transitions and rearrangements within a rung. With $B$, $L$ and $Q$ conserved, baryonic excesses decay to protons and leptonic ones to $e^-$ and neutrinos. Neutrality gives $N_e=N_p=B$, and $L=N_e-(N_{\bar\nu}-N_\nu)=-B$ gives $N_{\bar\nu}-N_\nu=2B$.
+\end{proof}
+
+\noindent In the numerical network, $|B+L|/|B|$, $|Q|/|B|$ and the antisymmetry under $\varepsilon\to-\varepsilon$ hold to $\lesssim6\times10^{-13}$ wherever the asymmetry is above numerical noise.
+
+\subsection{The CP source}
+
+Postulate~\ref{P2} requires a CP-odd bias between the conjugate channels. Equation~\eqref{eq:L} has none, and by Theorem~\ref{th:nocp} the phase of the condensate vacuum does not supply one: it is removable, and the only explicit breaking of $U(1)_M$ in the PH gives a bias of order $10^{-62}$. Level bifurcation therefore needs an ingredient that is not in \eqref{eq:L}: an explicit breaking of $U(1)_M$ of strength $\delta\sim10^{-3}$, whose CP-odd effect $\propto\delta^2$ would give a bias of the order required (Section~\ref{sec:open}), or another CP-odd source. We treat $\varepsilon$ below as a free parameter.
+
+\subsection{Efficiency}
+
+Table~\ref{tab:eff} gives the efficiency for a uniform bias, with production starting from radiation alone.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcccccccc}
+\toprule
+$\TRH$ [GeV] & $1.5\times10^{8}$ & $7\times10^{8}$ & $1.4\times10^{9}$ & $4\times10^{9}$ & $7\times10^{9}$ & $1.4\times10^{10}$ & $2\times10^{10}$ \\
+\midrule
+$\eta_B/\varepsilon$ (L1) & $1.2\times10^{-5}$ & $1.2\times10^{-3}$ & $9.8\times10^{-3}$ & $0.12$ & $0.16$ & $3.6\times10^{-6}$ & $<10^{-9}$ \\
+$\eta_B/\varepsilon$ (L2) & $1.2\times10^{-5}$ & $1.2\times10^{-3}$ & $9.7\times10^{-3}$ & $0.12$ & $0.10$ & $1.8\times10^{-6}$ & $<10^{-9}$ \\
+\bottomrule
+\end{tabular}
+\caption{Efficiency of level bifurcation by pair production (uniform bias, natural coupling, instantaneous reheating). Above $\sim1.5\times10^{10}$~GeV production is in equilibrium and the asymmetry is washed out.}\label{tab:eff}
+\end{table}
+
+\noindent Two robustness checks were made. With gradual reheating, in which the inflaton decays and the temperature peaks at 2 to 60 times $\TRH$, $\eta_B$ is unchanged: production occurs near $\TRH$. A barrier to thermal rung changes, at the cascade scales $m(1)$ or $m(2)$, has little effect.
+
+\subsection{The open problem: the CP source}\label{sec:open}
+
+The efficiency is large: with an order-one bias the mechanism would overproduce baryons by $10^3$--$10^4$, and the observed value needs a bias of order $10^{-7}$--$10^{-6}$. The PH itself, however, supplies a bias many orders of magnitude smaller (Theorem~\ref{th:nocp}). Level bifurcation is thus a candidate mechanism with the right structure and ample efficiency, whose CP source is missing from the theory as written. With rung assignments consistent with nucleon stability, contributions from different triples also enter with different signs, so the sign of $\eta_B$ depends on the binding law and on $\TRH$. Since the reheating temperature at which the observed value would be reached moves with the rate normalisation and the rung assignment, it is not a prediction.
+
+\subsection{Conditions}
+
+Promotion of the mechanism requires three derivations.
+\begin{itemize}
+\item[(C1)] \emph{Rung label.} Derive Postulate~\ref{P1}, for instance as a winding charge that changes only through the deconfined core. The condensate action per mode, $S/N_e=6/b_e$, would give a suppression $e^{-21\Delta\ell}$, enough for the bound of Corollary~\ref{co:dual}.
+\item[(C2)] \emph{The CP source.} Identify an explicit breaking of $U(1)_M$ (or another CP-odd ingredient) of strength $\delta\sim10^{-3}$, derived rather than postulated; the condensate phase alone is removable.
+\item[(C3)] \emph{Rates.} Derive the pair-production rate of composites, which fixes $T_{\rm eq}$ and the washout edge.
+\end{itemize}
+
+\section{Predictions}\label{sec:pred}
+
+Predictions 1--3 are structural and hold irrespective of the mechanism; 4 holds if level bifurcation, or any mechanism with $\Np=0$ in total, is the origin of the asymmetry.
+\begin{enumerate}
+\item No nucleon decay with $\Delta B=\Delta L$ ($p\to e^+\pi^0$, $p\to e^+\gamma$, \dots): these change $\Np$ and are forbidden exactly by Theorem~\ref{th:N}.
+\item If any nucleon decay is observed, it has $\Delta B=-\Delta L$ ($p\to\nu\pi^+$, $n\to\nu\pi^0$, $n\to3\nu$).
+\item No neutrinoless double-beta decay and no $n$--$\bar n$ oscillation: both change $\Np$.
+\item A cosmic antineutrino excess of two per baryon, i.e.\ a neutrino degeneracy parameter $|\xi_\nu|\approx2.5\times10^{-9}$ per flavour (shared over two flavours). This is far below current bounds.
+\end{enumerate}
+
+\section{Discussion}
+
+The PH inverts the Standard-Model structure of baryon and lepton number. This places it outside the families of mechanisms that rely on sphaleron reprocessing, and it rules out several routes that would otherwise be natural. The constraint that remains is sharp: the theory needs a conserved baryon label. Without it, the dual-sector identification makes nucleons unstable. With it, a CP-biased bifurcation at pair production yields the observed composition by symmetry, and the PH's own confinement rule removes every exotic state. The mechanism has the right structure and more than enough efficiency. What it lacks is a CP source: the vacuum phase of the condensate is removable by the exact $U(1)_M$ symmetry, and the theory contains no explicit breaking of adequate size. An exact, spontaneously broken $U(1)_M$ also implies a light Goldstone mode and makes the six Z6 vacua points of a degenerate circle; both bear on other sectors of the PH.
+
+Three limitations bound the present results. First, the kinetic networks use contact rates and binding weights that are models, not derived amplitudes; the structural statements are independent of these choices, the efficiencies are not. Second, Postulates~\ref{P1} and \ref{P2} are additions to \eqref{eq:L} until C1 and C2 are derived. Third, several of the no-go tests of Section~\ref{sec:nogo} used networks with free psions below $\Lm$, which the PH's confinement forbids. Their conclusions rest on symmetry and survive, but their numbers should be read as illustrative.
+
+A related tension concerns dark matter. If the top of the cascade were a thermal relic, $\Omega_{\rm DM}h^2=0.12$ would require a mass of $\sim56$~TeV (cascade level $\approx4.8$). The canonical PH value of $7.2\times10^{10}$~GeV would overclose the Universe; a non-thermal production route is therefore required.
+
+\section{Conclusions}
+
+Equation~\eqref{eq:L} conserves psion number and CP exactly. Observation then requires separate baryon and lepton numbers with $B+L$ fixed, and the PH must change $B-L$ to produce an asymmetry. Neither the Lagrangian nor its minimal extension does so. Level bifurcation, pair production of unconfined composites into baryonic or leptonic rungs with a CP-odd bias, is a candidate mechanism. If its postulates hold, it gives $B=-L$, charge neutrality and the observed composition by symmetry, consistently with confinement and largely independently of reheating details. It does not yet explain $\eta_B$: the PH lacks a CP source of adequate size, and the conserved rung label is postulated.
+
+\section*{Methods and data availability}
+All tests were defined in advance in documents whose SHA-256 hashes and UTC timestamps were recorded before execution. Controls that failed their registered thresholds are reported as failures in the repository, together with corrections and their reasons. Networks were integrated with LSODA, DOP853 or Radau; the reheating test integrates the inflaton and radiation densities together with the composite network in the scale factor, at relative tolerances of $10^{-10}$--$10^{-11}$. Exact results were obtained by linear algebra over the rationals or by singular-value decomposition. Code, definitions, registries and outputs are available in the companion repository \cite{repo}, folder \texttt{p14d\_psion\_number\_audit}.
+
+\begin{thebibliography}{99}
+\bibitem{planck} Planck Collaboration, Astron.\ Astrophys.\ \textbf{641}, A6 (2020).
+\bibitem{sakharov} A.~D.~Sakharov, JETP Lett.\ \textbf{5}, 24 (1967).
+\bibitem{krs} V.~A.~Kuzmin, V.~A.~Rubakov, M.~E.~Shaposhnikov, Phys.\ Lett.\ B \textbf{155}, 36 (1985).
+\bibitem{fy} M.~Fukugita, T.~Yanagida, Phys.\ Lett.\ B \textbf{174}, 45 (1986).
+\bibitem{bdp} W.~Buchm\"uller, P.~Di~Bari, M.~Pl\"umacher, Ann.\ Phys.\ \textbf{315}, 305 (2005).
+\bibitem{ad} I.~Affleck, M.~Dine, Nucl.\ Phys.\ B \textbf{249}, 361 (1985).
+\bibitem{phf} K.~M.~Maia, \emph{The Psion Hypothesis: Foundations}, v86 (2026).
+\bibitem{repo} K.~M.~Maia, companion repository \texttt{psion-proofs}, \url{https://github.com/Maia-KarlosMarden/psion-proofs}.
+\bibitem{witten} E.~Witten, Nucl.\ Phys.\ B \textbf{223}, 433 (1983).
+\bibitem{sk} Super-Kamiokande Collaboration, search for nucleon decay via $n\to\bar\nu\pi^0$ and $p\to\bar\nu\pi^+$, arXiv:1305.4391.
+\bibitem{kamland} KamLAND Collaboration, Phys.\ Rev.\ Lett.\ \textbf{96}, 101802 (2006), hep-ex/0512059.
+\bibitem{cdg} A.~G.~Cohen, A.~De~R\'ujula, S.~L.~Glashow, Astrophys.\ J.\ \textbf{495}, 539 (1998).
+\bibitem{kw} E.~W.~Kolb, S.~Wolfram, Nucl.\ Phys.\ B \textbf{172}, 224 (1980).
+\bibitem{jr} R.~Jackiw, C.~Rebbi, Phys.\ Rev.\ D \textbf{13}, 3398 (1976).
+\end{thebibliography}
+
+\end{document}

@@ -1,0 +1,10 @@
+[fisico kappa>=0] pontos 12000: M1 (m_n>m_p) 0; M2 (m_L>m_p) 0; M1&M2 0; M1-M4 0; M1-M4&M5 0
+   M1&M2: nenhum ponto
+   M1-M4: nenhum ponto
+   M1-M4&M5: nenhum ponto
+   (controle) pontos com raios viaveis L<1 (sem massa): 0; min L = 2.81
+[EXPLORATORIO nao fisico kappa<=0] pontos 12000: M1 (m_n>m_p) 12000; M2 (m_L>m_p) 12000; M1&M2 12000; M1-M4 43; M1-M4&M5 0
+   melhor L de raios entre M1&M2: 0.81; L<2: 191; L<1: 15; em (t,s,k,l)=(2.235,0.018,-2.84,2.54) R=-0.156,-0.121,+0.069,+1.036,+0.923
+   melhor L de raios entre M1-M4: 3.90; L<2: 0; L<1: 0; em (t,s,k,l)=(0.010,2.578,-0.34,4.11) R=-0.111,-0.117,-0.240,+1.358,+1.154
+   M1-M4&M5: nenhum ponto
+   (controle) pontos com raios viaveis L<1 (sem massa): 15; min L = 0.81

@@ -1,0 +1,3 @@
+P14XD_DEFINITION.md sha256=05e7828c4af9cdf8b54cbb0d3028dbd628f7462ca017feaad2c7045ba162ae02 registrado_utc=2026-10-28T00:41:23Z
+P14XD_calc.py sha256=d24c610471b54db2710a86d23c97a5eb44791f51b226e0f5b3819a82a4a78b07; saida sha256=4e1bac7e3a53d98c30e85ac3746d932936244f01b9e02ba47280761bcd4a3aa5
+RESULTADO: as quatro antecipacoes confirmadas (T1 falha por 1e14-1e19; T2 identidade exata, fator 9,68e6; T3 proton 0,39x o raio de carga, eletron 4e7x acima do limite; T4 falha, 1,7e-11).

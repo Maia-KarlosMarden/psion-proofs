@@ -1,0 +1,21 @@
+g=1.000
+  O1 mu/mu_p: n=+0.822 (med -0.685), L=+0.875 (med -0.220), Sp=+1.004 (med +0.880), Sm=+0.508 (med -0.415) -> falha   [mu_p=+1.639]
+  O2 E_n - E_p = -0.976 -> falha
+  O3 gap Sigma0/Lambda = 2.058 (med 1,437) -> falha
+  O4 gap Sigma+/Lambda = 0.979 (med 1,426) -> falha
+  ja vistos: R_n=-0.044 R_Sm=+0.757 R_L=+0.271 R_S0=+0.324 R_Sp=+0.420
+g=2.565
+  O1 mu/mu_p: n=+0.887 (med -0.685), L=+0.789 (med -0.220), Sp=+1.081 (med +0.880), Sm=+0.519 (med -0.415) -> falha   [mu_p=+1.605]
+  O2 E_n - E_p = -1.884 -> falha
+  O3 gap Sigma0/Lambda = 1.963 (med 1,437) -> falha
+  O4 gap Sigma+/Lambda = 1.123 (med 1,426) -> falha
+  ja vistos: R_n=-0.082 R_Sm=+0.769 R_L=+0.222 R_S0=+0.419 R_Sp=+0.561
+varredura informativa:
+  g=0.50 mu n/L/Sp/Sm = +0.71/+0.96/+0.87/+0.48  En-Ep=-0.73  O3=2.24 O4=0.65
+  g=0.75 mu n/L/Sp/Sm = +0.78/+0.92/+0.96/+0.50  En-Ep=-0.86  O3=2.12 O4=0.87
+  g=1.00 mu n/L/Sp/Sm = +0.82/+0.87/+1.00/+0.51  En-Ep=-0.98  O3=2.06 O4=0.98
+  g=1.50 mu n/L/Sp/Sm = +0.86/+0.83/+1.05/+0.51  En-Ep=-1.25  O3=2.00 O4=1.07
+  g=2.00 mu n/L/Sp/Sm = +0.88/+0.80/+1.07/+0.52  En-Ep=-1.54  O3=1.98 O4=1.10
+  g=3.00 mu n/L/Sp/Sm = +0.89/+0.78/+1.09/+0.52  En-Ep=-2.15  O3=1.96 O4=1.13
+  g=4.00 mu n/L/Sp/Sm = +0.90/+0.77/+1.10/+0.52  En-Ep=-2.76  O3=1.95 O4=1.15
+  g=5.00 mu n/L/Sp/Sm = +0.90/+0.76/+1.11/+0.52  En-Ep=-3.37  O3=1.94 O4=1.16

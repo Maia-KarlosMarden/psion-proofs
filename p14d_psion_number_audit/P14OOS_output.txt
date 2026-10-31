@@ -1,0 +1,8 @@
+O1 [0.258 0.224 0.047 0.229]: R_Sm=+1.34; direcoes V0 aprovadas 139; Sigma- passa (P-A) em 0; (3,4,5) passa (P-B) em 0; ambos em 0
+   massa rel. n nas aprovadas: Sigma- [317, 807] (258); (3,4,5) [414, 818] (293)
+O2 [0.08  0.439 0.    0.083]: R_Sm=+1.13; direcoes V0 aprovadas 160; Sigma- passa (P-A) em 0; (3,4,5) passa (P-B) em 139; ambos em 0
+   massa rel. n nas aprovadas: Sigma- [216, 416] (258); (3,4,5) [248, 425] (293)
+O3 [0.035 0.456 0.095 0.   ]: R_Sm=+1.03; direcoes V0 aprovadas 111; Sigma- passa (P-A) em 96; (3,4,5) passa (P-B) em 107; ambos em 96
+   massa rel. n nas aprovadas: Sigma- [222, 386] (258); (3,4,5) [254, 387] (293)
+otimos que passam em (P-A) E (P-B): 1/3 -> sem sucesso global
+linha de base: 721 pontos com alguma direcao V0; pares (ponto,direcao) V0: 82881; passam (P-A)&(P-B): 0 => p0 = 0.000; passam so (P-A): 0.000

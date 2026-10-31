@@ -1,0 +1,12 @@
+A) hexagono (a = 1.212 fm; r_p^2 fixado = 0,7071 fm^2):
+   p                R = +1.0000  <r^2> = +0.707 fm^2
+   n                R = -0.1538  <r^2> = -0.109 fm^2
+   Sigma-           R = +0.8462  <r^2> = +0.598 fm^2
+   Lambda           R = +0.7692  <r^2> = +0.544 fm^2
+   Sigma0           R = +0.0000  <r^2> = +0.000 fm^2
+   Sigma+ (1,3,5)   R = +2.0769  <r^2> = +1.469 fm^2
+   Sigma+ (2,3,4)   R = +0.0769  <r^2> = +0.054 fm^2
+   (3,4,5) Q=+2     R = +1.3077  <r^2> = +0.925 fm^2
+B) psion 3 livre:
+   Sigma+=(1, 3, 5): area valida 55/9720 pontos; r em [0.45,1.12], phi em [27,183]; posicao natural (1,180): Sigma+ falha, Lambda falha
+   Sigma+=(2, 3, 4): area valida 55/9720 pontos; r em [0.45,1.12], phi em [0,357]; posicao natural (1,180): Sigma+ falha, Lambda falha

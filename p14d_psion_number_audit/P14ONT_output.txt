@@ -1,0 +1,22 @@
+
+========== Ontologia O+ ==========
+  T-N [bosons livres]: INCONSISTENTE
+      conflitos minimos de 2 reacoes: ['R1 + R2', 'R1 + R3', 'R1 + R4', 'R1 + R5', 'R1 + R6', 'R1 + R7', 'R1 + R8', 'R1 + R9']
+  T-N [fiel ao paper (X17 com N_psi = 0)]: INCONSISTENTE
+      conflitos minimos de 2 reacoes: ['R1 + R2', 'R1 + R3', 'R1 + R4', 'R1 + R5', 'R1 + R6', 'R1 + R7', 'R1 + R8', 'R1 + R9']
+  T-Q carga conservada em todas: False  falhas: ['R1 n -> p e- nubar_e', 'R10 mu- -> e- nubar_e nu_mu']
+  T-A antiparticulas:
+     e+   : N_psi=+3 Q=  1  (part.: Q= -1)  carga oposta: True  distinta da particula: True
+     pbar : N_psi=+3 Q= -1  (part.: Q=  1)  carga oposta: True  distinta da particula: True
+     nbar : N_psi=+3 Q=  0  (part.: Q=  0)  carga oposta: True  distinta da particula: False
+     Sigma+bar: Q = 1 (observado -1): False
+
+========== Ontologia O- ==========
+  T-N [bosons livres]: CONSISTENTE  N_psi dos bosons = {'gamma': '0', 'pi0': '0', 'pi+': '0', 'pi-': '0', 'X17': '0'}
+  T-N [fiel ao paper (X17 com N_psi = 0)]: CONSISTENTE  N_psi dos bosons = {'gamma': '0', 'pi0': '0', 'pi+': '0', 'pi-': '0'}
+  T-Q carga conservada em todas: True
+  T-A antiparticulas:
+     e+   : N_psi=-3 Q=  1  (part.: Q= -1)  carga oposta: True  distinta da particula: True
+     pbar : N_psi=-3 Q= -1  (part.: Q=  1)  carga oposta: True  distinta da particula: True
+     nbar : N_psi=-3 Q=  0  (part.: Q=  0)  carga oposta: True  distinta da particula: True
+     Sigma+bar: Q = -1 (observado -1): True

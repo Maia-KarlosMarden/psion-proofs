@@ -1,0 +1,6 @@
+barions (hexagono, fixado pelo proton)         a = 1.21e-15 m | Delta t = 4.04e-24 s = 7.50e+19 t_P | hbar/Delta t = 0.163 GeV | degrau l = 8.37
+eletron (limite compositividade 1e5 GeV)       a <= 1.97e-21 m | Delta t <= 6.58e-30 s = 1.22e+14 t_P | hbar/Delta t >= 1e+05 GeV | degrau l <= 4.61
+neutrinos (limite raio de carga 1e-32 cm^2)    a <= 1.65e-18 m | Delta t <= 5.50e-27 s = 1.02e+17 t_P | hbar/Delta t >= 120 GeV | degrau l <= 6.51
+escala UV 1/Lambda_meta (identidade, l = 0)    a = 1.56e-28 m | Delta t = 5.22e-37 s = 9.68e+06 t_P | hbar/Delta t = 1.26e+12 GeV | degrau l = 0.00
+cascata R(8) = 3.23e-16 m -> r_p previsto se a = R(8): 0.224 fm (medido 0,841)
+cascata R(10) = 3.88e-13 m -> r_p previsto se a = R(10): 268.998 fm (medido 0,841)

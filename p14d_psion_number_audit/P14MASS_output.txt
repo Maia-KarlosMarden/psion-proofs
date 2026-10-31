@@ -1,0 +1,2 @@
+pontos 12000: D>0: 0; R1: 0; R2: 0; D>0&R1&R2: 0 (0.00%)
+   (controle) L<1 sem massa: 0; min L = 2.83

@@ -1,0 +1,7 @@
+l_P = 1.616e-35 m; Lambda_meta = 1.2609e+12 GeV
+T1 literal: 3 l_P = 4.85e-35 m; proton 8.4e-16 m (razao 1.7e+19); limite eletron ~1e-20 m (razao 2.1e+14)
+T2: e^(S/2g^2)/sqrt(K) = 9.6827e+06; l_P*fator = 1.5650e-28 m; hbar c/Lambda = 1.5650e-28 m (identidade: 3.3e-16)
+T3: R(8) = 1/m(8) = 3.23e-16 m (m = 610.135 MeV); proton (raio de carga): 8.4e-16 m; razao R/dado = 3.9e-01
+T3: R(10) = 1/m(10) = 3.88e-13 m (m = 0.509 MeV); eletron (limite de tamanho): 1.0e-20 m; razao R/dado = 3.9e+07
+    expoente total Planck->eletron: S/2g^2 + 10/b_e = 51.61; ln(M_P/m_e) = 51.53
+T4: sobreposicao e^(-7/b_e) = 1.7e-11 contra exigencia 5,5e-30 -> FALHA

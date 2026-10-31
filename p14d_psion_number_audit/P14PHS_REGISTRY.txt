@@ -1,0 +1,4 @@
+P14PHS_DEFINITION.md sha256=513b83d8124b23e5d41a06457aa2984d50c86f0d3bd8c9fce8376c11f46b5a77 registrado_utc=2026-10-29T13:08:50Z
+calc sha256=3ddd3781030778f58edbbaf004ff348ba86849356ad2166caabf06c450f7964e saida sha256=a709497d03484d8ed0f428c04a69e5937987be9c7a287d26f870a8786ba338cf 2026-10-29T13:08:51Z
+correcao de implementacao 2026-10-29T13:09:07Z: a checagem de unicidade da media de Frechet usava max-min na grade [-pi,pi] e contava m=-pi e m=+pi como minimos distintos (afetou a tripla (2,3,4), media em 180 graus); trocada por distancia circular. Resultado anterior (2,3,4 indefinida) descartado.
+calc(v2) sha256=83006c94ea2bf733de931a283be448c73d0c22ed8dc5d352ab830f448b706131 saida sha256=17f49e8e798451cf855209ecfcb7dfdeb70581370c7affd42cf389c29683dfec 2026-10-29T13:09:08Z

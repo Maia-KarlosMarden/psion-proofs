@@ -1,0 +1,7 @@
+controle kappa=lambda=0: R_n = -0.1538, R_Sigma- = +0.8462
+fases distintas (colocacoes) na grade: 42
+raios (n, Sigma0, Lambda, Sigma+): 0 de 3721 pontos viaveis
+   massas (Sp1): 0 dos viaveis em raio passam
+   massas (Sp2): 0 dos viaveis em raio passam
+teste de acaso: P_acaso = 0.001 (1/2000)
+   com Sigma- (0,86+-0,21) adicionalmente: 0 pontos

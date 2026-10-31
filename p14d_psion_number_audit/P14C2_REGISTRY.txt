@@ -1,0 +1,10 @@
+P14C2_DEFINITION.md sha256=5111c92215604c3ac46ee73f577cc23b99538e27c8c73b2089db3cbffd5ef35b registrado_utc=2026-10-20T18:26:09Z (antes de qualquer corrida)
+P14C2_test.py sha256=62abb664dae0bdf48acab0082e150bf7a657ee0c1f33fcd351dfdbed5d73355a; P14C2_output.txt sha256=9fde9935ea9c40089909ae7a23299dfcb2cce7162b3cfa5824178cb399569f7c 2026-10-20T18:26:40Z
+RESULTADO (como antecipado): Parte 1, fase do vacuo exatamente removivel por U(1)_M em todos os vacuos (<= 1,8e-15) quando o bond
+  nao e contado separadamente. Parte 2: Dp = 0 em delta = 0 (2e-18) e em k = 0; Dp proporcional a delta^2 em delta pequeno
+  (expoente 1,99), saturando acima de delta ~ 0,3. Parte 3: com a unica quebra explicita registrada (kappa_CP = 1,6e-31),
+  eps ~ 1e-62 e eta ~ 1e-62.
+CORRECAO DE WP-SGN: o resultado "fase fisica em PB/PC" decorria da contagem dupla do bond (termo real independente que quebra
+  U(1)_M explicitamente). Sem ela, a fonte de CP do vacuo nao existe na PH atual.
+OBSERVACAO POS-HOC: se U(1)_M e exata na eq. (1) e quebrada espontaneamente pelo condensado, ha um Goldstone sem massa (ou com
+  massa ~ quebra explicita); e os "seis vacuos Z6" sao pontos de um circulo degenerado. Ambos sao questoes para o paper.

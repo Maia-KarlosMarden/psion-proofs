@@ -1,0 +1,3 @@
+  rtol = 1e-09: maior |assimetria ou N_psi liquido| com delta = 0: 2.3e-13
+  rtol = 1e-11: maior |assimetria ou N_psi liquido| com delta = 0: 2.0e-13
+  rtol = 1e-13: maior |assimetria ou N_psi liquido| com delta = 0: 1.8e-13

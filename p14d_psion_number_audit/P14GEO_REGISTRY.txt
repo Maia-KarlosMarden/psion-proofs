@@ -1,0 +1,7 @@
+bc1ea2deb90c88da3da1cdda4bc8aa4d7bffc495734261b449acaf2811e2e2f6  P14GEO_DEFINITION.md
+35659280171330b7aa70a77b2f44f6b032437ca4ab2f42ed90773eb71669c839  P14GEO_calc.py
+2026-10-31T17:02:43Z
+RESULT: see P14GEO_output.txt. Static (parameter-free): S6=S12 (identical, the 12-site natural sites 2k are the hexagon) matches n (R=-0.154) and Sigma0 (0.000); fails Lambda (0.769 vs 0.15) and Sigma+ (2.08 / 0.08 vs 0.975). S8 static matches only Sigma+(1,3,5) (1.103, z=0.73); fails n, Sigma0, Lambda. Dynamic geometries (D8, D12, TW), per-composite optimum: z<1 for all five, TW and D12 essentially z~0 (weak statement; free parameters per hadron).
+Anticipation: compatible-somewhere for all five: RIGHT (trivially). Lambda and Sigma+ pick different geometries: RIGHT only if static counted (Sigma+(1,3,5) static octagon). 'Static geometries match n only': WRONG (hexagon also matches Sigma0; octagon matches Sigma+(1,3,5)).
+Ties at z~0 among dynamic geometries carry no information; the only discriminating entries are the static ones and Lambda in D8 (0.74) vs D12 (0.15) vs TW (0.02).
+Not examined: mass, shared parameters, why.

@@ -1,0 +1,4 @@
+hexagono (pares vizinhos): R_n=-0.1538 R_S=+0.8462 a=1.212 fm -> ACERTA
+PRINCIPAL espelho: R_n=-0.3200 R_S=+1.0800 a=0.874 fm -> nao acerta
+espelho, 48 atribuicoes: R_n distintos = [np.float64(-1.0769), np.float64(-0.5789), np.float64(-0.32), np.float64(-0.0714)]
+passam: 0 de 48; r_p^2<=0 em 0

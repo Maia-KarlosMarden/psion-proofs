@@ -1,0 +1,36 @@
+##### A1: realidade do tensor interno da eq. (1) #####
+  (psi-bar psi)^2 : max|Im| = 0.00e+00 ; hermitiano: True
+  J.Sigma D1      : max|Im| = 0.00e+00 ; hermitiano: True
+  J.Sigma D1'     : max|Im| = 0.00e+00 ; hermitiano: True
+  J_y e imaginaria pura: True ; J_y (x) J_y real: 0.0e+00
+
+##### A2: eps_psi com hopping complexo t = |t| e^{i phi} #####
+  phi = +0.0000: eps_psi = 0.1379310345
+  phi = +0.3000: eps_psi = 0.1379310345
+  phi = +1.0472: eps_psi = 0.1379310345
+  phi = -1.0472: eps_psi = 0.1379310345
+  phi = +1.0000: eps_psi = 0.1379310345
+  phi = -1.0000: eps_psi = 0.1379310345
+  referencia 25/169 = 0.1479289941 (tan theta = 1/5)
+  eps_psi depende so de |t|: par em phi -> CP-par
+
+##### A3: vacuos Z6 do condensado de enrolamento, w_k = e^{2 pi i k/6} #####
+  k=0: Im(w), Im(w^2), Im(w^3) = +0.0000, +0.0000, +0.0000   CP-invariante
+  k=1: Im(w), Im(w^2), Im(w^3) = +0.8660, +0.8660, +0.0000   conjugado de k=5
+  k=2: Im(w), Im(w^2), Im(w^3) = +0.8660, -0.8660, -0.0000   conjugado de k=4
+  k=3: Im(w), Im(w^2), Im(w^3) = +0.0000, -0.0000, +0.0000   CP-invariante
+  k=4: Im(w), Im(w^2), Im(w^3) = -0.8660, +0.8660, -0.0000   conjugado de k=2
+  k=5: Im(w), Im(w^2), Im(w^3) = -0.8660, -0.8660, -0.0000   conjugado de k=1
+
+##### A4: vies entre vacuos (K.10): Delta C(s) #####
+  Delta C(s), s=0..5 = ['0', '15', '24', '27', '24', '15']  (paper: 0, 15, 24, 27, 24, 15)
+  Delta C(s) = Delta C(6-s): True  -> vacuos CP-conjugados (k, 6-k) degenerados
+  populacao Boltzmann T=dC(1)       : sum p_k Im(w_k^n), n=1,2,3 = +3.65e-17, +5.18e-17, -1.63e-16
+  populacao Boltzmann T=dC(1)/10    : sum p_k Im(w_k^n), n=1,2,3 = +4.16e-23, +8.89e-23, -2.38e-22
+  populacao uniforme                : sum p_k Im(w_k^n), n=1,2,3 = +7.59e-17, +9.80e-17, -3.00e-16
+  populacao so o menor nao trivial  : sum p_k Im(w_k^n), n=1,2,3 = +0.00e+00, +0.00e+00, +0.00e+00
+
+##### A5: kappa_CP #####
+  (m_e/Lambda_meta)^2 = 1.642e-31  (real, positivo: magnitude, nao fase)
+
+  VEREDITO: A1 real=True, A2 par=True, A4 simetrico=True  ->  SEM FONTE LIQUIDA DE CP
