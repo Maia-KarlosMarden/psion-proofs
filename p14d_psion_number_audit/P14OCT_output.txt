@@ -1,0 +1,14 @@
+tabela: 12000 pontos; validos 12000; q definido 2028
+[2] raios isolados: min L_r = 3.421; L_r<1: 0; L_r<2: 0
+    massa isolada: q_max mediana 0.124, p90 0.281, max 0.420; q>=0,336: 54; q>=0,168: 633
+[3] min L_r com q>=0.336: 5.362  (pontos 54)
+[3] min L_r com q>=0.168: 3.421  (pontos 633)
+[3] min L_r com q>=0.05: 3.421  (pontos 1702)
+[3] min L_r com q>=1e-09: 3.421  (pontos 2028)
+    melhor com q>=0,336 (tabela): L_r=5.36 q=0.340 (t,s,k,l)=[1.07  0.016 3.017 2.716] R=[-0.076 -0.047 -0.383  1.212  1.122]
+[4] raio puro: min L_r apos refino = 0.732 (VIAVEL); viaveis 4/10
+    melhor raio puro: (t,s,k,l)=(0.102,0.016,0.48,1.10) q=nan R=[-0.153  0.11   0.078  2.18   0.855]
+[4] conjunto (escala natural): min perda = 4.744 (inviavel); viaveis 0/20
+    perda=4.744 L_r=3.317 q=0.3120 (t,s,k,l)=(1.044,0.000,0.34,2.64) R=[-0.11  -0.076 -0.182  1.165  1.05 ]
+    perda=4.901 L_r=4.112 q=0.3227 (t,s,k,l)=(1.063,0.006,1.27,2.67) R=[-0.097 -0.065 -0.261  1.188  1.085]
+    perda=5.167 L_r=5.167 q=0.3360 (t,s,k,l)=(1.045,0.018,2.69,2.68) R=[-0.08  -0.05  -0.367  1.211  1.116]
