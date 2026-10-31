@@ -21,3 +21,11 @@ MIXa seed 80: loss 0.882 x=[1.667 0.163 0.063 0.07 ] viavel=True OOS(P-A&P-B)=Fa
 MIXa seed 81: loss 0.882 x=[0.96  0.386 0.015 0.02 ] viavel=True OOS(P-A&P-B)=False
 => MIXa: otimos viaveis 10/10; passam OOS 0 (fracao 0.00)
 MIXb seed 72: loss 0.863 x=[0.144 0.412 0.131 0.001] viavel=True OOS(P-A&P-B)=False
+MIXb seed 73: loss 0.890 x=[0.082 0.613 0.07  0.036] viavel=True OOS(P-A&P-B)=False
+MIXb seed 74: loss 0.973 x=[0.415 0.007 0.177 0.429] viavel=True OOS(P-A&P-B)=False
+MIXb seed 75: loss 1.358 x=[0.005 1.135 0.069 0.016] viavel=False OOS(P-A&P-B)=None
+MIXb seed 76: loss 0.886 x=[0.062 0.535 0.077 0.018] viavel=True OOS(P-A&P-B)=False
+MIXb seed 77: loss 1.117 x=[0.024 0.837 0.009 0.03 ] viavel=False OOS(P-A&P-B)=None
+MIXb seed 78: loss 0.925 x=[0.046 0.523 0.012 0.082] viavel=True OOS(P-A&P-B)=False
+MIXb seed 79: loss 0.862 x=[0.254 0.291 0.105 0.072] viavel=True OOS(P-A&P-B)=False
+MIXb seed 80: loss 0.909 x=[0.079 0.477 0.141 0.019] viavel=True OOS(P-A&P-B)=False
