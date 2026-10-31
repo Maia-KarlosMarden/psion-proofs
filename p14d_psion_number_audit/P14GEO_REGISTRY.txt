@@ -1,3 +1,7 @@
-P14GEO_DEFINITION.md sha256=5af9f5578fac9e8ea71fe0979b27ca8b6a45a6eb0c0d7754ccccdecbe5886ffb registrado_utc=2026-10-28T00:49:27Z (calculo mental previo de G1 para p, n declarado)
-P14GEO_calc.py sha256=e8bf230124116d22632f898c5266ab30ea6662850b2fbb09fa800aae9b5bd975; saida sha256=fe9649abf78cefd6f5675c14698828dfce8898211c52901dc379fa489696e0c3
-RESULTADO: G1 acerta R_n (-0,154 contra -0,164, 6%) e R_S (0,846 contra 0,86+-0,21); G2 erra ambos; G3, G4 erram R_n e acertam R_S (teste fraco, erro grande). Em todos, eletron exige a_e/a_p < ~3e-5 (Compton daria 1199). Adendo pos-hoc com linha de base aleatoria: P14GEO_addendum.txt sha256=9b73fc3a2d84c48ee0b83cca83ef46e2e784e2f6a2962eb7379db71972fff867
+bc1ea2deb90c88da3da1cdda4bc8aa4d7bffc495734261b449acaf2811e2e2f6  P14GEO_DEFINITION.md
+35659280171330b7aa70a77b2f44f6b032437ca4ab2f42ed90773eb71669c839  P14GEO_calc.py
+2026-10-31T17:02:43Z
+RESULT: see P14GEO_output.txt. Static (parameter-free): S6=S12 (identical, the 12-site natural sites 2k are the hexagon) matches n (R=-0.154) and Sigma0 (0.000); fails Lambda (0.769 vs 0.15) and Sigma+ (2.08 / 0.08 vs 0.975). S8 static matches only Sigma+(1,3,5) (1.103, z=0.73); fails n, Sigma0, Lambda. Dynamic geometries (D8, D12, TW), per-composite optimum: z<1 for all five, TW and D12 essentially z~0 (weak statement; free parameters per hadron).
+Anticipation: compatible-somewhere for all five: RIGHT (trivially). Lambda and Sigma+ pick different geometries: RIGHT only if static counted (Sigma+(1,3,5) static octagon). 'Static geometries match n only': WRONG (hexagon also matches Sigma0; octagon matches Sigma+(1,3,5)).
+Ties at z~0 among dynamic geometries carry no information; the only discriminating entries are the static ones and Lambda in D8 (0.74) vs D12 (0.15) vs TW (0.02).
+Not examined: mass, shared parameters, why.

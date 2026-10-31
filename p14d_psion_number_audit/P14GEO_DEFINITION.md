@@ -1,21 +1,16 @@
-# P14 / WP-GEO: arranjo geometrico dos psions e raios de carga (pre-registro)
+# WP-GEO: which geometry is best for each composite? (pre-registration; descriptive, NOT explanatory)
 
-Declaracao: antes deste registro calculei de cabeca G1 para p e n (razao <r2>_n/<r2>_p ~ -0,15).
-Por isso registro alternativas (G2, G3, G4) e um observavel nao calculado antes (Sigma-).
-
-Modelo: o raio de carga quadratico de um composto e <r2> = (1/Q) sum_i Q_i |r_i - r_cm|^2 (para
-neutros, sum_i Q_i |r_i - r_cm|^2), com cargas Q9 = (1,-5,-5,10,4,4)/9 e massas iguais (r_cm =
-centroide). Uma unica escala a (fixada pelo proton, <r2>_p = 0,7071 fm^2) por nivel.
-Arranjos:
- G1 hexagono: psion k no vertice de angulo 60 k graus, raio a.
- G2 reta: psion k em x = m_k a (m_k = k - 5/2).
- G3 hexagono, centro no centro do hexagono (nao no centroide).
- G4 triangulo equilatero de lado a para qualquer tripla (geometria cega ao indice).
-Observaveis (independentes de a): R_n = <r2>_n/<r2>_p, medido -0,1161/0,7071 = -0,164 (+-0,003);
-R_S = <r2>_{Sigma-}/<r2>_p, medido 0,61(15)/0,7071 = 0,86 +- 0,21 (SELEX 2001), com Sigma- = a unica
-tripla Q = -1, (0,1,2), no degrau barionico.
-Eletron: (0,1,2) no degrau leptonico; limite de tamanho ~2e-20 m. Reportar a escala a_e que o arranjo
-exigiria e a razao a_e/a_p.
-Criterio: um arranjo "acerta" se |R_n - medido| < 10% e R_S dentro de 1 sigma. Reportar todos.
-Antecipacao: G1 acerta R_n (~-0,15) e R_S (~0,85); G2-G4 nao. Em todos, o eletron exige a_e/a_p < 1e-5:
-a escala nao pode seguir o comprimento de Compton nem a massa do nivel.
+Purpose: only to establish whether different composites are best described by different geometries. It does not
+explain why. Geometries: S6 (static hexagon), S8 (static octagon, HOME=(0,1,2,4,5,6)), S12 (static dodecagon, site 2k),
+D8 (octagon quantum), D12 (dodecagon quantum), TW (twisted prism, 6 sites on 2 layers, params t,s,k,l,h,delta).
+Static geometries are parameter-free. Dynamic ones: for each composite h separately, minimum over N=3000 LHS points
+(seed 61; t,s log-uniform [0.01,6] with 5% exact zeros, k,l uniform [0,20]; TW also h in [0.2,3], delta in [0,2pi]) of
+the radius z-score of h. The proton is the reference (R_p=1) at the same parameters.
+z-scores (compatible iff z<1): n |R+0.164|/0.0164; Sigma0 |R|/0.15; Lambda |R-0.15|/0.10; Sigma+ (each candidate) |R-0.975|/0.175.
+Per-composite minimisation uses parameters free for each hadron separately, so with 4-6 free parameters a single window is
+easy to reach: z<1 in the dynamic geometries is a WEAK statement ("not excluded"). The informative entries are
+(a) the parameter-free static values and (b) the composites where even the per-hadron optimum fails.
+Anticipation (registered before running): each of the 5 composites is compatible (z<1) in at least one geometry, but there is
+no single geometry compatible for all five at once with shared parameters (already known), and the best geometry
+differs between at least two composites (Lambda and Sigma+ pick different geometries). Static geometries are expected to
+match n only. Mass is not examined here.

@@ -1,8 +1,22 @@
-G1: <r2>_p = +0.4815 a^2, <r2>_n = -0.0741 a^2, <r2>_(0,1,2) = +0.4074 a^2 | R_n = -0.154 (med -0,164) ACERTA | R_S = +0.846 (med 0,86+-0,21) ACERTA | a_p = 1.212 fm
-     eletron: para raio < 2e-20 m exige a_e < 3.1e-05 fm -> a_e/a_p < 2.6e-05; Compton daria a_e/a_p = 1199
-G2: <r2>_p = +3.2222 a^2, <r2>_n = +3.8889 a^2, <r2>_(0,1,2) = +0.4444 a^2 | R_n = +1.207 (med -0,164) erra | R_S = +0.138 (med 0,86+-0,21) erra | a_p = 0.468 fm
-     eletron: para raio < 2e-20 m exige a_e < 3.0e-05 fm -> a_e/a_p < 6.4e-05; Compton daria a_e/a_p = 1199
-G3: <r2>_p = +1.0000 a^2, <r2>_n = -0.0000 a^2, <r2>_(0,1,2) = +1.0000 a^2 | R_n = -0.000 (med -0,164) erra | R_S = +1.000 (med 0,86+-0,21) ACERTA | a_p = 0.841 fm
-     eletron: para raio < 2e-20 m exige a_e < 2.0e-05 fm -> a_e/a_p < 2.4e-05; Compton daria a_e/a_p = 1199
-G4: <r2>_p = +0.3333 a^2, <r2>_n = +0.0000 a^2, <r2>_(0,1,2) = +0.3333 a^2 | R_n = +0.000 (med -0,164) erra | R_S = +1.000 (med 0,86+-0,21) ACERTA | a_p = 1.456 fm
-     eletron: para raio < 2e-20 m exige a_e < 3.5e-05 fm -> a_e/a_p < 2.4e-05; Compton daria a_e/a_p = 1199
+S6 static R: {'n': np.float64(-0.154), 'S0': np.float64(0.0), 'L': np.float64(0.769), 'Sp1': np.float64(2.077), 'Sp2': np.float64(0.077)}
+S8 static R: {'n': np.float64(0.308), 'S0': np.float64(0.411), 'L': np.float64(1.542), 'Sp1': np.float64(1.103), 'Sp2': np.float64(-0.234)}
+S12 static R: {'n': np.float64(-0.154), 'S0': np.float64(0.0), 'L': np.float64(0.769), 'Sp1': np.float64(2.077), 'Sp2': np.float64(0.077)}
+D8 valid points 3000
+D12 valid points 3000
+TW valid points 3000
+
+z-score minimo por composto e geometria (z<1 = compativel):
+geom       n      S0       L     Sp1     Sp2
+S6      0.62    0.00    6.19    6.30    5.13
+S8     28.80    2.74   13.92    0.73    6.91
+S12     0.62    0.00    6.19    6.30    5.13
+D8      0.01    0.00    0.74    0.02    0.00
+D12     0.02    0.00    0.15    0.00    0.00
+TW      0.00    0.00    0.02    0.00    0.00
+
+melhor geometria por composto:
+n  : melhor TW (z=0.00); compativeis: ['S6', 'S12', 'D8', 'D12', 'TW']
+S0 : melhor TW (z=0.00); compativeis: ['S6', 'S12', 'D8', 'D12', 'TW']
+L  : melhor TW (z=0.02); compativeis: ['D8', 'D12', 'TW']
+Sp1: melhor D12 (z=0.00); compativeis: ['S8', 'D8', 'D12', 'TW']
+Sp2: melhor D12 (z=0.00); compativeis: ['D8', 'D12', 'TW']
