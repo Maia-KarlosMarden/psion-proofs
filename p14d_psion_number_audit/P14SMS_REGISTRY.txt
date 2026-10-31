@@ -1,0 +1,6 @@
+bfc43f89fd2fe7473792f05ae4bf37b0693c4f26bcd45c2cccc320a1da4944e0  P14SMS_DEFINITION.md
+d84ca99587779822e55e235a9ec01383748c1c86813179ada7616c29867f9b6b  P14SMS_calc.py
+2026-10-31T16:24:38Z
+RESULT (run after registration): O3 passes P-C in 71/111 V0 directions (0.64) vs baseline p0=0.215 (factor 3.0) -> registered success criterion MET for O3; O2 0.46 (it failed P-A), O1 0.00.
+Anticipation (failure) was WRONG.
+LIMITS recorded: (1) P-C is NOT independent of P-A: P-A requires m(Sigma-) in [181,335] and Sigma^0 sits near 231, which already confines dM to about [-50,104]; so the test adds little beyond OOS. (2) O3 was selected because it passed OOS (selection effect). (3) Window 0-50 MeV is ~10x the observed 4.8 MeV; the model's range [-11,112] MeV does not resolve the observed value. (4) Look-elsewhere uncorrected (~28 tests). Verdict: consistent, not confirmatory; does not upgrade the status of HYB3.

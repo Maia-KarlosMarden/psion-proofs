@@ -1,0 +1,4 @@
+O1: V0 dirs 139; dM range [81,532] MeV (obs 4.8); P-C pass 0 (0.00)
+O2: V0 dirs 160; dM range [-16,144] MeV (obs 4.8); P-C pass 74 (0.46)
+O3: V0 dirs 111; dM range [-11,112] MeV (obs 4.8); P-C pass 71 (0.64)
+baseline: V0 pairs 31627; P-C pass fraction p0 = 0.215
