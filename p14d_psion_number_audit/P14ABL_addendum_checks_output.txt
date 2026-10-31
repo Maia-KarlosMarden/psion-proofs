@@ -1,0 +1,8 @@
+V2 ponto [0.478 0.156 0.    0.48 ]: L_r=1.005; R_n=-0.148 R_S0=-0.059 R_L=+0.050 R_Sp1=+1.280 R_Sp2=+0.802
+  direcoes que passam em V2 com q>=0,336: 1038/4000; (S0-L)/D nessas: mediana -0.95 min -1.45 max -0.30 (alvo 0,437)
+  melhor direcao (-0.33,-0.38,-0.29) q=0.649; (S0-L)/D=-0.88
+  estabilidade +-10%: raio viavel 0/60; raio e V2 (q>=0,336) 0/60
+V4 ponto [0.676 0.039 0.    0.595]: L_r=1.000; R_n=-0.148 R_S0=-0.057 R_L=+0.051 R_Sp1=+1.215 R_Sp2=+0.801
+  direcoes que passam em V2 com q>=0,336: 1013/4000; (S0-L)/D nessas: mediana -0.81 min -1.23 max 0.00 (alvo 0,437)
+  melhor direcao (-0.34,-0.34,-0.32) q=0.613; (S0-L)/D=-0.58
+  estabilidade +-10%: raio viavel 0/60; raio e V2 (q>=0,336) 0/60
