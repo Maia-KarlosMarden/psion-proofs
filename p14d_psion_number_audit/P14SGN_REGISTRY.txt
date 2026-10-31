@@ -1,10 +1,6 @@
-P14SGN_DEFINITION.md sha256=80f3f214484148ab1eff99ab6c43cb8494e8654683db4e885294df8df1408a1d registrado_utc=2026-10-20T14:01:35Z (antes de qualquer corrida)
-P14SGN_test.py sha256=3c0833f2fa686bf7af1460f291f3c083fa84740a877c117aec6bb5c112aa97ec; P14SGN_output.txt sha256=4e7de69424e78f9f9bca5140816c17c81132c037edbfdda44fa2862684938a94; adendo P14SGN_addendum.txt sha256=0e9cffbb0e7c392058af938c50775c5d5ef360b5b215ab013ed3254e235c67d6 2026-10-20T14:53:33Z
-RESULTADO: C1, C2, C3 OK. PA: fase removivel (||Im|| min 4e-13), assimetria nula. PB e PC: fase fisica
-  (||Im|| min = 0,84 com rephasing dos 6 modos), assimetria de montagem impar em k -> 6-k, nula em k = 0, 3.
-ANTECIPACAO ERRADA registrada: esperei PA e PC fisicas e PB removivel; saiu PA removivel e PB, PC fisicas.
-  Tambem esperei J3 (triangulo) != 0: J3 = 0 em todos os casos; a fase vive em ciclos mais longos (pos-hoc).
-  Magnitude: Dp ~ 9e-7 em unidades da rede (esperei 1e-3-1e-2).
-OBSERVACAO POS-HOC: sem rotulo de degrau a fase do vacuo nao seleciona (De/Dp ~ -4, exoticas ~ 6-9 x Dp), como em WP-LOOP.
-  Em PB, k e k+3 dao o mesmo resultado (so 2 theta entra). Ponto a checar: se Delta C(s) de K.10 e energia de vacuo,
-  o vacuo de menor energia e k = 0, CP-invariante.
+P14SGN_DEFINITION.md sha256=d476fc746d112de41d84684957fd2f41a718bad433b15501e5759d77cd38a90d registrado_utc=2026-10-31T03:46:46Z (adaptativo, apos MASS)
+calc sha256=bcfcb2456968e898d482ab8a7419503e97ef315674094d594af6722739cf856d saida sha256=fe8b2d04dc0e51ad854d67b0201391c8a211e8a397af722d56a1669976c1e1d1 2026-10-31T03:55:47Z
+RESULTADO (pos-execucao): T1 (lambda<0, kappa>=0): D>0 so em 296/8000; E_n>E_p em 0/8000 (o kappa>0 continua dando m_n<m_p); D>0&R1&R2: 0; raios sem massa: min L = 5,49, 0 com L<1. Inverter J.Sigma NAO resolve.
+T2 (massa reponderada, lambda>0): 1854/8000 (23,2%) pontos com algum peso passando; controle: alvos de massa aleatorios passam em media 53,5% (10,7-87,7%), alvo real 22,9% na amostra: o alvo real e MAIS DIFICIL que a mediana dos aleatorios, mas o teste e em grande parte vacuo (3 pesos livres vs 3 razoes).
+ Entre os que passam em massa, melhor L de raios = 3,28 (0 com L<2, 0 com L<1; o minimo de L da tabela sem massa tambem e 3,28, entao a massa nao e o limite: a tabela e grossa; EXH achou L=0,796 por busca local, nao refeita aqui).
+Antecipacao: T1 errada em parte (previ muitos pontos com D>0; foram 3,7%); T2 acertada (vacuo parcial; raios L>1), mas errei (i)~(ii): o alvo real e mais dificil que a media dos aleatorios.

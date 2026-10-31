@@ -1,29 +1,7 @@
-
-##### colocacao PA (bond x1 theta, V x1 theta) #####
-  k=0: herm 0e+00  J3 = 0.000e+00  J3s = +0.000e+00  ||Im|| min (6 modos) = 5.02e-13  (20 estados, pos-hoc) = 2.78e-07  Dp = +0.000e+00  De = +0.000e+00  Dnu = +0.000e+00  max|exo| = 0.00e+00  ok=True
-  k=1: herm 0e+00  J3 = 2.220e-16  J3s = -2.220e-16  ||Im|| min (6 modos) = 3.83e-13  (20 estados, pos-hoc) = 3.06e-07  Dp = -2.168e-18  De = -4.337e-19  Dnu = +3.036e-18  max|exo| = 9.97e-18  ok=True
-  k=2: herm 0e+00  J3 = 2.220e-16  J3s = +0.000e+00  ||Im|| min (6 modos) = 3.99e-13  (20 estados, pos-hoc) = 2.45e-07  Dp = +4.337e-19  De = -6.505e-19  Dnu = -4.337e-18  max|exo| = 6.07e-18  ok=True
-  k=3: herm 0e+00  J3 = 4.930e-32  J3s = -4.930e-32  ||Im|| min (6 modos) = 5.02e-13  (20 estados, pos-hoc) = 2.78e-07  Dp = -8.674e-19  De = +1.084e-18  Dnu = +2.168e-18  max|exo| = 5.64e-18  ok=True
-  k=4: herm 0e+00  J3 = 2.220e-16  J3s = +0.000e+00  ||Im|| min (6 modos) = 3.85e-13  (20 estados, pos-hoc) = 3.06e-07  Dp = -4.337e-19  De = -1.301e-18  Dnu = +4.337e-19  max|exo| = 4.34e-18  ok=True
-  k=5: herm 0e+00  J3 = 2.220e-16  J3s = +2.220e-16  ||Im|| min (6 modos) = 3.98e-13  (20 estados, pos-hoc) = 2.45e-07  Dp = -3.036e-18  De = -6.505e-19  Dnu = -1.735e-18  max|exo| = 5.20e-18  ok=True
-
-##### colocacao PB (bond x1 theta, V x2 theta) #####
-  k=0: herm 0e+00  J3 = 0.000e+00  J3s = +0.000e+00  ||Im|| min (6 modos) = 5.02e-13  (20 estados, pos-hoc) = 2.78e-07  Dp = +0.000e+00  De = +0.000e+00  Dnu = +0.000e+00  max|exo| = 0.00e+00  ok=True
-  k=1: herm 0e+00  J3 = 2.220e-16  J3s = +2.220e-16  ||Im|| min (6 modos) = 8.40e-01  (20 estados, pos-hoc) = 7.41e-01  Dp = -9.463e-07  De = +4.002e-06  Dnu = +6.977e-06  max|exo| = 8.79e-06  ok=True
-  k=2: herm 0e+00  J3 = 2.220e-16  J3s = +2.220e-16  ||Im|| min (6 modos) = 8.40e-01  (20 estados, pos-hoc) = 7.41e-01  Dp = +9.463e-07  De = -4.002e-06  Dnu = -6.977e-06  max|exo| = 8.79e-06  ok=True
-  k=3: herm 0e+00  J3 = 9.861e-32  J3s = -9.861e-32  ||Im|| min (6 modos) = 5.02e-13  (20 estados, pos-hoc) = 2.78e-07  Dp = -1.735e-18  De = -1.084e-18  Dnu = +2.602e-18  max|exo| = 6.94e-18  ok=True
-  k=4: herm 0e+00  J3 = 3.724e-16  J3s = +2.220e-16  ||Im|| min (6 modos) = 8.40e-01  (20 estados, pos-hoc) = 7.41e-01  Dp = -9.463e-07  De = +4.002e-06  Dnu = +6.977e-06  max|exo| = 8.79e-06  ok=True
-  k=5: herm 0e+00  J3 = 2.220e-16  J3s = -2.220e-16  ||Im|| min (6 modos) = 8.40e-01  (20 estados, pos-hoc) = 7.41e-01  Dp = +9.463e-07  De = -4.002e-06  Dnu = -6.977e-06  max|exo| = 8.79e-06  ok=True
-
-##### colocacao PC (bond x0 theta, V x1 theta) #####
-  k=0: herm 0e+00  J3 = 0.000e+00  J3s = +0.000e+00  ||Im|| min (6 modos) = 5.02e-13  (20 estados, pos-hoc) = 2.78e-07  Dp = +0.000e+00  De = +0.000e+00  Dnu = +0.000e+00  max|exo| = 0.00e+00  ok=True
-  k=1: herm 0e+00  J3 = 2.220e-16  J3s = -2.220e-16  ||Im|| min (6 modos) = 8.40e-01  (20 estados, pos-hoc) = 7.41e-01  Dp = +8.710e-07  De = -3.850e-06  Dnu = -6.983e-06  max|exo| = 5.95e-06  ok=True
-  k=2: herm 0e+00  J3 = 2.220e-16  J3s = +0.000e+00  ||Im|| min (6 modos) = 8.40e-01  (20 estados, pos-hoc) = 7.41e-01  Dp = +9.463e-07  De = -4.002e-06  Dnu = -6.977e-06  max|exo| = 8.79e-06  ok=True
-  k=3: herm 0e+00  J3 = 4.930e-32  J3s = -4.930e-32  ||Im|| min (6 modos) = 5.02e-13  (20 estados, pos-hoc) = 2.78e-07  Dp = +3.903e-18  De = +6.505e-19  Dnu = -3.469e-18  max|exo| = 1.08e-17  ok=True
-  k=4: herm 0e+00  J3 = 2.220e-16  J3s = +0.000e+00  ||Im|| min (6 modos) = 8.40e-01  (20 estados, pos-hoc) = 7.41e-01  Dp = -9.463e-07  De = +4.002e-06  Dnu = +6.977e-06  max|exo| = 8.79e-06  ok=True
-  k=5: herm 0e+00  J3 = 2.220e-16  J3s = +2.220e-16  ||Im|| min (6 modos) = 8.40e-01  (20 estados, pos-hoc) = 7.41e-01  Dp = -8.710e-07  De = +3.850e-06  Dnu = +6.983e-06  max|exo| = 5.95e-06  ok=True
-
-##### Controles #####
-  C1 k = 0, 3: maior |J3|, |Dp|, |De| = 3.9e-18  OK
-  C2 imparidade k -> 6-k: maior desvio = 2.5e-11  OK
-  C3 hermiticidade: 0.0e+00  OK
+pontos: 16000; lambda<0: 8000; lambda>0: 8000
+[T1 lambda<0] D>0: 296/8000; E_n>E_p: 0; D>0&R1&R2: 0
+   (controle) lambda<0: min L de raios (sem massa) = 5.49; L<1: 0
+[T2 lambda>0] pontos com ALGUM peso passando (alvo real): 1854/8000 (23.2%)
+   controle de vacuidade: alvos de massa aleatorios (40, 1500 pontos): fracao media 53.5% [min 10.7, max 87.7]; alvo real nessa amostra 22.9%
+   entre os que passam em massa: melhor L de raios = 3.28; L<2: 0; L<1: 0; em (t,s,k,l)=(1.449,0.053,0.51,1.38)
+   (controle) lambda>0 sem massa: min L = 3.28; L<1: 0
