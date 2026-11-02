@@ -1,0 +1,5 @@
+a = 0.9400 fm; R_n = -0.1464; perdas FF (p,n,Rn) = 1.08, 1.08, 1.07
+Sigma-: R banda [0.726, 1.010] (obs 0.862 +- 0.212); desvios [-0.64, +0.70] sigma
+veredito Sigma-: SUPPORT
+Sigma+ (1, 3, 5): raio rms banda [0.98, 1.16] fm
+Sigma+ (2, 3, 4): raio rms banda [0.33, 0.84] fm
