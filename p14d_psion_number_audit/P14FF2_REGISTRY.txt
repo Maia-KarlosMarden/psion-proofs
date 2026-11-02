@@ -1,0 +1,6 @@
+3f618be19ec5ee19fff50c9c58e092ff8dee3738db2aa8d18fcddca0106a3e98  P14FF2_DEFINITION.md
+9a46e7977442e53faa717cabdc16ff9b1be4a8c5d6c8173ac8a3d931a5a12582  P14FF2_calc.py
+2026-11-02T17:35:51Z
+RESULT (P14FF2_output.txt): five independent DE starts, best losses L = 3.289, 3.279, 2.916, 3.273, 3.288 (static hexagon: 5.2); none below 1. Viable 0/5 -> KILL as registered. The extra points (Q^2 = 0.4, 0.6) give relative losses 1.7-2.4 for the best points, so even where the three-region criterion is partly met the tolerance 15% is exceeded by factors of ~2. Anticipation (KILL; best L in 1.5-4) RIGHT.
+Interpretation: delocalising the ring over 12 sites reduces the mismatch (5.2 -> 2.9) but does not reach the 15% band, even with four free parameters. The proton shape, the neutron shape and R_n cannot be met at once by this ring, static or dynamic.
+LIMITS: DE searches are not exhaustive; only the DYN12 Hamiltonian is tested (not the octagon, twist or hybrids with extended psions); the tolerance 15% is mine; the dipole and Galster forms are parametrisations (caveats in WP-FF); no recoil.

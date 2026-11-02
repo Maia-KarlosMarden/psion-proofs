@@ -1,0 +1,8 @@
+referencia estatica L = 5.2 (WP-FF)
+seed 72: L = 3.289 x=[ 1.368  5.891  0.031 13.582] viavel=False; pontos extras (Q2=0.4,0.6) perdas relativas: (2.4, 1.83)
+seed 73: L = 3.279 x=[ 1.295  5.608  0.014 12.899] viavel=False; pontos extras (Q2=0.4,0.6) perdas relativas: (2.39, 1.84)
+seed 74: L = 2.916 x=[0.195 0.772 0.182 1.243] viavel=False; pontos extras (Q2=0.4,0.6) perdas relativas: (2.26, 1.67)
+seed 75: L = 3.273 x=[0.843 3.597 0.027 8.134] viavel=False; pontos extras (Q2=0.4,0.6) perdas relativas: (2.38, 1.86)
+seed 76: L = 3.288 x=[ 1.34   5.776  0.031 13.323] viavel=False; pontos extras (Q2=0.4,0.6) perdas relativas: (2.39, 1.85)
+=> viaveis 0/5; viaveis que tambem passam nos pontos extras 0
+veredito: KILL
