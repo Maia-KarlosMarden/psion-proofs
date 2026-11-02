@@ -1,0 +1,7 @@
+A: E0(theta) delta=0: min -11.250000000000 max -11.250000000000 spread 0.00e+00
+B: E0(theta_k): [-11.25 -11.25 -11.25 -11.25 -11.25 -11.25] spread 0.00e+00; DeltaC(s)= [np.float64(0.0), np.float64(15.0), np.float64(24.0), np.float64(27.0), np.float64(24.0), np.float64(15.0)]
+/home/claude/maia-karlosmarden/psion-proofs/p14d_psion_number_audit/P14VAC_calc.py:17: RuntimeWarning: invalid value encountered in scalar divide
+  print(f"C: delta={d}: E0 range {E.max()-E.min():.3e}; harmonicas n=1..6:",[f"{F[n]:.2e}" for n in range(1,7)],f"a6/a1={F[6]/F[1]:.1e}")
+C: delta=0.02: E0 range 0.000e+00; harmonicas n=1..6: ['0.00e+00', '0.00e+00', '0.00e+00', '0.00e+00', '0.00e+00', '0.00e+00'] a6/a1=nan
+C: delta=0.05: E0 range 0.000e+00; harmonicas n=1..6: ['0.00e+00', '0.00e+00', '0.00e+00', '0.00e+00', '0.00e+00', '0.00e+00'] a6/a1=nan
+C: delta=0.1: E0 range 0.000e+00; harmonicas n=1..6: ['0.00e+00', '0.00e+00', '0.00e+00', '0.00e+00', '0.00e+00', '0.00e+00'] a6/a1=nan
