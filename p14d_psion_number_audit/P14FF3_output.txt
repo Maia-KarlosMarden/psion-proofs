@@ -1,0 +1,17 @@
+A: tamanho comum
+  r_psi=0.00 fm: a=1.213 R_n=-0.154; perda proton 3.02, neutron 5.21, R_n 0.62; L=5.21
+  r_psi=0.10 fm: a=1.204 R_n=-0.152; perda proton 3.11, neutron 4.96, R_n 0.75; L=4.96
+  r_psi=0.20 fm: a=1.178 R_n=-0.145; perda proton 3.34, neutron 4.22, R_n 1.15; L=4.22
+  r_psi=0.30 fm: a=1.133 R_n=-0.134; perda proton 3.64, neutron 3.05, R_n 1.81; L=3.64
+  r_psi=0.40 fm: a=1.067 R_n=-0.119; perda proton 4.25, neutron 1.53, R_n 2.74; L=4.25
+  r_psi=0.50 fm: a=0.975 R_n=-0.100; perda proton 4.68, neutron 1.43, R_n 3.93; L=4.68
+  r_psi=0.60 fm: a=0.850 R_n=-0.076; perda proton 4.87, neutron 2.65, R_n 5.39; L=5.39
+  r_psi=0.70 fm: a=0.673 R_n=-0.047; perda proton 4.86, neutron 4.27, R_n 7.11; L=7.11
+  r_psi=0.80 fm: a=0.376 R_n=-0.015; perda proton 4.81, neutron 5.98, R_n 9.10; L=9.10
+  melhor L = 3.552 em r_psi = 0.27 fm; veredito A: KILL
+B: tamanhos por psion (r0,r1,r4,r5)
+  seed 72: L=1.159 r(0,1,4,5)=[0.411 0.252 0.475 0.092] fm; a=1.102; max/min(>0.02)=5.2; viavel=False
+  seed 73: L=1.149 r(0,1,4,5)=[0.409 0.28  0.494 0.148] fm; a=1.089; max/min(>0.02)=3.3; viavel=False
+  seed 74: L=1.100 r(0,1,4,5)=[0.407 0.415 0.656 0.314] fm; a=0.971; max/min(>0.02)=2.1; viavel=False
+  seed 75: L=1.098 r(0,1,4,5)=[0.406 0.38  0.609 0.277] fm; a=1.009; max/min(>0.02)=2.2; viavel=False
+  seed 76: L=1.086 r(0,1,4,5)=[0.408 0.413 0.651 0.311] fm; a=0.975; max/min(>0.02)=2.1; viavel=False

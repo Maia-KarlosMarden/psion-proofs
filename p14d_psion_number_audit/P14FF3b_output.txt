@@ -1,0 +1,11 @@
+seed 81: L=1.0717 r(0,1,4,5)=[0.413 0.442 0.692 0.34 ] fm; a=0.940; perdas proton 1.07 neutron 1.07 Rn 1.07
+seed 82: L=1.0717 r(0,1,4,5)=[0.413 0.442 0.691 0.34 ] fm; a=0.940; perdas proton 1.07 neutron 1.07 Rn 1.07
+seed 83: L=1.0717 r(0,1,4,5)=[0.413 0.442 0.691 0.34 ] fm; a=0.940; perdas proton 1.07 neutron 1.07 Rn 1.07
+seed 84: L=1.0717 r(0,1,4,5)=[0.413 0.442 0.692 0.34 ] fm; a=0.940; perdas proton 1.07 neutron 1.07 Rn 1.07
+seed 85: L=1.0717 r(0,1,4,5)=[0.413 0.442 0.691 0.34 ] fm; a=0.940; perdas proton 1.07 neutron 1.07 Rn 1.07
+seed 86: L=1.0717 r(0,1,4,5)=[0.413 0.442 0.691 0.34 ] fm; a=0.940; perdas proton 1.07 neutron 1.07 Rn 1.07
+seed 87: L=1.0717 r(0,1,4,5)=[0.413 0.442 0.691 0.34 ] fm; a=0.940; perdas proton 1.07 neutron 1.07 Rn 1.07
+seed 88: L=1.0717 r(0,1,4,5)=[0.413 0.442 0.691 0.34 ] fm; a=0.940; perdas proton 1.07 neutron 1.07 Rn 1.07
+seed 89: L=1.0717 r(0,1,4,5)=[0.413 0.442 0.691 0.34 ] fm; a=0.940; perdas proton 1.07 neutron 1.07 Rn 1.07
+seed 90: L=1.0717 r(0,1,4,5)=[0.413 0.442 0.691 0.34 ] fm; a=0.940; perdas proton 1.07 neutron 1.07 Rn 1.07
+=> L minimo = 1.0717; viavel (L<1): False
