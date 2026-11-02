@@ -1,0 +1,6 @@
+P14TRH_DEFINITION.md sha256=b97387e6ddb7d82a7331089961f05877e33dcc9786ffa98ead2592c7673bb380 registrado_utc=2026-10-20T13:39:07Z (checagem exploratoria previa declarada; P14BIF_TRH_exploratory.txt sha256=4a83728f8c7a1b4b3938d8cb3a1cec6084be1f99e4fd90bb27167631817bae6a)
+P14TRH_sim.py sha256=2f8d4bb15159aabdbb22c9b27deb543135f8fcfeff69455b362a21ef8daef07e; P14TRH_output.txt sha256=492549c5d500c042244c55585b83ea2b412ee3a10d1c1bea41583fadb61f5cc3 rodado_utc=2026-10-20T13:39:13Z
+RESULTADO: equivalencia c_G <-> T_RH confirmada (7e-8). Maximo eta/eps = 3,56e-3 (L1) e 2,58e-3 (L2) em T_RH = 1,38e10 GeV.
+  eps necessario <= 1e-5 para T_RH em [2e9, 2e10] (L1) e [4e9, 2e10] (L2). Lavagem: eta/eps cai a ~1e-6 em 4e10 e a ~1e-13 em 7e10.
+  C2, C3 OK. C1 FALHA registrada: 1,1e-8 contra 1e-9, em T_RH = 4e10 onde |B| ~ 9e-9 e o residuo ~1e-16 e piso numerico.
+ANTECIPACAO PARCIALMENTE ERRADA: esperei limite superior da janela em 4e10 GeV; e 2e10 GeV (lavagem mais abrupta).

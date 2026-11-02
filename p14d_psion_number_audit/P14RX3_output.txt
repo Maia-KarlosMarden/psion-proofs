@@ -1,0 +1,4 @@
+raios (n, Sigma0, Lambda, Sigma+): 0 de 226981 pontos (kappa, lambda, beta) viaveis; beta em -
+   entre os viaveis em raio: sinal m_n > m_p em 0; m_Lambda > m_p em 0; ambas as massas a 30% em 0
+teste de acaso: P_acaso = 0.000 (0/2000)
+   com Sigma- (0,86+-0,21): 0 pontos

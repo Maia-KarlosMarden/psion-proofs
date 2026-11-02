@@ -1,0 +1,4 @@
+tabela: 12000 pontos; NaN: 0
+alvo real: melhor L da tabela = 3.580
+alvo real: min L apos refino = 1.838 -> falha
+alvos aleatorios: 0/80 com sucesso -> P_acaso = 0.000 (IC95% aprox. [0.000, 0.000]); mediana de min L = 21.76

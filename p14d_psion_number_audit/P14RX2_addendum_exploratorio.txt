@@ -1,0 +1,22 @@
+EXPLORATORIO (nao pre-registrado)
+   alvo n sozinho: 14/3721 pontos
+   alvo S0 sozinho: 95/3721 pontos
+   alvo L sozinho: 0/3721 pontos
+   alvo Sp sozinho: 8/3721 pontos
+   alvo Sm sozinho: 46/3721 pontos
+   n+S0: 14
+   n+Sp: 2
+   n+Sm: 7
+   S0+Sp: 3
+   S0+Sm: 14
+   Sp+Sm: 3
+   n+S0+Sp: 2
+   n+S0+Sm: 7
+   n+Sp+Sm: 1
+   S0+Sp+Sm: 1
+   colocacoes geometricamente corretas para cada alvo (sobre 1320, com p natural):
+      L: 1320 colocacoes, valores distintos 24
+      Sp1: 1320 colocacoes, valores distintos 52
+      Sp2: 1320 colocacoes, valores distintos 52
+      n: 1320 colocacoes, valores distintos 50
+      S0: 1320 colocacoes, valores distintos 50

@@ -1,0 +1,5 @@
+3a848f4bad17c7da900ffa87765552847ab006d7ee0de7c4cda644ef5e033990  P14RULE_DEFINITION.md
+05bd19aafb0a3684f2a5462877ec5ab319a74f73775c037dea8bb960b6f5ae2c  P14RULE_calc.py
+2026-10-31T17:09:07Z
+RESULT: LOO score 2/5 (majority baseline 0/5), permutation p=0.467 (30 distinct label permutations, null mean 1.27) -> NO SUCCESS. Selected stump is 'contains psion 0' for every fold (p, n, Sigma0 contain 0 and are H; the held-out Lambda/Sigma+ contain no 0 or are mixed): it separates the hexagon-compatible from the rest only because training had them. Anticipation (failure) was RIGHT.
+Interpretation: with 5 points, 3 classes and a convention-dependent labelling, no simple rule on the triple is identifiable. Geometry diversity is established as a possibility (WP-GEO) but no selection rule is supported. Does not change L.4.8.

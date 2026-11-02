@@ -1,0 +1,7 @@
+P14CAL_DEFINITION.md sha256=28a1ee871c0a4c9dd92a84cd2bdae37f7bbed699bc94252e3ffbc297964a17d7 registrado_utc=2026-10-20T05:02:27Z (antes de qualquer corrida)
+P14CAL_fit.py sha256=0e7019a2828052ec8a15e4cebb9fd845cb071c73b73a1f6cfe70469fb894b38e; P14CAL_output.txt sha256=acaeece943254b5bfec8825d547fe3a27fadb7c2a4483783e875953d0a8c414e
+ERRO REGISTRADO (2026-10-20T05:04:31Z): o bloco A5/V5 (materia escura) e invalido. runpy.run_path devolve uma
+  COPIA dos globais, entao trocar T_['sectors'] nao altera o setor usado por simulate (verificado: os dois kappa deram o
+  mesmo resultado; com o setor certo, m = 1.544e6 GeV da Omega h2 = 916 com kappa = 1). Refeito em
+  P14CAL_dm_addendum.py, alterando simulate.__globals__. Nada da montagem (A1-A4, V1-V4) usa esse bloco.
+P14CAL_dm_addendum.py sha256=1f6c63979b957d1a7b6744d351084bd5b3be39b6a948d868b4ba5a470813000a; saida sha256=065d0253224a5b011797a04d7b045b675ea506956cc4857e011b17b1e0bfd898

@@ -1,0 +1,56 @@
+T1 canais carregados do proton (Q=+1): T', meson (k, l_bar), Delta Q^2
+   p -> (0, 1, 5) + (3,0bar): Delta = 110/81 = +1.358
+   p -> (0, 1, 5) + (4,1bar): Delta = 50/81 = +0.617
+   p -> (0, 1, 5) + (5,2bar): Delta = 50/81 = +0.617
+   p -> (0, 2, 4) + (3,0bar): Delta = 110/81 = +1.358
+   p -> (0, 2, 4) + (4,1bar): Delta = 50/81 = +0.617
+   p -> (0, 2, 4) + (5,2bar): Delta = 50/81 = +0.617
+   p -> (1, 2, 3) + (3,0bar): Delta = 218/81 = +2.691
+   p -> (1, 2, 3) + (4,1bar): Delta = 158/81 = +1.951
+   p -> (1, 2, 3) + (5,2bar): Delta = 158/81 = +1.951
+   p -> (1, 3, 5) + (0,0bar): Delta = 110/81 = +1.358
+   p -> (1, 3, 5) + (1,1bar): Delta = 158/81 = +1.951
+   p -> (1, 3, 5) + (2,2bar): Delta = 158/81 = +1.951
+   p -> (1, 3, 5) + (3,3bar): Delta = 308/81 = +3.802
+   p -> (1, 3, 5) + (4,4bar): Delta = 140/81 = +1.728
+   p -> (1, 3, 5) + (5,5bar): Delta = 140/81 = +1.728
+   p -> (2, 3, 4) + (0,0bar): Delta = 110/81 = +1.358
+   p -> (2, 3, 4) + (1,1bar): Delta = 158/81 = +1.951
+   p -> (2, 3, 4) + (2,2bar): Delta = 158/81 = +1.951
+   p -> (2, 3, 4) + (3,3bar): Delta = 308/81 = +3.802
+   p -> (2, 3, 4) + (4,4bar): Delta = 140/81 = +1.728
+   p -> (2, 3, 4) + (5,5bar): Delta = 140/81 = +1.728
+   p -> (3, 4, 5) + (0,3bar): Delta = 200/81 = +2.469
+   p -> (3, 4, 5) + (1,4bar): Delta = 140/81 = +1.728
+   p -> (3, 4, 5) + (2,5bar): Delta = 140/81 = +1.728
+canais carregados do neutron (Q=0):
+   n -> (0, 1, 2) + (3,0bar): Delta = 110/81 = +1.358
+   n -> (0, 1, 2) + (4,1bar): Delta = 50/81 = +0.617
+   n -> (0, 1, 2) + (5,2bar): Delta = 50/81 = +0.617
+   n -> (0, 2, 4) + (0,0bar): Delta = 2/81 = +0.025
+   n -> (0, 2, 4) + (1,1bar): Delta = 50/81 = +0.617
+   n -> (0, 2, 4) + (2,2bar): Delta = 50/81 = +0.617
+   n -> (0, 2, 4) + (3,3bar): Delta = 200/81 = +2.469
+   n -> (0, 2, 4) + (4,4bar): Delta = 32/81 = +0.395
+   n -> (0, 2, 4) + (5,5bar): Delta = 32/81 = +0.395
+   n -> (0, 4, 5) + (0,3bar): Delta = 92/81 = +1.136
+   n -> (0, 4, 5) + (1,4bar): Delta = 32/81 = +0.395
+   n -> (0, 4, 5) + (2,5bar): Delta = 32/81 = +0.395
+   n -> (1, 2, 3) + (0,0bar): Delta = 110/81 = +1.358
+   n -> (1, 2, 3) + (1,1bar): Delta = 158/81 = +1.951
+   n -> (1, 2, 3) + (2,2bar): Delta = 158/81 = +1.951
+   n -> (1, 2, 3) + (3,3bar): Delta = 308/81 = +3.802
+   n -> (1, 2, 3) + (4,4bar): Delta = 140/81 = +1.728
+   n -> (1, 2, 3) + (5,5bar): Delta = 140/81 = +1.728
+   n -> (1, 3, 5) + (0,3bar): Delta = 200/81 = +2.469
+   n -> (1, 3, 5) + (1,4bar): Delta = 140/81 = +1.728
+   n -> (1, 3, 5) + (2,5bar): Delta = 140/81 = +1.728
+   n -> (2, 3, 4) + (0,3bar): Delta = 200/81 = +2.469
+   n -> (2, 3, 4) + (1,4bar): Delta = 140/81 = +1.728
+   n -> (2, 3, 4) + (2,5bar): Delta = 140/81 = +1.728
+T2 S_val = -1/9 = -0.1111; melhor canal p: +3.802, pior canal n: +0.025
+   S_mar,max (P<=0,5 em cada) = +1.889; S_G,max = +1.778
+   S_mar necessario = +0.346; P necessario (cada nucleon, canal otimo) = 0.092
+   -> passa (criterio: S_G,max >= 0,209 com P <= 0,5)
+T3 razao mar necessario / mar QCD = 3.53
+   [fora do registro] se os pares neutros de rotulo 3 (Q^2=1.23) nao cancelassem: dS = 2 Q3^2 dP; dP necessario = 0.140 (sem mecanismo que o gere)

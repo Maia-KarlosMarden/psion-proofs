@@ -1,0 +1,5 @@
+L2 omega=10.0 gamma=1.0: rho = 0.9821; linearidade 9.2e-04; c_G=1e-5: rho = 0.9984, Dp/phi = +6.2e-09
+L1 omega=10.0 gamma=10.0: rho = 0.9616; linearidade 3.6e-04; c_G=1e-5: rho = 1.0000, Dp/phi = -1.2e-07
+C3 Delta(-phi) = -Delta(phi): maior desvio 1.8e-06  FALHA
+CRITERIO L2: melhor rho = 0.9821; sucesso nao; estrutura acima do acaso (1o percentil 0.926) nao
+CRITERIO L1: melhor rho = 0.9616; sucesso nao; estrutura acima do acaso (1o percentil 0.787) nao

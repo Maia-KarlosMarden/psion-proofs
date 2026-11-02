@@ -1,0 +1,6 @@
+controle kappa=lambda=0: R_n = -0.1538, R_Sigma- = +0.8462
+radii (n, Sigma0, Lambda, Sigma+): 0 de 14641 pontos da grade viaveis
+   massas com Sp1: 0 dos viaveis em raio passam sinal n-p e Sigma+-p, Sigma0-Lambda a 30%
+   massas com Sp2: 0 dos viaveis em raio passam sinal n-p e Sigma+-p, Sigma0-Lambda a 30%
+teste de acaso (alvos aleatorios, mesmas larguras): P_acaso = 0.000 (0/2000)
+   com Sigma- (0,86+-0,21): 0 pontos viaveis

@@ -1,0 +1,15 @@
+== Parte 1: J.Sigma em 4D ==
+  beta(ghat) = -2*ghat*(ghat - 1) (em mu << Lambda: 2 ghat - 2 ghat^2 apos reescalar ghat* = 1)
+  ponto fixo ghat* = 1 (G_c = 4 pi^2/(N lam Lambda^2)); linearizado: beta ~ -2 (ghat-ghat*) => M ~ Lambda |dG/G|^(1/2), nu = 1/2
+  => para M/Lambda = 1.29e-13 exige-se |G-G_c|/G_c ~ 9.9e-25 (como WP-LJS). Sem log: nao ha transmutacao exponencial.
+== Parte 2: proto-cor SU(3) ==
+  C1 alpha=pi/6=0.524, n_f=1, 1 laco(s): Lambda_pc = 3.948e+11 GeV (expoente 1.16) ln(prev/alvo) = +28.52 -> falha
+  C1 alpha=pi/6=0.524, n_f=1, 2 laco(s): Lambda_pc = 7.124e+11 GeV (expoente 0.57) ln(prev/alvo) = +29.11 -> falha
+  C1 alpha=pi/6=0.524, n_f=0, 1 laco(s): Lambda_pc = 4.236e+11 GeV (expoente 1.09) ln(prev/alvo) = +28.59 -> falha
+  C1 alpha=pi/6=0.524, n_f=0, 2 laco(s): Lambda_pc = 7.483e+11 GeV (expoente 0.52) ln(prev/alvo) = +29.16 -> falha
+  C2 composicao: 1/alpha(mu) = 1/alpha(Lambda) - (b0/2pi) ln(Lambda/mu); com 1/alpha(Lambda) = 0 e b0 > 0,
+     1/alpha < 0 logo abaixo de Lambda: inconsistente (gauge induzido exige b0 < 0, triagem). -> nao se aplica
+== Exigido (nao e teste) ==
+  n_f=1: alpha_pc(Lambda_meta) exigido = 0.0205 (1 laco), 0.0193 (2 lacos)  [1/alpha = 48.8, 51.8]
+  n_f=0: alpha_pc(Lambda_meta) exigido = 0.0192 (1 laco), 0.0181 (2 lacos)  [1/alpha = 52.0, 55.2]
+  referencia MP: alpha_s(Lambda_meta) 1 laco = 0.0289 [1/alpha = 34.6]

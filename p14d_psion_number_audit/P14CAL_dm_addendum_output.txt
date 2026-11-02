@@ -1,0 +1,2 @@
+kappa =  1.00: l_DM = 5.127, m_DM = 1.605e+04 GeV, Omega h2 = 0.120; nivel 0,8 do v85 daria Omega h2 = 1.1e+12
+kappa = 12.57: l_DM = 4.774, m_DM = 5.594e+04 GeV, Omega h2 = 0.120; nivel 0,8 do v85 daria Omega h2 = 1.1e+11

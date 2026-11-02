@@ -1,0 +1,27 @@
+alvo: eta = 6.1e-10, Delta_p = Delta_e = D = 3.7058e-09; dimensao dos botoes de direcao = 69
+  cG= 1e-05 L1: posto das restricoes 18/24, viavel, pitada minima eps_ef = 8.259e+01
+  cG= 1e-05 L2: posto das restricoes 18/24, viavel, pitada minima eps_ef = 1.478e+02
+  cG= 1e-03 L1: posto das restricoes 24/24, viavel, pitada minima eps_ef = 1.127e-01
+  cG= 1e-03 L2: posto das restricoes 24/24, viavel, pitada minima eps_ef = 5.658e-02
+  cG= 1e+00 L1: posto das restricoes 24/24, viavel, pitada minima eps_ef = 2.465e+04
+  cG= 1e+00 L2: posto das restricoes 24/24, viavel, pitada minima eps_ef = 1.733e+04
+
+RECEITA: c_G = 1e-03, lei L2, eps_ef = 5.658e-02 (V4 positividade: OK)
+
+##### V1 corrida nao linear com a receita #####
+  eta(p) = 6.0985e-10  Delta_e/Delta_p = 1.000970  (Delta_nu)/(Delta_p) = -2.000671  maior |exotico|/D = 1.17e-03
+  V1 OK
+  N_psi liquido = 1.9e-16
+
+##### V2 sintonia fina #####
+  c_G x 0.5: eta = 1.136e-09 (x1.862), Delta_e/Delta_p = -11.881, maior |exotico|/D = 2.60e+02
+  c_G x 2.0: eta = -1.635e-08 (x-26.797), Delta_e/Delta_p = 3.914, maior |exotico|/D = 4.01e+02
+  ruido 1% na direcao: eta/alvo em [-2.56, 3.17], Delta_e/Delta_p em [-124.56, 6.62], |exotico|/D ate 32.63
+  ruido 10% na direcao: eta/alvo em [-57.47, 58.65], Delta_e/Delta_p em [-20.50, 98.49], |exotico|/D ate 336.39
+
+##### V3 neutrinos #####
+  excesso de nu-bar por sabor = 6.1e-10 n_gamma -> xi = 2.5e-09; limite |xi| < 0.03: OK; mu_nu/T = 0.123 de 13.5 seria 5e+07 vezes maior
+
+##### A5 / V5 materia escura do topo (historia H1) #####
+  kappa = 1.00: l_DM = 3.838, m_DM = 1.544e+06 GeV, Omega h2 = 0.120; nivel 0,8 do v85 daria 1.1e+12
+  kappa = 12.57: l_DM = 3.838, m_DM = 1.544e+06 GeV, Omega h2 = 0.120; nivel 0,8 do v85 daria 1.1e+12

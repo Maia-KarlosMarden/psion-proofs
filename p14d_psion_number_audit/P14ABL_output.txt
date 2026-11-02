@@ -1,0 +1,28 @@
+=== DYN12: 8000 pontos; raios puros (V6): tabela min L_r = 3.276
+  V0: pontos que satisfazem 131; tabela min L_r = 3.276
+  V1: pontos que satisfazem 146; tabela min L_r = 3.276
+  V2: pontos que satisfazem 2595; tabela min L_r = 3.276
+  V3: pontos que satisfazem 392; tabela min L_r = 3.276
+  V4: pontos que satisfazem 271; tabela min L_r = 3.276
+  V5: pontos que satisfazem 8000; tabela min L_r = 3.276
+  [refino] V0: min = 1.506 (inviavel); viaveis 0/10; z=[0.904 0.    0.    0.793]
+  [refino] V1: min = 1.506 (inviavel); viaveis 0/10; z=[0.904 0.    0.    0.793]
+  [refino] V2: min = 0.992 (VIAVEL); viaveis 4/10; z=[0.478 0.156 0.    0.48 ]
+  [refino] V3: min = 0.992 (VIAVEL); viaveis 3/10; z=[0.376 0.211 0.    0.426]
+  [refino] V4: min = 0.993 (VIAVEL); viaveis 1/10; z=[0.676 0.039 0.    0.595]
+  [refino] V5: min = 0.992 (VIAVEL); viaveis 3/10; z=[0.349 0.226 0.    0.411]
+  [refino] V6: min = 0.992 (VIAVEL); viaveis 3/10; z=[0.349 0.226 0.    0.411]
+=== TWIST: 30000 pontos; raios puros (V6): tabela min L_r = 1.307
+  V0: pontos que satisfazem 745; tabela min L_r = 2.218
+  V1: pontos que satisfazem 2129; tabela min L_r = 1.596
+  V2: pontos que satisfazem 24192; tabela min L_r = 1.307
+  V3: pontos que satisfazem 6028; tabela min L_r = 1.307
+  V4: pontos que satisfazem 3492; tabela min L_r = 1.596
+  V5: pontos que satisfazem 28834; tabela min L_r = 1.307
+  [refino] V0: min = 1.500 (inviavel); viaveis 0/10; z=[ 0.017  0.    14.153  3.025  2.574  2.482]
+  [refino] V1: min = 1.500 (inviavel); viaveis 0/10; z=[ 0.038  0.    14.949  3.4    2.514  2.766]
+  [refino] V2: min = 1.153 (inviavel); viaveis 0/10; z=[0.004 0.701 0.    2.23  1.434 2.581]
+  [refino] V3: min = 1.153 (inviavel); viaveis 0/10; z=[0.003 0.696 0.022 2.339 1.434 2.582]
+  [refino] V4: min = 1.500 (inviavel); viaveis 0/10; z=[ 0.038  0.    14.949  3.4    2.514  2.766]
+  [refino] V5: min = 1.153 (inviavel); viaveis 0/10; z=[0.004 0.701 0.    2.23  1.434 2.581]
+  [refino] V6: min = 1.153 (inviavel); viaveis 0/10; z=[0.004 0.701 0.    2.23  1.434 2.581]

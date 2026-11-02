@@ -1,0 +1,3 @@
+P14ADD_DEFINITION.md sha256=bc5925b806b2397d2ae5057d6230ccefcae749ee81ec904d221a3fa184df76cb registrado_utc=2026-10-20T12:15:38Z (antes de qualquer corrida)
+P14ADD_test.py sha256=e4c8c12e708095bc38ab5a5d80c2c2c7f65c588d034ef8344308b0285aba63a1; P14ADD_output.txt sha256=8319aafd129228b4f6b6c0591c4fb5b001e695e0e7c26ecf6fbe698ea083b3a5 rodado_utc=2026-10-20T12:16:07Z
+RESULTADO: antecipacao confirmada nas quatro partes (catalogo OK e 7 proibidos violam N_B; 6 leptons de materia com Q > 0 a tornar pesados; R0 preserva, R1 m_e x0,13, R2 x6e10; c <= 1,3e-8, T* = 2,7e15 GeV > Lambda_meta: sem janela).

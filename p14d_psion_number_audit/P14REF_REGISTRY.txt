@@ -1,0 +1,6 @@
+P14REF_DEFINITION.md sha256=5b0b523f56097309141e0c13edbcdbbb19a0baaecfc15a4a838c4ef9b761b56c registrado_utc=2026-10-31T04:01:05Z (adaptativo, apos SGN)
+calc sha256=a01e9bd2ab0e7df603dd15c0278ddc094720ba09885cdd8dc1cedd1c86420836 saida sha256=92655b506c703e084bb9de88bc964e68ccbadcd8e22a24b5d06a5a85232eac17 2026-10-31T04:05:58Z
+RESULTADO (pos-execucao): A (pesos livres): min L_c = 2,778, 0/13 viaveis (melhor: t=1,46 s~0 k=0,22 l=1,32, pesos (-3,-3,+3) no limite do dominio; L_r=2,78=L_m). B (pesos naturais [0;1,5]): min L_c = 5,000, 0/13 viaveis.
+LIMITACAO DECLARADA POS-HOC: em B o Nelder-Mead colapsou para pesos (0,0,0): D=0 e a penalidade 5+|D| tem minimo em D->0, plateau artificial; L_c=5,000 e artefato da penalidade, nao medida de inviabilidade fisica. Em A o otimo bateu no limite dos pesos (|w|=3).
+ Antecipacao ERRADA: previ A com min L_c entre 0,5 e 1,0; foi 2,78 (a partida EXH com pesos 1,1,1 tem D<0 e nao sobreviveu). B>1 acertou, mas por artefato.
+ Nao se concluiu inviabilidade: o refino local com penalidade e inadequado. Proximo desenho: massa como restricao rigida (parametrizar pesos para satisfazer D>0 e razoes exatamente) e minimizar L_r.

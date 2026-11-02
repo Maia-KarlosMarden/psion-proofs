@@ -1,0 +1,15 @@
+tabela: 30000 pontos; validos 30000; q definido 5867
+[2] raios isolados: min L_r = 1.307; L_r<1: 0; L_r<2: 25
+    massa isolada: q_max mediana 0.048, p90 0.387, max 0.841; q>=0,336: 744; q>=0,168: 1469
+[3] min L_r com q>=0.336: 2.218 (pontos 744)
+[3] min L_r com q>=0.168: 1.596 (pontos 1469)
+[3] min L_r com q>=0.05: 1.576 (pontos 2877)
+[3] min L_r com q>=1e-09: 1.307 (pontos 5867)
+    delta (graus) dos 20 melhores com q>=0,168: mediana 128, min 58, max 176
+    delta<5 graus (prisma): q definido em 34 de 834
+[4] raio puro: min L_r = 1.153 (inviavel); viaveis 0/10
+    melhor: (t,s,k,l,h,delta)=[0.004 0.701 0.    2.23  1.434 2.581] q=nan R=[-0.145  0.173  0.035  0.82   1.138]
+[4] conjunto (escala natural): min perda = 1.500 (inviavel); viaveis 0/20
+    perda=1.500 L_r=1.500 q=0.5607 (t,s,k,l,h,delta)=[ 0.018  0.    14.08   3.189  2.516  2.41 ] R=[-0.149  0.    -0.     1.125  1.299]
+    perda=1.500 L_r=1.500 q=0.4150 (t,s,k,l,h,delta)=[ 0.212  0.    20.     5.48   2.226  2.698] R=[-0.141  0.     0.     1.236  1.334]
+    perda=1.500 L_r=1.500 q=0.4959 (t,s,k,l,h,delta)=[1.590e-01 4.000e-03 2.000e+01 5.450e+00 2.171e+00 2.584e+00] R=[-0.176 -0.    -0.     1.237  1.353]

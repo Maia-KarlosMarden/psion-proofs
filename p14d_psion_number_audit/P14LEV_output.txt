@@ -1,0 +1,34 @@
+##### Parte 1: cargas aditivas conservadas exigidas pelas reacoes observadas #####
+  n -> p e- nubar_e            Q conservada: True  N_psi conservado: True
+  p -> n e+ nu_e (beta+)       Q conservada: True  N_psi conservado: True
+  e- p -> n nu_e               Q conservada: True  N_psi conservado: True
+  pi+ -> mu+ nu_mu             Q conservada: True  N_psi conservado: True
+  mu- -> e- nubar_e nu_mu      Q conservada: True  N_psi conservado: True
+  nu_mu n -> mu- p             Q conservada: True  N_psi conservado: True
+  nubar_e p -> e+ n            Q conservada: True  N_psi conservado: True
+  Lambda -> p pi-              Q conservada: True  N_psi conservado: True
+  Lambda -> n pi0              Q conservada: True  N_psi conservado: True
+  Sigma0 -> Lambda gamma       Q conservada: True  N_psi conservado: True
+  oscilacao nu_mu -> nu_e      Q conservada: True  N_psi conservado: True
+  oscilacao nu_e -> nu_tau     Q conservada: True  N_psi conservado: True
+
+  dimensao do espaco de cargas conservadas = 2
+    {'p': '1', 'n': '1', 'Lam': '1', 'Sig': '1', 'e': '0', 'mu': '0', 'nue': '0', 'num': '0', 'nut': '0'}
+    {'p': '0', 'n': '0', 'Lam': '0', 'Sig': '0', 'e': '1', 'mu': '1', 'nue': '1', 'num': '1', 'nut': '1'}
+  N_psi/3 conservado: True; B (classe H): True; L (classes E, nu): True; L_e separado: False
+
+##### Parte 2: processos permitidos por N_psi e Q, nao observados #####
+  p -> nu pi+                          N_psi ok: True  Q ok: True  dB = -1  dL = +1  mesma tupla: False
+  n -> nu pi0                          N_psi ok: True  Q ok: True  dB = -1  dL = +1  mesma tupla: False
+  n -> nu nu nubar (invisivel)         N_psi ok: True  Q ok: True  dB = -1  dL = +1  mesma tupla: False
+  H(p e-) -> nu_mu nu_tau              N_psi ok: True  Q ok: True  dB = -1  dL = +1  mesma tupla: False
+  n -> nu_tau gamma (mesma tupla)      N_psi ok: True  Q ok: True  dB = -1  dL = +1  mesma tupla: True
+  Lambda -> nu_e gamma (mesma tupla)   N_psi ok: True  Q ok: True  dB = -1  dL = +1  mesma tupla: True
+  Sigma0 -> nu_mu gamma (mesma tupla)  N_psi ok: True  Q ok: True  dB = -1  dL = +1  mesma tupla: True
+
+##### Parte 3: supressao exigida #####
+  p -> nu pi+   (contato dim-6)                    tau natural = 6.7e+16 anos; limite 3.9e+32 anos -> supressao de amplitude S <= 1.3e-08
+  n -> nu pi0   (contato dim-6)                    tau natural = 6.7e+16 anos; limite 1.1e+33 anos -> supressao de amplitude S <= 7.8e-09
+  n -> 3 nu     (contato dim-6)                    tau natural = 6.7e+16 anos; limite 5.8e+29 anos -> supressao de amplitude S <= 3.4e-07
+  H -> nu nu    (contato dim-6, ref. 1e29 anos)    tau natural = 6.7e+16 anos; limite 1.0e+29 anos -> supressao de amplitude S <= 8.2e-07
+  n -> nu_tau g (EM, mesma tupla, ref. 1e29 anos)  tau natural = 3.0e-30 anos; limite 1.0e+29 anos -> supressao de amplitude S <= 5.5e-30

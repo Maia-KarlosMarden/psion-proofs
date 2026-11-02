@@ -1,0 +1,7 @@
+pontos: 16000; lambda<0: 8000; lambda>0: 8000
+[T1 lambda<0] D>0: 296/8000; E_n>E_p: 0; D>0&R1&R2: 0
+   (controle) lambda<0: min L de raios (sem massa) = 5.49; L<1: 0
+[T2 lambda>0] pontos com ALGUM peso passando (alvo real): 1854/8000 (23.2%)
+   controle de vacuidade: alvos de massa aleatorios (40, 1500 pontos): fracao media 53.5% [min 10.7, max 87.7]; alvo real nessa amostra 22.9%
+   entre os que passam em massa: melhor L de raios = 3.28; L<2: 0; L<1: 0; em (t,s,k,l)=(1.449,0.053,0.51,1.38)
+   (controle) lambda>0 sem massa: min L = 3.28; L<1: 0

@@ -1,0 +1,2 @@
+estaticos: apenas p, n; R_n = -0.154
+[1] V0: tabela min L_c = 0.848; L_c<1: 1; raios isolados: min L_r = 0.848, L_r<1: 1

@@ -1,0 +1,17 @@
+tabela: 30000 pontos; validos 30000; q definido 0
+[2] raios isolados: min L_r = 4.030; L_r<1: 0; L_r<2: 0
+/home/claude/maia-karlosmarden/psion-proofs/p14d_psion_number_audit/P14PRISM_calc.py:77: RuntimeWarning: All-NaN slice encountered
+  print(f"    massa isolada: q_max mediana {np.nanmedian(q):.3f}, p90 {np.nanpercentile(q,90):.3f}, max {np.nanmax(q):.3f}; q>=0,336: {int(np.nansum(q>=0.336))}; q>=0,168: {int(np.nansum(q>=0.168))}")
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+    massa isolada: q_max mediana nan, p90 nan, max nan; q>=0,336: 0; q>=0,168: 0
+[3] min L_r com q>=0.336: inf (pontos 0)
+[3] min L_r com q>=0.168: inf (pontos 0)
+[3] min L_r com q>=0.05: inf (pontos 0)
+[3] min L_r com q>=1e-09: inf (pontos 0)
+[4] raio puro: min L_r = 3.972 (inviavel); viaveis 0/10
+    melhor: (t,s,k,l,h)=[ 6.     0.409  0.    20.     0.784] q=nan R=[-0.099 -0.099 -0.247  1.148  1.148]
+[4] conjunto (escala natural): min perda = 40.000 (inviavel); viaveis 0/20
+    perda=40.000 L_r=20.748 q=nan (t,s,k,l,h)=[ 0.     0.272 19.151 14.964  0.649] R=[ 0.176  0.176 -0.646  1.025  1.025]
+    perda=40.000 L_r=10.002 q=nan (t,s,k,l,h)=[ 0.1    0.122 12.542 12.322  1.899] R=[ 0.     0.    -0.001  0.999  0.999]
+    perda=40.000 L_r=10.826 q=nan (t,s,k,l,h)=[ 3.057  0.224 17.427 19.239  0.833] R=[ 0.014  0.014 -0.284  1.009  1.009]

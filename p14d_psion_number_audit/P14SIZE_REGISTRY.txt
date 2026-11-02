@@ -1,0 +1,3 @@
+P14SIZE_DEFINITION.md sha256=b6050bc3e1427f7ac05a5e6dd0b4679b19ad7161123b8020b95aae43c040c227 registrado_utc=2026-10-28T02:24:24Z
+P14SIZE_calc.py sha256=052eff4742815242c766f3c07eedd29b0e3432321bca1fabe7ee9522927cdb80; saida sha256=38df9bda3198c641bcc452f65ff39792a87906f4238936b56cd0a3363c2c12cd 2026-10-28T02:24:24Z
+RESULTADO (como antecipado): D1 passa nas duas variantes; D2 SZ-T falha por fator 5e5 em <r2>_nu (nu_e = (1,2,3)), SZ-R passa. Previsoes P1-P3 registradas sem dado.

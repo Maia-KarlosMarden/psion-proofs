@@ -1,0 +1,7 @@
+A) M/Lambda = 1.293e-13; sintonia exigida Delta = 1 - G_c/G = 9.92e-25
+   (para comparacao: M/Lambda = 0,1 exigiria Delta = 4.62e-02)
+B) alvo: expoente 29.68
+   B1 um laco 4D, b0      expoente    5.54 -> Lambda_JS = 4.959e+09 GeV | ln(prev/alvo) = +24.14 -> falha
+   B2 exp(-S/g^2)         expoente   32.32 -> Lambda_JS = 1.156e-02 GeV | ln(prev/alvo) = -2.65 -> falha
+   B3 degrau l=8          expoente   28.36 -> Lambda_JS = 6.101e-01 GeV | ln(prev/alvo) = +1.32 -> falha
+   B4 Kondo, C=j(j+1)     expoente    1.37 -> Lambda_JS = 3.199e+11 GeV | ln(prev/alvo) = +28.31 -> falha

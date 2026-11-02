@@ -1,0 +1,15 @@
+ca25345f28e03e4d6a0b8254d1750f3b784539a180166b9877a912f43d19b68d  P14MIX_DEFINITION.md
+d4b5a9a2ce183cabaee67abd5e1e8a4b3a2e6597a44f1763406efd742f393e62  P14MIX_calc.py
+2026-10-31T18:09:47Z
+RESULT (random sampling, 4000 pts): MIXa 0, MIXb 0, HYB 0 viable points. Anticipation 'HYB has some' was WRONG: random sampling is too sparse to find even the HYB3 optima (they were found by optimisation), so the sampling stage does NOT discriminate MIX from HYB. Zero for MIX is therefore uninformative.
+EMENDA (registered before running stage 2): stage 2 = (A) HYB at the frozen optima O1,O2,O3 of WP-OOS as positive control; (B) differential evolution (scipy, popsize 15, maxiter 40, seed 72, bounds t,s in [0,6], k,l in [0,20]) minimising loss = max(radius z-scores of the dynamic composites, min over DIRS of mass score), mass score = 5 if D<=0 else max(|a/0.437-1|/0.3,|b/1.425-1|/0.3,20*max(0,1-q/0.336)); viable iff loss<1. Run for MIXa, MIXb, HYB (HYB: Sigma0 dynamic, either Sigma+). 
+Anticipation stage 2: HYB reaches loss<1 (positive control); MIXa and MIXb stay >=1 (mass forces Sigma0 dynamic).
+9b206a7261be1343603470c2a546a27612718dc5119e94f4cb9d061916dff089  P14MIX2_calc.py
+2026-10-31T18:12:20Z
+RESULT stage 2: control HYB at O1/O2/O3: loss 1.402/0.911/0.886 (O2,O3 reproduce viability, O1 does not, as in WP-OOS). DE minima: HYB 0.746, MIXa 0.882, MIXb 0.836 -> ALL viable (<1). Anticipation (MIX >=1, mass forces Sigma0 dynamic) was WRONG.
+ADDENDUM registered before running: robustness = 50 random multiplicative perturbations (+-10% per parameter, seed 73, zeros kept zero) of the optimum of each model; report fraction with loss<1 and median loss.
+47b8d83b77f925edd38b39009c4aeceab6235d2e4dca3c17d8996ae3dec6a26e  P14MIX3_calc.py
+RESULT robustness (50 perturbations +-10%): HYB 100% (median 0.79), MIXa 96% (0.92), MIXb 98% (0.91). All remain viable.
+CONCLUSION: mass (V0 natural scale) does NOT forbid per-composite geometry: mixed models with Sigma0 static (hexagon) and Lambda dynamic (and Sigma+ either static octagon or dynamic) satisfy radii + mass as robustly as the HYB rule, with margins smaller (0.88 vs 0.75). Therefore mass does not discriminate between them: radii+mass together do not select the geometry per composite. Both anticipations (random-sampling HYB nonzero; MIX >=1) were wrong.
+LIMITS: Sigma- / (3,4,5) not evaluated for MIX; one direction suffices; k,l near zero at optima (Coulomb and J.Sigma terms nearly switched off, so mass is almost purely clock energy); look-elsewhere uncorrected; model without spin.
+ERRATUM (found while preparing the out-of-sample stage, before any further run): P14MIX_calc.pt() normalises radii by the DYNAMIC proton radius at the trial parameters, while the model declares p static (as HYB3/OOS do: rp = static p). All MIX/HYB losses above (stage 2 and robustness) therefore use an inconsistent reference. The conclusions of WP-MIX stage 1-2 ("MIX viable") are PROVISIONAL until rerun with the static proton. Controls O2/O3 (0.911/0.886) happened to be close to the OOS values, but this is not a proof of equivalence.

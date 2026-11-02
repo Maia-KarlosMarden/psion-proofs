@@ -1,0 +1,2 @@
+Adendo pos-hoc: posicoes aleatorias 2D dos 6 rotulos (N = 200000): P(R_n a 10%) = 0.0192; P(R_n e R_S) = 0.0038
+  posicoes aleatorias num circulo: P(R_n a 10%) = 0.0160

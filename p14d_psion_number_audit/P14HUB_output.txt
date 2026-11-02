@@ -1,0 +1,23 @@
+Parte 1: identidade do arco <r^2>/a^2 = 7/9 Q_tot - 2/3 Q_c
+   max |direto - identidade| = 2.8e-16
+   p (0,4,5) centro 5: +0.4815
+   n (0,1,5) centro 0: -0.0741
+   Sigma- (0,1,2) centro 1: -0.4074
+   Lambda (1,2,3) centro 2: +0.3704
+   (2,3,4) centro 3: +0.0370
+   nao-arcos (1,3,5) e (0,2,4) sao triangulos equilateros: <r^2>/a^2 = Q_tot * (1) -> neutra = 0 exato (Sigma0=0)
+Parte 2: phi de calibracao (R_n = -0,164) = 74.46 graus; b = 1.299 fm
+   previsoes fora da amostra:
+     Sigma0 (0,2,4): hub 4  R = -0.164  alvo |R|<=0,15 -> falha
+     Lambda (1,2,3): hub 3  R = -0.410  alvo (0;0,25] -> falha
+     Sigma+ (1,3,5): hub 1  R = +1.246  alvo [0,80;1,15] -> falha
+     Sigma+ (2,3,4): hub 2  R = +1.246  alvo [0,80;1,15] -> falha
+   inertes (sem hub): [(0, 1, 2), (3, 4, 5)]
+   varredura de phi (informativa):
+     phi= 62: R_n=-0.026 Sigma0=-0.026 Lambda=-0.066 Sigma+=+1.039
+     phi= 75: R_n=-0.169 Sigma0=-0.169 Lambda=-0.423 Sigma+=+1.254
+     phi= 90: R_n=-0.286 Sigma0=-0.286 Lambda=-0.714 Sigma+=+1.429
+     phi=105: R_n=-0.366 Sigma0=-0.366 Lambda=-0.915 Sigma+=+1.549
+     phi=120: R_n=-0.421 Sigma0=-0.421 Lambda=-1.053 Sigma+=+1.632
+     phi=150: R_n=-0.482 Sigma0=-0.482 Lambda=-1.206 Sigma+=+1.723
+     phi=180: R_n=-0.500 Sigma0=-0.500 Lambda=-1.250 Sigma+=+1.750

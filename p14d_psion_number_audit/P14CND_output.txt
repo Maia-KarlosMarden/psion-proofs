@@ -1,0 +1,4 @@
+caixa 1: 16000 pontos; radios L_r<1: 1049; com V0 (>=1 direcao): 1037; pares V0: 95065
+   p_ponto (algum par passa P-A&P-B) = 9/1037 = 0.009; p_par = 681/95065 = 0.007; so P-A: 0.008; so P-B: 0.170
+caixa 2: 16000 pontos; radios L_r<1: 55; com V0 (>=1 direcao): 54; pares V0: 4821
+   p_ponto (algum par passa P-A&P-B) = 0/54 = 0.000; p_par = 0/4821 = 0.000; so P-A: 0.000; so P-B: 0.104

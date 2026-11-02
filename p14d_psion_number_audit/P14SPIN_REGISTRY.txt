@@ -1,0 +1,8 @@
+cfe61e490dade6da97a4f0efe51ad300f5f72e052e62ffd991628934946dcbc9  P14SPIN_DEFINITION.md
+3d2138cc36b8c2614702a98ad3b5adc294e0c0805bea72fbdaa01d3519189d0f  P14SPIN_calc.py
+2026-11-02T16:41:57Z
+RESULT: criterion FAILS. J>0 (ground J=1/2): mu_n/mu_p=-0.800 (obs -0.685, within 0.2), mu_Lambda/mu_p=-2.000 (obs -0.219), mu_Sigma+/mu_p=+2.200 (obs 0.880), identical for both Sigma+ candidates. J<0 (ground J=3/2): n=0, Lambda=0, Sigma+=+1.000 (the neutral triples have zero moment because their charges sum to 0 and the J=3/2 state is spin-symmetric): fails n and Lambda by >0.2.
+Null: 12/720 permutations of Q9 meet the criterion (0.017). Anticipation 'fails': RIGHT. Anticipation 'null fraction >=0.02': WRONG (0.017, marginally below).
+Notes: only the neutron ratio is reproduced (0.115 off), which is 1 of 3 observables and not evidence. Lambda is the clearest failure: H_s couples only L-R pairs, so the Lambda (1,2,3) is not a spin-0 pair plus a spectator as in SU(6); its moment comes out 9x the observed value. The Sigma0 is not measurable (transition moment dominates) and is shown only for completeness. Sigma- and X=(3,4,5) have no L-R pair and H_s=0: spin undetermined, hence the Delta++ (spin 3/2) cannot be derived in this model without a further postulate.
+LIMITS: observed moments quoted from memory (PDG values), to be verified before any paper use; one specific minimal spin Hamiltonian tried (equal weights, all L-R pairs); no spatial/ring coupling; equal masses; kappa universal.
+Consequence: the minimal spin extension does not reproduce the hyperon moments. A different spin postulate is possible (e.g. coupling only |2>-|3> as in App. J.6.3) but leaves p and n undetermined; adding a postulate to fix them would be a fit, not a test.

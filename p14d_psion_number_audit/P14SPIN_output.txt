@@ -1,0 +1,10 @@
+J=+1 Sigma+=(1, 3, 5): n -0.800 (obs -0.685), Lambda -2.000 (-0.219), Sigma+ +2.200 (0.880), Sigma0 -0.800; soma|dev|=3.216; criterio falha
+J=+1 Sigma+=(2, 3, 4): n -0.800 (obs -0.685), Lambda -2.000 (-0.219), Sigma+ +2.200 (0.880), Sigma0 -0.800; soma|dev|=3.216; criterio falha
+J=-1 Sigma+=(1, 3, 5): n -0.000 (obs -0.685), Lambda +0.000 (-0.219), Sigma+ +1.000 (0.880), Sigma0 -0.000; soma|dev|=1.024; criterio falha
+J=-1 Sigma+=(2, 3, 4): n -0.000 (obs -0.685), Lambda +0.000 (-0.219), Sigma+ +1.000 (0.880), Sigma0 -0.000; soma|dev|=1.024; criterio falha
+criterio no modelo: FALHA
+/home/claude/maia-karlosmarden/psion-proofs/p14d_psion_number_audit/P14SPIN_calc.py:22: RuntimeWarning: divide by zero encountered in scalar divide
+  return {"n":moment((0,1,5),qq((0,1,5)),Jsgn)/mp,"L":moment((1,2,3),qq((1,2,3)),Jsgn)/mp,"Sp":moment(sp,qq(sp),Jsgn)/mp,"S0":moment((0,2,4),qq((0,2,4)),Jsgn)/mp}
+/home/claude/maia-karlosmarden/psion-proofs/p14d_psion_number_audit/P14SPIN_calc.py:22: RuntimeWarning: invalid value encountered in scalar divide
+  return {"n":moment((0,1,5),qq((0,1,5)),Jsgn)/mp,"L":moment((1,2,3),qq((1,2,3)),Jsgn)/mp,"Sp":moment(sp,qq(sp),Jsgn)/mp,"S0":moment((0,2,4),qq((0,2,4)),Jsgn)/mp}
+nulo: 12/720 permutacoes de Q9 passam (fracao 0.017)

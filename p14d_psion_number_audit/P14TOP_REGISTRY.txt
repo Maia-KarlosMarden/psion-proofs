@@ -1,0 +1,8 @@
+P14TOP_DEFINITION.md sha256=31113c014517e4cb5082e66e18387d03466919a1fbc36e96273f3bfb49bd1913 registrado_utc=2026-10-20T11:28:08Z (um calculo exploratorio previo declarado no texto)
+P14TOP_test.py sha256=4625bcc75c0cf31ef47266ec6d4bb97addbdc1cb0a933e0ea1cf581b02db1ab8; P14TOP_output.txt sha256=8f56bbd40e4e8d7bd2455d6f71d8a0b11fe61b3ba8d04d667b4e1b2a6f3da020 rodado_utc=2026-10-20T11:28:53Z
+RESULTADO: Partes 1-3 como antecipado (U(1)_N x U(1)_M abeliana; sem extensao quiral; condensado quebra U(1)_M;
+  pi_2 = pi_3 = 0; B fora do espaco de (M, Q, N_psi)).
+ANTECIPACAO ERRADA registrada (Parte 4): ha 5 tuplas neutras de N = 3, nao 3: (0,1,4), (0,1,5), (0,2,4), (0,2,5), (1,2,3).
+OBSERVACAO POS-HOC (nao pre-registrada): o condensado muda M por +-2, entao sobra a carga discreta D = (2M - 6Q + 3) mod 4.
+  D = 0 em p, n, Lambda, Sigma0, e, mu e nos tres nu do paper; D = 2 em (0,1,4) e (0,2,5). D nao separa B de L entre os
+  estados observados; neutrinos com D = 2 proibiriam o decaimento beta (um nu-bar no estado final).

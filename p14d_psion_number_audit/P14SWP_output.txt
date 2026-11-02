@@ -1,0 +1,9 @@
+raios completos (n, Sigma0, Lambda, Sigma+): 0 de 9216
+   so n: 326 pontos
+   so Sigma0: 4595 pontos
+   so Lambda: 68 pontos
+   so Sigma+: 4240 pontos
+   n e Lambda juntos: 4
+   n, Lambda e Sigma+ juntos: 0
+   entre os viaveis em raio: massas (n>p, L>p, Sigma+ e Sigma0-Lambda a 30%): 0
+teste de acaso (grade densa): P_acaso = 0.003 (6/2000)

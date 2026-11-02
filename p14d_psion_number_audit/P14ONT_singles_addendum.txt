@@ -1,0 +1,2 @@
+O+: reacoes inconsistentes sozinhas: ['R1 n -> p e- nubar_e', 'R2 p -> n e+ nu_e', 'R10 mu- -> e- nubar_e nu_mu']
+O+: conflitos minimos de 2 entre as demais: ['R4 + R5', 'R4 + R6', 'R5 + R6']

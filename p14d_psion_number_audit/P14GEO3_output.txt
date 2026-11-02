@@ -1,0 +1,6 @@
+  G1: R_n = -0.154 ok | R_S = +0.846 ok | a = 1.212 fm -> ACERTA
+  G6: R_n = +0.592 X | R_S = +0.599 X | a = 0.366 fm -> nao acerta
+  G5: R_n(h/a) varia de +0.000 a +0.937; raizes para R_n = -0,164: []
+  G5 h/a = 0.0000: R_n = +0.000 X | R_S = +1.000 ok | a = 0.841 fm -> nao acerta
+  G5 h/a = 0.5000: R_n = +0.129 X | R_S = +0.871 ok | a = 0.785 fm -> nao acerta
+  G5 h/a = 1.0000: R_n = +0.372 X | R_S = +0.628 X | a = 0.666 fm -> nao acerta

@@ -1,0 +1,10 @@
+triplas nao confinadas: [(0, 1, 2), (0, 1, 5), (0, 2, 4), (0, 4, 5), (1, 2, 3), (1, 3, 5), (2, 3, 4), (3, 4, 5)]
+(0, 1, 2) classes Z3: [0, 1, 2] padrao de camadas: LLL
+(0, 1, 5) classes Z3: [0, 1, 2] padrao de camadas: LLR
+(0, 2, 4) classes Z3: [0, 1, 2] padrao de camadas: LLR
+(0, 4, 5) classes Z3: [0, 1, 2] padrao de camadas: LRR
+(1, 2, 3) classes Z3: [0, 1, 2] padrao de camadas: LLR
+(1, 3, 5) classes Z3: [0, 1, 2] padrao de camadas: LRR
+(2, 3, 4) classes Z3: [0, 1, 2] padrao de camadas: LRR
+(3, 4, 5) classes Z3: [0, 1, 2] padrao de camadas: RRR
+todas com uma classe Z3 de cada: True

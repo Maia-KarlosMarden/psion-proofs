@@ -1,0 +1,11 @@
+estaticos: R_n = -0.154, R_S0 = +0.000 (fixos); <A>: p -3.0
+[1] V0: tabela min L_c = 1.637; L_c<1: 0; raios isolados: min L_r = 0.848, L_r<1: 1
+[2] V0: min L_rob = 1.399 (inviavel); viaveis 0/10
+   L_rob=1.399 (t,s,k,l)=(0.287,0.235,0.042,0.192) R_L=+0.200 R_Sp=+1.047; validacao +-10%: 0%
+   L_rob=2.949 (t,s,k,l)=(0.031,4.861,0.293,0.543) R_L=-0.026 R_Sp=+1.372; validacao +-10%: 0%
+   L_rob=3.018 (t,s,k,l)=(0.043,5.938,1.612,0.023) R_L=-0.039 R_Sp=+1.395; validacao +-10%: 0%
+[1] V2: tabela min L_c = 0.848; L_c<1: 1; raios isolados: min L_r = 0.848, L_r<1: 1
+[2] V2: min L_rob = 0.619 (VIAVEL ROBUSTO); viaveis 5/10
+   L_rob=0.619 (t,s,k,l)=(0.258,0.224,0.047,0.229) R_L=+0.173 R_Sp=+1.001; validacao +-10%: 100%
+   L_rob=0.619 (t,s,k,l)=(0.080,0.439,0.000,0.083) R_L=+0.134 R_Sp=+0.924; validacao +-10%: 100%
+   L_rob=0.619 (t,s,k,l)=(0.025,0.574,0.000,0.000) R_L=+0.105 R_Sp=+0.921; validacao +-10%: 100%

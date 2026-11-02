@@ -1,0 +1,55 @@
+massas: topo 7.281e+10 GeV, N8 0.938 GeV, e10 5.11e-4 GeV
+
+H1 eta0  (diluicao total 1.00e+00)
+   topo  n_X/n_g = 1.973e-07  n_Xbar/n_g = 1.973e-07  assim = +0.000e+00  Omega h2 = 1.12e+12
+   N8    n_X/n_g = 5.570e-19  n_Xbar/n_g = 5.570e-19  assim = +0.000e+00
+   e10   n_X/n_g = 4.976e-16  n_Xbar/n_g = 4.976e-16  assim = +0.000e+00
+
+H1 eta1e-9  (diluicao total 1.00e+00)
+   topo  n_X/n_g = 1.973e-07  n_Xbar/n_g = 1.973e-07  assim = +0.000e+00  Omega h2 = 1.12e+12
+   N8    n_X/n_g = 1.000e-09  n_Xbar/n_g = 0.000e+00  assim = +1.000e-09
+   e10   n_X/n_g = 1.000e-09  n_Xbar/n_g = 1.607e-31  assim = +1.000e-09
+
+H2 eta0  (diluicao total 1.77e-08)
+   topo  n_X/n_g = 3.500e-15  n_Xbar/n_g = 3.500e-15  assim = +0.000e+00  Omega h2 = 1.98e+04
+   N8    n_X/n_g = 5.570e-19  n_Xbar/n_g = 5.570e-19  assim = +0.000e+00
+   e10   n_X/n_g = 4.950e-16  n_Xbar/n_g = 4.950e-16  assim = +0.000e+00
+
+H2 eta1e-9  (diluicao total 1.77e-08)
+   topo  n_X/n_g = 3.500e-15  n_Xbar/n_g = 3.500e-15  assim = +0.000e+00  Omega h2 = 1.98e+04
+   N8    n_X/n_g = 1.774e-17  n_Xbar/n_g = 5.279e-31  assim = +1.774e-17
+   e10   n_X/n_g = 5.039e-16  n_Xbar/n_g = 4.862e-16  assim = +1.774e-17
+
+H3 eta0  (diluicao total 1.00e-15)
+   topo  n_X/n_g = 1.973e-07  n_Xbar/n_g = 1.973e-07  assim = +0.000e+00  Omega h2 = 1.12e+12
+   N8    n_X/n_g = 5.570e-19  n_Xbar/n_g = 5.570e-19  assim = +0.000e+00
+   e10   n_X/n_g = 4.940e-16  n_Xbar/n_g = 4.940e-16  assim = +0.000e+00
+
+H3 eta1e-9  (diluicao total 1.00e-15)
+   topo  n_X/n_g = 1.973e-07  n_Xbar/n_g = 1.973e-07  assim = +0.000e+00  Omega h2 = 1.12e+12
+   N8    n_X/n_g = 5.570e-19  n_Xbar/n_g = 5.570e-19  assim = +1.000e-24
+   e10   n_X/n_g = 4.940e-16  n_Xbar/n_g = 4.940e-16  assim = +1.000e-24
+
+H4 eta0  (diluicao total 1.55e-14)
+   topo  n_X/n_g = 3.065e-21  n_Xbar/n_g = 3.065e-21  assim = +0.000e+00  Omega h2 = 1.74e-02
+   N8    n_X/n_g = 5.570e-19  n_Xbar/n_g = 5.570e-19  assim = +0.000e+00
+   e10   n_X/n_g = 4.954e-16  n_Xbar/n_g = 4.954e-16  assim = +0.000e+00
+
+H4 eta1e-9  (diluicao total 1.55e-14)
+   topo  n_X/n_g = 3.065e-21  n_Xbar/n_g = 3.065e-21  assim = +0.000e+00  Omega h2 = 1.74e-02
+   N8    n_X/n_g = 5.570e-19  n_Xbar/n_g = 5.570e-19  assim = +1.553e-23
+   e10   n_X/n_g = 4.954e-16  n_Xbar/n_g = 4.954e-16  assim = +1.553e-23
+
+H5 eta0  (diluicao total 2.91e-09)
+   topo  n_X/n_g = 5.742e-16  n_Xbar/n_g = 5.742e-16  assim = +0.000e+00  Omega h2 = 3.25e+03
+   N8    n_X/n_g = 5.570e-19  n_Xbar/n_g = 5.570e-19  assim = +0.000e+00
+   e10   n_X/n_g = 4.937e-16  n_Xbar/n_g = 4.937e-16  assim = +0.000e+00
+
+H5 eta1e-9  (diluicao total 2.91e-09)
+   topo  n_X/n_g = 5.742e-16  n_Xbar/n_g = 5.742e-16  assim = +0.000e+00  Omega h2 = 3.25e+03
+   N8    n_X/n_g = 2.926e-18  n_Xbar/n_g = 1.587e-20  assim = +2.910e-18
+   e10   n_X/n_g = 4.952e-16  n_Xbar/n_g = 4.923e-16  assim = +2.910e-18
+
+C1 eta_in = 0 -> maior |assimetria| = 0.0e+00  OK
+C2 assimetria = entrada x diluicao: maior desvio relativo = 2.2e-16  OK
+C3 convergencia no passo (0.004 vs 0.001): maior diferenca = 5.4e-01  FALHA

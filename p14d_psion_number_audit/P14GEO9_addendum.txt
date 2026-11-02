@@ -1,0 +1,3 @@
+psion 3 em 30 graus: (3,4,5) Q=+2 R=+1.841; escala a=1.212 fm; desvio do lugar hexagonal = 150 graus
+psion 3 em 150 graus: (3,4,5) Q=+2 R=+1.841; escala a=1.212 fm; desvio do lugar hexagonal = 30 graus
+acaso: 48 de 665280 colocacoes passam o estendido (7,2e-5); entre as 7 posicoes livres do psion 3 com os outros 5 no hexagono, passam 2

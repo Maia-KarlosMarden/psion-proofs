@@ -1,0 +1,7 @@
+P14OCT_DEFINITION.md sha256=a9378775494191b1cad5f9558f7a02dc8f565c2bd96596996890124dcbc9e26e registrado_utc=2026-10-31T04:51:42Z (apos fechamento DYN12)
+calc sha256=539b65f16940c16ad229591ad9aa62c92f965e9431d711a186b3857e42b0213f saida sha256=654cbce7961ab935a04a205f93d8cd4e6994e75acd5d584ceacd206a171fb05b 2026-10-31T04:56:38Z
+RESULTADO (pos-execucao): tabela 12000 pontos (336 colocacoes por tripla). Raios isolados: tabela min L_r=3,42 (0 com L_r<2); apos refino L_r=0,732, 4/10 viaveis (melhor (t,s,k,l)=(0,102; 0,016; 0,48; 1,10): R_n=-0,153 R_S0=+0,110 R_L=+0,078 R_Sp2=+0,855), mas nesse ponto nenhuma direcao natural passa nas razoes de massa (q indefinido).
+Massa isolada: q definido em 2028/12000 (17%); q_max mediana 0,124, max 0,420; q>=0,336: 54 pontos; q>=0,168: 633.
+Fronteira (tabela): q>=0,336 => min L_r=5,36; q>=0,168 => min L_r=3,42; q>=0,05 e q>0 => 3,42. Conjunto com escala natural (refino, 20 partidas): min perda 4,744 (L_r=3,32 q=0,312 em (1,04; 0; 0,34; 2,64)); 0/20 viaveis. Pior que o DYN12 (q=0,34 => L_r>=1,52).
+Antecipacao: acertou (fronteira pior ou igual ao DYN12; 0 viaveis conjuntos; raios isolados viaveis so por refino, em poucas partidas). Nao previ que o raio puro chegaria a 0,73.
+Leitura: a tensao massa-raio persiste e e MAIS forte no octogono; o ponto de raio viavel do octogono nao passa nem nas razoes de massa. Octogono nao supera o dodecagono.

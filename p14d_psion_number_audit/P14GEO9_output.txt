@@ -1,0 +1,6 @@
+D1 meio-dodecagono {'p': 1.0, 'n': 0.985, 'Sm': 0.212, 'S0': 0.676, 'L': 0.247, 'Sp1': 0.068, 'Sp2': -0.035} nucleo False estendido False
+D2 alternados     {'p': 1.0, 'n': -0.154, 'Sm': 0.846, 'S0': 0.0, 'L': 0.769, 'Sp1': 2.077, 'Sp2': 0.077} nucleo True estendido False
+D3: 665280 colocacoes; passam nucleo 3864; passam estendido 48
+   classes distintas (a menos de simetria do dodecagono): 2
+   sitios (np.int64(0), np.int64(2), np.int64(4), np.int64(1), np.int64(8), np.int64(10)) {'p': 1.0, 'n': -0.154, 'Sm': 0.846, 'S0': 0.0, 'L': 0.103, 'Sp1': 0.81, 'Sp2': 2.543}
+   sitios (np.int64(0), np.int64(2), np.int64(4), np.int64(5), np.int64(8), np.int64(10)) {'p': 1.0, 'n': -0.154, 'Sm': 0.846, 'S0': 0.0, 'L': 0.103, 'Sp1': 2.543, 'Sp2': 0.81}

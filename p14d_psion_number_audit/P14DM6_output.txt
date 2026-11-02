@@ -1,0 +1,14 @@
+T2: DeltaC(s) em cos(n pi s/3): n=0..3: [17.5, -12.0, -4.0, -1.5]
+||X^1|| no setor = 8.485e+00
+||X^2|| no setor = 8.485e+01
+||X^3|| no setor = 6.788e+02
+||X^4|| no setor = 0.000e+00
+||X^5|| no setor = 0.000e+00
+||X^6|| no setor = 0.000e+00
+Bond d=0.05: harmonicas n=1..6 = ['5.4e-06', '2.6e-11', '1.6e-16', '4.0e-16', '9.2e-16', '7.5e-16']; forma E(theta_k)-E(0) normalizada = [0.   0.25 0.75 1.   0.75 0.25]; desvio max vs DeltaC/27 = 0.306
+X^1 eta=0.02: harmonicas n=1..6 = ['4.2e-02', '2.5e-04', '4.1e-07', '2.5e-08', '2.8e-11', '4.0e-12']; forma E(theta_k)-E(0) normalizada = [0.    0.254 0.754 1.    0.754 0.254]; desvio max vs DeltaC/27 = 0.301
+X^2 eta=0.02: harmonicas n=1..6 = ['2.4e-16', '7.1e-02', '5.9e-16', '4.2e-04', '1.1e-15', '1.9e-06']; forma E(theta_k)-E(0) normalizada = [ 0. -1. -1.  0. -1. -1.]; desvio max vs DeltaC/27 = 1.889
+X^3 eta=0.02: harmonicas n=1..6 = ['3.2e-15', '1.2e-15', '1.4e-02', '1.5e-15', '2.1e-15', '1.9e-05']; forma E(theta_k)-E(0) normalizada = [0. 1. 0. 1. 0. 1.]; desvio max vs DeltaC/27 = 0.889
+X^4 eta=0.02: operador nulo no setor de 3 psions
+X^5 eta=0.02: operador nulo no setor de 3 psions
+X^6 eta=0.02: operador nulo no setor de 3 psions

@@ -1,0 +1,2 @@
+P14LEV_DEFINITION.md sha256=69f4bcdd9d6af1fb7b55231027cf0590577f10a72da1594d7ab063518d32efc8 registrado_utc=2026-10-20T05:48:19Z (antes de qualquer corrida)
+P14LEV_audit.py sha256=27f5d51f660c896a35dd70357473ed691892af10a508adbee7897b77015baa03; P14LEV_output.txt sha256=f012450fbbb64a277efcf7e2444cb1a0bf41ffa50318ab9e8b635fd8185ddaec rodado_utc=2026-10-20T05:48:58Z (sympy instalado; primeira tentativa falhou na importacao, sem saida)

@@ -1,0 +1,4 @@
+P14SWP_DEFINITION.md sha256=0fec9b32d471d1cff0276a02e87eae2344a89b7d74df8bdb3f68249b80307856 registrado_utc=2026-10-31T02:12:27Z (adaptativo, apos DYN12)
+calc sha256=66f9c0fb1e03d51ae1a073d7032bd06c6ab60e93caa1a325a28c844a86b406bd saida sha256=7c05c272bf70e0b4a562515ef89f3c58a313ad679ce93b4449140e74ffb8e4ca 2026-10-31T02:17:18Z
+RESULTADO (pos-execucao): 0/9216 completos; n e Lambda juntos em 4 pontos, nenhum com Sigma+; massas 0; P_acaso = 0,003. Antecipacao parcial errada:
+esperei P_acaso alto em grade densa e alguns pontos viaveis em raio; nem um nem outro ocorreu. Nao rodei diagnostico dos 4 pontos n+Lambda (valores de Sigma+ nao salvos).

@@ -1,0 +1,15 @@
+c_Gamma =   1e-05:  T_f = 2.02e+11 GeV
+c_Gamma =   1e-04:  T_f = 9.36e+10 GeV
+c_Gamma =   1e-03:  T_f = 4.34e+10 GeV
+c_Gamma =   1e-02:  T_f = 2.02e+10 GeV
+c_Gamma =   1e+00:  T_f = 4.34e+09 GeV
+
+  lambda    c      T_RH  Gamma/H(T_RH) para c_Gamma = 1e-3 .. 1   c_Gamma maximo sem lavagem
+    1/25  1.0  1.38e+11    3.2e+01 ..   3.2e+04          3.1e-05
+    1/25  0.3  1.38e+11    3.2e+01 ..   3.2e+04          3.1e-05
+ eps_psi  0.3  1.91e+11    8.5e+01 ..   8.5e+04          1.2e-05
+ eps_psi  3.0  1.91e+11    8.5e+01 ..   8.5e+04          1.2e-05
+    1/Nc  1.0  1.97e+11    9.3e+01 ..   9.3e+04          1.1e-05
+    1/Nc  3.0  1.97e+11    9.3e+01 ..   9.3e+04          1.1e-05
+     b_e  1.0  2.24e+11    1.4e+02 ..   1.4e+05          7.3e-06
+     b_e  3.0  2.24e+11    1.4e+02 ..   1.4e+05          7.3e-06

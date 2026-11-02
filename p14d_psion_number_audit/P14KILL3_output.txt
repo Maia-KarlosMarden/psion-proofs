@@ -1,0 +1,3 @@
+K2 (massas PDG 2026 verificadas)
+    N_in = 9/25; nulo (offset da grade): media 7.49; p = 0.344
+    veredito K2: KILL

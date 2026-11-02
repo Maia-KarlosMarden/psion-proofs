@@ -1,0 +1,9 @@
+P14BIF_DEFINITION.md sha256=9e43f8df4af32ba9f74abc5cb18e879f5ac7fd62f26fb7ea5a5fc14b7fd4ba30 registrado_utc=2026-10-20T12:49:42Z (antes de qualquer corrida)
+P14BIF_sim.py sha256=acda03ac9a495283a91b15feddb3d3c11b76b44cae7392e3b5b53ef54d46a8af; P14BIF_output.txt sha256=134b9fb3e085df022bce6063a5d1c9a0e96cd1927ad92203fc99db5b9a12e523; adendo P14BIF_addendum_output.txt sha256=abf32b210c4383c150d0d9a74d25a93cd0099803b4deb4dd472b642cd2850e87 2026-10-20T12:50:55Z
+RESULTADO: C1 OK, C2 OK (1,7e-13), C4 OK (1,9e-14), C5 OK (2e-16), C6 OK (8e-13), linearidade 3e-8.
+C3 FALHA registrada: (B+L)/|B| ate 2,2, mas so em c_G = 0,1 e 1, onde |B| ~1e-14 esta no piso numerico; em todas as
+  corridas com |B| > 1e-9, |B+L|/|B| <= 6e-10.
+ERRO NA DEFINICAO registrado: a contabilidade final escrita como N_nubar - N_nu = -L - N_e tem sinal errado
+  (L = N_e - (N_nubar - N_nu)); o script repetiu o erro e imprimiu 0. Correto: N_nubar - N_nu = N_e - L = 2 por barion.
+ANTECIPACAO ERRADA: eta/eps maximo 3,6e-3 (S1, c_G = 1e-3), nao 1e-6-1e-5. S2 muda de sinal com a lei (L1 negativo,
+  L2 positivo). Adendo pos-hoc: com eps = 25/169 e D = xi*^-3, xi* necessario ~ 50-95 (S1, c_G 1e-5 a 1e-2).

@@ -1,0 +1,7 @@
+EXPLORATORIO (nao pre-registrado): c_G = 1 (acoplamento natural), variando T_RH; eps = 1e-3, S1, L1
+  T_eq (Gamma/H = 1 com c_G = 1) = 4.34e+09 GeV; Lambda_meta = 1.26e12 GeV
+  T_RH = 1.38e+11 GeV: Gamma/H(T_RH) = 3.2e+04  eta/eps = -3.13e-12  eps necessario = 1.9e+02
+  T_RH = 4.00e+10 GeV: Gamma/H(T_RH) = 7.8e+02  eta/eps = +1.45e-06  eps necessario = 4.2e-04
+  T_RH = 1.38e+10 GeV: Gamma/H(T_RH) = 3.2e+01  eta/eps = +3.56e-03  eps necessario = 1.7e-07
+  T_RH = 4.00e+09 GeV: Gamma/H(T_RH) = 7.8e-01  eta/eps = +4.46e-04  eps necessario = 1.4e-06
+  T_RH = 1.40e+09 GeV: Gamma/H(T_RH) = 3.3e-02  eta/eps = +2.11e-05  eps necessario = 2.9e-05

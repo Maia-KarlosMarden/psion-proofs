@@ -1,0 +1,11 @@
+P14REH_DEFINITION.md sha256=f1462f109d0a9c49c746186744a30d44e3667f5ccb06fe4564b761961e1fd59e registrado_utc=2026-10-20T17:47:30Z (antes de qualquer corrida)
+P14REH_sim.py sha256=e754c60f45be3dc7b17f68fdcff495ca7ef063ab7090607201de3f83fbfde475; P14REH_output.txt sha256=d88a454b8e2b56002fc4a26448620a4944cce5bf9af46c42c436e944469bcac4 2026-10-20T17:50:19Z
+RESULTADO:
+  M2: eta praticamente independente de T_max/T_RH (2 a 61): o reaquecimento gradual NAO dilui; producao ocorre perto de T_RH.
+  M4: superproducao persiste (|eta| ate ~4e-3 no pico); so 4/192 pontos com 1e-10 <= |eta| <= 1e-9.
+  M1: sinal depende da lei (L1 negativo abaixo de ~3e9, positivo no pico; L2 o inverso) e da T_RH.
+  M3: raiz quente 2,6-2,8e10 (c_G = 10), 5,5-6,0e10 (c_G = 1), > 1e11 (c_G = 0,1); com degraus consistentes a raiz quente
+      de c_G = 1 passou de 1,3-1,7e10 (WP-COMP) para 5,5-6e10.
+  Raizes frias abaixo da grade (extrapolacao ~2e7-5e7 GeV); raizes adicionais perto das trocas de sinal nao resolvidas pela grade.
+CONTROLES: C3 OK (0,25). C1 FALHA (1,7e-15 contra 1e-15) e C2 FALHA (3,1e-8 contra 1e-9), no piso numerico.
+ANTECIPACAO ERRADA: esperei forte diluicao com T_max >> T_RH e M4 aliviado; nenhum dos dois.

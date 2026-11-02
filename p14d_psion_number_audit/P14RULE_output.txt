@@ -1,0 +1,8 @@
+held-out n: stump has0 (0->D,1->H) predicts H, true H
+held-out S0: stump has0 (0->D,1->H) predicts H, true H
+held-out L: stump has0 (0->O,1->H) predicts O, true D
+held-out Spa: stump has0 (0->D,1->H) predicts D, true O
+held-out Spb: stump has0 (0->O,1->H) predicts O, true D
+score LOO regra: 2/5; maioria: 0/5
+permutacoes distintas: 30; p(score>=obs) = 0.467; media do score nulo = 1.27
+SEM SUCESSO

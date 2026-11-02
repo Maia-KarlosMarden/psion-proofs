@@ -1,0 +1,103 @@
+##### 1. Nivel de constituintes #####
+  processos JSigma D1: 13 ; D1' (Delta Q = 0): 5
+  S_sym (JSigma D1): dim K = 2
+      base: (5, 4, 3, 2, 1, 0)
+      base: (-4, -3, -2, -1, 0, 1)
+      N_psi                  conservada: True
+      M = sum m_J            conservada: True
+      Q (eletrica)           conservada: False
+      n_R (quiralidade R)    conservada: False
+  S_sym' (JSigma D1'): dim K = 4
+      base: (1, 1, 1, 0, 0, 0)
+      base: (1, 0, 0, 1, 0, 0)
+      base: (0, 1, 0, 0, 1, 0)
+      base: (-1, -1, 0, 0, 0, 1)
+      N_psi                  conservada: True
+      M = sum m_J            conservada: True
+      Q (eletrica)           conservada: True
+      n_R (quiralidade R)    conservada: True
+  fase quebrada livre (D1 + condensado): dim K = 1
+      base: (1, 1, 1, 1, 1, 1)
+      N_psi                  conservada: True
+      M = sum m_J            conservada: False
+      Q (eletrica)           conservada: False
+      n_R (quiralidade R)    conservada: False
+  fase quebrada livre (D1' + condensado): dim K = 3
+      base: (2, 1, 1, 1, 0, 0)
+      base: (0, 1, 0, 0, 1, 0)
+      base: (-1, -1, 0, 0, 0, 1)
+      N_psi                  conservada: True
+      M = sum m_J            conservada: False
+      Q (eletrica)           conservada: False
+      n_R (quiralidade R)    conservada: False
+
+##### 2. Nivel de compostos (20 triplas; 8 observaveis) #####
+  processos: rearranjo 270, JSigma intra 24, inter 442, condensado 12
+  S_brk' (rearranjo + JSigma D1, sem condensado): dim K = 2
+      N_psi                  conservada: True
+      M = sum m_J            conservada: True
+      Q (eletrica)           conservada: False
+      n_R (quiralidade R)    conservada: False
+      B (S1)                 conservada: False
+      L (S1)                 conservada: False
+      B-L (S1)               conservada: False
+      B (S2)                 conservada: False
+      L (S2)                 conservada: False
+      B-L (S2)               conservada: False
+      B (S3)                 conservada: False
+      L (S3)                 conservada: False
+      B-L (S3)               conservada: False
+  S_brk  (rearranjo + JSigma D1 + condensado): dim K = 1
+      N_psi                  conservada: True
+      M = sum m_J            conservada: False
+      Q (eletrica)           conservada: False
+      n_R (quiralidade R)    conservada: False
+      B (S1)                 conservada: False
+      L (S1)                 conservada: False
+      B-L (S1)               conservada: False
+      B (S2)                 conservada: False
+      L (S2)                 conservada: False
+      B-L (S2)               conservada: False
+      B (S3)                 conservada: False
+      L (S3)                 conservada: False
+      B-L (S3)               conservada: False
+  S_brk' (rearranjo + JSigma D1', sem condensado): dim K = 4
+      N_psi                  conservada: True
+      M = sum m_J            conservada: True
+      Q (eletrica)           conservada: True
+      n_R (quiralidade R)    conservada: True
+      B (S1)                 conservada: False
+      L (S1)                 conservada: False
+      B-L (S1)               conservada: False
+      B (S2)                 conservada: False
+      L (S2)                 conservada: False
+      B-L (S2)               conservada: False
+      B (S3)                 conservada: False
+      L (S3)                 conservada: False
+      B-L (S3)               conservada: False
+  S_brk  (rearranjo + JSigma D1' + condensado): dim K = 3
+      N_psi                  conservada: True
+      M = sum m_J            conservada: False
+      Q (eletrica)           conservada: False
+      n_R (quiralidade R)    conservada: False
+      B (S1)                 conservada: False
+      L (S1)                 conservada: False
+      B-L (S1)               conservada: False
+      B (S2)                 conservada: False
+      L (S2)                 conservada: False
+      B-L (S2)               conservada: False
+      B (S3)                 conservada: False
+      L (S3)                 conservada: False
+      B-L (S3)               conservada: False
+
+##### 3. Cargas candidatas: conservadas na fase quebrada, violadas na simetrica #####
+  S_sym (JSigma D1)  ->  S_brk  (rearranjo + JSigma D1 + condensado)
+      dim K_brk = 1, dim imagem de K_sym = 2, candidatas (dim do quociente) = 0
+  S_sym (JSigma D1)  ->  S_brk' (rearranjo + JSigma D1, sem condensado)
+      dim K_brk = 2, dim imagem de K_sym = 2, candidatas (dim do quociente) = 0
+  S_sym' (JSigma D1')  ->  S_brk  (rearranjo + JSigma D1' + condensado)
+      dim K_brk = 3, dim imagem de K_sym = 4, candidatas (dim do quociente) = 0
+  S_sym' (JSigma D1')  ->  S_brk' (rearranjo + JSigma D1', sem condensado)
+      dim K_brk = 4, dim imagem de K_sym = 4, candidatas (dim do quociente) = 0
+
+  VEREDITO (criterio pre-registrado, caso principal D1 + condensado): INVIAVEL

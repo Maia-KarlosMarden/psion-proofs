@@ -1,0 +1,8 @@
+P14COMP_DEFINITION.md sha256=b8e879a9f056a94cc56694b0e853ba4df089dd094aa339df1e397113ea96627e registrado_utc=2026-10-20T15:50:30Z (antes de qualquer corrida)
+P14COMP_sim.py sha256=6264c8007dbff27ef6fb3c57ea5c26cadd084c35deb18ba18e3cc6179f34fb67; P14COMP_output.txt sha256=54012fceb83be548fa3e95f83aa05a2174ee242357481848d21a045048a685b8; adendo P14COMP_addendum.txt sha256=899ab28355973395deef76627dad8441de69d046b3fd3d5a8413605ba000c86a 2026-10-20T15:51:50Z
+RESULTADO: C4 OK. C1 FALHA (5e-17 contra 1e-18), C2 FALHA (12) e C3 FALHA (5e-4) registradas: todas nos pontos de lavagem
+  (T_RH >= 1,4e10, |B| no ruido) ou no limiar do C1; nos pontos com assimetria (adendo) B+L, Q, simetria eps e eps = 0 ficam <= 6e-13.
+ANTECIPACAO PARCIALMENTE ERRADA: eficiencia muito maior que em WP-TRH: eta/eps ate 0,16 (T_RH = 7e9), nao 1e-3-1e-2;
+  lavagem mais abrupta (1,6e-1 em 7e9 -> 4e-6 em 1,4e10 -> ~1e-10 em 2e10). E_b quase nao importa.
+  Vies H-W (eps = 0,113): raiz do lado quente T_RH* = 1,34e10-1,71e10 GeV em todas as leis e barreiras; raiz fria fora da grade
+  (extrapolada ~1e7 GeV).

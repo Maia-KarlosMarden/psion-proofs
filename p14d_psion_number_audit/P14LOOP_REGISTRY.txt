@@ -1,0 +1,9 @@
+P14LOOP_DEFINITION.md sha256=dfc2f32d34ab8304372a8637909d8c61dfcd4a82be5309e0e2eb76ccd6d68371 registrado_utc=2026-10-20T05:20:32Z (antes de qualquer corrida)
+NOTA (2026-10-20T05:26:41Z): integrador LSODA (Jacobiano denso 1612x1612 por diferencas finitas) nao terminou em 300 s para uma corrida; trocado por DOP853 (explicito, rtol 1e-10) antes de qualquer resultado registrado. P14LOOP_sim.py sha256=3a2d9a06a7d1eeb54931a0f0dcc7dc70e2d6528b80bb1372546f84931cf1aee9
+P14LOOP_output_grade.txt sha256=0572283a69e0937668e6f6bc33548f8793856d07036a3b29b8ab86f5d74c4be0 (controles C1, C4, grade de 18 corridas e C2; o processo foi
+  interrompido pelo limite de tempo na etapa de sensibilidade com c_G = 1, que o integrador explicito nao consegue fazer:
+  as taxas sao 1000 vezes maiores)
+P14LOOP_finish.py sha256=a5424f1e5430fa0c49d2b44b0cbfcb6bee05f24f5ec41832d026734c564ec69c; P14LOOP_finish_output.txt sha256=f45a263664facd67fcf859a26263c7eb8cc74ac4141f6fdbca67877d57715439 2026-10-20T05:37:31Z
+RESULTADO: C1 OK (0), C4 OK (0), C2 OK (1.5e-15), C3 FALHA (1.8e-6 contra 1e-6). Melhor rho 0.982 (L2), 0.962 (L1):
+  sucesso NAO, estrutura acima do acaso NAO. Sensibilidade c_G = 1 NAO FEITA (registrado). phi necessario para eta: 3e-4 a 5e-2.
+  Antecipacao confirmada.

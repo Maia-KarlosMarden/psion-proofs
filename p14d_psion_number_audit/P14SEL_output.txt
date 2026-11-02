@@ -1,0 +1,8 @@
+T=0.1: completos 0/961; individuais {'n': 10, 'S0': 24, 'L': 0, 'Sp': 1}
+T=0.3: completos 0/961; individuais {'n': 5, 'S0': 55, 'L': 0, 'Sp': 3}
+T=1: completos 0/961; individuais {'n': 17, 'S0': 155, 'L': 1, 'Sp': 10}
+T=3: completos 0/961; individuais {'n': 53, 'S0': 345, 'L': 0, 'Sp': 28}
+T=10: completos 0/961; individuais {'n': 58, 'S0': 914, 'L': 0, 'Sp': 216}
+T=inf: completos 0/961; individuais {'n': 0, 'S0': 961, 'L': 0, 'Sp': 961}
+raios completos total: 0 de 5766
+teste de acaso: P_acaso = 0.001 (1/2000)

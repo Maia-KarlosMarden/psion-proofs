@@ -1,0 +1,4 @@
+P14GEO10_DEFINITION.md sha256=8de85cd06d45039c919f310d83a486f4f945f42914828b7d3a2549e5091634b6 registrado_utc=2026-10-28T11:02:02Z
+calc sha256=708220ea516fd4c0b307dc83f6d64a0255e2e28eda63b6ed448d5996c2c253f6 saida sha256=3a6ba1d8d5bff661c8c69d259f44bdee173abf67630716fee5c52d2041433d89 2026-10-28T11:02:03Z
+correcao de implementacao 2026-10-28T11:02:15Z: rotulo por maior peso nao e unico em g=1 (KeyError); implementado o rastreamento adiabatico que a definicao exige
+calc(v2) sha256=1d185b5f097462bb60a5ecd369e8cd491f903d7800e3051314eb60649179145b saida sha256=77df9762fbb730ff9573aa45374edccfc65d62dc7c61026a0dadc31af20bf133 2026-10-28T11:02:21Z

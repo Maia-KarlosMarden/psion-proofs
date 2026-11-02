@@ -1,0 +1,13 @@
+pontos validos: 12000
+E_L-E_n: >0 em 0/12000; mediana -14.204; min -32.659; max -0.001
+E_S0-E_L: >0 em 11984/12000; mediana +15.044; min -0.445; max +33.891
+E_Sp1-E_p: >0 em 377/12000; mediana -12.442; min -30.046; max +1.432
+E_Sp2-E_p: >0 em 0/12000; mediana -13.368; min -31.278; max -0.001
+E_n-E_p: >0 em 0/12000; mediana -7.316; min -16.632; max -0.000
+E_S0-E_n: >0 em 10493/12000; mediana +1.231; min -0.849; max +1.533
+ordem observada (n<L<S0 e p<Sp) em 0
+energia media do fundamental: {'p': -43.259, 'n': -50.797, 'S0': -49.891, 'L': -65.596, 'Sp1': -56.211, 'Sp2': -57.21}
+corr(E_n, lambda)=-0.90, corr(E_n, kappa)=-0.11
+corr(E_L, lambda)=-0.84, corr(E_L, kappa)=-0.45
+corr(E_S0, lambda)=-0.89, corr(E_S0, kappa)=-0.11
+corr(E_p, lambda)=-0.88, corr(E_p, kappa)=+0.09

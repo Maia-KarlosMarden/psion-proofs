@@ -1,0 +1,31 @@
+##### Parte 1a: simetria continua dos rotulos (J.Sigma; G_UV e invariante sob qualquer U) #####
+  dimensao = 2
+   gerador diagonal? True; = -0.283*1 +0.172*m_k (residuo 4.4e-16)
+   gerador diagonal? True; = -0.294*1 -0.166*m_k (residuo 2.2e-16)
+  abeliana: True  -> grupo U(1)_N x U(1)_M (M = soma de m_k)
+
+##### Parte 1b: extensao quiral (X = iH x gamma5) #####
+  geradores quirais continuos: sem G_UV = 0, com G_UV = 0
+
+##### Parte 2: quebra pelo condensado de enrolamento J+Sigma+ + J-Sigma- #####
+  U(1)_N (identidade)   : variacao do condensado = 0.00e+00 -> preservado
+  U(1)_M (diag m_k)     : variacao do condensado = 8.49e+00 -> QUEBRADO
+  variedade de vacuo: U(1)_M quebrado -> S^1 (ou S^1/Z_n): pi_0 discreto, pi_1 = Z, pi_2 = pi_3 = 0
+  carga topologica pontual (pi_2 ou pi_3): NENHUMA -> sem skyrmion/monopolo; so cordas e paredes
+
+##### Parte 3: cargas de Noether como B #####
+  p    (0, 4, 5): M =   3/2  Q =   1  3Q - N/2 =   3/2  B = 1
+  n    (0, 1, 5): M =  -3/2  Q =   0  3Q - N/2 =  -3/2  B = 1
+  Lam  (1, 2, 3): M =  -3/2  Q =   0  3Q - N/2 =  -3/2  B = 1
+  Sig  (0, 2, 4): M =  -3/2  Q =   0  3Q - N/2 =  -3/2  B = 1
+  e    (0, 1, 2): M =  -9/2  Q =  -1  3Q - N/2 =  -9/2  B = 0
+  mu   (0, 1, 2): M =  -9/2  Q =  -1  3Q - N/2 =  -9/2  B = 0
+  nue  (1, 2, 3): M =  -3/2  Q =   0  3Q - N/2 =  -3/2  B = 0
+  num  (0, 2, 4): M =  -3/2  Q =   0  3Q - N/2 =  -3/2  B = 0
+  nut  (0, 1, 5): M =  -3/2  Q =   0  3Q - N/2 =  -3/2  B = 0
+  posto de (M, Q, N_psi) = 2; com B = 3 -> B no espaco das cargas de Noether: False
+
+##### Parte 4: o nivel como grau de liberdade #####
+  estados internos de N = 3 (rotulos distintos): 20; neutros: [(0, 1, 4), (0, 1, 5), (0, 2, 4), (0, 2, 5), (1, 2, 3)]
+  rotulos internos da eq. (1) por estado: (tupla) apenas; nenhum numero quantico interno de nivel.
+  n e nu_tau = mesma tupla (0,1,5): diferem so por excitacao espacial -> transicao radiativa sem regra de selecao interna

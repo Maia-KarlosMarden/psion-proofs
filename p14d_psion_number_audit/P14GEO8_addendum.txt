@@ -1,0 +1,2 @@
+(1, 3, 5) fracao valida 0.0055 melhores: [(np.float64(0.52), 171, np.float64(0.96), np.float64(0.1)), (np.float64(0.52), 172, np.float64(0.95), np.float64(0.112)), (np.float64(1.05), 32, np.float64(0.96), np.float64(0.107))]
+(2, 3, 4) fracao valida 0.0055 melhores: [(np.float64(0.52), 9, np.float64(0.96), np.float64(0.1)), (np.float64(0.52), 8, np.float64(0.95), np.float64(0.112)), (np.float64(1.05), 148, np.float64(0.96), np.float64(0.107))]
