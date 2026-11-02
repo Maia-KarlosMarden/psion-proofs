@@ -1,0 +1,9 @@
+bbea1cd9e406036c2fed94db14ac1e009a895651b213e7a9fafd46a934a8012e  P14DM6_DEFINITION.md
+36f4272cb3a3edf87fcf443bea27c5938feba07f476012f4a6160b214fc100d0  P14DM6_calc.py
+2026-11-02T17:02:07Z
+RESULT (P14DM6_output.txt): T2: DeltaC(s) = 17.5 - 12 cos(pi s/3) - 4 cos(2 pi s/3) - 1.5 cos(pi s): the K.10 bias needs harmonic weights n=1:2:3 = 12:4:1.5 (a single pure harmonic cannot give 5:8:9).
+T1: ||X^j|| = 8.5, 85, 679 for j=1,2,3 and exactly 0 for j=4,5,6 in the 3-psion sector. The explicit term eta(X^j+h.c.) gives its own harmonic j dominantly: a_1=4.2e-2 (j=1), a_2=7.1e-2 (j=2), a_3=1.4e-2 (j=3), but with admixtures: j=1 has a_2/a_1=6e-3; j=2 has a_4/a_2=6e-3 and a_6/a_2=2.7e-5; j=3 has a_6/a_3=1.4e-3.
+T3: shape deviation vs DeltaC/27: Bond 0.306, X 0.301, X^2 1.889, X^3 0.889. No operator within 0.10.
+Anticipations: (i) 'harmonic j only, others < 1e-3': WRONG strictly (admixtures 6e-3 for j=1 and j=2; 1.4e-3 for j=3). (ii) X^j=0 for j>=4: RIGHT. (iii) no single operator matches 5:8:9: RIGHT (best 0.30; Bond/X give 1:3:4).
+CONCLUSION: Z6 six-fold harmonic: only reachable at higher order from X^3 (a_6/a_3 = 1.4e-3) or needs a Delta M = 12 operator that vanishes with 3 psions. The K.10 bias pattern needs three harmonics in the ratio 12:4:1.5; with three free amplitudes (X, X^2, X^3) it can be fitted, which would be a fit of 3 numbers by 3 parameters, not a derivation. Therefore the bias and the Z6 structure are not derived from eq.(1); they are inputs.
+LIMITS: finite 3-psion sector; theta is a parameter; eta arbitrary; no field theory.
