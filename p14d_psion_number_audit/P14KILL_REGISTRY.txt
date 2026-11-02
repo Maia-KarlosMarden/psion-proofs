@@ -1,0 +1,8 @@
+fa066cab6f4e7030debf386624387b06d4b18842e481c23bf6ee2a24dd97ba68  P14KILL_DEFINITION.md
+58814431f651a0ea2bf736fffa166d3dce9437ca7ae6b7e69e0b86fcd4fddeaa  P14KILL_calc.py
+2026-11-02T17:12:08Z
+RESULT: K1: static hexagon R_Sigma- = +0.846 vs observed 0.862 +- 0.297 (0.05 sigma): SUPPORT. Control R_n = -0.154 (obs -0.164): consistent. K2: N_in = 9/25 within 0.15 of an integer rung; grid-offset null mean 7.49; p = 0.344: KILL (no alignment with the electron-anchored ladder; hadrons cluster at l_eff 7.2-8.4 as expected from the QCD scale).
+VERDICT (frozen rule): one SUPPORT and one KILL -> UNDETERMINED: not falsified in the registered form, not supported.
+Anticipations: K1 'within 2 sigma but not 1 sigma': WRONG (0.05 sigma); K2 KILL: RIGHT; overall UNDETERMINED: RIGHT.
+ADDENDUM (post hoc, labelled; P14KILL_addendum.py): permuting Q9 over the labels, 17.2% of the 720 charge assignments put R_Sigma- within 1 sigma of the SELEX value, so the K1 hit is about a 1-in-6 chance event given the SELEX error; it is a consistency, not a strong confirmation. Before this audit the hexagon R_Sigma- was not registered as a prediction (it enters as a prediction here for the first time); the neutron radius was the only radius that had been framed as parameter-free.
+LIMITS: PDG masses typed from memory (to verify; the K2 verdict is far from the thresholds: p=0.34 vs 0.20); SELEX value from a secondary source; K1 and K2 are the only decisive tests available with data in hand; K3/K4/K5 not counted for reasons registered above.

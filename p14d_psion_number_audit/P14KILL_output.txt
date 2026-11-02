@@ -1,0 +1,5 @@
+K1: R_n pred -0.154 (obs -0.164 +-0.003/0.0164): dev 0.010; R_Sigma- pred +0.846 (obs 0.862 +-0.297): dev 0.016 = 0.05 sigma
+   veredito K1: SUPPORT
+K2: l_eff: {'pi+-': np.float64(8.42), 'pi0': np.float64(8.43), 'K+-': np.float64(8.06), 'K0': np.float64(8.06), 'eta': np.float64(8.03), 'rho': np.float64(7.93), 'omega': np.float64(7.93), "eta'": np.float64(7.87), 'phi': np.float64(7.85), 'p': np.float64(7.88), 'n': np.float64(7.88), 'Lambda': np.float64(7.83), 'Sigma+': np.float64(7.81), 'Sigma0': np.float64(7.81), 'Sigma-': np.float64(7.81), 'Xi0': np.float64(7.78), 'Xi-': np.float64(7.78), 'Delta': np.float64(7.8), 'Sigma*': np.float64(7.77), 'Xi*': np.float64(7.74), 'Omega-': np.float64(7.72), 'D0': np.float64(7.68), 'J/psi': np.float64(7.54), 'B+-': np.float64(7.39), 'Upsilon': np.float64(7.23)}
+    N_in = 9/25; nulo (offset da grade): media 7.49; p = 0.344
+    veredito K2: KILL
