@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.10.2)  31 OCT 2026 18:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.10.2)  2 NOV 2026 13:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -580,7 +580,26 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 ] [37] [38] [39] [40] [41] [42] [43] [44] [45]
 [46
 
-] [47] [48] [49] [50] [51] [52
+] [47] [48] [49]
+! Undefined control sequence.
+l.1555 ...Delta^{++}$ spin $3/2$ is not derived.\n
+                                                  \n\noindent \emph{Status.}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1555 ...lta^{++}$ spin $3/2$ is not derived.\n\n
+                                                  \noindent \emph{Status.} C...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[50] [51] [52
 
 ] [53]
 Overfull \hbox (0.94884pt too wide) in paragraph at lines 1622--1623
@@ -600,11 +619,11 @@ Package rerunfilecheck Info: File `PH_Foundations_v86.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12947 strings out of 476106
- 195902 string characters out of 5793933
+ 12949 strings out of 476106
+ 195908 string characters out of 5793933
  1964975 words of memory out of 5000000
  33835 multiletter control sequences out of 15000+600000
- 712844 words of font info for 633 fonts, out of 8000000 for 9000
+ 713365 words of font info for 635 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  75i,13n,79p,3574b,587s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </root/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk> </
@@ -623,7 +642,7 @@ exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on PH_Foundations_v86.pdf (54 pages, 417150 bytes).
+Output written on PH_Foundations_v86.pdf (54 pages, 418555 bytes).
 PDF statistics:
  654 PDF objects out of 1000 (max. 8388607)
  458 compressed objects within 5 object streams
