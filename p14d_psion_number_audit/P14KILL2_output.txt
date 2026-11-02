@@ -1,0 +1,6 @@
+SELEX (arXiv hep-ex/0106053 abstract): <r2> = 0.61 +- 0.12 (stat) +- 0.09 (syst) fm^2 -> sigma_total = 0.150 fm^2 (quadrature), not 0.21 (linear sum used in the secondary source)
+K1 corrigido: R_obs = 0.862 +- 0.212; R_pred = +0.846; desvio = 0.07 sigma; limiares 1sigma=0.212, 2sigma=0.424
+acaso: fracao das 720 permutacoes de Q9 com R_Sigma- dentro de 1 sigma corrigido: 0.106
+K2 sensibilidade: erro aleatorio de ate +-1% em cada massa: p mediano 0.35, minimo 0.32, maximo 0.38
+K2 sensibilidade: erro aleatorio de ate +-5% em cada massa: p mediano 0.36, minimo 0.32, maximo 0.41
+K2 sensibilidade: erro aleatorio de ate +-20% em cada massa: p mediano 0.36, minimo 0.27, maximo 0.56
