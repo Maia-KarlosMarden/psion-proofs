@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.10.2)  2 NOV 2026 14:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.10.2)  2 NOV 2026 23:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -581,10 +581,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 ] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46
 
 ] [47] [48] [49]
-[50] [51] [52
+[50] [51] [52] [53
 
-] [53]
-Overfull \hbox (0.94884pt too wide) in paragraph at lines 1635--1636
+] [54]
+Overfull \hbox (0.94884pt too wide) in paragraph at lines 1637--1638
 \T1/ptm/m/n/10.95 (-20) [17] Super-Kamiokande Col-lab-o-ra-tion, Search for nu-
 cleon de-cay via $\OML/ztmcm/m/it/10.95 n \OMS/ztmcm/m/n/10.95 ! []\OML/ztmcm/m
 /it/10.95 ^^Y[]$ \T1/ptm/m/n/10.95 (-20) and $\OML/ztmcm/m/it/10.95 p \OMS/ztmc
@@ -592,7 +592,7 @@ m/m/n/10.95 ! []\OML/ztmcm/m/it/10.95 ^^Y[]$\T1/ptm/m/n/10.95 (-20) , arXiv:130
 5.4391. 
  []
 
-[54] (./PH_Foundations_v86.aux)
+[55] (./PH_Foundations_v86.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -601,11 +601,11 @@ Package rerunfilecheck Info: File `PH_Foundations_v86.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12951 strings out of 476106
- 195920 string characters out of 5793933
+ 12955 strings out of 476106
+ 195951 string characters out of 5793933
  1965975 words of memory out of 5000000
  33835 multiletter control sequences out of 15000+600000
- 713787 words of font info for 637 fonts, out of 8000000 for 9000
+ 713903 words of font info for 639 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  75i,13n,79p,3655b,587s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </root/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk> </
@@ -624,10 +624,10 @@ exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on PH_Foundations_v86.pdf (54 pages, 426091 bytes).
+Output written on PH_Foundations_v86.pdf (55 pages, 428322 bytes).
 PDF statistics:
- 654 PDF objects out of 1000 (max. 8388607)
- 458 compressed objects within 5 object streams
- 224 named destinations out of 1000 (max. 500000)
+ 659 PDF objects out of 1000 (max. 8388607)
+ 462 compressed objects within 5 object streams
+ 225 named destinations out of 1000 (max. 500000)
  159233 words of extra memory for PDF output out of 184870 (max. 10000000)
 

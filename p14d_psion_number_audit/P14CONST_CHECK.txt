@@ -1,0 +1,5 @@
+Verificacao de constantes na fonte primaria (PDG 2026, rpp2026-sum-baryons.pdf; pdgLive S016), 2026-11-03:
+mu_p = 2.7928473446(8) mu_N ; mu_n = -1.9130428(5) mu_N -> mu_n/mu_p = -0.68497 (usado -0.685: OK)
+r_p (PDG 2026) = 0.8407(6) fm ; usado 0.8414 (CODATA-2018), diferenca 0.08%
+<r^2>_n (PDG 2026) = -0.1155(17) fm^2 ; usado -0.1161 (de -0.1161/0.7079), diferenca 0.5%
+Efeito: nenhum veredito muda (L dominado por termos >> 1; tolerancias 15%). Nao reexecutado.
