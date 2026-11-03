@@ -1,0 +1,15 @@
+U1 FF3 floor p: T_min=1862 MeV, T/M=1.98, binding needed B=M-T=-923 MeV
+U1 FF3 floor n: T_min=2086 MeV, T/M=2.22, binding needed B=M-T=-1147 MeV
+U1 JNT2 R1 p: T_min=1101 MeV, T/M=1.17, binding needed B=M-T=-162 MeV
+U1 JNT2 R1 n: T_min=1207 MeV, T/M=1.28, binding needed B=M-T=-267 MeV
+U1 JNT2 R4 p: T_min=1094 MeV, T/M=1.17, binding needed B=M-T=-156 MeV
+U1 JNT2 R4 n: T_min=1208 MeV, T/M=1.29, binding needed B=M-T=-269 MeV
+U2 common r threshold (p): r>=0.872 fm ; neutron-radius bound r<~0.17 fm -> T_min(0.17 fm, 3 psions)=4811 MeV = 5.1 M_p
+U3 FF3 floor psion 0: sigma=0.237 fm, a/sigma=4.0
+U3 FF3 floor psion 1: sigma=0.254 fm, a/sigma=3.7
+U3 FF3 floor psion 4: sigma=0.398 fm, a/sigma=2.4
+U3 FF3 floor psion 5: sigma=0.196 fm, a/sigma=4.8
+U3 hbar c/a (a=0.94)=210 MeV ; (a=1.212)=163 MeV
+U4 r=0.2: T_min(3 psions)=4089 MeV
+U4 r=0.1: T_min(3 psions)=8178 MeV
+U4 r=0.05: T_min(3 psions)=16356 MeV

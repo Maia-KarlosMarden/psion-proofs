@@ -1,0 +1,17 @@
+5dc03077adab57711f71a8fe96bc0b746b24acd0e45cd94a16f34343d632a8e5  P14UNC_DEFINITION.md
+d7d5976217e0dd79d08403b4708e73fe674f4a6479c70d0125538581ab0ad355  P14UNC_calc.py
+2026-11-03T02:28:04Z
+
+## RESULTADOS (ver P14UNC_output.txt)
+U1: FF3 (L=1.07): T_min/M = 1.98 (p), 2.22 (n); ligacao necessaria -923 / -1147 MeV. JNT2 R1/R4: T_min/M = 1.17-1.29; ligacao necessaria -156 a -269 MeV.
+U2: limiar de r comum para T_min<=M_p: 0.872 fm; mas o raio do neutron limita r <~ 0.17 fm, onde T_min = 4.8 GeV = 5.1 M_p.
+U3: a/sigma = 2.4-4.8 (psion 4 do FF3, 2.4, abaixo do limiar 3: sobreposicao dos sitios).
+U4: r->0 => T_min->infinito (r=0.05 fm: 16 GeV).
+## VEREDITO DA ANTECIPACAO
+- "T_min excede M_p por fator 1.5-3 para FF3": CORRETO (1.98, 2.22).
+- "Abaixo de M so para r >~ 0.85 fm": CORRETO (0.87).
+- "U3 razao ~3-5": PARCIAL (2.4-4.8; um psion abaixo de 3).
+- Regra de decisao: NAO consistente com incerteza sem ligacao dinamica. Para os tamanhos do FF3 faltaria ligacao de ~ -0.9 a -1.1 GeV; os tamanhos de JNT2 (que falham os fatores de forma) so precisariam de ~ -0.16 a -0.27 GeV, da ordem da escala hbar c/a = 163-210 MeV do paper.
+## INTERPRETACAO E LIMITES
+- Ponto central: o hexagono estatico so e compativel com a incerteza se a dinamica fornecer ligacao negativa de ordem GeV. O paper so da a escala ~163 MeV (J.Sigma); essa ligacao NAO esta derivada. Tamanhos que ajustam a forma elétrica (pequenos) pioram o problema; tamanhos que aliviam a incerteza (grandes) estragam raios e formas: tensao entre WP-FF3 e incerteza.
+- O limite e conservador (E>=|p|, qualquer massa de psion), mas assume densidade gaussiana e ignora a energia potencial. Nao ha teste de virial: um "anel estatico" nao e estado ligado auto-consistente sem a forca que o segura. Nao reexecutei nada alem da conta.
