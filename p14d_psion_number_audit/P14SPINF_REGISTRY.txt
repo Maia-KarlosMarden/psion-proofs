@@ -1,0 +1,16 @@
+2607073705c08be4fedd5e4000edbc754bdd4ee0ed9c19c823197e3d46ce62f1  P14SPINF_DEFINITION.md
+13880e1f275c1a3535ae3ce911a76e47c291a85e1e462ed4632b1f5390544c51  P14SPINF_calc.py
+2026-11-03T02:00:41Z
+RESULT (P14SPINF_output.txt), stage 1 (nucleons, frozen sizes): 
+ R1: mu_n/mu_p -0.800 ok; p shape ok (max dev 0.14); n shape FAIL (max dev 1.97).
+ R2: mu_n/mu_p 0.000 FAIL (neutron moment zero); p shape FAIL (0.16).
+ R3: mu_n/mu_p +4.000 FAIL (wrong sign); both shapes FAIL.
+ R4: mu_n/mu_p -0.500 ok; p shape ok (max dev 0.06); n shape FAIL (2.09).
+ R5: mu_n/mu_p -1.057 FAIL; shapes FAIL (p 0.39, n 1.74).
+ R6: mu_n/mu_p -0.500 ok; p shape FAIL (2.89); n shape FAIL (0.44).
+ R7: mu_n/mu_p 0.000 FAIL (free spins: neutron charge sum zero); p shape FAIL (0.16).
+Rules passing stage 1: none (0/7). Stage 2 not reached. Family success: NO.
+Anticipations: 'no rule passes stage 1': RIGHT. 'at most one rule passes the proton-only shape': WRONG (two: R1 and R4).
+NOTE: the neutron shape fails in all seven rules (the best, R6, deviates by 44%; the others by 1.7-2.1 times the dipole). Since sum q = 0 for the neutron, its magnetisation integral is a difference of terms of opposite sign with different cloud sizes; any assignment of spin weights then changes sign or deviates from the dipole in the Q^2 range, in this model with these sizes. The failure is therefore not specific to R1.
+Look-elsewhere factor 7 was declared; with 0 passing, no correction is needed.
+LIMITS: family of 7 mine; sizes frozen from the electric fit; static ring; no orbital magnetisation; PDG values quoted from memory.

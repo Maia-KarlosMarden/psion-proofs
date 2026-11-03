@@ -1,0 +1,9 @@
+R1: mu_n/mu_p=-0.800 (ok); forma p ok (max desvio 0.14); forma n falha (max desvio 1.97)
+R2: mu_n/mu_p=+0.000 (falha); forma p falha (max desvio 0.16); forma n G_M(0)=0
+R3: mu_n/mu_p=+4.000 (falha); forma p falha (max desvio 1.58); forma n falha (max desvio 1.73)
+R4: mu_n/mu_p=-0.500 (ok); forma p ok (max desvio 0.06); forma n falha (max desvio 2.09)
+R5: mu_n/mu_p=-1.057 (falha); forma p falha (max desvio 0.39); forma n falha (max desvio 1.74)
+R6: mu_n/mu_p=-0.500 (ok); forma p falha (max desvio 2.89); forma n falha (max desvio 0.44)
+R7: mu_n/mu_p=+0.000 (falha); forma p falha (max desvio 0.16); forma n G_M(0)=0
+estagio 1 aprovadas: []
+sucesso da familia: False
