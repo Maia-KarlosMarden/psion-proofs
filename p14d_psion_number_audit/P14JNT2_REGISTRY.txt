@@ -1,0 +1,15 @@
+d8c495a044532b89ebe2f592900998621ef45e800271d59d1770a06d3b57eb9e  P14JNT2_DEFINITION.md
+a5bb89ebeac826b35f52a20f60f226fea94afdf5db452c5a3621b885f82fa1fd  P14JNT2_calc.py
+2026-11-03T02:20:13Z
+
+## RESULTADOS
+R1: melhor L = 2.157; r(0,1,4,5) = [0.762, 0.73, 1.021, 0.573] fm; termos: E_p 2.16, E_n 2.16, R_n 2.16, M_p 1.76, M_n 2.16, mu_n/mu_p 0.58; viavel = False
+R4: melhor L = 2.756; r = [0.732, 0.732, 1.055, 0.588] fm; termos: E_p 2.18, E_n 2.76, R_n 2.76, M_p 2.11, M_n 2.76, mu_n/mu_p 0.92; viavel = False
+## VEREDITO DA ANTECIPACAO
+- "Ainda nao viavel": CORRETO. "L entre 2.0 e 4.0": CORRETO (2.16, 2.76). 
+- "Ao menos um tamanho no novo limite 1.5": ERRADO (maior tamanho 1.02-1.06 fm, interior). O otimo e interior: o limite de 0.9 era restritivo, mas o minimo global dentro de [0,1.5] nao esta no contorno.
+## INTERPRETACAO
+- Relaxar o limite reduz L (4.2->2.16; 4.7->2.76), mas o minimo e interior e continua > 1: o resultado negativo NAO e artefato do limite de busca (condicao registrada em WP-JNT resolvida).
+- Varios termos empatam (4-5 termos no valor maximo): o ajuste esta sobre-restrito, sinal de tensao estrutural entre eletrico/magnetico do neutron e do proton, nao de um unico termo.
+- Um tamanho (r_4 ~ 1.02-1.06 fm) excede a escala do anel (a ~ proton slope), nao fisico mesmo se L fosse < 1.
+- Limites herdados de WP-JNT inalterados (anel estatico, sem orbital, sem recuo, dipolo convencional, tolerancias minhas, mu_n/mu_p de memoria).
