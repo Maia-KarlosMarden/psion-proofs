@@ -1,0 +1,16 @@
+26d163c4035c84497a444dea05d9edd4d79708676c60bcc26a673df7be453fcd  P14JNT_DEFINITION.md
+ff0f0e47752f78bd295f03a734eb5672953eb123acdec7c3158045a92a4f479c  P14JNT_calc.py
+2026-11-03T02:10:24Z
+
+## RESULTADOS (executado apos o registro acima)
+R1: melhor L = 4.194; r(0,1,4,5) = [0.9, 0.758, 0.9, 0.627] fm; termos: E_p forma 3.38, E_n forma 1.87, R_n 4.19, M_p forma 2.85, M_n forma 4.19, mu_n/mu_p 0.58; viavel = False
+R4: melhor L = 4.710; r = [0.9, 0.761, 0.9, 0.639] fm; termos: E_p 3.53, E_n 2.23, R_n 4.71, M_p 3.22, M_n 4.71, mu_n/mu_p 0.92; viavel = False
+
+## VEREDITO DA ANTECIPACAO
+- "Nao viavel para ambas as regras": CORRETO.
+- "Melhor L entre 1.5 e 3.0": ERRADO (real 4.2-4.7).
+- "Termo vinculante = forma magnetica do neutron": PARCIALMENTE ERRADO (R_n e M_n-forma empatam no maximo).
+## INTERPRETACAO E LIMITES
+- Com o hexagono estatico de psions estendidos, nenhuma das duas regras de spin reconcilia p e n, eletrico e magnetico, a 15%.
+- Dois tamanhos (r_0, r_4) batem no limite superior 0.9 fm: o resultado e condicional a esse limite de busca; nao foi testado limite maior (nao registrado). Nao se afirma que nenhum tamanho resolva.
+- Limites herdados: anel estatico, sem magnetizacao orbital, sem recuo, referencia dipolar convencional, tolerancias minhas, razao mu_n/mu_p de memoria.

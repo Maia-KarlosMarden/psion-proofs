@@ -1,0 +1,2 @@
+R1: melhor L = 4.194; r(0,1,4,5) = [0.9   0.758 0.9   0.627] fm; termos: E_p forma 3.38, E_n forma 1.87, R_n 4.19, M_p forma 2.85, M_n forma 4.19, mu_n/mu_p 0.58; viavel = False
+R4: melhor L = 4.710; r(0,1,4,5) = [0.9   0.761 0.9   0.639] fm; termos: E_p forma 3.53, E_n forma 2.23, R_n 4.71, M_p forma 3.22, M_n forma 4.71, mu_n/mu_p 0.92; viavel = False
