@@ -99,7 +99,8 @@ ph_v83_repo/
 │   │   ├── P_pmns_structure.py       ← PH flavour basis (PMNS programme, Stage 0)
 │   │   ├── P_dark_energy.py
 │   │   ├── P_eps_psi.py              ← chirality asymmetry ε_ψ = 25/169
-│   │   ├── P_counting_theorems.py    ← N_ν=3, N_gen=3; N_g=8 given SU(3) (P-Ng)
+│   │   ├── P_counting_theorems.py    ← 8 singlet triples, N_ν=3, unique e⁻, N_gen=3 (N_g=8 not claimed: P-Ng)
+│   │   ├── _z6.py                    ← self-contained Z6 definitions (labels, conserved charge, Molien)
 │   │   ├── P_charge_algebra.py
 │   │   ├── P_body_number_law.py      ← RETRACTED for the DM mass (kept for the record)
 │   │   ├── P_wall_tensions.py
@@ -150,11 +151,11 @@ Full audit of v8.6 with independent recomputation. Full record in
   while ξ* is fitted; Corollary 8.2 suspended; F8, F13 → [T4]; F11 value not
   fixed (47/27 was an arithmetic error); Theorem 6.1 (8 colour singlets, not
   20); Table 11 stable total removed; Δm²₃₁ error 11.4%.
-- **Reproducibility:** repository URL corrected; `psion_diagram`,
-  `enumerate_z6.py` and `gen_composite_tables.py` are cited by code or by
-  earlier versions but are not in this archive. With this archive, 215 tests
-  pass and none fails; `tests/test_engine.py` and two proof modules need
-  `psion_diagram` and cannot run. §14.5 now names the external stellar-to-halo relation used.
+- **Reproducibility:** repository URL corrected. `psion_diagram` never existed
+  in this repository; the modules that imported it were rewritten as
+  self-contained code with the current definitions (`proofs/_z6.py`), and
+  `scripts/generate_tables.py` (old conventions) was retired. All 227 tests
+  pass and all 12 proof modules verify every claim. §14.5 now names the external stellar-to-halo relation used.
 
 ## v8.6
 
@@ -196,7 +197,7 @@ number changed. Full record in `docs/CHANGES_v86.md`. Summary:
 pip install -r proofs/requirements.txt
 cd proofs
 
-# Full suite (modules importing psion_diagram need that package, not in this archive)
+# Full suite
 bash scripts/run_all_proofs.sh
 
 # v8.7 checks (numpy, sympy)
