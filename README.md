@@ -1,4 +1,4 @@
-# Psion Hypothesis — v8.6
+# Psion Hypothesis — v8.7
 
 **A Framework for the Origin of Matter, Antimatter, Dark Matter, and Gravity**
 
@@ -8,10 +8,11 @@ Karlos Marden Maia
 
 ## Overview
 
-The Psion Hypothesis (PH) derives the Standard Model's structural constants
-and the mass–gravity–cosmology observables (CKM/PMNS mixing and individual
-quark masses are not derived) from a single fermionic field ψ with
-Z₆ = Z₃ × Z₂ internal symmetry and spin j = 5/2.
+The Psion Hypothesis (PH) is a framework that seeks to derive the Standard
+Model's structural constants and the mass–gravity–cosmology observables
+(CKM/PMNS mixing and individual quark masses are not derived) from a single
+fermionic field ψ with Z₆ = Z₃ × Z₂ internal symmetry and spin j = 5/2. Each
+result is graded by derivation status (T1–T4).
 
 **The framework has two empirical (SC) inputs:** Newton's constant **G_N**
 (the cascade anchor) and **Δm²₂₁** (the neutrino-sector scale, §11). Each has
@@ -30,7 +31,7 @@ m_e = Λ_meta · exp(−N_e/b_e)          [Λ_meta fixed from G_N via Sakharov
 - **P26-C** ([T4], not promoted): candidate closed form for Δm²₂₁ → would
   close SC inputs 1→0. Registered but not adopted.
 
-### Key Results (v8.6; PH_Foundations §11–14)
+### Key Results (v8.7; PH_Foundations §11–14)
 
 With G_N as the anchor, the mass–gravity–cosmology sector has **two
 independent numerical residuals**: m_e (0.42%) and the invariant ρ_Λ G_N²
@@ -41,19 +42,20 @@ independent numerical residuals**: m_e (0.42%) and the invariant ρ_Λ G_N²
 | G_N (GeV⁻²) | 6.70883×10⁻³⁹ | 6.70883×10⁻³⁹ | 0.0% | [SC] input |
 | m_e (MeV) | 0.5089 | 0.511 | 0.42% | cascade output |
 | Δm²₂₁ (eV²) | 7.530×10⁻⁵ | 7.530×10⁻⁵ | 0.0% | [SC] input |
-| ρ_Λ (GeV⁴) | 2.492×10⁻⁴⁷ | 2.515×10⁻⁴⁷ | 0.93% | [T2+] |
-| ρ_Λ·G_N² | 1.121×10⁻¹²³ | 1.132×10⁻¹²³ | 0.93% | [T2+], G_N-independent |
-| η_B | 6.02×10⁻¹⁰ | 6.13×10⁻¹⁰ (base-chain) | 1.7% | consistency relation, given ξ* (P14-ξ*) |
-| Ω_DM/Ω_b | 5.43 (direct) / 5.64 (inference) | 5.364 | 1.2% / 5.1% | direct route tied to η_B via ξ* |
-| N_eff | 3.064 | 3.04 ± 0.18 | <1σ | [T2]; μ_ν/T in tension with BBN (T-BBN) |
+| ρ_Λ (GeV⁴) | 2.492×10⁻⁴⁷ | 2.515×10⁻⁴⁷ | 0.93% | [T2] |
+| ρ_Λ·G_N² | 1.121×10⁻¹²³ | 1.132×10⁻¹²³ | 0.93% | [T2], G_N-independent |
+| η_B | 6.02×10⁻¹⁰ | 6.13×10⁻¹⁰ (base-chain) | — | not a test: ξ* is obtained from η_B (P14-ξ*) |
+| Ω_DM/Ω_b | 5.43 (direct) / 5.64 (inference) | 5.364 | 1.2% / 5.1% | direct route [T4] (prefactor 4π/3 not derived) |
+| N_eff | 3.064 | 2.99 ± 0.17 | <1σ | [T2]; μ_ν/T in tension with BBN (T-BBN) |
 | N_ν | 3 | 3 | exact | [T1] |
 | N_g | 8 | 8 | — | [T3], conditional on SU(3) emergence (P-Ng) |
 | N_gen (charged leptons) | 3 (kinematic bound, JR=7/2>jmax) | 3 | — | [T1] |
-| DM stable states | 39 (N∈{9,12,15,18,21,27}, term. to N=48) | — | — | [T1] |
+| DM census | 39 singlets neutral in the Table 1 labels, N∈{9,…,27} | — | — | census [T1]; stability open (§14.1) |
 | m_DM | 2Λ_meta/35 = 7.2×10¹⁰ GeV | — | — | [T2] |
 
-The dark matter of the PH is cold and collisionless at all astrophysical
-scales (§14.5). The RGD kernel has been falsified by mock controls.
+If stable, the dark matter of the PH is cold and collisionless at all
+astrophysical scales (§14.5); its stability is currently open (see v8.7 below).
+The RGD kernel has been falsified by mock controls.
 
 **18 falsifiable predictions (F1–F17, with F5 split into F5a/F5b)** are
 registered in the paper's Table 4, spanning four timescales. None depends on
@@ -76,8 +78,10 @@ the still-open P8b lepton-mass refinement (Appendix L.4 of the paper).
 ```
 ph_v83_repo/
 ├── paper/
-│   ├── PH_Foundations_v86.tex        ← LaTeX source, current version (canonical)
-│   ├── PH_Foundations_v86.pdf        ← compiled PDF, 49 pages
+│   ├── PH_Foundations_v87.tex        ← LaTeX source, current version (canonical)
+│   ├── PH_Foundations_v87.pdf        ← compiled PDF, 52 pages
+│   ├── PH_Foundations_v86.tex        ← second published version
+│   ├── PH_Foundations_v86.pdf
 │   ├── PH_Foundations_v85.tex        ← first published version
 │   ├── PH_Foundations_v85.pdf
 │   ├── PH_Foundations_v84.tex        ← pre-publication draft
@@ -88,13 +92,15 @@ ph_v83_repo/
 │   │   └── ...
 │   ├── tests/
 │   │   └── ...
+│   ├── checks_v87/                   ← standalone checks behind the v8.7 changes (README_checks.md)
 │   ├── proofs/
 │   │   ├── P_dark_matter.py          ← 39-state DM census (fragmentation criterion, 2 algorithms)
 │   │   ├── P_kinematic_stability.py  ← inequality (11) on level partitions; KS scope guard
 │   │   ├── P_pmns_structure.py       ← PH flavour basis (PMNS programme, Stage 0)
 │   │   ├── P_dark_energy.py
 │   │   ├── P_eps_psi.py              ← chirality asymmetry ε_ψ = 25/169
-│   │   ├── P_counting_theorems.py    ← N_ν=3, N_gen=3; N_g=8 given SU(3) (P-Ng)
+│   │   ├── P_counting_theorems.py    ← 8 singlet triples, N_ν=3, unique e⁻, N_gen=3 (N_g=8 not claimed: P-Ng)
+│   │   ├── _z6.py                    ← self-contained Z6 definitions (labels, conserved charge, Molien)
 │   │   ├── P_charge_algebra.py
 │   │   ├── P_body_number_law.py      ← RETRACTED for the DM mass (kept for the record)
 │   │   ├── P_wall_tensions.py
@@ -113,7 +119,8 @@ ph_v83_repo/
     ├── CHANGES_v83.md
     ├── CHANGES_v84.md
     ├── CHANGES_v85.md
-    └── CHANGES_v86.md
+    ├── CHANGES_v86.md
+    └── CHANGES_v87.md
 ```
 
 **Note on versioning:** the canonical source is the `.tex` file. If a `.docx`
@@ -121,9 +128,40 @@ is generated for distribution, generate it *from* the current `.tex`.
 
 ---
 
-## v8.6 (current version)
+## v8.7 (current version)
 
-Second published version. An external audit recomputed every verifiable number
+Full audit of v8.6 with independent recomputation. Full record in
+`docs/CHANGES_v87.md`; checks in `proofs/checks_v87/`. Summary:
+
+- **Dark-sector stability is open.** The former N = 9 ground state
+  (0,0,1,1,2,2,3,4,5) splits into the three neutral three-body states. The 39
+  census states have no splitting into neutral singlets, but 17 split into
+  integer-charge singlets and all 39 into fractionally charged ones.
+- **Electric charge.** The Table 1 charges are not conserved by the J·Σ
+  interaction of eq. (1) (Schur); they are now read as labels. The conserved
+  charge of the locked dynamics, Q = N/6 + ΣF_z/4, coincides with them on all
+  eight observed three-body states. The photon coupling to it is not derived:
+  no vector bound state of eq. (1) couples to a conserved current.
+- **Dark protection.** A proto-colour dark charge (C-DC) would protect the
+  census, but proto-colour changes at second order (≈ 2μλ/G); viable only if
+  G ≳ 10¹¹ μλ. None of the census states is neutral under the conserved charge.
+- **ε_ψ = 25/169** kept via the spectral form of Lemma I.1′ (tan θχ = t/j,
+  [T2]); the charge form is eliminated (it gives 0.0143 with the conserved charge).
+- **Status corrections:** ρ_Λ and the master invariant [T2]; η_B not a test
+  while ξ* is fitted; Corollary 8.2 suspended; F8, F13 → [T4]; F11 value not
+  fixed (47/27 was an arithmetic error); Theorem 6.1 (8 colour singlets, not
+  20); Table 11 stable total removed; Δm²₃₁ error 11.4%.
+- **Reproducibility:** repository URL corrected. `psion_diagram` never existed
+  in this repository; the modules that imported it were rewritten as
+  self-contained code with the current definitions (`proofs/_z6.py`), and
+  `scripts/generate_tables.py` (old conventions) was retired. All 227 tests
+  pass and all 12 proof modules verify every claim. §14.5 now names the external stellar-to-halo relation used.
+
+## v8.6
+
+Second published version.
+
+An external audit recomputed every verifiable number
 from the declared inputs; the core arithmetic reproduces to ≤ 0.1% and no core
 number changed. Full record in `docs/CHANGES_v86.md`. Summary:
 
@@ -162,6 +200,9 @@ cd proofs
 # Full suite
 bash scripts/run_all_proofs.sh
 
+# v8.7 checks (numpy, sympy)
+cd checks_v87 && python verify_dm_census.py && cd ..
+
 # Single SC input declaration
 python scripts/cascade_anchor.py
 
@@ -184,7 +225,11 @@ python -m proofs.P_dark_matter
 | T-BBN | μ_ν/T = 0.123 vs BBN bounds; write out the δL → μ_ν/T map | tension | F12 |
 | P8b (Passo A.3) | Formal integration of Σ₂ = b_e×15/8 | [T2] | lepton-mass errors 5–9% → <1% (no F-prediction depends on this) |
 | P1 | b_e = 325/1152 from 2PI kernel | [T2] | mass ratios Class B |
-| P-4π/3 | Prefactor 4π/3 in Ω_DM/Ω_b | [T2+] | Ω_DM → T1 |
+| P-4π/3 | Prefactor 4π/3 in Ω_DM/Ω_b | [T4] | direct Ω_DM route |
+| P-Qcons | Charge conservation of eq. (1); photon coupling to Q = N/6 + ΣF_z/4 | open | all charge statements |
+| C-DC | Dark stability via proto-colour counts; broken at second order | [T4] | DM stability (needs G ≳ 10¹¹ μλ) |
+| P23 | Lemma I.1′, spectral form tan θχ = t/j | [T2] | ε_ψ → T1 |
+| F-fork | Ground-state spin and (2, 2π/3) of the relic prefactor | [T4] | dark spin; 4π/3 |
 | — | e⁺/proton tuple collision at (0,4,5) | open | see `PSION_DIAGRAM_TEXTBOOK.md` |
 
 ---
@@ -196,7 +241,10 @@ calculation:
 
 - Detection of a **4th charged lepton**
 - Detection of a **4th active neutrino**
-- Any stable neutral Z₆ composite at N=4 or N>27 (outside {9,12,15,18,21,27})
+
+Under the charge reading of v8.7, any free long-lived particle with fractional
+conserved charge refutes it, as does release of fractional charges when the Z₆
+walls annihilate.
 
 A **9th gluon** falsifies the PH conditionally on P-Ng (SU(3) colour).
 
@@ -210,7 +258,7 @@ A **9th gluon** falsifies the PH conditionally on P-Ng (SU(3) colour).
   title     = {The Psion Hypothesis: A Framework for the Origin of
                Matter, Antimatter, Dark Matter, and Gravity},
   year      = {2026},
-  note      = {PH\_Foundations v86, \url{https://github.com/Maia-KarlosMarden/psion-proofs}}
+  note      = {PH\_Foundations v87, \url{https://github.com/Maia-KarlosMarden/psion-proofs}}
 }
 ```
 
