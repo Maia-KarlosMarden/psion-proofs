@@ -152,8 +152,9 @@ Full audit of v8.6 with independent recomputation. Full record in
   20); Table 11 stable total removed; Δm²₃₁ error 11.4%.
 - **Reproducibility:** repository URL corrected; `psion_diagram`,
   `enumerate_z6.py` and `gen_composite_tables.py` are cited by code or by
-  earlier versions but are not in this archive; the claim that all tests pass
-  was removed. §14.5 now names the external stellar-to-halo relation used.
+  earlier versions but are not in this archive. With this archive, 215 tests
+  pass and none fails; `tests/test_engine.py` and two proof modules need
+  `psion_diagram` and cannot run. §14.5 now names the external stellar-to-halo relation used.
 
 ## v8.6
 
